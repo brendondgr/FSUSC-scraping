@@ -1,0 +1,45 @@
+Here is the organized structure of the provided data:
+
+**Title:** Account Policy - FSUSciComp
+**URL:** https://www.sc.fsu.edu/accounts?view=article&id=531:account-policy&catid=96:tech-docs
+
+---
+
+**Account Policy**
+
+This policy outlines the requirements for DSC (Department of Scientific Computing) users and sponsors regarding account management, specifically focusing on password changes, sponsored account upkeep, and preventing orphaned accounts.
+
+**Important Note:** Only DSC faculty and Staff are allowed to sponsor accounts.
+
+---
+
+**I. Password Expiration (for account owners)**
+
+This section details the timeline and consequences for user accounts if passwords are not changed.
+
+*   **180 days:** User receives a warning requiring a password change.
+*   **200 days:** User account is locked out. The sponsor is emailed about this action. The account owner must contact a member of the Technical Services Group (TSG) to have account access restored.
+*   **350 days:** The account owner and sponsor receive a message warning that the account data will be deleted in 10 days if the password is not changed by contacting a member of the TSG.
+*   **360 days:** The user account and all associated data are permanently deleted from the DSC file system.
+
+---
+
+**II. Sponsored Account Verification (by sponsor)**
+
+This section outlines the requirements for sponsors to verify the continued need for sponsored accounts.
+
+*   **180 days:** The sponsor receives a warning requiring verification of continued sponsorship.
+*   **200 days:** The sponsored account is locked, preventing the account owner from logging in. The sponsor is informed of this action via email. The sponsor must contact a member of the TSG to have account access restored.
+*   **350 days:** The account owner and sponsor receive a message warning that the account and associated data will be deleted from the DSC file systems.
+*   **360 days:** The sponsored account and all associated data are permanently deleted from the DSC file systems.
+
+---
+
+**III. Sponsoring Account Removal (due to sponsor's password not changing)**
+
+This section details the consequences for both sponsoring and sponsored accounts if the sponsor fails to change their own password.
+
+*   **220 days:** The sponsoring and all associated sponsored accounts receive a warning.
+*   **290 days:** The sponsoring and all associated sponsored accounts are locked.
+*   **350 days:** The sponsoring and all associated sponsored accounts receive a message warning that the accounts and associated data will be deleted in 10 days.
+*   **360 days:** The sponsoring and all associated sponsored accounts, along with their data, are permanently deleted from the DSC file systems.
