@@ -1,0 +1,6 @@
+Title: The Morphometrics Lab - FSUSciComp
+url: https://www.sc.fsu.edu/morphlab
+
+The Morphometrics Lab
+Morphometrics is the field of multivariate statistical analysis concerned with the quantification of shape, the description of shape variability, the assessment of group differences in shape, and the covariation of shape with other variables. The FSU Morphlab is involved in all aspects of morphometric research including the development of new methods, the creation of software, and the novel application of morphometic methods to a diverse array of research problems. More information about the lab can be found on its webpage at:
+http://morphlab.sc.fsu.edu/

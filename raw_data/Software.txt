@@ -1,0 +1,28 @@
+Title: Software - FSUSciComp
+url: https://www.sc.fsu.edu/software
+
+Software
+Morphometrics Lab Software
+Morpheus
+a cross-platform, general purpose software package for morphometric analysis.
+More information is available here.
+forAge
+a program for age-at-death estimation using 3D laser scans of the adult human pubic symphysis.
+More information is available here.
+GPSA
+software implementing the Generalized Procrustes Surface Analysis (GPSA).
+More information is available here.
+Migrate
+is a program to estimate population sizes and asymmetrical migration rates between populations and is authored by
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+. Migrate uses maximum likelihood and Bayesian approaches to analyze sequences (DNA, RNA), single nucleotide polymorphisms (SNP), microsatellites, and electrophoretic markers. Both approaches utilize the Metropolis-Hastings algorithm to integrate over all possible genealogical relationships. Future developments of Migrate include; speed improvements (via code optimization and additional parallelization) and the relaxation of some population genetic assumptions (e.g., the constancy of size and migration rates through time). Migrate runs on any modern computer platform and also runs on clusters using the Message Passing Interface.
+The C source code is distributed free of charge here.
+MrBayes
+is a program for the Bayesian estimation of phylogeny and evolution authored by John Huelsenbeck (University of California, Berkeley) and
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+(Florida State University). It handles a wide variety of stochastic evolutionary models for molecular, morphological and other types of discrete data. MrBayes uses Metropolis-coupled Markov chain Monte Carlo techniques to estimate the posterior probability distribution. The program runs on all common platforms and is also available in an MPI-enabled version for cluster computers and shared-memory machines.
+The source code and executables are distributed free of charge from here.
+PAUP*
+infers phylogenetic trees from DNA and protein sequences and morphological data according to parsimony, distance, and maximum likelihood optimality criteria. In addition to tree-searching, PAUP* provides capabilities for data-format conversion, post-tree analyses such as consensus trees and ancestral-state reconstruction, and graphical output. PAUP* executables are available to run on Macintosh, Windows, Linux and several other Unix operating systems. The most recent release of PAUP* supports multithreading on multiprocessor machines and a version under development supports parallel computation on clusters and supercomputers, using MPI or PVM to distribute tree evaluations across processors.
+More information is available here.
+Morphometrics

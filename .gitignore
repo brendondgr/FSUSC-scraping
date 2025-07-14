@@ -1,5 +1,3 @@
-api_key.txt
-
 # Python
 __pycache__/
 *.py[cod]
@@ -36,7 +34,6 @@ ENV/
 *.swo
 
 # Project specific
-raw_data/
 urls.txt
 api_key.txt
 

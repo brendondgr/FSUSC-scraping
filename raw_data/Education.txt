@@ -1,0 +1,68 @@
+Title: Overview - FSUSciComp
+url: https://www.sc.fsu.edu/education
+
+Education Overview
+Doctor of Philosophy (Ph.D.) in
+Computational Science
+Master of Science (M.S.) in
+Computational Science
+Bachelor of Science (B.S.) in
+Computational Science
+Minor in
+Computational Science
+Doctor of Philosophy (Ph.D.) in
+Fire Dynamics
+Doctor of Philosophy (Ph.D.) in
+Geophysical Fluid Dynamics
+Master of Science (M.S.) in
+Data Science
+The educational mission of the Department of Scientific Computing (DSC)
+is to provide innovative, interdisciplinary undergraduate and graduate training programs in computational science and its applications. The graduate and undergraduate degree programs in the DSC are designed to provide students with a broad training in the design, implementation, and use of algorithms for solving science and engineering problems on computers.
+The Bachelor of Science (B.S.) degree:
+The Department of Scientific Computing offers an innovative
+Bachelor of Science (B.S.) degree program in Computational Science
+.
+This degree program should be of interest to and is well suited for those who like working on computers and who ordinarily would also be interested in any of the mathematical sciences (mathematics, computer science, statistics), or any of the natural sciences (biology, chemistry, physics, geological sciences, ...), or any engineering discipline. It should be of special interest to students interested in two or more of these areas. Students majoring in Computational Science will learn how to develop and apply new computational tools to solve science and engineering problems.
+Please note that
+computational science
+is
+different
+from
+computer science
+. At the risk of oversimplifying things, one can say that computer science is about the science of computers whereas computational science is about the use of computers to solve science and engineering problems.
+The Minor degree:
+The Minor in Computational Science offers a substantive programming and algorithmic knowledge base to non-Computational Science students.
+Students who minor in the discipline will develop critical computing and modeling skills that are marketable and attractive to potential employers.
+The minor requires at least 14 hours of coursework, and students must make a C- or above in each class for the course to be accepted for minor credit.
+The Master of Science (M.S.) degrees:
+M.S. in Computational Science
+M.S. in Data Science
+The Doctor of Philosophy (Ph.D.) degree consists of several majors:
+Ph.D. in Computational Science
+with a Specialization in
+Atmospheric Science
+with a Specialization in
+Biochemistry
+with a Specialization in
+Biological Science
+with a Specialization in
+Geological Science
+with a Specialization in
+Materials Science
+with a Specialization in
+Physics
+Students who choose the first major specialize in the more mathematical or computer science aspects of computational science.
+Because computational science lies at the intersection of applied mathematics, applied science, engineering, and computer science, the DSC has the unique ability to offer coursework and research opportunities at all levels in topic areas that cut across disciplines. The focus of the research and training activities of the DSC is on the invention, analysis, and implementation of computational algorithms that transcend disciplines and the application of such algorithms to various applications, including, among others, astrophysics, bioinformatics, climate and weather modeling, computational fluid mechanics, computational geometry, computer game design, evolutionary biology, data mining, GPU computing, high-energy density physics, high-performance computing, hydrology, machine learning, material science, medical imaging, morphometrics, nano-materials, numerical analysis, partial differential equations, phylogenetics, polymers, population genetics, scientific visualization, subsurface environmental modeling, superconductivity, systems biology, and uncertainty quantification.
+Unlike the faculty of a typical department whose training and research interests lie solely within a single discipline, the faculty of the DSC includes members trained in a variety of disciplines - biology, aeronautical engineering, chemical engineering, geological sciences, electrical engineering, material sciences, mathematics, nuclear engineering, and physics. In addition, the DSC has several affiliated faculty members in other departments at FSU and at other universities, companies, and laboratories that further enhance the educational and research experiences of students in the DSC's degree programs.
+In addition to offering degree programs, the DSC contributes to FSU's educational mission by offering courses of interest to students in other departments, by offering tutorials and short courses, and by managing high-performance computational resources available to the campus community.
+Undergraduate program overview
+B.S. in Computational Science
+Undergraduate courses
+Graduate program overview
+Ph.D. in Computational Science
+M.S. in Computational Science
+M.S. in Data Science
+Graduate courses
+Application Instructions
+Graduate Handbook
+Financial Aid

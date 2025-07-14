@@ -1,0 +1,16 @@
+Title: Chair's Introduction - FSUSciComp
+url: https://www.sc.fsu.edu/chairs-intro
+
+Chair's Introduction
+Welcome to the
+Department of Scientific Computing
+at
+Florida State University
+!
+When I became a scientist many years ago, computers were still very special for most of us, and only a few would train and use computers for research. This has changed profoundly! Today, we cannot imagine doing science without computers. Most mundane tasks are now run on computers; our cell phones have morphed into mobile pocket computers with power many times beyond the mainframe computers of the 1980s. In 2022, digital computers have matured and become part of our society. The future may bring versatile quantum computers soon, replacing our current computers.
+Today computing and theory development often go hand-in-hand, and our department of Scientific Computing is at this junction where theory and computation intersect. Several in our department work on modeling processes and improving the precision and calculation time to achieve accurate predictions of the actual processes. These include work on detecting tumors, explaining the flow of forest fires, or describing details of star explosions or evolutionary patterns.
+Our department is interdisciplinary at its core: as of 2022, our faculty consists of mathematicians, physicists, biologists, engineers, material scientists, and computer scientists. We use computers as a tool to improve theory, calculations, modeling, and inference. Our educational mission includes an undergraduate program in computational science that emphasizes the interaction of mathematics, computing, and problem-solving. We also have three graduate programs: a doctoral program in computational science, a master's program in computational science, and a master's program in datascience. The datascience program is a collaboration with 3 other departments on campus.
+Explore our website, and learn about our computational science and datascience programs. Feel free to contact us to establish a dialogue. In particular, we would like to hear from you if you are a prospective student seeking to participate in our Departmental programs and activities and become a part of a discipline that changes the world.
+Sincerely,
+Peter Beerli
+Professor and Chair

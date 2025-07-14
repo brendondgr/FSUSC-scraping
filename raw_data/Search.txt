@@ -1,0 +1,131 @@
+Title: Search - FSUSciComp
+url: https://www.sc.fsu.edu/search
+
+Search Form
+Search Terms:
+Search
+Advanced Search
+Advanced Search
+Here are a few examples of how you can use the search feature:
+Entering
+this and that
+into the search form will return results containing both "this" and "that".
+Entering
+this not that
+into the search form will return results containing "this" and not "that".
+Entering
+this or that
+into the search form will return results containing either "this" or "that".
+Entering
+"this and that"
+(with quotes) into the search form will return results containing the exact phrase "this and that".
+Search results can also be filtered using a variety of criteria. Select one or more filters below to get started.
+Search by Type
+Search All
+Articles
+Categories
+Contacts
+Tags
+Web links
+Search by Author
+Search All
+Administrator
+Cecelia Farmer
+Gordon Erlebacher
+Marcelina Lapuz Nagales
+Michael McDonald
+Nathan Crock
+Risette Posey
+Tomasz Plewa
+Xiaoguang Li
+Search by Language
+Search All
+All
+Search by Category
+Search All
+About
+-Committees
+-Documents
+-Education
+-People
+-SC
+--Faculty Meetings
+-Testimonials
+CompNeuro Group
+-CompNeuro Blog
+-CompNeuro News
+-Compneuro Software
+Computational Xpositions
+-2009 Computational Xposition
+-2010 Computational Xposition
+-2011 Computational Xposition
+-2012 Computational Xposition
+-2013 Computational Xposition
+-2014 Computational Xposition
+-2015 Computational Xposition
+Computing
+-General Access
+-Getting Started
+-Hardware
+-Software
+-Tech Docs
+Conferences
+-mcm2005
+Courses
+-Course Catalogs
+-Graduate and Doctoral Courses
+-Undergraduate Courses
+Extension
+FAQs
+-Employment, Personnel, and Visa Issues
+-Facilities
+-For Students
+-General
+-Grants, Proposals, Budget, and Start-ups
+-Inventory
+-Office Supplies
+-Purchasing
+-Room Reservations
+-Seminars and Event Planning
+-Students
+-Travel
+-Visitors
+Instagram Pictures
+Job Opportunities
+-PostDoc Positions
+-Professional Positions
+-Student Positions
+Joomla
+-Authentication
+Morphometrics Lab
+-Articles
+News and Events
+-Colloquium
+-Defenses
+-Featured Research
+-Headlines
+-Newsletter
+-Photo Gallery
+-Social Gatherings
+-Workshops
+Research
+-Computational Materials Science
+-Faculty
+Resources
+-Administrative
+-Room Reservations
+Scholarships
+Scientific Computing
+-Administration
+--Technical Support Group
+-Faculty
+Simulation Gallery
+Student Resources
+-Student Groups
+Uncategorised
+Videos
+-Colloquium Recordings
+-Graduate Students
+Vis Lab
+-FAQs
+-Hardware

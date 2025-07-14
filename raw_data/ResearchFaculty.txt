@@ -1,0 +1,143 @@
+Title: Core Faculty - FSUSciComp
+url: https://www.sc.fsu.edu/research/faculty
+
+Faculty Research Interests
+Core Faculty
+Beerli, Peter
+Professor &
+Chair
+, Department of Scientific Computing
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Biological Sciences
+Population Genetics
+Phylogenetics
+Bayesian inference
+Model selection
+I started out my science career as a practical evolutionary biologist working with frogs on islands in the mediterranean sea. There was no good analysis software for my data available at that time. Therefore, in 1994, I started a career as a computational biologist developing software (MIGRATE: https://popgen.sc.fsu.edu) for other biologists to analyze large-scale DNA datasets and compare different evolutionary hypotheses. My interests have centered on the coalescent and how we can use that to infer parameters of population genetic models and also compare them statistically.
+Chipilski, Hristo
+Assistant Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Data Assimilation
+Artificial Intelligence
+Numerical Weather Prediction
+Atmospheric Dynamics
+My research encompasses theoretical, computational and applied aspects of data assimilation — the science of optimally combining numerical models and observations of physical systems. In the past, I have utilized data assimilation algorithms to improve the representation of atmospheric convection through the incorporation of ground-based remote sensors. More recently, my focus has shifted to the development of new data assimilation methods which capitalize on the ongoing AI revolution. Beyond data assimilation, my interests also extend to numerical weather prediction, atmospheric dynamics, and various topics within the data sciences.
+Dexter, Nicholas
+Assistant Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Data Science
+Scientific Computing
+Deep Learning
+Compressed Sensing
+Mathematical Optimization
+Uncertainty Quantification
+Numerical Analysis
+Inverse problem
+Computational Epidemiology
+Computational Genomics
+Harmonic Analysis
+Before joining the Department of Scientific Computing at FSU as an Assistant Professor in August 2022, I was previously a Pacific Institute for the Mathematical Sciences Postdoctoral Fellow working with Professors Ben Adcock, Maxwell Libbrecht, and Leonid Chindelevitch at Simon Fraser University. I studied Mathematics at the University of Tennessee under Professor Clayton Webster, and worked in the Computational and Applied Mathematics Group at Oak Ridge National Laboratory.
+Click here to learn more about my research.
+Erlebacher, Gordon
+Professor, Department of Scientific Computing
+Program Director, Interdisciplinary Data Science
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Data Science
+Artificial Intelligence
+I have been engaged in the development of artificial intelligence since 2014, beginning with the advent of word2vec. Over the years, my research has evolved alongside the field, encompassing work on autoencoders, pruning techniques, graph neural networks, and topic modeling, eventually leading to modern transformer-based architectures. More recently, my focus has shifted toward the application of large language models (LLMs) in education, where I am developing tools to enhance classroom engagement and learning outcomes using frontier AI capabilities. I am also exploring the integration of agentic systems to streamline operations within the Department of Scientific Computing, with the dual goals of reducing administrative workload and improving visibility to prospective students.
+Huang, Chen
+Associate Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Computational Materials Science
+Scientific Computing
+I am interested in computational material science. Two main research topics in my group are: (1) developing new multiphysics methods to achieve high accuracy in materials simulations (such as predicting novel electronic structures at oxide interfaces) and (2) developing new orbital-free density functional theory to enable large-scale, accurate simulations of functional materials (such as metal alloys and lithium battery materials).
+Lemmon, Alan
+Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Biological Sciences
+Meyer-Baese, Anke
+Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Medical imaging: pattern recognition techniques applied to breast MRI, computer-aided diagnosis, fMRI data analysis.
+Computational biology: dynamical analysis of gene regulatory networks, graph theoretical concepts applied in therapeutics of glioblastoma, stem cells, phosphoproteomics.
+Computational neuroscience: brain-based classification techniques, nonlinear stability analysis of cortical systems, graph theory applied to cortical networks.
+Plewa, Tomasz
+Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Computational Astrophysics
+Scientific Computing
+fluid dynamics and magnetized flows
+reactive flows, flames, and detonations
+turbulence and turbulent combustion
+adaptive mesh refinement (AMR)
+machine learning for subgrid scale modeling
+stellar evolution, core collapse and thermonuclear supernovae
+laser-driven experiments, high-energy density physics
+solution verification and model validation
+extreme scale and high performance computing, data analytics
+Quaife, Bryan
+Associate Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Integral equation methods for complex fluids, in particular, vesicle suspensions
+Efficient and high-order methods for solving integral equations
+Adaptive and high-order time stepping schemes
+Integral equation methods for PDEs on surfaces
+Regularizations of Green's functions
+Integral equation methods for viscous flow in porous media
+Preconditioners for integral equations
+Shanbhag, Sachin
+Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Polymer Physics
+Rheology
+Complex Fluids
+Modeling for Biological and Materials Applications
+Speer, Kevin
+Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Geophysical Fluid Dynamics Institute (gfdi.fsu.edu)
+Kevin has been the director of GFDI since 2011 and has been an active associate for his entire time at FSU. Kevin is a sea-going oceanographer whose research ranges from the global ocean circulation to the dynamics of hydrothermal plumes.
+Wang, Xiaoqiang
+Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Numerical analysis and applied partial differential equations, Mathematical biology, Image processing, scientific visualization and data mining, High-performance scientific computing
+Zavala Romero, Olmo
+Assistant Professor
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Data Science
+Scientific Computing
+Medical Image Processing
+Applied machine learning in medical imaging: prostate and breast cancer detection, personal diagnosis from clinical and image (MRI) data, improve generalization of models.
+Applied machine learning in earth sciences: data assimilation in ocean models, nowcasting (precipitation and hail),  short-term forecast of air pollution, loop current and eddy detection and analysis.
+Climate change: predicting future distribution of invasive insect pests considering climate change projections.
+Scientific Machine Learning: Physics Informed Neural Networks (PINNs) to improve parameterizations in Ocean Models, etc.
+Emeritus Faculty
+Gunzburger, Max
+Robert O. Lawton Distinguished Professor / Krafft Professor Emeritus
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Mathematics
+Scientific Computing
+Navon, Michael
+Professor Emeritus
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Reduced order modeling
+Peterson, Janet
+Professor Emeritus
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Research Interests:
+Scientific Computing

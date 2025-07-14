@@ -1,0 +1,413 @@
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links
+
+Uncategorised
+Links in categories 
+                                1
+Wiki Sites
+Links in categories 
+                                7
+Careers
+Links in categories 
+                                13
+Undergraduate Opportunities
+Links in categories 
+                                3
+Graduate Opportunities
+Links in categories 
+                                13
+Postdoc Positions
+Links in categories 
+                                5
+Funding Opportunities & Fellowships
+Links in categories 
+                                9
+Connect with Social Media
+Links in categories 
+                                5
+Videos
+Links in categories 
+                                0
+Colloquium Recordings
+Links in categories 
+                                128
+Please sign in here to view
+protected
+recordings.
+
+---
+
+Title: Wiki Sites - FSUSciComp
+url: https://www.sc.fsu.edu/links/wiki-sites
+
+Wiki Sites
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+SC Wiki
+General access wiki site for SCS. Readable by everyone and writable by SCS users.
+Faculty Wiki
+Restricted access wiki site for Faculty. Readable and writable by Faculty users.
+Migrate Wiki
+Limited access wiki site for Migrate. Readable by everyone and writable by Migrate users.
+Morphbank Wiki
+Restricted access wiki site for Morphbank. Readable and writable by Morphbank users.
+Paup Wiki
+Limited access wiki site for Paup. Readable by everyone and writable by Paup users.
+TSG Wiki
+Restricted access wiki site for TSG. Readable and writable by TSG users.
+SC TWiki
+Old general access TechHelp TWiki site. The TWiki system is being replaced.
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/208-uncategorised
+
+Uncategorised
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Map of Dirac Science Library
+Hits: 7942
+1st and 4th floor Maps of Dirac Science Library
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/222-careers
+
+Careers
+Internships
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+[-] SIAM.org
+Hits: 6334
+Internships
+Post Docs
+Careers in Applied Mathematics
+[-] glassdoor.com
+Hits: 9926
+Internships
+Your Next Career Move Starts Here. Search Millions of Job Listings. See Real Employee Salaries. Read Reviews from Employees.
+[-] FSU Career Center
+Hits: 9964
+Internships
+The FSU Career Center provides comprehensive career services to students, alumni, employers, faculty/staff and other members of the FSU community.
+[-] ThisIsStatistics.org
+Hits: 23899
+Statisticians aren’t who you think they are.
+[-] MathJobs.Org
+Hits: 8816
+Careers
+MATHJOBS, a website where you can find job opportunities in academics, industry, and national laboratories.
+[-] MathPrograms.Org
+Hits: 6392
+Careers
+MATHPROGRAMS, a website listing REU's, graduate workshops, grant opportunities.
+[-] SIAM.org Career Center
+Hits: 5611
+Careers
+SIAM JOBS, a list of job openings for graduates with degrees in applied mathematics and computational science.
+[-] CRA.org - Computing Research Association
+Hits: 5206
+Careers
+cra.org is a web site run by "Computing Research Association" which includes an extensive list of jobs in computing.
+(Not just computer science, but computational science, graphics, computer engineering, and so on).
+[-] jobs.ACM.org
+Hits: 6265
+Careers
+jobs.ACM.org is a web site maintained by the Association for Computing Machinery with an international listing of academic, industrial, and lab jobs.
+[-] OkCupid
+Hits: 5532
+Careers
+You might want to work here.
+[-] Walmart
+Hits: 8036
+Careers
+Data Science and Analytics.
+[-] FSU Career Center: Landing a Part-time Job
+Hits: 5373
+Internships
+When employers recruit new college graduates, they look beyond a student’s major for a skillset. Part-time jobs offer unique benefits, such as building your resume. Part-time jobs provide an opportunity to develop new skills and competencies that complement classroom learning and can be highlighted in future job searches or the graduate school application process.
+[-] Lowes
+Hits: 12883
+Careers
+Data Scientist
+Subcategories
+Undergraduate Opportunities
+3
+Graduate Opportunities
+13
+Postdoc Positions
+5
+Funding Opportunities & Fellowships
+9
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/222-careers/226-graduate-opportunities
+
+Graduate Opportunities
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Internships - Blue Waters
+Hits: 6541
+Internships
+National Computational Science Institute (NCSI)
+Applications Deadline:  Annually/Biannually due by end of January
+Internships - SIAM.org
+Hits: 8290
+Internships
+SIAM INTERNSHIPS, a list of companies and their internship offerings for students in applied mathematics and computational science.
+Internships - Risk Management Solutions
+Hits: 5919
+Internships
+Risk Management Solutions (RMS)
+HWind/RMS-Tallahaassee
+Internships - Pittsburgh Supercomputing Center
+Hits: 4966
+Internships
+Pittsburgh Supercomputing Center (PSC)
+Syntech Systems
+Hits: 7328
+Syntech Systems, Incorporated is a dynamic defense and commercial engineering design and manufacturing firm. We specialize in automated fuel management systems and munitions support equipment. Our operations include engineering design, systems integration, independent research and development, and product manufacturing. We are experienced in designing and manufacturing according to customer concepts, product performance requirements, or item development specifications.
+Offices located in Tallahassee, FL, United States
+Internships - Tall Timbers
+Hits: 3553
+Internships
+The mission of Tall Timbers is to foster exemplary land stewardship through research, conservation and education.
+For more information please contact
+Bryan Quaife
+Internships - Department of Navy HBCU/MI Internship Program
+Hits: 731
+Internships
+Perform cutting edge research with world-renowned Naval Research Laboratory (NRL) scientists and engineers in Washington D.C. to strengthen America's naval defense.
+Application Closes: January
+For more information please contact
+Hristo Chipilski
+Graduate - Naval Research Enterprise Intern Program (NREIP)
+Hits: 1011
+Interested in summer work at NRL?
+The Naval Research Enterprise Intern Program (NREIP) is a ten-week intern program is designed to provide opportunities for undergraduate and graduate students to participate in research, under the guidance of an appropriate mentor, at a participating Navy laboratory. The Office of Naval Research (ONR) is offering summer appointments at a Navy lab to current sophomores, juniors, seniors and graduate students from participating schools. Saxman One is handling the administration of the application process through a website. Each electronic application from a prospective intern will be sent for evaluation to the point of contact at the Navy Lab identified by the applicant.
+For more information please contact
+Hristo Chipilski
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/222-careers/227-postdoc-positions
+
+Postdoc Positions
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Postdoc - NRC Research Associateship Programs
+Hits: 4289
+Interested in a post-doc at NRL?
+The NRC Research Associateship Programs (RAP) are prestigious postdoctoral and senior research awards designed to provide promising scientists and engineers with high-quality research opportunities at federal laboratories and affiliated institutions. These programs offer a comprehensive experience, including mentorship, access to state-of-the-art facilities, and opportunities to influence government policy, all geared toward enhancing the research career development of the Research Associates.
+For more information please contact
+Hristo Chipilski
+Postdoc - NCAR ASP Postdoc Fellowship
+Hits: 2716
+Internships
+The ASP postdoctoral fellowships provide successful applicants with considerable freedom to pursue their own research interests. Fellows develop research projects in collaboration with NCAR scientists and engineers, but all are expected to choose their own research directions and are responsible for the design and conduct of their projects.
+Deadline for applications is late October, [annually]
+For more information please contact
+Hristo Chipilski
+Postdoc - NRL Postdoctoral Fellowship Program
+Hits: 767
+Internships
+Interested in a post-doc at NRL?
+American Society for Engineering Education (ASEE). The NRL Postdoctoral Fellowship Program provides approximately forty (40) new postdoctoral appointments per year. Fellows are competitively selected on the basis of their overall qualifications and technical proposals addressing specific areas defined by the host Navy laboratories. The selected participants will work in a unique Navy laboratory environment, while interacting with senior laboratory scientists and engineers.
+For more information please contact
+Hristo Chipilski
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/222-careers/228-funding-and-fellowships
+
+Funding Opportunities & Fellowships
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+DOE Computational Science Graduate Fellowship
+Hits: 5492
+Fellowships
+Established in 1991, the Department of Energy Computational Science Graduate Fellowship (DOE CSGF) provides outstanding benefits and opportunities to students pursuing doctoral degrees in fields that use high-performance computing to solve complex science and engineering problems. The program fosters a community of energetic and committed Ph.D. students, alumni, DOE laboratory staff and other scientists who want to have an impact on the nation while advancing their research. Fellows come from diverse scientific and engineering disciplines but share a common interest in using computing in their research.
+Office of Science Graduate Student Research (SCGSR) Program
+Hits: 13266
+Careers
+The goal of the Office of Science Graduate Student Research (SCGSR) program is to prepare graduate students for science, technology, engineering, or mathematics (STEM) careers critically important to the DOE Office of Science mission, by providing graduate thesis research opportunities at DOE laboratories.  The SCGSR program provides supplemental awards to outstanding U.S. graduate students (US citizens or lawful permanent residents) to pursue part of their graduate thesis research at a DOE laboratory/facility in areas that address scientific challenges central to the Office of Science mission. The research opportunity is expected to advance the graduate students’ overall doctoral thesis while providing access to the expertise, resources, and capabilities available at the DOE laboratories/facilities.
+Oak Ridge National Laboratory (ORNL) Distinguished Staff Fellowship Program
+Hits: 5560
+Fellowships
+ORNL’s Distinguished Staff Fellowship program aims to cultivate future scientific leaders by providing dedicated mentors, world-leading scientific resources, and enriching research opportunities at a national laboratory. The program includes the Russell, Weinberg, and Wigner Fellowships. Fellowships are awarded to outstanding early-career scientists and engineers, new to ORNL, who demonstrate success within their academic, professional, and technical areas.
+Application Deadline: posted annualy
+Fellowship - Graduate Visitor Program
+Hits: 1080
+Internships
+NCAR's Advanced Study Program's Graduate Student (GVP) Fellowship is an excellent way to spend time at NCAR and work on parts of your thesis, or final project equivalent, with guidance from NCAR scientists and engineers. The GVP also is an opportunity to develop research collaborations at NCAR and to participate in professional development workshops and seminars.
+Deadline for applications is late October, annually
+For more information please contact
+Hristo Chipilski
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/222-careers/262-undergraduate-opportunities
+
+Undergraduate Opportunities
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Undergraduate - Bruins-In-Genomics (B.I.G.) Summer Undergraduate Research Program
+Hits: 5840
+Internships
+DO YOU HAVE A PASSION FOR COMPUTING, BIOLOGY, MATH, AND SCIENCE?
+Bruins-In-Genomics (B.I.G.) Summer Research Program is an 8-week full-time immersion program for undergraduates interested in learning how to read and analyze genes and genomes. Through this program students will have the opportunity to experience graduate-level coursework, and learn the latest cutting-edge research, tools and methods used by leading scientists to solve real-world problems.
+ROLLING/ANNUAL APPLICATION DEADLINE: JUNE 20 TO AUGUST 11
+Undergraduate - Naval Research Enterprise Intern Program (NREIP)
+Hits: 1032
+Interested in summer work at NRL?
+The Naval Research Enterprise Intern Program (NREIP) is a ten-week intern program is designed to provide opportunities for undergraduate and graduate students to participate in research, under the guidance of an appropriate mentor, at a participating Navy laboratory. The Office of Naval Research (ONR) is offering summer appointments at a Navy lab to current sophomores, juniors, seniors and graduate students from participating schools. Saxman One is handling the administration of the application process through a website. Each electronic application from a prospective intern will be sent for evaluation to the point of contact at the Navy Lab identified by the applicant.
+For more information please contact
+Hristo Chipilski
+Undergraduate - STEM Student Employment Program (SSEP)
+Hits: 786
+Interested in summer work at NRL?
+The STEM Student Employment Program (SSEP) is a direct hire authority for undergraduate and graduate degree seeking students enrolled in scientific, technical, engineering, or mathematics majors. Students must be continuously enrolled on at least a half-time basis at a qualifying educational institution and be at least 16 years of age.
+For more information please contact
+Hristo Chipilski
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/246-connect-with-social-media
+
+Connect with Social Media
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Follow Us On Facebook
+Hits: 6443
+Follow Us On Twitter
+Hits: 7035
+Linkedin University Page
+Hits: 3473
+Follow Us On Instagram
+Hits: 2520
+Subscribe To Our Youtube Channel
+Hits: 1120
+
+---
+
+Title: Web Links - FSUSciComp
+url: https://www.sc.fsu.edu/links/268-videos
+
+Videos
+Web Links filter search
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Info
+There are no Web Links in this category.
+Subcategories
+Colloquium Recordings
+128
+Please sign in here to view
+protected
+recordings.

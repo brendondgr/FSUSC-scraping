@@ -1,0 +1,2744 @@
+Title: Tech Docs - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs
+
+The following technical documents are here to help our users with the various software and hardware resources available to them. Please send an email to
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+if there is something that needs additional documentation.
+Title Filter
+Filter
+Clear
+Display #
+5
+10
+15
+20
+25
+30
+50
+100
+All
+Articles
+Title
+Modified Date
+Account Policy
+April 28 2014
+Acrobat Reader
+February 04 2015
+ARPACK
+February 04 2015
+BLAS
+February 04 2015
+Changing your password or environment
+March 25 2022
+CHARMM
+April 28 2014
+Computational Xposition Participant Guidelines
+March 03 2025
+Configuring Email
+May 31 2022
+CVS information
+April 28 2014
+Download files from DSC computers
+August 31 2022
+Electronic Board
+April 28 2014
+Email Lists and Groups
+January 14 2025
+Facilities, Computational Infrastructure
+September 14 2023
+FFTW
+February 04 2015
+File Transfers and Sharing
+May 31 2022
+Page 1 of 6
+1
+2
+3
+4
+5
+6
+
+---
+
+Title: Facilities, Computational Infrastructure - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/278-facilities-computational-infrastructure
+
+Facilities, Computational Infrastructure
+Feel free to copy relevant portions of this text into your research proposals.
+The Department of Scientific Computing (DSC) plays a major role in the support of FSU's cyberinfrastructure by providing facilities and technical expertise in the support of scientific computing. The DSC manages a dedicated computing facility located on the main FSU campus in Dirac Science Library. The DSC facility provides a highly flexible computing environment designed to support specialized and experimental hardware and software systems.
+DSC Computing Facility
+The DSC facility supports an assortment of computer architectures, interconnects, and operating systems. Systems hosted in the DSC facility are owned by DSC and are dedicated to a wide range of research problems including; machine learning, neuroscience, molecular biophysics, evolutionary biology, network modeling, and Monte-Carlo algorithm development. The DSC facility is equipped with two 40-ton HVAC cooling units, 1000 ft
+2
+of raised floor, an extensive power distribution system, UPS battery backup systems, and a 550 KVA diesel-powered backup generator, which provides backup power to all of the hardware and HVACs in this server room. The DSC network is built on a 10 Gbps backbone, providing connectivity to a switching infrastructure and to key servers and storage. The DSC network connects via 100 Gbps to the FSU campus backbone, which in turn connects to the Florida/National LamdaRail.
+FSU RCC (formerly the Shared-HPC)
+Please click here to access the latest RCC facilities statement (https://its.fsu.edu/help/it-support/researchers#grants).
+Scientific Visualization
+The DSC supports a general access laboratory for scientific visualization and computational intelligence. The laboratory is located in the center of the main FSU campus on the fourth floor of the Dirac Science Library (DSL). The Visualization Laboratory hosts several high-end visualization workstations each equipped with GPU video cards that are compatible with the CUDA SDK. All workstations have access to a multi-terabyte shared high-performance storage.
+The DSC's visualization resources also include a high-resolution laser projection system to support multidisciplinary scientific visualization. The system is located in our main seminar room adjacent to the Visualization Lab. A cutting edge 4K Enhancement Technology rear-mounted projector illuminates an 18' x 8' screen. The system supports numerous input devices via a simple to use touch panel screen.
+General DSC Infrastructure
+The DSC provides office space to DSC faculty, postdocs, graduate students, and other DSC associated support personnel. Designated visitor offices are also available. All offices are equipped with a desktop computer and network connections; wireless is available throughout campus. The department of Scientific Computing supports a cutting edge classroom facility on the campus of FSU to support scientific programming curriculum. The classroom was funded in part by a Student Technology fee award for instructional technology enhancements. The room is equipped with 19 Intel-based workstations running LINUX or Windows and is used primarily for classes taught by DSC faculty. In addition to the computer classroom, a large seminar room is located on the fourth floor with a capacity for 80 people and is equipped with a 4K Enhanced rear-mounted laser projection system. Also, two conference rooms equipped with large high-definition displays can facilitate smaller groups.
+DSC Classroom
+The Department of Scientific Computing (DSC) takes pride in its cutting-edge classroom facility designed to cater to modern computational and scientific needs. Situated within the FSU campus, the classroom has been recently updated to include the latest technology, thereby providing a conducive environment for effective teaching and learning.
+The classroom is equipped with 20 new systems, each powered by an Intel® Core™ i9-10940X processor, boasting 3.30GHz speed and 14 cores. These machines are fitted with a robust 64GB of RAM, ensuring rapid data processing and multitasking capabilities. The GPU in these systems is the NVIDIA RTX A5000, designed to handle intense graphics and data-intensive tasks, making them ideal for research in machine learning, data science, and scientific computing.
+The DSC Classroom is a testament to FSU's commitment to providing state-of-the-art facilities for research and education in scientific computing. With this advanced setup, students and faculty have the resources they need for in-depth exploration and innovative problem-solving in various domains.
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: File Transfers and Sharing - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1661-file-transfers-and-sharing
+
+File Transfers and Sharing
+FSU Noles File Transfer (NiFTy)
+Are you having trouble to share large documents/attachments? FSU NiFTy allows you to dropoff large files for anyone in the world with email access and vice versa. Please give this a try.
+NiFTy.FSU.edu
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Download files from DSC computers - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1669-download-files-from-dsc-computers
+
+Download files from DSC computers
+From off campus, you are able to download files or folders from DSC computers to personal laptops.
+Mac
+Open a terminal window in Mac, and first create the tunnel of transfer by providing your fsuid and remote computer name:
+ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu:22
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Once the tunnel is established by providing credentials, you can start to download or upload as follows:
+rsync -avz -e 'ssh -p 2222' fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+rsync -avz -e 'ssh -p 2222' /local_upload_folder fsuid@localhost:/remote_destination_directory
+Windows 10
+Open a command Window, and establish the tunnel (NOTE the option -R):
+ssh -f -N -R 2222:remote_computer_name.sc.fsu.edu
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Now you can download or upload files and/or folders as follows (NOTE the option -P):
+scp -r -P 2222 fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+scp -r -P 2222 /local_source fsuid@localhost:/remote_destination
+fsuid password may be required.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Changing your password or environment - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/177-changing-your-password-or-environment
+
+Changing your password or environment
+Changing passwords:
+The department uses FSUIDs/LDAP for a centralized authentication system. This allow for one common password to be used across all of the desktops, webpages, and clusters that we support. However many systems don't understand how to change passwords correctly in LDAP, so if you use a local utility to change your password it probably won't work correctly.
+To change your password please follow the link bellow.
+Change/Reset my FSUID Password
+Changing environment:
+The department supports three default login shells:
+csh
+tcsh
+bash
+To change your shell, please email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Details
+Written by
+Administrator
+
+---
+
+Title: Configuring Email - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/178-email
+
+Configuring Email
+The Department of Scientific Computing has transferred its email and list services to Florida State University. Your primary email account is now your
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+. Any mailing lists you are subscribed to need to be modified to use your
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Here are several methods to access
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Webmail
+https://webmail.fsu.edu/
+Outlook
+Follow these instructions for outlook access
+.
+After the setup, you can refer to
+Outlook FAQ
+.
+Thunderbird
+If you are current Thunderbird users, you already have accounts setup. Adding FSU account is similar. To include
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+to Thunderbird,
+follow these instructions
+.
+Thunderbird FAQ
+Other Client Programs
+We don't encourage the use of other email clients than listed above. If you have to use Mac Mail, Entourage, Eudora, or Outlook Express, you can find the information at
+FSU Helpdesks
+.
+Preferred FSU Email Address
+You may want to change the preferred email address associated with your FSUID if it is
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+or
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+. Here is how.
+Create a case with ITS to change your preferred email address,
+https://servicecenter.fsu.edu
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: CVS information - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/226-cvs-information
+
+CVS information
+CVS usage is generally depreciated in favor of git or SVN. More information regarding version control systems can be found
+here
+.
+What follows is a general tutorial on how to use CVS if you already have a repository hosted somewhere.
+From any unix host, such as pamd, ensure all your files for your repository are under the same directory tree.
+Set environmental variables by editing your .profile.
+bash:
+CVSROOT={mylogin}@cvs.server.org:/data/cvs
+CVS_RSH=ssh
+export CVSROOT
+export CVS_RSH
+csh, tsch:
+setenv CVSROOT {mylogin}@cvs.server.org:/data/cvs
+setenv CVS_RSH ssh
+Import to your repository on the CVS server.
+cvs import -m "{message}" {myproject} {myname} {start}
+To create a working copy of your directory:
+cvs checkout {myproject}
+Edit a file and check the differences:
+cvs diff
+To commit your changes:
+cvs commit
+Details
+
+---
+
+Title: Acrobat Reader - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/331-acrobat
+
+Acrobat Reader
+Acrobat Reader
+is a commercial PDF file viewer. To use Acrobat Reader, type
+acroread
+at the X11 command prompt. It is available on most desktop machines.
+Details
+Written by
+Michael McDonald
+Supported Applications
+
+---
+
+Title: ARPACK - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/338-arpack
+
+ARPACK
+ARPACK
+is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: BLAS - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/339-blas
+
+BLAS
+The Basic Linear Algebra Subprograms (
+BLAS
+) are routines that provide standard building blocks for performing basic vector and matrix operations. The Level 1 BLAS perform scalar, vector and vector-vector operations, the Level 2 BLAS perform matrix-vector operations, and the Level 3 BLAS perform matrix-matrix operations. Because the BLAS are efficient, portable, and widely available, they are commonly used in the development of high quality linear algebra software,
+LAPACK
+for example. The libraries are typically linked into your application. For example,if the libraries are stored on
+/usr/local/lib
+, use
+-L/usr/local/lib -lf77blas
+in your program linker step to link to these libraries. Detailed lists of functions can be found on the links above.
+For more information see the
+Basic Linear Algebra Subprogram homepage
+or
+BLAS FAQ
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: FFTW - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/340-fftw3
+
+FFTW
+The "Fastest Fourier Transform in the West" (FFTW) is a C library for computing discrete Fourier transforms (DFT).  Note that there are two main versions of FFTW, version 2 and version 3 which are not compatible.  The basic usage of FFTW to compute a one-dimensional DFT of size N is simple, and it typically looks something like this code:
+#include <
+fftw.h
+>
+...
+{
+fftw_complex
+*
+in
+,
+*
+out
+;
+fftw_plan
+p
+;
+...
+in
+=
+(
+fftw_complex
+*
+)
+fftw_malloc
+(
+sizeof
+(
+fftw_complex
+)
+*
+N
+)
+;
+out
+=
+(
+fftw_complex
+*
+)
+fftw_malloc
+(
+sizeof
+(
+fftw_complex
+)
+*
+N
+)
+;
+p
+=
+fftw_plan_dft_1d
+(
+N
+,
+in
+,
+out
+,
+FFTW_FORWARD
+,
+FFTW_ESTIMATE
+)
+;
+...
+fftw_execute
+(
+p
+)
+;
+/* repeat as needed */
+...
+fftw_destroy_plan
+(
+p
+)
+;
+fftw_free
+(
+in
+)
+;
+fftw_free
+(
+out
+)
+;
+}
+Other examples can be found in the
+FFTW documentation
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: CHARMM - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/354-charmm
+
+CHARMM
+Chemistry at HARvard Macromolecular Mechanics (
+CHARMM
+) is a program for macromolecular simulations, including energy minimization, molecular dynamics and Monte Carlo simulations.  The primary concern of CHARMM has been to create a research instrument for theoretical studies of the properties and biological function of molecules. Consequently, emphasis has been placed on the versatility of the program and it is being continually modified as work proceeds into new areas.
+Details
+
+---
+
+Title: Electronic Board - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/375-panaboard
+
+Electronic Board
+The Panasonic Panaboard (UB-2815C) is a Color Scanning System that preserves writings on the board to attached devices: USB Flash Memory/SD Memory Card/printers/computers. Four boards are located in DSL 152, 411, 416 and 499.
+Useful Links
+Device Information
+Downloads
+Supplies
+Save Image to USB Flash Drive
+Set the power switch to on.
+Connect the USB flash memory device to “MEMORY” slot.
+Devices formatted using FAT (FAT16) will be recognized by the unit faster. Drives with security feature or larger than 2GB in size may experience difficulty.
+Press the Mode Key (return or half moon key) to select the scanning mode.
+Press the Start/Stop Key (green button).
+Do not remove the USB device until the preview is shown.
+Press the Multi-Copy Key (right triangle) to zoom in on the image or to return to the preview.
+Press the Mode Key (return or half moon key) again to return to standby mode.
+Only remove the USB flash memory device once you have returned to standby mode.
+Files are saved in ub-2815c folder in PDF format by default. Can choose JPEG/TIFF if needed.
+Time stamp on the scan can be turned off if needed.
+Attachments:
+File
+Description
+File size
+Tutorial Slides
+Panaboard Tutorial
+467 kB
+Operating Instructions
+User Manual
+4695 kB
+Panaboard Info
+Capabilities and specifications
+4277 kB
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Account Policy - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/531-account-policy
+
+Account Policy
+The policy is intended to make clear when DSC users are required to change their password, what sponsors are required to do to keep a sponsored account, and to prevent sponsored accounts from becoming "orphaned" if their sponsor leaves the DSC.
+(Note: Only DSC faculty and Staff are allowed to sponsor accounts)
+Password expiration
+180 days without a password change, user gets a warning requiring the change of password.
+200 days without a password change, user account is locked out and the sponsor is emailed about 
+this action.  The account owner must contact a member of
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+to have 
+account access restored.
+350 days without a password change, the account owner and sponsor 
+get a message warning that the account data will be deleted in 10 days 
+if the password is not changed by contacting a member of the TSG.
+360 days without a password change, user account and associated data 
+are deleted from DSC file system.
+Sponsored account verification
+180 days without sponsor verification, the sponsor gets a warning 
+requiring the verification of continued sponsorship.
+200 days without sponsor verification, the sponsored account is 
+locked so that the account owner can no longer log in and the sponsor 
+is informed of this action via email.  The sponsor must 
+contact a member of
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+to have account access restored.
+350 days without a sponsor verification, the account owner and 
+sponsor get a message warning them that the account and associated 
+data will be deleted from the DSC file systems.
+360 days without a sponsor verification, the account and associated 
+data is deleted from DSC file systems.
+Sponsoring account removal
+220 days without a sponsor password change, the sponsoring and sponsored accounts get a 
+warning
+290 days without a sponsor password change, the sponsoring and sponsored accounts are locked
+350 days without a sponsor password change, the sponsoring and sponsored accounts get a message warning that the accounts and associated data 
+will be deleted in 10 days.
+360 days without a sponsor password change, the sponsoring and sponsored accounts and 
+associated data are deleted from the DSC file systems.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Redhat Software Collections - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1017-redhat-software-collections
+
+Redhat Software Collections
+Sometimes more recent versions of programming tools are needed. To accomodate that without replacing the base operating system tools, Redhat has implemented software collections. This allows users to run gcc 4.9.x, python 2.7.x, etc. on a per application basis while maintaining well-tested operating system integrity.
+scl
+utility makes the switching simple.
+The current gcc version is 4.4. To use gcc 4.9 in bash shell, run the following commands:
+scl enable devtoolset-4 bash
+gcc -v
+gfortran -v
+Likewise to use python 3.6, run the following:
+scl enable rh-python36 bash 
+python -V
+By exiting that bash shell, users will return back to the default system tools.
+Other useful commands:
+cat my_script | scl enable rh-python36 - 
+scl -l devtoolset-4
+The first command runs my_script using python3.6 from the current shell (note the dash in the end). The second lists the packages included in collection devtoolset-4.
+For more information, refer to
+Red Hat Software Collections 2.0
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Jupyter Notebook - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1018-ipython-notebook
+
+Jupyter Notebook
+"Jupyter Notebook, formerly known as iPython, is an interactive computational environment, in which you can combine code execution, rich text, mathematics, plots and rich media..."  Currently IPython Notebook is available on classroom and hallway computers.
+To use this tool on hallway computers from user desktop, run the following commands:
+qlogin
+	scl enable rh-python36 bash
+	cd directory_with_notebook_files
+	jupyter-notebook
+The second command is not needed if notebook desn't require python 3.6.
+For more information, refers to
+IPython Notebook
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Introduction to CPython - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1163-cpython
+
+Introduction to CPython
+This tutorial will run through using cpython on DSC machines.
+Click on any image to view it in a lightbox.
+The Basics
+For starters, let's get python to run the eponymous hello world program. The first thing to do is navigate to your preferred source code storage location, and write the hello world program.
+Then, start the command prompt.
+And then navigate to your program location.
+Then, run the python interpreter.
+Other Features
+At some point you may build up a code library that you would like to reference. Python contains options to ease the reuse of old code. In order to explore these options, lets compute the factorial of five. First, go to your prefered source directory, and write the program. The program is split up into two files: one that contains a factorial algorithm inside a module, and one that makes use of that module. The two files are split into disparate directories.
+Start up the command prompt and navigate to the folder containing the main program. Now, whenever python runs, it searches for code libraries based on the environment variables
+PYTHONHOME
+and
+PYTHONPATH
+. In order for python to be able to find the factorial function, its folder must be on the
+PYTHONPATH
+. So, set the variable (on Windows, setting a variable in the command prompt only affects that command prompt).
+Now just run the main program, and you should find that 5! = 120.
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Linux Modules - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1177-linux-modules
+
+Linux Modules
+On our Linux systems, most software resources are made available via modules.  Each modulefile contains the information needed to configure the shell for an application. Once the Modules package is initialized, the environment can be modified on a per-module basis using the module command which interprets modulefiles. Typically modulefiles instruct the module command to alter or set shell environment variables such as PATH, MANPATH, etc. modulefiles may be shared by many users on a system and users may have their own collection to supplement or replace the shared modulefiles.
+This allows us to offer a large array of software to many users without the packages interfering with each other.
+Using built-in modules
+We provide many built-in modules for loading software packages and compilers.  You can see a list of these by running
+$ ls /etc/modulefiles/*
+OR
+$ module avail
+on any Desktop, Hallway, or Classroom workstation.
+Let's say, for example, you wish to use MPI. You can use the
+/etc/modulefiles/mpi/openmpi-x86_64
+to make openmpi available to your shell.
+To do this, simply run:
+$ module load mpi/openmpi-x86_64
+To show the current list of loaded modules, run:
+$ module list
+If you want to unload a module, run:
+$ module unload mpi/openmpi-x86_64
+Creating custom modules
+You may wish to customize the Linux environment for your jobs on your own. You can create your own custom module to accomplish this.
+First, create a directory for your modules:
+$ mkdir ~/modules
+Then, add the module path to the end of your
+~/.bashrc
+file:
+export MODULEPATH=${MODULEPATH}:${HOME}/modules
+or add the following to your
+~/.cshrc
+or
+~/.tcshrc
+if you use the tcsh shell:
+setenv MODULEPATH ${MODULEPATH}:${HOME}/modules
+A module can be as simple as setting a few environment variables (such as
+PATH
+and
+LD_LIBRARY_PATH
+) or can be complicated Tcl scripts.
+You can refer to any of our existing modules in the
+/etc/modulefiles
+directory as templates for creating your own.  For example, the
+/etc/modulefiles/orca
+module includes the following directives:
+Provide basic information about what the module does:
+#%Module 1.0
+#
+#  Orca module
+#
+module-whatis  "Set path for orca."
+Add the ORCA executable directory to the path, so that ORCA runs when the 'orca' command is typed:
+prepend-path   PATH /panfs/storage.local/opt/orca_3_0_0_linux_x86-64
+Set an environment variable necessary for ORCA to run:
+setenv         RSH_COMMAND ssh
+Running
+module load orca
+will make those alterations to the environment.  running
+module unload orca
+will remove them.
+For a more complex example, refer to
+/etc/modulefiles/gaussian09
+.  This module file examines what  architecture the module is run and adjusts its paths accordingly.
+For a complete reference of module file directives, refer to the modulefile man page (
+man modulefile
+).
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: VirtualBox Issues - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1185-virtualbox-issues
+
+VirtualBox Issues
+If you have trouble accessing VMs provided, please email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+for help or search "virtualbox" from the site.
+Inaccessible Disk / Existing UUID
+If you should encounter an error saying that the virtual machine disk is inaccessible or that a disk with this UUID already exists, this can be fixed by removing the disk and adding it back.
+Right click on the virtual machine in the left pane of the VirtualBox Manager and click Settings. Navigate to the Storage section.
+Right click the .vdi image and click Remove Attachment.
+Right click "Controller: SATA" and click "Add Hard Disk."  Click "Choose existing disk."
+Navigate to the virtual machine .vdi file and press "Open."
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: VirtualBox File Management - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1186-virtualbox-file-management
+
+VirtualBox File Management
+When using Windows virtual machines provided on Linux Workstations, you are strongly recommended to save data per session.
+All data will be lost
+when the virtual machine is rebuilt as needed without notice.  There are several ways through which you can save files:
+Your home directory
+Dropbox
+Google Drive
+One Drive
+USB
+To save works in your home directory, you need to set it up
+before
+starting the virtual machine.
+Start "Oralce VM VirtualBox"
+Select VM to be used, open “Settings”, go to Shared Folders
+Click on the icon with blue folder and plus sign
+Folder Path: /home/username/...
+Folder Name: MyDescription
+Check "Make Permanent"
+Click on "OK" to finish or add other shared folders if needed
+Now you are ready to start Windows VM and save files in the home directory: under "Network / VBOXSVR / MyDescription", the UNC equivalent: \\VBOXSVR\MyDescription.
+To save files on USB, your can use "Shared Folders" similar to home directory
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Linux Commands Cheat Sheet - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1302-linux-commands-cheatsheet
+
+Linux Commands Cheat Sheet
+Below are a number of commonly used commands in unix. For almost every command, there are additional flags that can be used to modify the command's behavior. For example, typing 'ls' in the terminal displays the files contained within the current working directory, but 'ls -l' displays them in a list format. Additionally, 'ls -lt' displays them in a list, but also in order of modification time. Information on what flags can be used, along with general explanations about the commands, can be found by typing 'man' before the command. Ex: 'man ls'.
+
+Navigation:
+
+Basic navigation is performed using a few commands:
+
+cd: Short for 'change directory', changes the current working directory.
+
+ls: Short for 'list', lists all of the files in the current working directory.
+
+cwd: Short for 'current working directory', lists the absolute path to the directory the user is in.
+
+clear: Clears the terminal of all text, although the previous text can still be seen by scrolling up.
+
+In navigating a Unix file structure, a number of shorthand notations should be mentioned. Example usage of the above commands are shown here as well:
+
+'~': The location of a user's home directory. When logging into a unix machine, you are likely going to begin in your home directory, where your personal files will be located. Typing 'ls' while in the home directory will display folders like 'Desktop', Pictures', 'Downloads', and 'Documents'. To move into one of these folders, one can type, e.g., 'cd Downloads'. Additionally, to display the contents of the 'Downloads' folder without navigating to it, type 'ls Downloads'.
+
+'/': The machine's root directory. This is the highest level directory that contains all other files and folders in the machine. Programming libraries, system files, etc are found within the folders here. Typing 'cwd' in any directory will display the path from the root directory to the current working directory. For example, if the user's name was 'tom', typing 'cwd' while in the 'Downloads' folder will display '/home/tom/Downloads'.
+
+'.': The current directory is represented with a simple period. Typing 'cd .' moves you to the current working directory, i.e. to where you are now.
+
+'..': The directory above the current working directory. Ex: If you're in the directory ~/Downloads/, typing 'cd ..' will bring you to the home directory.
+
+'-': This represents the last directory you were in. Ex: If you were in '~/Downloads' and moved to '/lib64/', typing 'cd -' would move you back to '~/Downloads' and 'ls -' would display the files within '~/Downloads'.
+
+Creating, deleting, moving, renaming files/folders:
+
+mkdir: Short for 'make directory', creates a directory with a given name. Ex: 'mkdir ~/Desktop/DSC' creates a folder 'DSC' in the 'Desktop' folder in your home directory.
+
+rmdir: Short for 'remove directory', deletes a directory. Note that there are no backups, so be careful when using this command.
+
+touch: Generally used to create a file with a given name. Ex: 'touch ~/Downloads/example.txt' creates an empty file named 'example.txt' in the Downloads folder and closes it. This command was originally used to update the time a file was accessed/modified -- 'touching' it by opening it if it exists, not modifying anything, and closing it.
+
+cp: Short for 'copy', simply copies a file. Ex: If a file named 'example.txt' were in the Downloads folder and the Downloads folder is the current working directory, we could copy it into to the Desktop by using 'cp example.txt ~/Desktop/'. We could also rename the copy something else by using 'cp example.txt ~/Desktop/example2.txt'. To copy a folder, the '-rf' flag is required, as it needs to recursively copy all the files within the folder if they are present. 
+
+mv: Short for 'move', moves a file from one place to another, and is often used to rename a file. This command effectively does the same thing as 'cp', only that the original file is removed. 
+
+rm: Short for 'remove', deletes a file. Note that there are no backups of these files, so be careful when using this command. When deleting a directory, use 'rm -rf' or 'rmdir'. 
+
+locate: Searches the entirety of the file structure for a file/directory with a given name.
+
+Additional tips:
+
+Tab-completion: When typing in commands, especially when trying to navigate file structures, using the tab key can auto-complete the names of files/folders if they are present. If nothing auto-completes after typing tab once, type it again to see all possible options. Similar to our example above under the 'cp' explanation, if we were to type 'ls ~/Desktop/example' and hit tab twice, it would show 'example.txt' and 'example2.txt'. Typing in '.' would then let it auto-complete the word 'example.txt' after hitting tab again.
+
+Arrows: Use the up arrow to access previous commands that have been typed in. Using the down arrow after using the up arrow will go back down the list of commands. 
+
+Permissions: A fundamental part of the unix file system is permissions (which cannot be fully explained here) and is generally accessed by using 'ls -l', i.e. displaying a folder's contents in list format. If you cannot read or modify a file, check the permissions. The permissions are on the left and dictate who can and cannot read (r), write (w), or execute (x) files in Unix (called access modes). Ex: If one has read access, the 'r' will be displayed. If one does not have read access, the 'r' column will be replaced with a dash '-'. Further, these are split into three sets. The first set of access modes are the permissions of the file's owner (the first name beside the permissions). The second set are the permissions of the file's group (the second name beside the permissions). The third set is the permissions for everyone else. Ex: If a file has only read access, the permissions would read '-r--r--r--'. This means that the user, the user's group, and anyone else can open and read the contents of the file. If it had read, write, and execute access for only the user, it would read '-rwxr--r--'. Here the user can open the file to read its contents, save edits to it, and execute it (if it's a program or a script), but everyone else can only read its contents. If it further had execute access for the user's group, it would read '-rwxr-xr--'. Finally, notice that all of these examples have a leading '-'. This is replaced with a 'd' only if it is a directory. In that case, the number beside the permissions would display how many files are in the folder. 
+
+A final example for a folder named 'DSC' with 3 files in it owned by a user named 'tom' in the group 'users' with read, write, and execute permissions for the user 'tom', read and execute permissions for the group 'users', and read permissions for everyone else, with a byte size of 1000 and last modified on August 1st, 2017, would be:
+  drwxr-xr-- 3 tom users 1000 Aug 1 2017 DSC
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Shared Computer Policy - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1333-shared-computer-policy
+
+Shared Computer Policy
+DSC offers hallway and classroom computers as shared resources to all users. For fair use of the public systems, hallway computers should be used interactively and remote sessions should not include long running (8 hours or more) or CPU intensive jobs; classroom computers may be used for remote jobs during non-business hours (7pm - 7am). Technical Support Group reserves the rights to terminate jobs on shared systems if they are deemed as abusive.
+If you require more resources, please consider
+Research Computing Center
+or other dedicated systems through faculty members.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Python Jungle - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1416-python-jungle
+
+Python Jungle
+Python 2 will soon be obsolete. Python 3 can be a challenge to navigate. It is strongly recommended to use virtual environment to manage python projects. Don't use system python for your projects.
+Here is an example to start a project named isc3313. This approach will isolate python issues to the specific environment without impacting anything else.
+scl enable rh-python36 bash
+virtualenv isc3313
+source isc3313/bin/activate
+Manage anything needed for this project
+pip install tensorflow...
+To exit the environment, run
+deactivate
+To determine if you are running a particular Software Collection:
+echo $X_SCLS
+To test a Software Collection state, use "
+scl_enabled rh-python36
+" exit code.
+To run script using python3.6 through Redhat Software Collection, use the following script template
+#!/usr/bin/scl enable rh-python36 -- python3
+import sys
+version = "Python %d.%d" % (sys.version_info.major, sys.version_info.minor)
+print("You are running Python",version)
+For more details, refers to
+Python 3 on RHEL
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: PGI Community Edition - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1418-pgi-community-edition
+
+PGI Community Edition
+pgcc is available on classroom and hallway computers. To get it for your desktop computers, please request it at
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+including your desktop hostname.
+To access Portland Group compiler, use
+module load PrgEnv-pgi/19.4
+pgcc myprog.c
+Example files are found at /usr/common/pgi2019_194/linux86-64-llvm/2019/examples. For "module" command information, please visit
+Linux Modules
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Upload files to DSC computers - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1653-upload-files-to-dsc-computers
+
+Upload files to DSC computers
+From off campus, you are able to upload files from personal computers or laptops to DSC computers.
+Mac
+Open a terminal window in Mac, and first create the tunnel of transfer by providing your fsuid and remote computer name:
+ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu:22
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Once the tunnel is established by providing credentials, you can start to upload or download as follows:
+rsync -avz -e 'ssh -p 2222' /local_upload_folder fsuid@localhost:/remote_destination_directory
+rsync -avz -e 'ssh -p 2222' fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+Windows 10
+Open a command Window, and establish the tunnel (NOTE the option -L):
+ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Now you can upload or download files and/or folders as follows:
+scp -r -P 2222 /local_source fsuid@localhost:/remote_destination
+scp -r -P 2222 fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+fsuid password may be required.
+Details
+Written by
+Xiaoguang Li
+Computing
+
+---
+
+Title: OneDrive for Ubuntu - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1672-onedrive-for-ubuntu
+
+OneDrive for Ubuntu
+If you want to synchronize or download files in OneDrive to DSC desktops running Ubuntu, you can follow the following guidelines on Ubuntu client computers.
+NOTE: If you have a large OneDrive quota, you are strongly encourage to synchronize ONLY the folder / directory you need. Fail to do so may result in your DSC account reach its storage quota. That will freeze your account!
+To setup link to your cloud storage in OneDrive, run the following command and follow instructions on the screen:
+onedrive --monitor
+Press Ctrl + C if you don't want to synchromize everything in the Cloud space.
+A sample run is as follows:
+onedrive --monitor
+Configuring Global Azure AD Endpoints
+Authorize this app visiting:
+
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=d50ca740-c83f-4d1b-b616-12c519384f0c&scope=Files.ReadWrite%20Files.ReadWrite.All%20Sites.ReadWrite.All%20offline_access&response_type=code&prompt=login&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient
+
+Enter the response uri: https://login.microsoftonline.com/common/oauth2/nativeclient?code=......&session_state=8370d8a8-7bc4-4e21-842e-0c93d98522b7
+Initializing the Synchronization Engine ...
+Initializing monitor ...
+OneDrive monitor interval (seconds): 300
+Creating local directory: ...
+......
+To synchronize only one folder "dsc_files" from the Cloud / OneDrive
+onedrive --synchronize --single-directory 'dsc_files'
+To download files / folders only:
+onedrive --synchronize --single-directory 'dsc_files' --download-only
+To upload to OneDrive without deleting files in cloud that are missing from local directories
+onedrive --synchronize --upload-only --no-remote-delete
+To show OneDrive setting:
+onedrive --display-config
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Logging in to SC systems - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/174-logging-in-to-sc-systems
+
+Logging in to SC systems
+Computing resources can be accessed both through the SSH gateway servers (
+pamd.sc.fsu.edu
+) and through the FSU VPN (
+vpn.fsu.edu
+).
+SSH connection to pamd.sc.fsu.edu
+Accessing the SSH gateway server is simple. Use your workstation's SSH client to directly log in to
+pamd.sc.fsu.edu
+. For example:
+% ssh pamd.sc.fsu.edu
+You will be prompted for a username and password. If the login information you entered is correct, you will have access to a shell on
+pamd.sc.fsu.edu
+. From this shell on
+pamd.sc.fsu.edu
+, users can access public computing resources by running command "hallway" or "classroom".
+Never
+use the
+pamd.sc.fsu.edu
+servers to run processor intensive jobs.
+More information on SSH access is available
+here
+.
+Details
+Written by
+Administrator
+
+---
+
+Title: Storage, Backup and Recovery - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/175-storage-backup-and-recovery
+
+Storage, Backup and Recovery
+Only DSC accounts with valid FSU accounts are backed up - temporary accounts, eg: wkshop01, are not backed up
+SC provides centralized file storage via
+ZFS
+file system. The system provides a RAID-based storage to ensure against the loss of two disk drives.
+Share file system provides home directories and research space for all desktops and pamd.
+Users have a fixed disk quota (see below) on their home directory,
+which is based on our current backup capacity. As our backup capacity
+increases, so will user quotas on home directories.  Disk quotas are not
+increased otherwise.
+Users have other options if more disk space is needed than is
+available in their home directory.
+Request a research partition by sending a message to
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+. A research partition with a maximum capacity of 900 GB will be given to SC faculty members upon request.
+Research partitions are not backed up.
+Inactive research partitions will be reclaimed following confirmation from the faculty member.
+Files on individual desktop systems are not backed up.
+Files over 500 MB are not backed up.
+Users wishing to protect local files can save these files to the shared file system by mounting their user volume locally (via Samba, sshfs, scp, rsync or other mechanisms) and copying the important files to this directory.
+Recovery
+To recover lost files from the last three weeks, please send a request to
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+stating the date and files or directories to be restored.
+No archival data beyond 21 days is maintained.
+Backup Technology
+The backup system consists of a 10 TB iSCSI configured in Raid 5 with a hot spare with a
+Dell 1950
+acting as the hosting node.  Backups are accomplished with
+rsync
+.
+Details
+Written by
+Xiaoguang Li
+Data Storage
+
+---
+
+Title: Joomla Web Page Tips and Tricks - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/176-web-pages
+
+Joomla Web Page Tips and Tricks
+Creating New FAQs
+The FAQ section is reserved for
+Administrative
+frequently asked questions. New FAQ entries
+must
+contain the following HTML code as its template:
+Q: ?
+A:
+Populating Metadata Information
+Every article under Joomla can have metadata associated with it. This metadata is used to display Related Articles below the current article. It is important to
+NOT
+use generic keywords in the metadata. This will result in unrelated articles being displayed instead of only the relevant ones. To circumvent this problem, only use keywords which are unique to the article you are working on. Refrain from using commonly used words (
+the, and, who, what, when, etc.
+).
+Click here to see an example
+.
+Adding the Lightbox Effect
+To add a lightbox effect to
+images
+the following
+class
+tag must be added.
+Example Code
+Working Example
+Joomla Logo
+Joomla Logo
+Adding Slider Panes
+To add slider panes to web pages the following code template should be used. An example of this feature is used in this current page.
+Heading 1
+content for heading 1
+Heading 2
+content for heading 2
+Showing Code in Articles
+To show code in articles you must use the "pre xml:html" tags. This activates the Code Hightlighter (GeSHi) which nicely displays your code with syntax highlighting. Replace the starting and ending quotes in the below example with less than and greater than characters, respectively.
+"pre xml:html"
+  
+ "pre"
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Printing - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/179-printing
+
+Printing
+To use the department's printers you must be connected to the local network. This mean that if you are working off campus or using the campus wireless network you must first connect to the department's VPN (see VpnSetup for more details). Assume you have network access and permission to the printers, you may
+set them up as described here
+.
+Note: The department
+print server
+uses the "CUPS" software. Consolidation of printing services will change this.
+Poster Printing
+Posters are only printed for Department of Scientific Computing faculty and students.
+Requests to print posters must be made/endorsed by an SC faculty member and are approved by the SC Director.
+Printer etiquette
+When you submit a job to a printer, please retrieve your output as soon as possible. Output which is left in the copy room over 24 hours will be thrown away.
+When you do pick up your output, and it is located within a large stack of pages, please do so carefully so as to not disturb the output of other users. Don't pull out pages while the printer is printer and then try to put them back. This leads to "shuffling" the pages and leads to a lot of confusion. Please dispose of unnecessary pages in the recycling boxes located on the floor beneath the counters, and in the trays designated for this purpose nearby all of the printers.
+Please respect the resourses. Do NOT try to clear jams, or correct problems with the printers, even if on weekends. Our printers are not covered under warranty, and repairs are very expensive. Send email to sysops or to Dana Lutton.
+Known Printer Problems
+Acrobat files may not print from Windows to the pr483 QMS 860 printer. This printer is a Level 2 PostScript and most current Acrobat files contain Level 3 PostScript commands in them.
+The pr473 HP printer is also a Level 2 PostScript printer and will not print Level 3 PostScript files. You will need to set your application to print Level 2 PostScript only.
+It is recommended that you not print manual paperfeed jobs from UNIX where the printer must pause and wait for the manual feed tray to be loaded.
+Level 3 PostScript commands primarily deal with the "color" definitions and commands, and are the primary cause of printing problems on Level 2 PostScript printers.
+Problems printing PhotoShop files. Some Adobe PhotoShop files contain binary information prior to the %!PS, and following the %EOF. To properly print these files you must remove the binary information from the begin and the end of the file. This especially applies to people who must incorporate them into (La)TeX documents using dvips.
+All PostScript files must contain %!PS as the first 4 characters. If your file doesn't print, this is a likely cause.
+PostScript files received by email may contain aberrant characters, at the end of line, or beginning of new lines. Binary portions of files received by email may be truncated, and will not print.
+Problems with lpr and EPS files. EPS files are "encapsulated" and contain no "printer specific" information. To print an EPS file using the lpr file.eps command you need to have a "utility wrapper" surrounding this code.
+Web pages and PDF files containing graphics are a whole "other" issue -- many of them cannot be printed because they were incorrectly made to begin with.
+If a PDF was made with special fonts that are not installed on a printer the file will not print correctly. Authors should be encouraged to embed all fonts into their pdf document to avoid this problem.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: vscode Proxy through SSH Tunnel - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/1831-vscode
+
+vscode Proxy through SSH Tunnel
+If you want to use vscode to connect to targetHost.sc.fsu.edu from a computer at home through proxy pamd.sc.fsu.edu, please use the following steps.
+Feel free to email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+if you have any difficulty.
+Configure SSH for ProxyJump
+You'll want to add a configuration for targetHost.sc.fsu.edu in your SSH config file to use pamd.sc.fsu.edu as an intermediate (jump) host.
+Open or create the SSH configuration file using whatever text editor you prefer, we use nano as an example:
+nano ~/.ssh/config
+Add the following settings to the SSH configuration file ~/.ssh/config:
+Host pamd
+    HostName pamd.sc.fsu.edu
+    User fsuid
+Host targetHost
+    HostName targetHost.sc.fsu.edu
+    User fsuid
+    IdentityFile ~/.ssh/<private_key_for_targetHost>
+    ProxyJump pamd
+Make sure the IdentityFile points to the correct SSH private key for each host.
+Set Up the SSH Extension in VS Code
+Install the Remote - SSH extension for VS Code if you haven't already:
+Go to Extensions and search for "Remote - SSH."
+Install the extension.
+Open the Command Palette in VS Code and search for "Remote-SSH: Connect to Host..."
+Type targetHost.sc.fsu.edu (or the alias name you set in ~/.ssh/config for targetHost) and select it.
+VS Code will automatically use the SSH config you defined, routing the connection through pamd to reach targetHost.
+Verify Connection
+Once connected, VS Code should open a remote session on targetHost. You can confirm the connection by checking the VS Code terminal, which should indicate it's connected to targetHost. Now you can open files, run commands, and work as if you were directly connected to targetHost.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: VPN Access - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/204-vpn-access
+
+VPN Access
+A VPN connection will allow you to join our network even when you are working off campus. After you establish a connection, your network communication is securely routed through the VPN sever when communicating with FSU endpoints.
+FSU VPN Service Documentation
+Login to the FSU-DSC VPN here,
+https://vpn.fsu.edu/dsc
+Use your FSUID and FSUID-password
+Click the
+AnyConnect
+link in the left-hand menu
+Click the
+Start AnyConnect
+link in the middle frame
+The VPN client will automatically try and detect your operating system
+Download & Install the VPN client provided by link
+Use the address
+vpn.fsu.edu/dsc
+within the client
+Enter your FSUID (Username) and FSUID-password (Password) in the VPN client prompt
+Your FSUID is saved for convenience
+Passwords will *never* be saved
+Done
+Details
+Written by
+Michael McDonald
+VPN
+
+---
+
+Title: Network Printer Setup - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/206-network-printer-setup
+
+Network Printer Setup
+If the information provided here is not enough, please contact
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Note
+: Due to the print quota scheme, print jobs will simply be dropped if your login name is not found in the LDAP directory. One solution is to use -U option of lpr command, for example,
+lpr -U username file2Print.ps
+The best solution is to implement LDAP authentication or change the login name to SC uid.
+Add a Network Printer for Windows 10/7
+To determine the make and model of the printer you wish to add, go to
+http://printers.sc.fsu.edu/printers
+.
+For this example, we will use Ricoh MP 2555, mfp473
+Go to 'Printers and Faxes
+Click on 'Add a Printer'
+Click Next through the Add a Printer Wizard
+Click the button for 'A Network Printer....'
+In the 'Specify' a Printer box, click on the button for 'Connect to a printer on the internet'
+In the space provided, type: http://printers.sc.fsu.edu:631/printers/mfp473
+Click 'Next'
+Select your printer make and model from the list to install the correct print driver. See the end of the page for Windows drivers.
+Complete the Add a Printer Wizard
+NOTE
+: In this case, and a few others the exact driver is not listed in the Windows Driver Menu. Select the closest driver to your printer model as possible. For the 4300 Series use the 'HP Laser Jet 4100 series PS' driver. Additionally, the current version of the CUPS Printing Software support both PostScript and PCL Drivers.
+Add a Network Printer for MAC OS X
+To determine the make and model of the printer you wish to add, go to:
+http://printers.sc.fsu.edu/printers
+.
+Open System Preferences and click "Print & Fax".
+Click Printing and then click the "+" sign to open the "Printer Browser" box.
+For "Protocol", select LPD
+For "Address" enter printers.sc.fsu.edu
+For "Queue" enter the printer name (EX. mfp420, mfp473, mfp150v)
+For "Printer Name" , type the name of the printer (Should be the same name as in "Queue")
+For "Location", you can fill in or leave blank.
+For "Print Using", Scroll through the list of printer manufacturers and select the maker of the printer.
+Next, Scroll through the list of printer models and select your model to install the correct print driver.
+Finally, click on "Add" to include the printer on your list of available printers.
+NOTE
+: When the exact driver is not listed in the Driver Menu, select the closest driver to your printer model as possible. Additionally, the current version of the CUPS Printing Software only support PostScript printing.
+Network Printers for UNIX
+In most cases, network printers are configured and ready to go as they are. If you need to setup them up for some reason, here are the steps.
+DSC uses the Common Unix Printing System (CUPS) to manage printing jobs. If you already have CUPS installed on your system, place the following into your client.conf file (usually /etc/cups/client.conf)
+ServerName printers.sc.fsu.edu
+Remember to restart cupsd after saving the changes to the file.
+You can print to any printer through most of the application printer interface. To print or manage print jobs using command line:
+lpr -P mfp420 filename
+lpq -P mfp420
+lprm -P mfp420 jobID
+Drivers Download
+Ricoh MP 25555 Drivers
+Ricoh IM C3000 Drivers
+Ricoh Support and Download
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Version Control Systems - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/225-svn-information
+
+Version Control Systems
+Will your code be for free / open source software?
+If
+YES
+, then you should first try one of these free source code repositories:
+github
+GitHub is how people build software. With a community of more than 15 million people, developers can discover, use, and contribute to over 38 million projects using a powerful collaborative development workflow."
+source
+SourceForge.net
+"SourceForge.net is the world's largest open source software development web site. We provide free services that help people build cool stuff and share it with a global audience."
+source
+If
+NO
+, then we recommend using
+git
+.
+Quick start for Git
+Creating and commiting on pamd.sc.fsu.edu
+$ cd (project-dir)
+$ git init
+$ (add some files)
+$ git add .
+$ git commit -m 'Initial commit'
+Cloning and Creating a Patch
+$ git clone ssh://{mylogin}@pamd.sc.fsu.edu/panfs/\
+   panasas1/research/{mydir}/{mygitproj}
+$ cd {mygitproj}
+$ (edit files)
+$ git add (files)
+$ git commit -m 'explain what I chanded'
+$ git format-patch origin/master
+For more information about how to use git see the
+Git Community Book
+. The section on
+Distributed Workflows
+is especially useful.
+Note: Once your code is
+presentation ready
+we recommend sharing the URL and details of your project for posting to our
+Department software collection here.
+You can email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+with the details.
+Details
+Written by
+Marcelina Lapuz Nagales
+
+---
+
+Title: Thunderbird FAQ - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/233-thunderbird-faq
+
+Thunderbird FAQ
+Thunderbird works largely the same on all platforms: Linux, Windows and Macintosh. For users working on more than one platform, Thunderbird can be a significant benefit comparing with other email clients. The solutions given here may vary slightly in naming and layout depending on the platforms. If you need to setup Thunderbird, consult
+this page
+first.
+How to turn on/off email forwarding from fsu.edu?
+Login http://webmail.fsu.edu
+From top menus, click Options/Mail/Settings
+Check/uncheck "Enable forwarding"
+Be careful not to create forwading loops with other email accounts!
+How to display the size and number of messages in a folder?
+Go to "Preferences / Advanced / General"
+Check "Show expanded colums in the folder pane"
+In the folder pane, click on the icon next to "Name" column and select Total and/or Size
+Likewise each message size can be displayed by clicking on the icon in the email pane
+How to setup reply above/before the original message?
+Go to "Account Settings... / Composition & Addressing" of the mailbox in question
+Check "Automatically quote the original message when replying"
+Then, "Start my reply above the quote"
+and place my signature "below my reply (above the quote)" if preferred
+How to setup FSU address book?
+Go to "Preferences / Composition / Addressing"
+Check "Directory Server"
+Click on "Edit Directories..." and "Add" buttons
+Enter the fields as shown (Hostname: addressbook.fsu.edu) below and make sure to use your own
+"Bind DN: uid=fsuid,ou=people,dc=fsu,dc=edu".
+After saving the settings, go to "Offline" tab and click on "Download Now", which should help with adddres completion performance.
+Under the "Directory Server" drop-down menu, select the address book just created.
+Now you should be able to get automatic address completion for FSU email addresses.
+How to keep local copies of IMAP messages?
+Go to "Account Settings... / Offline & Disk Space" of the mailbox in question
+Check "When I create new folders, select them for offline use"
+Click on "Select folders for offline use..." button and check folders you want to keep local copies.
+This is helpful on laptops so you can still read old messages when network connections are not available.
+If you wonder where the messages are saved, go to "Accoutn Settings / Server Settings", "Local directory" should display the folder.
+How to change the original message indicator from the colored bars to the traditional >?
+Go to "Account Settings...
+/
+Composition & Addressing
+"
+Uncheck "Compose messages in HTML format"
+This is equivalent to "mail.identity.default.compose_html = false"
+How to setup calendar in Thunderbird?
+Download
+Lightning plugin
+for Thunderbird, which also provide "Tasks" service
+One main drawback of the Tasks is the inability to save tasks and to transport them. If you have Gmail account, you are encouraged to use
+Google Calendar
+and its Tasks service instead.
+Lightening plugin serves as a portal for various calendars you may have: FSU calendars, Google calendars and others. If you prefer a separate application altogether, use
+Sunbird
+. It is better to use Lightning plugin to only view the various calendars since changing calendar events may require complicated authentications. Its reminders may not be working properly each time you reload the calendars. SyncCGP plugin may help where Lightning is lacking, but we will try to keep things simple for now.
+Install Lightning as follows
+In Thunderbird, go to
+          "Tools / Add-ons"
+Click "Install" button, and select the file you 
+          downloaded and click "OK". Restart Thunderbird.
+Under Calendar, go to "Calendar / New Calendar..."
+Select "On the network" and click "Next".
+For Google calendars, select "iCalendar" and enter in the "Location" with the private URL
+provided by Google
+unless your calendar is publicly available
+For FSU calendars, select "Sun Java System Calendar Server (WCAP)" with "Location: https://webmail.fsu.edu:83" as shown below
+FSU calendars can be configured via http://webmail.fsu.edu. Refers to
+this
+.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Outlook FAQ - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/234-outlook-faq
+
+Outlook FAQ
+Make sure you turn off forwarding from fsu.edu to scs.fsu.edu and turn on forwarding from scs.fsu.edu to fsu.edu. The former is to prevent forward loops, the latter is to prevent duplicates when moving and synchronizing the two mailboxes or folders. Here is a brief summary of these two steps.
+Turn off forwarding from fsu.edu
+Login http://webmail.fsu.edu
+From top menus, click Options/Mail/Settings
+Uncheck "Enable forwarding" or at least remove
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+and other CSIT and SCRI accounts from "Mail Forwarding list:" if any
+Turn on forwarding from scs.fsu.edu
+Login http://mail.scs.fsu.edu
+Click on Options/Filters from the left menu and Forward from the top menu
+Type your
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+in "Address(es) to forward to:" field
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Integrated Technology Plan - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/242-it-plan
+
+Integrated Technology Plan
+
+---
+
+Title: Multifunction Printers - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/268-mfps
+
+Multifunction Printers
+Ricoh MP 25555 / IM C3000
+No code required for printing and scanning. To make copies at the console, enter your code.
+Scan documents to email address
+At the copier console, press "Scanner (Classic)" / "Search Dest..." / "LDAP" / "Email Address"
+Now enter a few characters, press "Start Search" and select the desired entries from list.
+For more details, check
+Basic Procedure for Sending Scan Files by E-mail
+Make photo copy of business / ID cards
+At the copier console, press "Copier (Classic)" / "1 Sided->Combine 1 Side". Put business / ID card on glass pane at upper left corner. This will copy both sides of cards onto one page.
+Print confidential documents
+You can use "Locked Print" feature to print a document, then go to the console, press "Printer (Classic)" and enter the passcode to receive it so that no one else will take/view it by mistake.
+How to use the Locked Print function
+Bizhub C364
+We have two color Bizhub C364 muti-function printers: mfp420 and mfp150v queues. Black/white only Bizhub 363 is the counterpart of C364: mfp473 queues. Please contact David Amwake for your copy/scan code.
+Console access at the printers
+At the logon touch screen, press keyboard icon and enter the code.
+"OK" / "Login" to access the system
+Press "Access" on keypad to logout when finished
+How to scan documents in PDF and send to email address?
+NOTE: Use
+Compact PDF
+under "File Type" to minimize file size. Otherwise you may lose the scan in email if its size is over 20MB.
+Login if necessary
+Press "Fax / Scan" button, select "Addr. Search" tab on touch screen
+(If you want to enter email address manually, selecct "Direct Input" tab)
+"Search" / type in few letters of your name / "Start Search"
+Touch the address or addresses to select or deselect / "OK"
+(touch once to select, twice to deselect)
+If you need to scan multiple sets from the glass or automatic document feeder (ADF), touch "Applications" / "Separate Scan" / "ON"
+If necessary, touch "Applications" / "Simplex/Duplex" and/or "Resolution" and/or "File Type" / "OK" to customize
+Press "Start" on keypad to begin scanning
+Press "Access" on keypad to logout when finished
+Addressees should receive the scanned documents in a few minutes. Note network condition and email server policies can affect the delivery. You may need to check with the network and email administrators if you are dealing with large files and non-PDF format. Otherwise use scan to USB instead.
+How to scan unto USB key?
+Login if necessary
+Plug in USB drive, connector is located on the right side in the back
+Press "User Box" button
+Touch "Save Document" / "System User Box" tab / "External Memory" / "OK"
+("External Memory" will not be present without USB drive plugged in)
+If customized document name is preferred, touch "Document Name" / press "C" on keypad to clear default name / type in the new name / "OK"
+If necessary, touch "Scan Settings" / "Simplex/Duplex" and/or "Resolution" and/or "File Type" / "OK" to customize
+The default is to scan PDF document as single-sided in one continuous process (no pause or changing/feeding another set of papers)
+If you need to scan multiple pages from the glass or manual feed ADF, touch "Scan Settings" / "Separate Scan" (toggle) / "OK"
+Press "Start" on keypad to begin scanning
+Press "Access" on keypad to logout when finished
+How to print to them?
+Setup printers on your computer: mfpxxx, mfpxxx_color, mfpxxx_duplex. The numbers xxx can be 420, 473, or 150v. Refer to
+this guide
+if needed
+Color printing will be accounted for by users. All printing are logged, but B/W printing are not accounted
+If you need help, please email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Terms
+MFP = Multifunction Printer
+ADF = Automatic Document Feeder
+USB = External Memory
+User Box
+Toggle
+Separate Scan
+Legal = 8.5 x 14
+Ledger = 11 x 17
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Hosting Policy - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/287-hosting-policy
+
+Hosting Policy
+Support for non-DSC HPC systems
+The DSC plays a major rule in the support of FSU's computational infrastructure by providing expert technical support in advanced computing. In addition to the management of FSU's shared multidisciplinary HPC (see http://hpc.fsu.edu), the DSC has also invested a large sum of funds to develop a computing facility located in the center of the main FSU campus. This facility is currently equipped with 1000 square feet of raised floor, battery backup power, high-speed network connectivity to the campus network backbone and the Florida Lambda Rail, and 80 tons of cooling.
+As part of it's service to University, the DSC hosts computational servers owned by other FSU academic units on a first-come, first-served basis until 25% of the DSC machine room cooling, electrical, or floor capacity is reached. Once the capacity of the room is reached, the DSC will not support additional machines.
+Eligibility
+All units within the College of Arts and Sciences are eligible to have machines hosted in the DSC computer room.  The DSC's Local Systems Committee will evaluate each request on a case-by-case basis and will agree to host machines provided the capacity allocated for non-DSC systems has not been reached and the requirements listed below are met.
+Requirements
+Each of the requirements enumerated below is described in greater detail in the following pages.
+The DSC is not responsible for incidental costs associated with the installation or maintenance of computer systems hosted in the DSC computer room.
+Requests to house computer systems in the DSC computer room must include a detailed hardware proposal.
+Requests to house computer systems in the DSC computer room must include a proposal describing how the computer systems will be managed.
+Computer systems hosted in DSC computer room are required to run the DSC load distribution system.
+Requests to house computer systems in the DSC computer room must include a designated faculty liaison from within the unit making the request.
+For questions or information regarding availability contact Jim Wilgenbusch at 645-0307 or
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+1. Incidental costs
+In addition to the substantial costs of providing a cold room with reliable power, there are a number of "incidental" costs associated with hosting computer systems.   These costs include server racks, power distribution units (PDUs or power strips), and network switches.  The DSC is not responsible for covering incidental costs.  At a minimum, the DSC will provide a single outlet for each electrical circuit required to power the computer system and a single 10/100/1000 network uplink in the vicinity of the computer system.  The cost of incidentals (e.g., racks, PDUs, and network connectivity) can either be included in the price of a fully integrated system or the DSC will provide these items at cost.  In order to avoid half empty racks, the later option may be required. For example, if a group plans to purchase a small number of servers, then the DSC would prefer to use an existing rack, PDU, and network switch.  In this case, costs will be assessed according to the portion of the resource being used.
+2. Hardware proposal
+Requests to house computer systems in the DSC computer room must include a detailed hardware proposal.  An agreement to house a computer system in the DSC computer room is limited to the hardware described in the proposal.  This requirement is intended to safeguard against someone purchasing hardware that is in some way incompatible with the DSC machine room infrastructure.  In addition, the hardware proposal is needed to estimate the power, space, and cooling requirements of the computer system so that we do not exceed the capacity of the DSC computer room.  The DSC has a wealth of experience with numerous hardware vendors and can create the hardware proposal on the behalf of unit making the request.
+Hardware proposals must include the following information:
+Server rack dimensions *
+Switch type and size *
+PDU type and quantity *
+Chassis type per unit
+CPU type and quantity per unit
+Motherboard type per unit
+Ethernet or network adapter type and quantity per unit
+Hard drive type and quantity per unit
+Memory type and quantity per unit
+Type and quantity of all peripheral devises that will be part of the computer system (e.g. disk arrays, CD/DVD drives, etc.)
+* if not using equipment provided by the DSC
+3. Management proposal
+Requests to house computer systems in the DSC computer room must include a proposal describing how the computer system will be managed.  Two general administrative options are available; 1. the DSC will manage the computer system, and  2. the unit making the request will manage the computer system.
+Option 1: DSC manages the computer system
+Option 1 gives a group access to a computational resource without the hassle of having to administer it.  The DSC will agree to manage a computer system only if the DSC is given discretion to choose the hardware, the operating system, and the tools used to update and distribute software on the computer system. The DSC systems manager determines who is granted access to privileged commands. Access to privileged commands will be controlled by the "sudo" command; root logins are not permitted. Only members of the DSC systems group will know the root password. The DSC systems manager will determine the update cycle of the core operating system and system software.
+Option 2: Non-DSC unit manages the computer system
+If a unit chooses to manage their own computer system, then a qualified systems administrator must be designated to manage the resource.  The required management proposal must address in detail how the designated systems administrator will tend the following tasks: account management, disk management, network management, system installation, software management, security, systems management, user support, hardware support, and administration of purchase and warranty information. Systems not managed by the DSC will be relegated to a separate secure network.  A firewall will monitor incoming and outgoing network traffic and the DSC systems manager will determine the stringency of the firewall. Access the machine room will be limited to the designated systems administrator.  Members of the DSC systems group will have root access to all systems housed in the DSC computer room.
+4. Cycle sharing
+In order to maximize throughput on DSC and non-DSC computational servers and cluster nodes, the DSC uses a job scheduling and queuing system called Condor (http://www.cs.wisc.edu/condor/). All of the computer systems housed in the DSC computer room must participate in this system.  The Condor system allows fine-grain configuration of policies to support distributively owned computing resources.  For example, specific nodes can be configured to "prefer" jobs submitted by specific users. This way, a resource owner will have limited access to all of the DSC computational resources and guaranteed access to his or her machines. This system ensures that cycles are not wasted if the primary resource owner is not using them.
+While the Condor system provides some important advantages to managing and distributing computationally intensive jobs, a resource owner is not obligated to use it.  For example, a resource owner can run jobs interactively on any of his or her computer systems and his or her jobs will preempt jobs managed by the Condor system.  Circumventing the Condor system in this way is to the disadvantage of the resource owner, however.   By submitting jobs through the Condor system, a resource owner will not only have guaranteed access to his or her machines, but the Condor system will also provide access to the other machines housed in the DSC machine room.
+5. Faculty Liaison
+Requests to house computer systems in the DSC computer room must include a designated faculty liaison from within the unit making the request. The liaison will be responsible for conveying information to the users of the computer system housed in the DSC computer room.  If the DSC agrees to manage a computer system, the faculty liaison is responsible for approving account requests, requesting changes to a user's priority, and requesting software installations.  The authority to make these requests can be transferred to a designate person (e.g., graduate student) at the written request of the faculty liaison.
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Firefox/Thunderbird Troubleshooting - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/290-firefox-troubleshooting
+
+Firefox/Thunderbird Troubleshooting
+If Firefox will not start it is probably because the lockfiles weren't cleaned up
+# killall -9 firefox
+# /panfs/panasas1/system/sysfiles/usrcommon/scripts/cleanFirefox.sh
+# /panfs/panasas1/system/sysfiles/usrcommon/scripts/cleanThunderbird.sh
+Useful firefox options
+firefox -P
+firefox -no-remote
+firefox -safe-mode
+Details
+
+---
+
+Title: Stereographic Visualization - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/306-stereographic-visualization
+
+Stereographic Visualization
+The Department of Scientific Computing hosts a high resolution stereographic projection system designed to support multidisciplinary scientific visualization in its seminar room located on the 4th floor of Dirac Science Library.  The equipment was acquired in large part thanks to a Major Research Instrumentation grant from the
+National Science Foundation
+.
+The room can seat approximately 100 people.
+Equipment
+The SCS seminar room is equipped with a presentation console where a variety of A/V devises can be controlled by using a simple touch panel controller.  The following devises/connections are provided:
+one windows XP workstation for DVI and stereo displays (full screen resolution is 2480 x 1050)
+two connections for laptops (one cat5 cable, plus the campus wireless is available)
+one document camera
+one DVD/VHS player
+limited cable TV
+stereo audio output from the workstation, DVD/VHS player, and cable TV
+wireless microphone
+The following is a picture of the touch panel used to access the available input devises.
+A view of the four-high resolution projectors used to illuminate the 17.5' x 7.5' screen. The bottom two projectors are used in 2d mode, while all four are used when the system is in 3d mode.
+Use
+Coming soon.
+Reservations
+Subject to availability, the seminar room may be booked by non-DSC faculty and staff.
+Old Documentation
+FSU VizWall FAQ
+Stereo Workstation Usage Guide
+Amira Tutorial for Creating Stereo (3D) Movies
+Attachments:
+File
+Description
+File size
+xpo_user_manual.pdf
+XPO user manual
+660 kB
+StereoWallIntro.pdf
+Introduction to the StereoWall
+9774 kB
+Control Interface
+Control Interface
+85 kB
+Details
+
+---
+
+Title: Gnuplot - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/322-gnuplot
+
+Gnuplot
+Gnuplot  is a portable command-line driven interactive data and function plotting utility for UNIX, IBM OS/2, MS Windows, DOS, Macintosh, VMS, Atari and many other platforms. The software is copyrighted but freely distributed (i.e., you don't have to pay for it). It was originally intended as to allow scientists and students to visualize mathematical functions and data. It does this job pretty well, but has grown to support many non-interactive uses, including web scripting and integration as a plotting engine for third-party applications like Octave. Gnuplot has been supported and under development since 1986. For more information see the
+Gnuplot homepage
+.
+Details
+Written by
+Michael McDonald
+Supported Applications
+
+---
+
+Title: ImageMagick - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/323-imagemagick
+
+ImageMagick
+ImageMagick is a software suite to create, edit, and compose bitmap images. It can read, convert and write images in a variety of formats. For more information, see the
+ImageMagick website
+.
+Details
+Written by
+Michael McDonald
+Supported Applications
+
+---
+
+Title: LaTeX - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/324-latex
+
+LaTeX
+LaTeX is a document preparation system for high-quality typesetting.
+It is most often used for medium-to-large technical or scientific
+documents but it can be used for almost any form of publishing.
+Home Page:
+http://www.latex-project.org/
+Distribution Specific Information:
+http://www.tug.org/tetex/
+General Tutorials
+http://www.latex-project.org/guides/
+Use
+Open an X11 terminal (if you do not use an X windows enabled terminal Maple will run in the command-line mode).
+TeXMaker is the LaTeX frontend.
+LaTeX is available from on almost every computer managed by DSC, to execute it type
+latex filename.tex
+pdflatex filename.tex
+pslatex filename.tex
+Missing Style Files
+You may request TSG to install standard packages by emailing
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+, or download and put them in ~/texmf/.  The following commands can be helpful:
+kpsewhich filename.sty
+kpsewhich -var-value=TEXMFHOME
+If you have filename.ins, filename.sty can be generated by running:
+latex filename.ins
+Details
+Written by
+Michael McDonald
+Supported Applications
+
+---
+
+Title: MATLAB - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/325-matlab
+
+MATLAB
+MATLAB, the MATrix LABratory, is a high-level technical computing language and interactive environment for algorithm development, data visualization, data analysis, and numeric computation. Using MATLAB, you can solve technical computing problems faster than with traditional programming languages, such as C, C++, and Fortran.  For more see:
+MathWorks MATLAB website
+and
+Origins of MATLAB
+.
+The primary benefits of developing a project with MATLAB include: efficient, concise array manipulations; availability of many already-implemented numerical routines (via the standard distribution, add-on toolboxes, or online software repositories); and the large community of users available for support. One particularly active MATLAB community and software repository is MATLAB Central. For more see:
+MATLAB Central
+Toolboxes
+Toolboxes are add-ons to the standard MATLAB distribution. They provide additional functionality within a targeted application area. DSC has the following toolboxes available (current as of Spring 2009):
+Control System Toolbox
+Fixed-Point Toolbox
+Image Processing Toolbox
+Mapping Toolbox
+Neural Network Toolbox
+Optimization Toolbox
+Partial Differential Equation Toolbox
+Signal Processing Toolbox
+Statistics Toolbox
+System Identification Toolbox
+Wavelet Toolbox
+For more see:
+MathWorks Product Listing
+High-Performance Computing with MATLAB
+Beginning with MATLAB R2007b, new features have been implemented in the official MathWorks MATLAB distribution that allow for parallel and distributed computing. The MATLAB Distributed Computing Engine, used in conjunction with Distributed Computing Toolbox, enables MATLAB and Simulink users to execute applications on a computer cluster.  For more see:
+Cleve's Corner: Parallel MATLAB: Multiple Processors and Multiple Cores
+.
+MatlabMPI is set of MATLAB scripts that implement a subset of MPI and allow any MATLAB program to be run on a parallel computer. The key innovation of MatlabMPI is that it implements the widely used MPI look and feel on top of standard MATLAB file i/o, resulting in a pure MATLAB implementation that is exceedingly small (~300 lines of code). Thus, MatlabMPI will run on any combination of computers that MATLAB supports.  For more see:
+MATLAB MPI
+.
+Running MATLAB
+With the exception of the classroom and hallway computers, MATLAB access is available only on the
+General Purpose (GP) Cluster through SGE
+. Unless initiated through an X11-capable terminal (i.e. Gnome Terminal, xterm, rxvt, etc.), MATLAB will start in a text-only command-line mode.
+NOTE:
+To force MATLAB to run in command-line mode use the following flags:
+matlab -nodesktop -nojvm -nosplash
+-nodesktop
+Start MATLAB without its desktop.
+-nojvm
+Start MATLAB without the Java virtual machine (JVM).
+-nosplash
+Start MATLAB but does not display the splash screen.
+DSC General Access
+MATLAB must be run remotely using SGE
+Open an X11 terminal and type:
+qlogin
+SGE will locate the least-loaded classroom node and initiate a connection.
+After authenticating, type:
+matlab
+If
+qlogin
+is not available on your machine, you must run the above commands from the PAMD cluster.
+SSH to pamd:
+ssh -X pamd.sc.fsu.edu
+Then follow the above instructions.
+Classroom and Hallway Computers
+MATLAB is installed locally on each machine.
+Open an X11 terminal and type:
+matlab
+In Batch Mode
+There are circumstances where a user would want to run MATLAB without its graphical user interface (GUI). For example, a user may want call a MATLAB script from a Makefile, or submit multiple batch jobs to a queuing system.
+From a Makefile
+Use the following syntax:
+cd WORKING_DIRECTORY && matlab -nosplash -nojvm -r PATH_TO_MATLAB_SCRIPT
+where
+WORKING_DIRECTORY
+is the directory that MATLAB will work in.
+PATH_TO_MATLAB_SCRIPT
+is the path to the MATLAB m-file you wish to run
+Learning MATLAB
+There are a plethora of beginning MATLAB tutorials on the internet.  A few are listed here:
+Numerical Computing with MATLAB
+http://www.math.utah.edu/lab/ms/matlab/matlab.html
+http://www.math.mtu.edu/~msgocken/intro/intro.html
+One of the most overwhelming parts of learning MATLAB is becoming familiar with all of its functions. A useful resource is
+MATLAB Help
+Details
+Written by
+Michael McDonald
+Supported Applications
+
+---
+
+Title: R - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/326-r
+
+R
+R is a language and environment for
+statistical computing and graphics.  It is a
+GNU
+project
+which is similar to the S language and environment which
+was developed at Bell Laboratories (formerly AT&T, now Lucent
+Technologies) by John Chambers and colleagues.  R can be considered as
+a different implementation of S. There are some important differences,
+but much code written for S runs unaltered under R.
+R provides a wide variety of statistical (linear and nonlinear
+modelling, classical statistical tests, time-series analysis,
+classification, clustering, ...) and graphical techniques, and is
+highly extensible.  The S language is often the vehicle of choice for
+research in statistical methodology, and R provides an Open Source
+route to participation in that activity.
+One of R's strengths is the ease with which well-designed
+publication-quality plots can be produced, including mathematical
+symbols and formulae where needed.  Great care has been taken over the 
+defaults for the minor design choices in graphics, but the user
+retains full control.
+R is available as Free Software under the terms of the
+Free Software Foundation
+'s
+GNU General Public License
+in source code
+form. It compiles and runs on a wide variety of UNIX platforms and
+similar systems (including FreeBSD and Linux), Windows and MacOS.
+For more information see the R
+website
+.
+Running R
+R access is available only on the General Purpose (GP) Cluster through SGE.
+Unless initiated through an X11-capable terminal (i.e. Gnome Terminal, xterm, rxvt, etc.), R will start in a text-only command-line mode.
+% ssh pamd
+% qlogin -l r
+% R
+Details
+Written by
+Michael McDonald
+Supported Applications
+
+---
+
+Title: Mathematica - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/330-mathematica
+
+Mathematica
+Mathematica is a general purpose computer algebra system, that can be used to solve mathematical problems and produce high-quality technical graphics. Mathematica uses a high-level programming language, which allows for numerical and symbolic solutions and gives users a way to define their own procedures. it also has some built in packages, which may be loaded to do work in group theory, linear algebra, and statistics, as well as in other fields. It can be used interactively or in batch mode.
+Home Page:
+http://www.wolfram.com/products/mathematica/index.html
+General Links
+http://www.wolfram.com/broadcast/screencasts/
+http://reference.wolfram.com/mathematica/guide/Mathematica.html
+http://support.wolfram.com/
+Use
+Current floating network license allows Mathematica to be installed on any client belong to the Department. Use
+license.sc.fsu.edu
+as License Manager (LM) server in such deployment. Mathematica is currently installed on classroom and hallway computers as well as GP cluster. Other installations may be requested through
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Open an X11 terminal (X-Win32 for Windows users). If you do not use an X windows enabled terminal Mathematica will return error like this:
+X connection to localhost:... broken (explicit kill or server shutdown).
+From an DSC managed desktop (e.g., hostname is dskscs***.sc.fsu.edu) type:
+qlogin -l mathematica
+From all other machines first log in to pamd.sc.fsu.edu
+ssh -Y pamd.sc.fsu.edu
+then type:
+qlogin -l mathematica
+This command logs you onto the least loaded GP node
+At GP prompt, type one of the following commands:
+mathematica
+mathematica -cleanStart
+mathematica -mesa
+mathematica -defaultvisual
+unset LD_LIBRARY_PATH; mathematica
+To use the non-graphical version of Mathematica type one of these:
+math
+math -noprompt < batchfile
+math -lmverbose
+math -noinit
+Details
+Written by
+Xiaoguang Li
+Supported Applications
+
+---
+
+Title: GNU Compiler Collection (GCC) - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/334-gcc
+
+GNU Compiler Collection (GCC)
+The GNU Complier Collection (GCC) is an integrated compiler that can compile programs written in C, C++, and Fortran. GCC is both the most general name for the compiler suite, and the name used when the emphasis is on compiling C programs (as the abbreviation formerly stood for "GNU C Compiler"). For more information see the
+GNU GCC website
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: g++ - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/335-g
+
+g++
+The command
+g++
+invokes the C++ compiler from the GNU Compiler Collection (GCC). C++ source files conventionally use one of the suffixes
+.C
+,
+.cc
+,
+.cpp
+,
+.c++
+,
+.cp
+, or
+.cxx
+; preprocessed C++ files use the suffix
+.ii
+. GCC recognizes files with these names and compiles them as C++ even when invoked as
+gcc
+.  However, C++ programs often require additional class libraries, and under some circumstances you might want to compile programs from standard input, or otherwise without a suffix that flags them as C++ programs.
+g++
+is a program that calls GCC with the default language set to C++, and automatically specifies linking against the C++ library.
+When you compile C++ programs,  you may specify many of the same command-line options that you use for compiling programs in any language; or command-line options meaningful for C and related languages; or options that are meaningful only for C++ programs. These options may be found in the
+GCC documentation
+or on the
+GCC web site
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: g77 - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/336-g77
+
+g77
+g77 is a free Fortran 77 compiler.
+For info on G77, now integrated into the GNU Compiler Collection (GCC),
+see
+the online g77
+documentation
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: g95 - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/337-g95
+
+g95
+GNU FORTRAN 95.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: GSL - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/341-gsl
+
+GSL
+The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.  For more information, see the
+GSL website
+or
+reference manual
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: LAPACK - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/342-lapack
+
+LAPACK
+LAPACK, a Linear Algebra PACKage, is written in Fortran90 and provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. The associated matrix factorizations (LU, Cholesky, QR, SVD, Schur, generalized Schur) are also provided, as are related computations such as reordering of the Schur factorizations and estimating condition numbers. Dense and banded matrices are handled, but not general sparse matrices. In all areas, similar functionality is provided for real and complex matrices, in both single and double precision.
+LAPACK provides a library of routines that can be linked to your executables.  To link your executable to the LAPACK library, use the option
+-llapack
+.  Note that you may also need to link to the BLAS library.  See the
+LAPACK website
+for additional information.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: Super LU - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/343-superlu
+
+Super LU
+Super LU is a general purpose library for the direct solution of large,
+sparse, nonsymmetric systems of linear equations on high performance
+machines. The library is written in C and is callable from either C or
+Fortran. The library routines will perform an LU decomposition with
+partial pivoting and triangular system solves through forward and back
+substitution. The LU factorization routines can handle non-square
+matrices but the triangular solves are performed only for square
+matrices. The matrix columns may be preordered (before factorization)
+either through library or user supplied routines. This preordering for
+sparsity is completely separate from the factorization. Working
+precision iterative refinement subroutines are provided for improved
+backward stability. Routines are also provided to equilibrate the
+system, estimate the condition number, calculate the relative backward
+error, and estimate error bounds for the refined solutions.
+For more information see the Super LU
+website
+or its
+users' guide
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: GROMACS - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/344-gromacs
+
+GROMACS
+GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles.  It is primarily designed for biochemical molecules like proteins and lipids that have a lot of complicated bonded interactions, but since GROMACS is extremely fast at calculating the nonbonded interactions (that usually dominate simulations) many groups are also using it for research on non-biological systems, e.g. polymers.
+GROMACS supports all the usual algorithms you expect from a modern molecular dynamics implementation.
+For more information, check the
+GROMACS website
+or the
+GROMACS tutorials
+.
+Details
+Written by
+Michael McDonald
+Supported Libraries & Compilers
+
+---
+
+Title: Using SSH - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/345-using-ssh
+
+Using SSH
+Passwordless authentication
+Note:
+Passwordless authentication has been disabled on the
+pamd
+servers. However, once inside our network you can setup passwordless ssh to other hosts normally.
+Below you'll find the "barebones" steps needed to connect to a remote machine without having to enter your password. This is NOT a comprehensive explanation of how ssh or passwordless authentication works, rather it is simply some notes that I've kept to get ssh to work for my purposes. You should also know that setting up passwordless authentication for
+your account and machine will expose you to at least one security vulnerability. For example, if someone logged into your account on your machine then they can access any other machine that has been configured to accept passwordless authentication. That said, here's how to do it.
+There are two versions of ssh and each version has a slightly
+different way of authenticating. I'll break things down into multiple
+parts to cover all of the ways you could connect to the different
+clients. To find out what version off ssh you are using type:
+ssh -V
+You'll either get something that has the string OpenSSH in it or something like this,
+SSH Secure Shell 3.1.0 non-commercial version
+. I'll refer to the former as OpenSSH and to the later as ssh.com
+OpenSSH to OpenSSH
+Most SCS systems are configured to use OpenSSH, which will make your life considerably more simple. The most notable exception to this is the IBM SP machines. The IBMs use the ssh.com version of ssh. It is still possible to connect to machines using differenct implementations of SSH, but it adds an extra layer of work that I will talk about later. In this section I'll discuss how to setup passwordless authentication between a host and a server running openSSH.
+First, you need to create a public key using the following command:
+ssh-keygen -t dsa
+You'll be prompted for a passphrase and you might be prompted to name the identity files. Leave them blank and hit return.
+Generating public/private dsa key pair.
+Enter file in which to save the key (~/.ssh/id_dsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in id_dsa.
+Your public key has been saved in id_dsa.pub.
+The key fingerprint is:
+af:02:20:6e:05:96:84:5a:cc:2c:0a:1e:db:bb:1c:8b
+In this step, two files were generated; one is the local identity file (id_dsa) and the other is the public key that will go into a specific file on the remote host. If the remote host mounts your SC home directory then this step is simple. Change directories to thehidden ssh configuration directory:
+cd ~/.ssh
+Copy the contents of id_dsa.pub into the authorized_keys2 file.
+cat id_dsa.pub >> authorized_keys2
+Notice that I've used the append redirect (>>) because you can have multiple host identity keys in the same authorized_keys2 file. The important thing here is that each key must occupy its own line. If you don't yet have an
+authorized_keys2
+file then you can do something like this:
+cat id_dsa.pub > authorized_keys2
+That's it. You should now be able to logon to a remote host that is mounting your SCS home directory without having to type in your password. If you are attempting to connect to a remote server that doesn't mount the the CSIT user file system then you will need to copy the public key to the sever and paste or redirect the file into the authorized_keys2 file. For example:
+scp ./id_dsa.pub faroffserver.bingo.org:.ssh/.
+ssh remoteHost.bingo.org
+remoteHost> cd .ssh
+remoteHost> cat id_dsa.pub >> authorized_keys2
+note! if the file doesn't exist you'll need to do this:
+remoteHost> cat id_dsa.pub > authorized_keys2
+OpenSSH to ssh.com
+Now you want to connect to a remote server using the ssh.com implementation of ssh from a host that's using OpenSSH. This would be the case if you wanted to connect to one of SCS's IBM machines from most of the other SCS machines. Start by generating an ssh.com (SECSH) formatted public key from the OpenSSH public key already in your .ssh directory and put the new key in the right place. Here's what you'll do:
+cd ~/.ssh
+ssh-keygen -e -f id_dsa.pub > id_dsa_secsh.pub
+SSH.com stores it's configuration files in a hidden directory called .ssh2. If you are trying to connect to a remote machine that mounts the SCS user file system then you'll need to create the .ssh2 directory if doesn't already exist.
+mkdir ~/.ssh2
+cd ~/.ssh2
+Next you will need to copy the new file to the .ssh2 directory and configure the authorization file so that it knows where to look to find the key.
+cp ~/.ssh/id_dsa_secsh.pub ~/.ssh2/.
+echo Key id_dsa_secsh.pub >> authorization
+Again, if the authorization file doesn't exist then you'll need to do:
+echo Key id_dsa_secsh.pub > authorization
+That's it. If the remote server to which you are trying to connect does not mount the DSC file system then you will copy the key file to the remote machine and then logon to the machine and make the changes described above.
+SSH.com to OpenSSH
+Much of what is needed in the section is covered more verbosely
+above so I'm going to stick to the commands needed to configure a local
+host running ssh.com (local) to connect to a remote host running
+OpenSSH (remote).
+local> ssh-keygen -t dsa
+local> echo IdKey id_dsa_1024_a > identification
+local> scp id_dsa_1024_a.pub remote.fsu.edu:.ssh/.
+remote> cd .ssh
+remote> ssh-keygen -f id_dsa_1024_a.pub -i > newkey.pub
+remote> cat newkey.pub >> authorized_keys2
+That's it.
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Printing FAQ - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/352-printerfaq
+
+Printing FAQ
+DSC has consolidated all of its printing and copying options under one contract with three Konica Minolta multifunction printers.  As part of this contract, the department is now charged 6 cents per color page, 1 cent per grayscale page.  For this reason we have implemented a print accounting systems based on Pykota on top of CUPS.  If you have any problems with printing please consult the FAQ below.  If you do not find your answer here please contact TSG with your job number and a description of the issue.
+Q: What is my quota?
+A: The default quotas were determined by the department to be $30 per semester (6months) for faculty and $10 per semester (6 months) for students.  Color pages cost 6 cents per page, grayscale 1 cent per page.
+Q: How do I find out the current balance of my quota?
+A: We have made an interface for you to review the quota and print jobs that can be found from the print quota link on the main page (note you must be logged in to see this).
+Q: Why don't I have a quota set?
+A: If you have no quota set this means you aren't listed as being part of the department, if this is a mistake please contact
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+and we will correct it.
+Q: Can I still print if I have no quota or I have used it all up?
+A: Yes you should still be able to print if you add more credit to the account.
+Q: How do I increase my quota if I need it?
+A: You can contact Michele Locke and arrange for additional money to be placed on your account that will allow you to print additional pages.
+Q: I am printing from my personal laptop, why do none of my jobs get printed?
+A: When printing from your personal computer it is important to make sure that the username of your own machine matches your SC/FSU username.  Each print job needs to correspond to a user for accountability. If printing with command lpr, this can be done with the -U
+flag. It is also important to put your personal computer on the proper network via VPN or otherwise.
+Q: My print job seems to sit around in the queue for a long time. Why?
+A: There can be a lot of reasons.  The most important of which is that these are multifunction printers, if someone is copying or scanning with them, they will be unavailable for printing.  Check and see if the printer is busy.  Also only one print job can be sent to the printer at a time, this means that if someone else prints a job to a queue that is set for the same printer, one job will have to wait for the other to complete first. Email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+if attention is needed.
+Details
+
+---
+
+Title: NetBeans - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/355-netbeans
+
+NetBeans
+NetBeans is an ide for developing Java. More information can be found at the
+NetBeans website
+as well as a
+tutorial introduction
+.
+Use
+Open an X11 terminal (if you do not use an X windows enabled terminal this package will not work).
+If NetBeans is installed locally on your machine (i.e., in the VisLab), type:
+netbeans
+Otherwise, from an DSC managed desktop (e.g., hostname is dsksc***.sc.fsu.edu) type:
+qlogin -l netbeans
+From all other machines first log in to pamd.sc.fsu.edu
+ssh -Y pamd.scs.fsu.edu
+Then type:
+qlogin -l netbeans
+This command logs you onto the least loaded GP node. Type:
+netbeans
+Details
+
+---
+
+Title: PETSc - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/356-petsc
+
+PETSc
+PETSc, pronounced PET-see (the S is silent), is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations.  It employs the MPI standard for all message-passing communication.  See the
+PETSC web pages
+for additional information.
+Details
+
+---
+
+Title: Totalview - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/357-totalview
+
+Totalview
+TotalView is a source-level and machine-level debugger with support for Fortran, C, C++, OpenMP, MPI, and threads.  The Totalview website can be found
+here
+and a general tutorial is available
+here
+.
+Details
+
+---
+
+Title: VMD - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/358-vmd
+
+VMD
+Visual Molecular Dynamics (VMD) is a molecular visualization program for displaying, animating, and analyzing large biomolecular systems using 3-D graphics and built-in scripting.  For more information, see the
+VMD home page
+or its
+documentation and tutorials
+.
+Use
+Open an X11 terminal.
+If VMD is installed locally on your machines (i.e., in the VisLab), type:
+vmd
+Otherwise, from an DSC managed desktop (e.g., hostname is dsksc***.sc.fsu.edu) type:
+qlogin -l vmd
+From all other machines first log in to pamd.sc.fsu.edu
+ssh -Y pamd.sc.fsu.edu
+then type:
+qlogin -l vmd
+This command logs you onto the least loaded GP node.  Then type:
+vmd
+Details
+
+---
+
+Title: Portland Group Compliers - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/359-portland-group-compliers
+
+Portland Group Compliers
+The Portland Group, Inc. (PGI) provides high-performance parallelizing/optimizing Fortran, C and C++ compilers for 32-bit x86 and 64-bit x64 processor-based Linux and Windows workstations, servers and clusters.  For more information, see the
+PGI home page
+.
+Note:
+The PGI compilers are not available at DSC at this time, but are available at the FSU HPC.
+Details
+
+---
+
+Title: Intel Compliers - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/360-intel-compliers
+
+Intel Compliers
+The Intel compilers provide improved performance over the GNU C/C++ compilers.  This compiler product automatically optimizes and parallelizes software to take best advantage of multi-core Intel processors.  For more information about the Intel C/C++ and Fortran compilers, look
+here
+.
+Details
+
+---
+
+Title: MPI - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/361-mpi
+
+MPI
+Message Passing Interface (MPI) is a specification for an API that allows many computers to communicate with one another.  The MPI standard includes point-to-point message-passing, collective communications, group and communicator concepts, process topologies, environmental management, process creation and management, one-sided communications, extended collective operations, external interfaces, I/O, some miscellaneous topics, and a profiling interface. Language bindings for C, C++ and Fortran are defined.  OpenMPI and MPICH2 are two popular free MPI implementations.
+Note:
+At DSC, we currently support OpenMPI and MPICH2 on
+owner-based clusters only
+.
+OpenMPI
+The Open MPI Project is an open source MPI-2 implementation that is developed and maintained by a consortium of academic, research, and industry partners.  Open MPI is a project combining technologies and resources from several other projects (LAM/MPI, FT-MPI, LA-MPI, and PACX-MPI) in order to build the best MPI library available.  OpenMPI programs must be compiled and linked with the appropriate MPI compiler.  The user creates a special environment for jobs to run in.
+MPICH2
+MPICH2 is a freely available, portable implementation of
+MPI
+, the Standard for message-passing libraries. It implements both MPI-1 and MPI-2.  MPICH2 is supposed to be a compatible replacement for any MPICH version 1 implementation. MPICH2 requires users to build and link against the set of provided routines then run in a special environment. See the
+MPICH2 documentation
+for additional specifications.
+Details
+
+---
+
+Title: Short Technical Courses - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/365-short-technical-courses
+
+Short Technical Courses
+The DSC Technical Workshop Series consists of one hour labs designed to
+give students and faculty hands on experience with a variety of
+applications used in computational science. The labs are led by SCS
+graduate students and are held in the SCS computer classroom (DSL 152)
+or Seminar room (DSL 499).
+Overview of computing resources in the DSC
+Introduction to FSU's HPC facility
+Introduction to Unix
+Introduction to Digital Video and Video Encoding
+Introduction to Software Versioning, SVN
+Introduction to shell programming
+Details
+
+---
+
+Title: Owner-Based FAQs - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/383-owner-based-faqs
+
+Owner-Based FAQs
+How do I get an account on a cluster?
+If you already have an DSC account, access can be requested through
+SCUM
+.
+These requests will be sent to the cluster owner for approval.
+If you do not already have an DSC account, you must first request a DSC sponsored account.
+To request a DSC sponsored account, go to
+SCUM
+,
+click on "Request a DSC Account", select "Sponsored Account", then select the DSC faculty member that will act as your account sponsor.
+Once the account sponsor approves your request, you can request cluster access.
+How do I log into the cluster?
+Cluster resources (compute nodes, etc.) can only be accessed through the cluster headnode.
+Inside the DSC network, cluster headnodes can be accessed using
+ssh
+.
+For example, to log into a cluster called
+phoenix
+, type:
+ssh phoenix
+If you are outside the DSC network, you must first log into PAMD to get past our firewall:
+ssh pamd.sc.fsu.edu
+ssh phoenix
+How do I compile programs?
+Use the cluster headnode to compile programs intended to run on that cluster.
+On the headnode, your default path will be set to allow access to all compilers available on that system.
+For certain proprietary compilers, licensing issues will limit the number of simultaneous compilations allowed.
+If a compilation job fails because there are no available licenses, be patient and wait for other users'
+compilation processes to complete, then attempt your compilation again.
+How do I run programs?
+The headnode must be available to provide essential services to other cluster nodes,
+so it is imperitive that resource-intensive programs are never run directly on the headnode.
+Instead, all programs should be submitted via the cluster's queuing system.
+Although
+ssh
+may be allowed to compute nodes, please refrain from using this ability to run jobs,
+because this prevents the scheduler from optimally managing the cluster's resources.
+How do I log into a specific node?
+In the event that it is necessary to direcly access a specific cluster node interactively,
+please use the cluster's queuing system.
+qlogin -q [queue-name]
+you will be given a login on a node of that type.
+If you need to log into a specific node you can use the form
+qlogin -q [queue-name]@[machine-name]
+What are the differences between the MPI implementations?
+In general, most MPI implementations provide the same functionality, but in slightly different ways.
+OpenMPI provides many utilities that make it more portable and dynamic than the others,
+making it the suggested platform for new software development.
+Occasionally programs require features that are specific to another MPI implementation.
+Other MPI implementations are available on certain clusters, but often are often less scheduler-friendly,
+and have been known to leave processes running if a job dies unexpectedly.
+Details
+
+---
+
+Title: Macintosh System Configurations - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/433-macintosh-setup
+
+Macintosh System Configurations
+Topics cover the basic system configurations for SC Macintosh clients running Leopard (OS X 10.5.x). Configurations for Tiger may vary somewhat. They allow users without local accounts to access the computer via LDAP. User files can also be saved on the network in a transparent manner. This is ideal for public Macintosh systems. Individual Macs can be configured as such with a slight twist: Mobile accounts. It provides the consistency and convenience of tapping into department resources and yet allows the freedom to logon when off campus.
+Configure the System to Use LDAP Authentication
+It may be necessary to reboot when LDAP settings have changed.
+Start /Applications/Utilities/Directory Utility or /System/Library/CoreServices/Directory, unlock and show advanced settings if needed. You need administrator access to make any changes.
+Under "Services" tab, edit LDAPv3
+Click on "New..." button
+Server Name or IP Address: ldap-vm0.sc.fsu.edu. Make sure "Encrypt using SSL" is unchecked, otherwise authentication will fail. As of this writing, this is a bug in Leopard. We can correct this setting later.
+Continue and choose template: RFC 2307 (Unix) and enter searchbase: ou=people,dc=sc,dc=fsu,dc=edu
+Save is as "LDAP" under "Configuration Name", click on "OK" to finish
+Earlier than Leopard, secure LDAP connection is not mandated. Modify the mandate by editing
+/etc/openldap/ldap.conf
+TLS_REQCERT   demand ==> TLS_REQCERT   allow
+Configure the System to Use LDAP SSL to Authenticate
+Assume LDAP authentication is configured already and you need administrator privilege
+Directory Utility
+Services
+LDAPv3
+Encrypt using SSL
+Append the following to file /usr/share/curl/curl-ca-bundle.crt
+Go Daddy Class 2 CA
+===================
+-----BEGIN CERTIFICATE-----
+MIIEADCCAuigAwIBAgIBADANBgkqhkiG9w0BAQUFADBjMQswCQYDVQQGEwJVUzEhMB8GA1UEChMY
+VGhlIEdvIERhZGR5IEdyb3VwLCBJbmMuMTEwLwYDVQQLEyhHbyBEYWRkeSBDbGFzcyAyIENlcnRp
+ZmljYXRpb24gQXV0aG9yaXR5MB4XDTA0MDYyOTE3MDYyMFoXDTM0MDYyOTE3MDYyMFowYzELMAkG
+A1UEBhMCVVMxITAfBgNVBAoTGFRoZSBHbyBEYWRkeSBHcm91cCwgSW5jLjExMC8GA1UECxMoR28g
+RGFkZHkgQ2xhc3MgMiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTCCASAwDQYJKoZIhvcNAQEBBQAD
+ggENADCCAQgCggEBAN6d1+pXGEmhW+vXX0iG6r7d/+TvZxz0ZWizV3GgXne77ZtJ6XCAPVYYYwhv
+2vLM0D9/AlQiVBDYsoHUwHU9S3/Hd8M+eKsaA7Ugay9qK7HFiH7Eux6wwdhFJ2+qN1j3hybX2C32
+qRe3H3I2TqYXP2WYktsqbl2i/ojgC95/5Y0V4evLOtXiEqITLdiOr18SPaAIBQi2XKVlOARFmR6j
+YGB0xUGlcmIbYsUfb18aQr4CUWWoriMYavx4A6lNf4DD+qta/KFApMoZFv6yyO9ecw3ud72a9nmY
+vLEHZ6IVDd2gWMZEewo+YihfukEHU1jPEX44dMX4/7VpkI+EdOqXG68CAQOjgcAwgb0wHQYDVR0O
+BBYEFNLEsNKR1EwRcbNhyz2h/t2oatTjMIGNBgNVHSMEgYUwgYKAFNLEsNKR1EwRcbNhyz2h/t2o
+atTjoWekZTBjMQswCQYDVQQGEwJVUzEhMB8GA1UEChMYVGhlIEdvIERhZGR5IEdyb3VwLCBJbmMu
+MTEwLwYDVQQLEyhHbyBEYWRkeSBDbGFzcyAyIENlcnRpZmljYXRpb24gQXV0aG9yaXR5ggEAMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBADJL87LKPpH8EsahB4yOd6AzBhRckB4Y9wim
+PQoZ+YeAEW5p5JYXMP80kWNyOO7MHAGjHZQopDH2esRU1/blMVgDoszOYtuURXO1v0XJJLXVggKt
+I3lpjbi2Tc7PTMozI+gciKqdi0FuFskg5YmezTvacPd+mSYgFFQlq25zheabIZ0KbIIOqPjCDPoQ
+HmyW74cNxA9hi63ugyuV+I6ShHI56yDqg+2DzZduCLzrTia2cyvk0/ZM/iZx4mERdEr/VxqHD3VI
+Ls9RaRegAhJhldXRQLIQTO7ErBBDpqWeCtWVYpoNz4iCxTIM5CufReYNnyicsbkqWletNw+vHX/b
+vZ8=
+-----END CERTIFICATE-----
+Append the following line
+TLS_CACERT /usr/share/curl/curl-ca-bundle.crt
+to file /etc/openldap/ldap.conf and make sure to restore allow to demand (default for Leopard)
+TLS_REQCERT   allow  ==> TLS_REQCERT   demand
+Automount Configuration for Remote Homedirectory
+Start "Directory Utility" as before, select "Mounts" tab
+Remote NFS URL: nfs://pan-nfs.sc.fsu.edu/
+Mount location: /panfs/panasas1
+NOTE: The trailing slash in the URL is critical. The absence of trailing slash in the mount location is also important.
+Configure System to Use CUPS Printers
+If users prefer more options and better control with printers, refer to
+network printer setup
+and install them with native drivers. Using CUPS printers, the administrative overhead is minimal.
+Login as administrator and create or edit /etc/cups/client.conf
+ServerName cups.sc.fsu.edu
+Now users should have direct access to all CUPS printers (reboot if necessasry). All jobs will be printed as black and white by default unlike in most other cases where color is the default.
+How to print in color via CUPS printers?
+Select "Color Matching" under Options and then "In Printer"
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Macintosh Frontpage - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/446-macintosh-frontpage
+
+Macintosh Frontpage
+This is the first page to consult for general questions about managed Macintosh systems.
+Configure Macintosh OS X (Leopard)
+TSG managed Macintosh systems are typically configured as follows. They apply to home/mobile users in most cases. If you need additional items to be addressed, please contact
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Install Leopard from scratch or via upgrade using Install DVD
+Complete current updates
+Setup LDAP
+(LDAPS to be done saparately)
+Configure MFP printers
+Office 2008 for Mac and updates
+Firefox
+and
+Thunderbird
+Setup
+ntfs-3g
+svnX
+MacTeX
+(backend) and
+TeXShop
+(frontend)
+Developer Tools and Xcode from Install DVD
+Others
+Windows for Mac Users
+Need to run virtual machines
+VirtualBox
+Need to access external NTFS partitions or hard drives
+Install
+ntfs-3g
+Need to run Windows OS on Intel Macintosh
+Install Boot Camp and latest updates
+For PowerPC users, VMware Fusion, Parallels, and other commercial packages are available
+Follow
+Windows Frontpage
+to setup Windows XP
+Want to remotely control Macintosh
+Install and configure
+Vine Server
+on OS X
+Apple Remote Desktop and other commercial solutions are available
+Users can access/control OS X from either Windows and Linux computers via VNC clients
+NOTE: this approach may not be secure enough over the public networks. To overcome that, use either ssh tunnels or other commercial grade VNC servers for Mac.
+How to change the user short name?
+This may be necessary for easy access to our MFP printers if you don't have LDAP authentication configured.
+Here is how
+.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Google Applications - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/527-google-applications97
+
+Google Applications
+The department is using Google Calendar for scheduling both individuals and resources. If you already have Gmail account, you may have found other Google applications - Docs and Sites - useful. Although we are not using FSU calendar system as a department, you may have need to collaborate with other people who do. If you have questions about using FSU calendar, please refer to
+this link
+or email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Google Calendar
+Login at
+http://calendar.sc.fsu.edu/
+You need a Google calendar account for this. Please contact
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+for help.
+If you prefer video, view
+this clip on Youtube
+.
+Click on "Settings" (upper right hand menu) if you want to customize settings
+Also available under "My calendars" or "Other calendars"
+To customize four day weather info
+Under General page
+Location: Tallahassee, FL
+Show weather based on my location: F
+To add/view/share calendars with others
+Under Calendars page
+Click "Create new calendar" button to add other calendars, for example, personal and project related
+Click on "Import calendar" link to view others calendar
+Click on "Shared: Edit settings" or your calendars link to share them
+You can only delete your own calendars, but may unsubscribe others calendars
+Screen shots for your reference
+In Calendar view (vs Settings view), you can add/remove schedules and event
+Click and drag in the proper slot to create a schedule (default 30 minute increments)"edit event details" if needed
+When and/or Repeats
+Where
+Calendar
+Description
+Reminder
+Privacy
+To delete an event, click on the event link to open the details section and "Delete" button is at the top
+Typical calendar views: by day, week and month
+To schedule a group meeting
+Create/add a schedule as above
+Open details section
+Click on "Add Guests"
+"Choose from contacts" link will start a popup window
+Select "All contacts.." from the drop-down menu or simply type in the calendar ID, for example,
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Click on the names to toggle the selection on and off
+Click on "Save" button when completed
+To customize the colors of each calendar
+Expand "My calendars" or "Other calendars" if needed
+Click on the triangle to the right of the calendar in question
+Select the desired color from the drop-down menu
+Now you can also use Google calendar to manage tasks
+Click on "Tasks" menu on the left to toggle tasks list on the right
+Type the name for your task to create one...
+Tasks can also be categorized using different lists...
+Google Documents
+When multiplatform users are involved and security is not paramount, Google Docs can be a very handy option
+Click on "Documents" link on the upper left menu from Google calendar or via http://docs.google.com/
+Google Sites
+Refer to
+Personal Website Hosting
+Click on "Sites" link on the upper left menu or via http://sites.google.com/ or http://pages.google.com/
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Personal Website Hosting - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/528-personal-website-hosting
+
+Personal Website Hosting
+There are numerous ways to host your personal website. Here are a few recommended methods:
+DSC's
+public_html
+Solution
+https://people.sc.fsu.edu/~FSUID or https://sc.fsu.edu/~FSUID
+Change permissions of your home directory
+chmod 0711 ~
+Create
+public_html
+folder in your home directory
+mkdir ~/public_html
+Change permissions of your public_html directory
+chmod 755 ~/public_html
+Add content to your
+public_html
+(space counts towards your quota)
+IMPORTANT: This will likely allow other users in the file system to read files in your home directory.  Please manage the permissions accordingly.
+Google portals and other web presence hosts
+Google Site (formerly Google Pages)
+etc...
+FSU's myWebDAV Solution
+FSU's myWebDAV Service
+. Available to all Faculty and Students.
+http://myweb.fsu.edu/FSUID
+If your website is not created yet, please submit a support ticket here,
+help.fsu.edu
+Use WebDAV clients to manage your website: e.g., My Network Places (under Windows) or Connect to Server (on the Mac)
+Details
+Written by
+Michael McDonald
+Web Design
+
+---
+
+Title: Windows X11 - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/532-windows-x11
+
+Windows X11
+To access Linux X11 resources - Matlab, Mathematica, Tecplot, Avizo, and COMSOL - from Windows computers, users need to have
+SSH Secure Shell Client
+and X-Win32 properly configured. Users will also need
+VPN client
+if connecting from off campus.
+How to turn on X11 tunneling from SSH Secure Shell Client?
+Start "SSH Secure Shell Client", go to "Profiles/Edit Profiles".
+Select 
+the profiles in question and/or Quick Connect, under "Tunneling" tab, 
+check "Tunnel X11 connections".
+If you start X-Win32 before "SSH Secure 
+Shell Client", all X11 applications will tunnel through X-Win32. Make 
+sure you allow that through the firewalls.
+How to enable X-Win32 license (for all users of the computer)?
+Ask your system administrator or email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+for help.
+After entering the correct license as username, copy file
+C:\Documents and Settings\username\Application 
+Data\StarNet\X-Win32\License.config
+to folder
+C:\Program Files\StarNet\X-Win32 9.4.
+That will enable all users of the computer to share that license.
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Seminar Room Equipment - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/620-seminar-room-equipment
+
+Seminar Room Equipment
+Problem: The screen is flickering when I connect my external device.
+Solution: Open the front door to the left cabinet/rack and power cycle the top two Cyviz boxes (switch both off for 30 seconds and then turn back on).
+Problem: The screen is missing some colors (red/green/blue) when I connect my external device.
+Solution: There is most likely faulty wiring between your device and the Extron matrix switcher. Please try the other input cable as a temporary solution and submit a help request to
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+for repair.
+Note: If any of the above solutions do not work then please seek further assistance from the Technical Support Group,
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Sun Analyzer - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/655-sun-analyzer
+
+Sun Analyzer
+Sun Analyzer Report
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Video Conferencing - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/661-video-conferencing
+
+Video Conferencing
+The attached slides were presented by Michael McDonald on November 4, 2010 at the Department of Scientific Computing. The presentation outlined the various video conferencing tools available to faculty and students. Some of the tools/clients that were covered in the presentation included:
+Skype
+Google Hangouts
+iChat
+EVO
+Access Grid
+Attachments:
+File
+Description
+File size
+Video Conferencing Presentation
+Created by Michael McDonald
+2207 kB
+Details
+Written by
+Michael McDonald
+Video Conferencing
+
+---
+
+Title: RHEL6 - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/685-rhel6
+
+RHEL6
+More reliable. More open. More comprehensive. More fun. More stable. More computing.
+With Red Hat Enterprise Linux, you can do more, not tomorrow, but today.
+Click here to read more.
+Upgrade FAQs
+Is Firefox crashing or you can't read your FSU email using Firefox?
+Backup Bookmarks - (Bookmarks->Organize Bookmarks->Import and Backup->Backup)
+close firefox
+move ~/.mozilla ~/.mozilla.backup
+Problems with Acroread Firefox plugin?
+Backup Bookmarks - (Bookmarks->Organize Bookmarks->Import and Backup->Backup)
+close firefox
+move ~/.mozilla ~/.mozilla.backup
+if the above two steps fail, then click Edit->Preferences->Applications->pdf and change the document viewer
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Usage of the HTML pre Tag - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/688-usage-of-the-html-pre-tag
+
+Usage of the HTML pre Tag
+Proper usage of the HTML <pre> tag is the following:
+code line 1
+code line 2
+code line 3
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: FSU Virtual Lab (myFSUVLab) - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/736-myfsuvlab
+
+FSU Virtual Lab (myFSUVLab)
+Did you know you can access university software without ever stepping foot on campus? Florida State University's virtual computer lab—myFSUVLab—makes it easy to use university software … anytime, anywhere. Use myFSUVLab for quick access to specialty software, such as SPSS or MATLAB, at home or on the go from any computer, tablet or mobile device. And save yourself a trip to campus.
+Click Here to Learn More About myFSUVLab
+Click Here to Launch
+myFSUVLab
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Network Time Protocol (NTP) - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/737-ntp
+
+Network Time Protocol (NTP)
+Due to security issues access to external NTP resources on the DSC network is prohibited. You may use our internal NTP servers for synchronizing your clocks.
+ntp.sc.fsu.edu
+Details
+Written by
+Michael McDonald
+
+---
+
+Title: Intel Parallel Studio - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/739-intel-parallel-studio
+
+Intel Parallel Studio
+Intel's Parallel Studio provides an comprehensive development environment and is available on classroom and hallway nodes.
+To get started using Intel(R) VTune(TM)
+Amplifier
+XE 2013 Update 2:
+To set your environment variables:
+source /opt/intel-studio/vtune_amplifier_xe_2013/amplxe-vars.sh
+To start the graphical user interface: amplxe-gui
+To use the command-line interface: amplxe-cl
+For more getting started resources:
+file:/opt/intel-studio/vtune_amplifier_xe_2013/documentation/en/welcomepage/get_started.html.
+To get started using Intel(R)
+Inspector
+XE 2013 Update 2:
+To set your environment variables:
+source /opt/intel-studio/inspector_xe_2013/inspxe-vars.sh
+To start the graphical user interface: inspxe-gui
+To use the command-line interface: inspxe-cl
+For more getting started resources:
+file:/opt/intel-studio/inspector_xe_2013/documentation/en/welcomepage/get_started.html.
+To get started using Intel(R)
+Advisor
+XE 2013 Update 1:
+To set your environment variables: source /opt/intel-studio/advisor_xe_2013/advixe-vars.sh
+To start the graphical user interface: advixe-gui
+To use the command-line interface: advixe-cl
+For more getting started resources:
+file://opt/intel-studio/advisor_xe_2013/documentation/en/welcomepage/get_started.html.
+To get started using Intel(R)
+Composer
+XE 2013 Update 1 for Linux*:
+Set the environment variables for a terminal window using one of the
+following (replace "intel64" with "ia32" if you are using a 32-bit
+      platform).
+For csh/tcsh: source /opt/intel-studio/bin/compilervars.csh intel64
+For bash: source /opt/intel-studio/bin/compilervars.sh intel64
+To invoke the installed
+compilers
+:
+For C++: icpc
+For C: icc
+For Fortran: ifort
+To get help, append the -help option or precede with the man command.
+For more getting started resources:
+file:/opt/intel-studio/composer_xe_2013/Documentation/en_US/get_started_lc.htm
+file:/opt/intel-studio/composer_xe_2013/Documentation/en_US/get_started_lf.htm
+To view movies and additional training, visit
+http://www.intel.com/software/products.
+Details
+
+---
+
+Title: FSU Calendar Service - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/243-fsu-calendar
+
+FSU Calendar Service
+If you have a question about FSU calendar in general, please email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+,
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+, or visit
+Information Technology Services
+.
+How to allow someone else to manage your calendar?
+Login at http://webmail.fsu.edu and click on Calendar (2nd tab on top menu)
+Click on drop-down list next to "Current Calendar" at upper-right corner
+Select
+Calendar Actions
+[Manage Calendars...]
+Click "Edit" an then "Share this calendar with specific users"
+Enter username and click on Add button to include this user for calendar access/management
+Check any or all access permissions to grant
+Accessibility/Read/Invote/Modify/Delete
+How to view another FSU calendar user's schedule?
+Login at http://webmail.fsu.edu and click on Calendar (2nd tab on top menu)
+Click on drop-down list next to "Current Calendar" at upper-right corner
+Select
+Calendar Actions
+[Manage Calendars...]
+Click "Subscribe..." button
+Search and select the calendars to view...
+How to ...
+Details
+Written by
+Xiaoguang Li
+
+---
+
+Title: Overview to Computing Resources in the Deptartment of Scientific Computing - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/366-overview-to-computing-resources-in-the-deptartment-of-scientific-computing
+
+Overview to Computing Resources in the Deptartment of Scientific Computing
+This event provides DSC faculty, students, and staff with a high level overview of the computing resources available in the department.  Members of the technical support group will be on hand to answer more specific questions that you might have about the department's computing resources. This event is geared toward users who have wondered where they can run lots of long serial (single processor) batch jobs, run large parallel jobs, compile software, run matlab interactively, or visualize data sets in 3d.  Slides and videos from previous presentations are given below.
+Slides
+Video
+Details
+
+---
+
+Title: Google Applications - FSUSciComp
+url: https://www.sc.fsu.edu/computing/tech-docs/527-google-applications
+
+Google Applications
+The department is using Google Calendar for scheduling both individuals and resources. If you already have Gmail account, you may have found other Google applications - Docs and Sites - useful. Although we are not using FSU calendar system as a department, you may have need to collaborate with other people who do. If you have questions about using FSU calendar, please refer to
+this link
+or email
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+.
+Google Calendar
+Login at
+http://calendar.sc.fsu.edu/
+You need a Google calendar account for this. Please contact
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+for help.
+If you prefer video, view
+this clip on Youtube
+.
+Click on "Settings" (upper right hand menu) if you want to customize settings
+Also available under "My calendars" or "Other calendars"
+To customize four day weather info
+Under General page
+Location: Tallahassee, FL
+Show weather based on my location: F
+To add/view/share calendars with others
+Under Calendars page
+Click "Create new calendar" button to add other calendars, for example, personal and project related
+Click on "Import calendar" link to view others calendar
+Click on "Shared: Edit settings" or your calendars link to share them
+You can only delete your own calendars, but may unsubscribe others calendars
+Screen shots for your reference
+In Calendar view (vs Settings view), you can add/remove schedules and event
+Click and drag in the proper slot to create a schedule (default 30 minute increments)"edit event details" if needed
+When and/or Repeats
+Where
+Calendar
+Description
+Reminder
+Privacy
+To delete an event, click on the event link to open the details section and "Delete" button is at the top
+Typical calendar views: by day, week and month
+To schedule a group meeting
+Create/add a schedule as above
+Open details section
+Click on "Add Guests"
+"Choose from contacts" link will start a popup window
+Select "All contacts.." from the drop-down menu or simply type in the calendar ID, for example,
+This email address is being protected from spambots. You need JavaScript enabled to view it.
+Click on the names to toggle the selection on and off
+Click on "Save" button when completed
+To customize the colors of each calendar
+Expand "My calendars" or "Other calendars" if needed
+Click on the triangle to the right of the calendar in question
+Select the desired color from the drop-down menu
+Now you can also use Google calendar to manage tasks
+Click on "Tasks" menu on the left to toggle tasks list on the right
+Type the name for your task to create one...
+Tasks can also be categorized using different lists...
+Google Documents
+When multiplatform users are involved and security is not paramount, Google Docs can be a very handy option
+Click on "Documents" link on the upper left menu from Google calendar or via http://docs.google.com/
+Google Sites
+Refer to
+Personal Website Hosting
+Click on "Sites" link on the upper left menu or via http://sites.google.com/ or http://pages.google.com/
+Details
+Written by
+Xiaoguang Li

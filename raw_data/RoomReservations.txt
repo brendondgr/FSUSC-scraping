@@ -1,0 +1,114 @@
+Title: Room Reservations - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations
+
+The department hosts a state of the art computer classroom, a large seminar room, and several smaller conference rooms. Use of these facilities requires advance reservations and department faculty and staff are generally given priority access.
+Articles
+Title
+Published Date
+Seminar Room (DSL 499)
+May 12 2008
+Computer Classroom (DSL 152)
+May 09 2008
+Conference Room (DSL 416)
+May 09 2008
+Executive Conference Room (DSL 401)
+May 10 2008
+Classroom (DSL 468)
+May 09 2008
+Interactive Classroom (DSL 422)
+August 23 2016
+
+---
+
+Title: Classroom - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations/classroom
+
+Classroom (DSL 468)
+This classroom is located on the 4th floor of Dirac Science Library. Subject to availability, other uses of the classroom may be allowed.
+Room Capacity
+12
+persons
+Show On Floorplan
+View Room Calendar
+Reserve this room!
+Edit Calendar
+
+---
+
+Title: Computer Classroom - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations/computer-classroom
+
+Computer Classroom (DSL 152)
+The room is equipped with high-performance Intel-based workstations running LINUX and Microsoft Windows. It is used primarily for classes taught by the department. Subject to availability, other uses of the classroom may be allowed.
+Our Computer Classroom is located in 152 Dirac Science Library (DSL). This is
+not the main entrance
+for Dirac Science Library. The entrance is on the Southeast corner of the building, next to the parking garage, at street level.
+Room Capacity
+18
+persons
+Show On Floorplan
+View Room Calendar
+Reserve this room!
+Edit Calendar
+
+---
+
+Title: Conference Room - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations/conference-room
+
+Conference Room (DSL 416)
+This small conference room holds about 10 people, and is used mainly for department group meetings.
+Room Capacity
+10
+persons
+Show On Floorplan
+View Room Calendar
+Reserve this room!
+Edit Calendar
+
+---
+
+Title: Exec. Conference Room - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations/exec-conference-room
+
+Executive Conference Room (DSL 401)
+The Executive Conference Room (DSL 401) is for the department Chair's use. Subject to availability, it is also for use by department personnel.
+Room Capacity
+12
+persons
+Show On Floorplan
+View Room Calendar
+Reserve this room!
+Edit Calendar
+
+---
+
+Title: Interactive Classroom - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations/interactive-classroom
+
+Interactive Classroom (DSL 422)
+The Department of Scientific Computing supports an interactive classroom facility on the campus of FSU. The 422 classroom is on the fourth floor of Dirac Science Library. The room is equipped with 28 seats and features an interactive smart projector/whiteboard. It is used primarily for classes taught by department faculty. Subject to availability, other uses of the classroom may be allowed.
+Room Capacity
+28
+persons
+Show On Floorplan
+View Room Calendar
+Reserve this room!
+Edit Calendar
+
+---
+
+Title: Seminar Room - FSUSciComp
+url: https://www.sc.fsu.edu/room-reservations/seminar-room
+
+Seminar Room (DSL 499)
+Our large seminar room holds up to 50 persons & has a state-of-the-art laser rear-projected screen. Subject to availability, the seminar room may be booked by non-department faculty/staff or by
+officially recognized student organizations
+.
+Room Capacity
+50
+persons
+Show On Floorplan
+View Room Calendar
+Reserve this room!
+Edit Calendar
