@@ -62,11 +62,12 @@ def process_urls(group_dictionary):
     """
     Processes URLs from urls.txt, groups them, and extracts text into files.
     """
-    if not os.path.exists("raw_data"):
-        os.makedirs("raw_data")
+    raw_data_dir = "../raw_data"
+    if not os.path.exists(raw_data_dir):
+        os.makedirs(raw_data_dir)
 
     try:
-        with open("urls.txt", "r", encoding="utf-8") as f:
+        with open("../urls.txt", "r", encoding="utf-8") as f:
             urls = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
         print("urls.txt not found. Please run the scraper first.")
@@ -93,7 +94,7 @@ def process_urls(group_dictionary):
         if not urls_in_group:
             continue
         
-        file_path = os.path.join("raw_data", f"{group}.txt")
+        file_path = os.path.join(raw_data_dir, f"{group}.txt")
         with open(file_path, "w", encoding="utf-8") as f:
             for i, url in enumerate(urls_in_group):
                 title, text = fetch_and_parse(url)
@@ -107,7 +108,7 @@ def process_urls(group_dictionary):
     # Process ungrouped URLs
     for url in ungrouped_urls:
         filename = get_filename_from_url(url)
-        file_path = os.path.join("raw_data", filename)
+        file_path = os.path.join(raw_data_dir, filename)
         
         title, text = fetch_and_parse(url)
         if title and text:

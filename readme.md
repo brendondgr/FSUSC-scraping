@@ -48,6 +48,14 @@ The main script for running the scraper is `main.py`. You can modify its behavio
     *   **Type:** `boolean` (flag)
     *   **Example:** `python main.py --replace-urls`
 
+*   `--get-raw-data`: If this flag is included, the scraper will run and extract the raw text from the web pages.
+    *   **Type:** `boolean` (flag)
+    *   **Example:** `python main.py --get-raw-data`
+
+*   `--refine-data`: If this flag is included, the script will process the files in `raw_data/` using the Gemini API and save the results to `refined_data/`.
+    *   **Type:** `boolean` (flag)
+    *   **Example:** `python main.py --refine-data`
+
 ### Running the Scraper
 
 To run the scraper with default settings:
@@ -64,12 +72,14 @@ python main.py --starting-url <YOUR_URL> --depth <YOUR_DEPTH> --replace-urls
 
 ```
 .
-├── extract.py            # Extracts and cleans text from scraped URLs using Gemini API
 ├── main.py               # Main script to run the scraper and extractor
+├── code/
+│   ├── scrape.py             # Contains the web scraping logic (Scrapy/BeautifulSoup)
+│   ├── extract.py            # Extracts and cleans text from scraped URLs
+│   └── gemini.py             # Refines the raw data using the Gemini API
 ├── raw_data/             # Stores the raw text extracted from web pages
 ├── readme.md             # This file
 ├── refined_data/         # Stores the cleaned and structured data from Gemini
 ├── requirements.txt      # Python dependencies
-├── scrape.py             # Contains the web scraping logic (Scrapy/BeautifulSoup)
 └── urls.txt              # A list of URLs to be scraped
 ```

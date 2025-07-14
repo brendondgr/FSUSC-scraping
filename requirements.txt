@@ -1,5 +1,5 @@
 requests
 beautifulsoup4
-Scrapy>=2.5.0 
+Scrapy>=2.5.0
 google-genai
 ipykernel

@@ -63,7 +63,7 @@ class FsuscSpider(scrapy.Spider):
 
     def closed(self, reason):
         # When the spider finishes, write the collected URLs to a file
-        with open("urls.txt", "w") as f:
+        with open("../urls.txt", "w") as f:
             for depth_level in range(1, self.max_depth + 1):
                 urls = sorted(list(self.urls_by_depth[depth_level]))
                 if urls:
@@ -74,10 +74,10 @@ class FsuscSpider(scrapy.Spider):
 
 def gather_urls(start_url, depth, replace_urls=False):
     import os
-    if os.path.exists("urls.txt"):
+    if os.path.exists("../urls.txt"):
         if replace_urls:
             print("urls.txt found, deleting it.")
-            os.remove("urls.txt")
+            os.remove("../urls.txt")
         else:
             print("urls.txt already exists. To overwrite, set replace-urls to True.")
             return
