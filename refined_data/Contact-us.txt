@@ -1,0 +1,38 @@
+```
+**Header Information**
+*   **Title:** Contact Us - FSUSciComp
+*   **URL:** https://www.sc.fsu.edu/contact-us
+
+<---->
+
+**General Contact Information**
+*   **General Phone:** (850) 644-1010
+*   **Department Chair Phone:** (850) 644-7054
+*   **Facilities Phone:** (850) 645-0304
+*   **Human Resources (HR):** [No phone number listed]
+*   **Department Chair Name:** Peter Beerli
+
+<---->
+
+**Department Address**
+*   **Note:** Please use this address for direct shipping (DHL, FedEx, UPS, etc.)
+*   **Recipient Line:** [Name of department member]
+*   **Institution:** Florida State University
+*   **Department:** Department of Scientific Computing
+*   **Address:** 400 Dirac Science Library
+*   **City, State, ZIP:** Tallahassee, FL 32306-4120
+
+<---->
+
+**Directions and Maps**
+*   **Information:** Directions, Parking, Maps
+*   **Action:** Driving Directions
+
+<---->
+
+**Specific Inquiries**
+*   **Website Related Questions:** Email Website Support
+*   **Technical Support Questions:** Email Technical Support
+*   **Graduate Studies Questions:** Email Our Graduate Advisors
+*   **Undergraduate Studies Questions:** Email Our Undergraduate Advisors
+```

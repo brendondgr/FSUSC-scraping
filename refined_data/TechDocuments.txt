@@ -1,0 +1,1676 @@
+```
+**Page Title:** Tech Docs - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs
+
+**Introduction:**
+The following technical documents are here to help our users with the various software and hardware resources available to them. Please send an email to [email protected] if there is something that needs additional documentation.
+
+<---->
+
+**Page Controls:**
+*   **Title Filter:** Text input for filtering articles.
+*   **Display #:** Options to display 5, 10, 15, 20, 25, 30, 50, 100, or All articles per page.
+
+<---->
+
+**Article List (Page 1 of 6):**
+*   **Title:** Account Policy
+    *   **Modified Date:** April 28 2014
+*   **Title:** Acrobat Reader
+    *   **Modified Date:** February 04 2015
+*   **Title:** ARPACK
+    *   **Modified Date:** February 04 2015
+*   **Title:** BLAS
+    *   **Modified Date:** February 04 2015
+*   **Title:** Changing your password or environment
+    *   **Modified Date:** March 25 2022
+*   **Title:** CHARMM
+    *   **Modified Date:** April 28 2014
+*   **Title:** Computational Xposition Participant Guidelines
+    *   **Modified Date:** March 03 2025
+*   **Title:** Configuring Email
+    *   **Modified Date:** May 31 2022
+*   **Title:** CVS information
+    *   **Modified Date:** April 28 2014
+*   **Title:** Download files from DSC computers
+    *   **Modified Date:** August 31 2022
+*   **Title:** Electronic Board
+    *   **Modified Date:** April 28 2014
+*   **Title:** Email Lists and Groups
+    *   **Modified Date:** January 14 2025
+*   **Title:** Facilities, Computational Infrastructure
+    *   **Modified Date:** September 14 2023
+*   **Title:** FFTW
+    *   **Modified Date:** February 04 2015
+*   **Title:** File Transfers and Sharing
+    *   **Modified Date:** May 31 2022
+
+<---->
+
+**Page Title:** Facilities, Computational Infrastructure - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/278-facilities-computational-infrastructure
+
+**Content:**
+Feel free to copy relevant portions of this text into your research proposals.
+The Department of Scientific Computing (DSC) plays a major role in the support of FSU's cyberinfrastructure by providing facilities and technical expertise in the support of scientific computing. The DSC manages a dedicated computing facility located on the main FSU campus in Dirac Science Library. The DSC facility provides a highly flexible computing environment designed to support specialized and experimental hardware and software systems.
+
+*   **DSC Computing Facility:**
+    The DSC facility supports an assortment of computer architectures, interconnects, and operating systems. Systems hosted in the DSC facility are owned by DSC and are dedicated to a wide range of research problems including; machine learning, neuroscience, molecular biophysics, evolutionary biology, network modeling, and Monte-Carlo algorithm development. The DSC facility is equipped with two 40-ton HVAC cooling units, 1000 ft^2 of raised floor, an extensive power distribution system, UPS battery backup systems, and a 550 KVA diesel-powered backup generator. The DSC network is built on a 10 Gbps backbone and connects via 100 Gbps to the FSU campus backbone, which in turn connects to the Florida/National LamdaRail.
+
+*   **FSU RCC (formerly the Shared-HPC):**
+    Access the latest RCC facilities statement at: https://its.fsu.edu/help/it-support/researchers#grants
+
+*   **Scientific Visualization:**
+    The DSC supports a general access laboratory for scientific visualization and computational intelligence on the fourth floor of the Dirac Science Library (DSL). The lab hosts high-end visualization workstations with GPU video cards (CUDA SDK compatible) and access to multi-terabyte shared high-performance storage. It also includes a high-resolution laser projection system in the main seminar room, featuring a 4K Enhancement Technology projector on an 18' x 8' screen.
+
+*   **General DSC Infrastructure:**
+    The DSC provides office space for faculty, postdocs, graduate students, and support personnel, with all offices equipped with a desktop computer and network connections. The department also supports a cutting-edge classroom with 19 Intel-based workstations (Linux/Windows), a large seminar room for 80 people with a 4K laser projection system, and two conference rooms with large high-definition displays.
+
+*   **DSC Classroom:**
+    The classroom is equipped with 20 new systems, each featuring an Intel® Core™ i9-10940X processor (3.30GHz, 14 cores), 64GB of RAM, and an NVIDIA RTX A5000 GPU, ideal for machine learning, data science, and scientific computing.
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** File Transfers and Sharing - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1661-file-transfers-and-sharing
+
+**Content:**
+*   **FSU Noles File Transfer (NiFTy):**
+    For sharing large documents/attachments, FSU NiFTy allows you to drop off large files for anyone with email access and vice versa.
+    *   **Website:** NiFTy.FSU.edu
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Download files from DSC computers - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1669-download-files-from-dsc-computers
+
+**Content:**
+From off-campus, you can download files or folders from DSC computers to personal laptops.
+
+*   **Mac:**
+    1.  **Create SSH Tunnel:** Open a terminal and run the following, providing your FSUID and the remote computer name.
+        ```
+        ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu:22 [email protected]
+        ```
+    2.  **Download/Upload:** Once the tunnel is established, use `rsync`.
+        *   **Download:**
+            ```
+            rsync -avz -e 'ssh -p 2222' fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+            ```
+        *   **Upload:**
+            ```
+            rsync -avz -e 'ssh -p 2222' /local_upload_folder fsuid@localhost:/remote_destination_directory
+            ```
+
+*   **Windows 10:**
+    1.  **Create SSH Tunnel:** Open a command window and run (NOTE the -R option).
+        ```
+        ssh -f -N -R 2222:remote_computer_name.sc.fsu.edu [email protected]
+        ```
+    2.  **Download/Upload:** Use `scp` (NOTE the -P option).
+        *   **Download:**
+            ```
+            scp -r -P 2222 fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+            ```
+        *   **Upload:**
+            ```
+            scp -r -P 2222 /local_source fsuid@localhost:/remote_destination
+            ```
+    Your FSUID password may be required.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Changing your password or environment - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/177-changing-your-password-or-environment
+
+**Content:**
+*   **Changing passwords:**
+    The department uses FSUIDs/LDAP for centralized authentication. To change your password, use the official FSU link, as local utilities may not work correctly with LDAP.
+    *   **Link:** Change/Reset my FSUID Password
+
+*   **Changing environment:**
+    The department supports three default login shells: `csh`, `tcsh`, and `bash`. To change your shell, please email [email protected]
+
+**Details:**
+*   **Written by:** Administrator
+
+<---->
+
+**Page Title:** Configuring Email - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/178-email
+
+**Content:**
+The Department of Scientific Computing has transferred its email services to Florida State University. Your primary email is now your `[email protected]` account.
+
+*   **Access Methods for [email protected]:**
+    *   **Webmail:** https://webmail.fsu.edu/
+    *   **Outlook:** Follow instructions for Outlook access and refer to the Outlook FAQ.
+    *   **Thunderbird:** Follow instructions to add your FSU account and refer to the Thunderbird FAQ.
+    *   **Other Clients (Mac Mail, Entourage, etc.):** Information is available at FSU Helpdesks, but use is not encouraged.
+
+*   **Preferred FSU Email Address:**
+    To change your preferred email address associated with your FSUID (e.g., from `@scs.fsu.edu`), create a case with ITS at https://servicecenter.fsu.edu.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** CVS information - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/226-cvs-information
+
+**Content:**
+CVS usage is generally depreciated in favor of git or SVN. More information on version control systems can be found here. The following is a general tutorial for using CVS with an existing repository.
+
+*   **Setup Environmental Variables (from a unix host):**
+    *   **bash:**
+        ```
+        CVSROOT={mylogin}@cvs.server.org:/data/cvs
+        CVS_RSH=ssh
+        export CVSROOT
+        export CVS_RSH
+        ```
+    *   **csh, tsch:**
+        ```
+        setenv CVSROOT {mylogin}@cvs.server.org:/data/cvs
+        setenv CVS_RSH ssh
+        ```
+
+*   **CVS Commands:**
+    *   **Import to repository:** `cvs import -m "{message}" {myproject} {myname} {start}`
+    *   **Checkout a working copy:** `cvs checkout {myproject}`
+    *   **Check differences:** `cvs diff`
+    *   **Commit changes:** `cvs commit`
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Acrobat Reader - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/331-acrobat
+
+**Content:**
+Acrobat Reader is a commercial PDF file viewer. To use it, type `acroread` at the X11 command prompt. It is available on most desktop machines.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** ARPACK - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/338-arpack
+
+**Content:**
+ARPACK is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** BLAS - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/339-blas
+
+**Content:**
+The Basic Linear Algebra Subprograms (BLAS) are routines for basic vector and matrix operations. They are split into Level 1 (vector-vector), Level 2 (matrix-vector), and Level 3 (matrix-matrix) operations. To link to the libraries, use a flag like `-L/usr/local/lib -lf77blas` in your linker step.
+*   **More Info:** Basic Linear Algebra Subprogram homepage or BLAS FAQ.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** FFTW - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/340-fftw3
+
+**Content:**
+The "Fastest Fourier Transform in the West" (FFTW) is a C library for computing discrete Fourier transforms (DFT). Versions 2 and 3 are not compatible.
+*   **Basic Usage Example (1D DFT):**
+    ```c
+    #include <fftw.h>
+    ...
+    {
+        fftw_complex *in, *out;
+        fftw_plan p;
+        ...
+        in = (fftw_complex *) fftw_malloc(sizeof(fftw_complex) * N);
+        out = (fftw_complex *) fftw_malloc(sizeof(fftw_complex) * N);
+        p = fftw_plan_dft_1d(N, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
+        ...
+        fftw_execute(p); /* repeat as needed */
+        ...
+        fftw_destroy_plan(p);
+        fftw_free(in);
+        fftw_free(out);
+    }
+    ```
+*   **Documentation:** FFTW documentation.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** CHARMM - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/354-charmm
+
+**Content:**
+Chemistry at HARvard Macromolecular Mechanics (CHARMM) is a versatile program for macromolecular simulations, including energy minimization, molecular dynamics, and Monte Carlo simulations. It is designed as a research instrument for theoretical studies of molecular properties and biological functions.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Electronic Board - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/375-panaboard
+
+**Content:**
+The Panasonic Panaboard (UB-2815C) is a Color Scanning System that saves writings on the board to USB flash memory, SD cards, printers, or computers. Boards are located in DSL 152, 411, 416, and 499.
+
+*   **How to Save an Image to a USB Flash Drive:**
+    1.  Turn the power switch on.
+    2.  Connect a FAT16-formatted USB device to the "MEMORY" slot.
+    3.  Select the scanning mode using the Mode Key.
+    4.  Press the Start/Stop Key (green button).
+    5.  Wait for the preview to appear before removing the USB device.
+    6.  Use the Multi-Copy key to zoom.
+    7.  Return to standby mode before removing the USB device.
+    8.  Files are saved in the `ub-2815c` folder, typically as PDF.
+
+*   **Useful Links:** Device Information, Downloads, Supplies.
+
+*   **Attachments:**
+    *   **Tutorial Slides:** Panaboard Tutorial (467 kB)
+    *   **Operating Instructions:** User Manual (4695 kB)
+    *   **Panaboard Info:** Capabilities and specifications (4277 kB)
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Account Policy - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/531-account-policy
+
+**Content:**
+Policy for DSC user accounts, sponsored accounts, and password changes. Only DSC faculty and Staff can sponsor accounts.
+
+*   **Password Expiration:**
+    *   **180 days:** Warning to change password.
+    *   **200 days:** Account locked. Sponsor is emailed. Contact TSG ([email protected]) to restore.
+    *   **350 days:** Warning of data deletion in 10 days.
+    *   **360 days:** Account and data deleted.
+
+*   **Sponsored Account Verification:**
+    *   **180 days:** Sponsor receives verification warning.
+    *   **200 days:** Account locked. Sponsor informed. Sponsor must contact TSG ([email protected]) to restore.
+    *   **350 days:** Warning of data deletion in 10 days.
+    *   **360 days:** Account and data deleted.
+
+*   **Sponsoring Account Removal (if sponsor's password is not changed):**
+    *   **220 days:** Warning to sponsoring and sponsored accounts.
+    *   **290 days:** Sponsoring and sponsored accounts are locked.
+    *   **350 days:** Warning of data deletion in 10 days.
+    *   **360 days:** Sponsoring and sponsored accounts and all associated data deleted.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Redhat Software Collections - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1017-redhat-software-collections
+
+**Content:**
+Redhat Software Collections allow using newer versions of tools (like gcc 4.9, python 3.6) without replacing base OS tools. The `scl` utility is used for this.
+
+*   **Example Usage (bash shell):**
+    *   **Enable gcc 4.9:**
+        ```bash
+        scl enable devtoolset-4 bash
+        gcc -v
+        ```
+    *   **Enable python 3.6:**
+        ```bash
+        scl enable rh-python36 bash 
+        python -V
+        ```
+    Exiting the new shell returns to default system tools.
+
+*   **Other Commands:**
+    *   **Run script with python 3.6:** `cat my_script | scl enable rh-python36 -`
+    *   **List packages in a collection:** `scl -l devtoolset-4`
+
+*   **More Information:** Red Hat Software Collections 2.0
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Jupyter Notebook - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1018-ipython-notebook
+
+**Content:**
+Jupyter Notebook (formerly iPython) is an interactive computational environment available on classroom and hallway computers.
+
+*   **To use on hallway computers from a user desktop:**
+    1.  `qlogin`
+    2.  `scl enable rh-python36 bash` (if python 3.6 is needed)
+    3.  `cd directory_with_notebook_files`
+    4.  `jupyter-notebook`
+
+*   **More Information:** IPython Notebook
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Introduction to CPython - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1163-cpython
+
+**Content:**
+This is a tutorial for using CPython on DSC machines.
+
+*   **The Basics (Hello World):**
+    1.  Create a python file with `print("hello world")`.
+    2.  Navigate to the file's location in the command prompt.
+    3.  Run the python interpreter on the file.
+
+*   **Other Features (Code Library Example):**
+    This example computes 5! using a module.
+    1.  Create two files in different directories: one with the main program, one with a factorial function in a module.
+    2.  In the command prompt, navigate to the main program's folder.
+    3.  Add the module's directory to the `PYTHONPATH` environment variable.
+        *   Example on Windows: `set PYTHONPATH=%PYTHONPATH%;C:\path\to\module\folder`
+    4.  Run the main program to get the result (120).
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Linux Modules - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1177-linux-modules
+
+**Content:**
+On our Linux systems, software resources are made available via modules, which configure the shell environment for an application.
+
+*   **Using Built-in Modules:**
+    *   **List available modules:** `module avail` or `ls /etc/modulefiles/*`
+    *   **Load a module:** `module load mpi/openmpi-x86_64`
+    *   **List loaded modules:** `module list`
+    *   **Unload a module:** `module unload mpi/openmpi-x86_64`
+
+*   **Creating Custom Modules:**
+    1.  Create a directory for your modules: `mkdir ~/modules`
+    2.  Add the path to your shell's startup file (`~/.bashrc` or `~/.cshrc`).
+        *   **bash:** `export MODULEPATH=${MODULEPATH}:${HOME}/modules`
+        *   **csh/tcsh:** `setenv MODULEPATH ${MODULEPATH}:${HOME}/modules`
+    3.  Create a modulefile. It can be a simple script setting environment variables like `PATH` and `LD_LIBRARY_PATH`. You can use existing files in `/etc/modulefiles` as templates.
+
+*   **Example Modulefile Directives:**
+    ```tcl
+    #%Module 1.0
+    module-whatis  "Set path for orca."
+    prepend-path   PATH /panfs/storage.local/opt/orca_3_0_0_linux_x86-64
+    setenv         RSH_COMMAND ssh
+    ```
+    For a complete reference, see the modulefile man page (`man modulefile`).
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** VirtualBox Issues - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1185-virtualbox-issues
+
+**Content:**
+If you have trouble with provided VMs, email [email protected]
+
+*   **Inaccessible Disk / Existing UUID Error:**
+    This can be fixed by removing and re-adding the disk.
+    1.  In VirtualBox Manager, right-click the VM -> Settings -> Storage.
+    2.  Right-click the `.vdi` image and click "Remove Attachment".
+    3.  Right-click "Controller: SATA" and click "Add Hard Disk".
+    4.  Click "Choose existing disk" and navigate to the `.vdi` file.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** VirtualBox File Management - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1186-virtualbox-file-management
+
+**Content:**
+When using Windows virtual machines on Linux Workstations, you must save data per session, as all data will be lost when the VM is rebuilt.
+
+*   **Ways to save files:** Your home directory, Dropbox, Google Drive, One Drive, USB.
+
+*   **Setup to Save to Your Home Directory:**
+    (Must be done *before* starting the VM)
+    1.  Open "Oracle VM VirtualBox".
+    2.  Select the VM -> Settings -> Shared Folders.
+    3.  Click the "add" icon (blue folder with plus).
+    4.  **Folder Path:** `/home/username/...`
+    5.  **Folder Name:** `MyDescription` (or any name you choose)
+    6.  Check "Make Permanent".
+    7.  Click "OK".
+
+*   **Accessing the Shared Folder in Windows VM:**
+    The shared folder will appear under "Network / VBOXSVR / MyDescription". The UNC path is `\\VBOXSVR\MyDescription`.
+    Saving to USB can be set up similarly.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Linux Commands Cheat Sheet - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1302-linux-commands-cheatsheet
+
+**Content:**
+A list of commonly used commands in Unix. Use `man <command>` for more details.
+
+*   **Navigation:**
+    *   `cd`: Change directory.
+    *   `ls`: List files.
+    *   `cwd`: Show current working directory path.
+    *   `clear`: Clear the terminal screen.
+    *   **Shorthand:** `~` (home), `/` (root), `.` (current), `..` (parent), `-` (previous).
+
+*   **Creating/Deleting/Moving Files & Folders:**
+    *   `mkdir`: Make directory.
+    *   `rmdir`: Remove empty directory.
+    *   `touch`: Create an empty file.
+    *   `cp`: Copy a file. Use `cp -rf` for folders.
+    *   `mv`: Move or rename a file/folder.
+    *   `rm`: Remove a file. Use `rm -rf` for non-empty directories.
+    *   `locate`: Search for a file/directory.
+
+*   **Additional Tips:**
+    *   **Tab-completion:** Press Tab to auto-complete file/folder names.
+    *   **Arrows:** Use up/down arrows to navigate command history.
+    *   **Permissions:** Use `ls -l` to view permissions (read 'r', write 'w', execute 'x') for owner, group, and others. A 'd' indicates a directory.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Shared Computer Policy - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1333-shared-computer-policy
+
+**Content:**
+DSC hallway and classroom computers are shared resources.
+*   **Hallway Computers:** For interactive use. Remote sessions should not include long-running (8+ hours) or CPU-intensive jobs.
+*   **Classroom Computers:** May be used for remote jobs during non-business hours (7pm - 7am).
+
+The Technical Support Group may terminate jobs on shared systems deemed abusive. For more resources, consider the Research Computing Center or other dedicated systems.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Python Jungle - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1416-python-jungle
+
+**Content:**
+It is strongly recommended to use a virtual environment to manage python projects instead of using the system python.
+
+*   **Example Project Setup (named `isc3313`):**
+    1.  Enable Python 3.6: `scl enable rh-python36 bash`
+    2.  Create the virtual environment: `virtualenv isc3313`
+    3.  Activate the environment: `source isc3313/bin/activate`
+    4.  Install packages: `pip install tensorflow`
+    5.  Deactivate the environment when done: `deactivate`
+
+*   **Checking Software Collections:**
+    *   To see active collections: `echo $X_SCLS`
+    *   To test if a collection is enabled: `scl_enabled rh-python36` (check exit code)
+
+*   **Script Template for Python 3.6:**
+    ```python
+    #!/usr/bin/scl enable rh-python36 -- python3
+    import sys
+    version = "Python %d.%d" % (sys.version_info.major, sys.version_info.minor)
+    print("You are running Python",version)
+    ```
+*   **More Details:** Python 3 on RHEL
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** PGI Community Edition - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1418-pgi-community-edition
+
+**Content:**
+`pgcc` is available on classroom and hallway computers. To request it for your desktop, email [email protected] with your desktop hostname.
+
+*   **Usage:**
+    1.  Load the module: `module load PrgEnv-pgi/19.4`
+    2.  Compile your code: `pgcc myprog.c`
+
+Example files can be found at `/usr/common/pgi2019_194/linux86-64-llvm/2019/examples`. For more on the `module` command, visit the Linux Modules page.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Upload files to DSC computers - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1653-upload-files-to-dsc-computers
+
+**Content:**
+From off-campus, you can upload files from personal computers to DSC computers.
+
+*   **Mac:**
+    1.  **Create SSH Tunnel:** Open a terminal and run:
+        ```
+        ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu:22 [email protected]
+        ```
+    2.  **Upload/Download:** Use `rsync`.
+        *   **Upload:**
+            ```
+            rsync -avz -e 'ssh -p 2222' /local_upload_folder fsuid@localhost:/remote_destination_directory
+            ```
+        *   **Download:**
+            ```
+            rsync -avz -e 'ssh -p 2222' fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+            ```
+
+*   **Windows 10:**
+    1.  **Create SSH Tunnel:** Open a command window and run (NOTE the -L option):
+        ```
+        ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu [email protected]
+        ```
+    2.  **Upload/Download:** Use `scp`.
+        *   **Upload:**
+            ```
+            scp -r -P 2222 /local_source fsuid@localhost:/remote_destination
+            ```
+        *   **Download:**
+            ```
+            scp -r -P 2222 fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+            ```
+    Your FSUID password may be required.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+*   **Category:** Computing
+
+<---->
+
+**Page Title:** OneDrive for Ubuntu - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1672-onedrive-for-ubuntu
+
+**Content:**
+Guidelines for synchronizing or downloading files from OneDrive to DSC desktops running Ubuntu.
+**NOTE:** Synchronize ONLY the folders you need to avoid exceeding your DSC storage quota, which can freeze your account.
+
+*   **Initial Setup:**
+    1.  Run `onedrive --monitor` and follow the on-screen instructions to authorize the app.
+    2.  Press `Ctrl + C` if you don't want to synchronize everything.
+
+*   **Common Commands:**
+    *   **Synchronize a single folder:** `onedrive --synchronize --single-directory 'dsc_files'`
+    *   **Download only:** `onedrive --synchronize --single-directory 'dsc_files' --download-only`
+    *   **Upload only (without deleting remote files):** `onedrive --synchronize --upload-only --no-remote-delete`
+    *   **Display configuration:** `onedrive --display-config`
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Logging in to SC systems - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/174-logging-in-to-sc-systems
+
+**Content:**
+Computing resources can be accessed via the SSH gateway server (`pamd.sc.fsu.edu`) or the FSU VPN (`vpn.fsu.edu`).
+
+*   **SSH Connection to pamd.sc.fsu.edu:**
+    1.  Use your SSH client: `% ssh pamd.sc.fsu.edu`
+    2.  Enter your username and password.
+    3.  From the `pamd` shell, access public computing resources by running `hallway` or `classroom`.
+    **Important:** Never run processor-intensive jobs on the `pamd.sc.fsu.edu` servers.
+    More information on SSH is available here.
+
+**Details:**
+*   **Written by:** Administrator
+
+<---->
+
+**Page Title:** Storage, Backup and Recovery - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/175-storage-backup-and-recovery
+
+**Content:**
+Centralized file storage is provided via a ZFS file system with RAID-based protection.
+**Note:** Only DSC accounts with valid FSU accounts are backed up.
+
+*   **Home Directories:**
+    *   Users have a fixed disk quota based on backup capacity.
+    *   Files over 500 MB are not backed up.
+*   **Research Partitions:**
+    *   Faculty can request a research partition up to 900 GB by emailing [email protected]
+    *   Research partitions are NOT backed up.
+*   **Desktop Systems:**
+    *   Files on individual desktop systems are NOT backed up. Users can copy important local files to the shared file system (home directory) for protection.
+*   **Recovery:**
+    *   To recover lost files from the last 21 days, send a request to [email protected] with the date and file/directory names.
+    *   No archival data beyond 21 days is maintained.
+*   **Backup Technology:**
+    The system uses a 10 TB iSCSI in RAID 5, hosted by a Dell 1950, with backups accomplished via `rsync`.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+*   **Category:** Data Storage
+
+<---->
+
+**Page Title:** Joomla Web Page Tips and Tricks - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/176-web-pages
+
+**Content:**
+*   **Creating New FAQs:** New FAQ entries must use the template: `Q: ? A:`
+*   **Populating Metadata:** Use unique keywords specific to the article to ensure "Related Articles" are relevant. Avoid common words.
+*   **Adding Lightbox Effect to Images:** Add the `class` tag to the image.
+*   **Adding Slider Panes:** Use the provided code template for headings and content.
+*   **Showing Code in Articles:** Use `<pre xml:html>` tags to activate the Code Highlighter (GeSHi) for syntax highlighting.
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Printing - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/179-printing
+
+**Content:**
+To use department printers, you must be connected to the local network (or via VPN if off-campus). Printer setup instructions are available here. The print server uses "CUPS".
+
+*   **Poster Printing:**
+    *   Only for Department of Scientific Computing faculty and students.
+    *   Requests must be endorsed by an SC faculty member and approved by the SC Director.
+
+*   **Printer Etiquette:**
+    *   Retrieve your output promptly. Unclaimed output is discarded after 24 hours.
+    *   Be careful not to disturb others' print jobs.
+    *   Do NOT try to clear jams or fix printers. Email sysops or Dana Lutton for help.
+
+*   **Known Printer Problems:**
+    *   Acrobat files with Level 3 PostScript may not print on Level 2 printers (pr483, pr473).
+    *   PostScript files must start with `%!PS`.
+    *   PDFs with special fonts not installed on the printer may not print correctly. Authors should embed all fonts.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** vscode Proxy through SSH Tunnel - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/1831-vscode
+
+**Content:**
+How to use VS Code to connect to `targetHost.sc.fsu.edu` from home through the proxy `pamd.sc.fsu.edu`. For help, email [email protected]
+
+1.  **Configure SSH for ProxyJump:**
+    *   Open or create your SSH config file: `nano ~/.ssh/config`
+    *   Add the following configuration, replacing `fsuid` and `<private_key_for_targetHost>` with your details:
+        ```
+        Host pamd
+            HostName pamd.sc.fsu.edu
+            User fsuid
+        Host targetHost
+            HostName targetHost.sc.fsu.edu
+            User fsuid
+            IdentityFile ~/.ssh/<private_key_for_targetHost>
+            ProxyJump pamd
+        ```
+
+2.  **Set Up the SSH Extension in VS Code:**
+    *   Install the "Remote - SSH" extension.
+    *   Open the Command Palette and select "Remote-SSH: Connect to Host..."
+    *   Enter `targetHost.sc.fsu.edu` (or the alias `targetHost`).
+
+3.  **Verify Connection:**
+    *   VS Code will automatically use the proxy settings to connect. The VS Code terminal should indicate it's connected to `targetHost`.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** VPN Access - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/204-vpn-access
+
+**Content:**
+A VPN connection allows you to join our network from off-campus, routing your communication securely through the VPN server.
+
+*   **FSU VPN Service Documentation:**
+    1.  Login to the FSU-DSC VPN at: https://vpn.fsu.edu/dsc
+    2.  Use your FSUID and FSUID-password.
+    3.  Click "AnyConnect" in the left-hand menu.
+    4.  Click "Start AnyConnect" in the middle frame.
+    5.  Download and install the provided VPN client.
+    6.  In the client, use the address `vpn.fsu.edu/dsc`.
+    7.  Enter your FSUID (Username) and FSUID-password.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** VPN
+
+<---->
+
+**Page Title:** Network Printer Setup - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/206-network-printer-setup
+
+**Content:**
+For help, contact [email protected] Note: Print jobs may be dropped if your login name isn't found in LDAP. Use `lpr -U username file.ps` or change your login name to your SC UID.
+
+*   **Add a Network Printer for Windows 10/7:**
+    1.  Go to "Add a Printer".
+    2.  Select "A Network Printer...".
+    3.  Choose "Connect to a printer on the internet".
+    4.  Enter the URL: `http://printers.sc.fsu.edu:631/printers/printer_name` (e.g., `mfp473`).
+    5.  Select the printer make and model from the list.
+
+*   **Add a Network Printer for MAC OS X:**
+    1.  In "Print & Fax", click "+".
+    2.  **Protocol:** LPD
+    3.  **Address:** printers.sc.fsu.edu
+    4.  **Queue:** printer_name (e.g., mfp420)
+    5.  Select the printer manufacturer and model.
+
+*   **Network Printers for UNIX:**
+    1.  If you have CUPS installed, add this to `/etc/cups/client.conf`:
+        `ServerName printers.sc.fsu.edu`
+    2.  Restart cupsd.
+    3.  Print using commands like `lpr -P mfp420 filename`.
+
+*   **Drivers Download:** Links provided for Ricoh MP 25555, Ricoh IM C3000, and Ricoh Support.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Version Control Systems - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/225-svn-information
+
+**Content:**
+*   **For free / open source software, consider:**
+    *   **GitHub:** A community of over 15 million people for collaborative development.
+    *   **SourceForge.net:** The world's largest open source software development website.
+
+*   **If not open source, we recommend `git`.**
+
+*   **Quick Start for Git on `pamd.sc.fsu.edu`:**
+    *   **Creating and committing:**
+        ```bash
+        $ cd (project-dir)
+        $ git init
+        $ (add some files)
+        $ git add .
+        $ git commit -m 'Initial commit'
+        ```
+    *   **Cloning and Creating a Patch:**
+        ```bash
+        $ git clone ssh://{mylogin}@pamd.sc.fsu.edu/panfs/panasas1/research/{mydir}/{mygitproj}
+        $ cd {mygitproj}
+        $ (edit files)
+        $ git add (files)
+        $ git commit -m 'explain what I chanded'
+        $ git format-patch origin/master
+        ```
+*   **More Info:** Git Community Book (especially the Distributed Workflows section).
+
+**Note:** When your code is ready, email [email protected] to have it posted to the department software collection.
+
+**Details:**
+*   **Written by:** Marcelina Lapuz Nagales
+
+<---->
+
+**Page Title:** Thunderbird FAQ - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/233-thunderbird-faq
+
+**Content:**
+*   **Turn on/off email forwarding from fsu.edu:** Login to http://webmail.fsu.edu -> Options/Mail/Settings -> Check/uncheck "Enable forwarding".
+*   **Display message size/count in folder pane:** Preferences -> Advanced -> General -> "Show expanded colums in the folder pane".
+*   **Reply above quoted text:** Account Settings -> Composition & Addressing -> "Start my reply above the quote".
+*   **Setup FSU address book:** Preferences -> Composition -> Addressing -> Edit Directories. Add a new directory with Hostname `addressbook.fsu.edu` and Bind DN `uid=fsuid,ou=people,dc=fsu,dc=edu`.
+*   **Keep local copies of IMAP messages:** Account Settings -> Offline & Disk Space -> Check folders for offline use.
+*   **Setup calendar (Lightning plugin):** Install the Lightning plugin. To add calendars, go to Calendar -> New Calendar. For Google, use "iCalendar" with the private URL. For FSU, use "Sun Java System Calendar Server (WCAP)" with location `https://webmail.fsu.edu:83`.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Outlook FAQ - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/234-outlook-faq
+
+**Content:**
+Before setup, ensure you:
+1.  **Turn OFF forwarding from fsu.edu:**
+    *   Login to http://webmail.fsu.edu
+    *   Go to Options/Mail/Settings
+    *   Uncheck "Enable forwarding" or at least remove SCS/CSIT/SCRI accounts from the list.
+2.  **Turn ON forwarding from scs.fsu.edu:**
+    *   Login to http://mail.scs.fsu.edu
+    *   Go to Options/Filters -> Forward
+    *   Enter your `[email protected]` in the "Address(es) to forward to" field.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Integrated Technology Plan - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/242-it-plan
+
+**Content:**
+(The page content is empty except for the title.)
+
+<---->
+
+**Page Title:** Multifunction Printers - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/268-mfps
+
+**Content:**
+*   **Ricoh MP 25555 / IM C3000:**
+    *   No code is required for printing/scanning. A code is needed for copies.
+    *   **Scan to email:** Press "Scanner (Classic)" -> "Search Dest..." -> "LDAP" -> "Email Address", search for a name, and send.
+    *   **Copy ID cards:** Use "Copier (Classic)" -> "1 Sided->Combine 1 Side" to copy both sides onto one page.
+    *   **Confidential printing:** Use the "Locked Print" feature.
+
+*   **Bizhub C364 (mfp420, mfp150v) and Bizhub 363 (mfp473):**
+    *   Contact David Amwake for your copy/scan code.
+    *   **Scan to email:** Login -> "Fax / Scan" -> "Addr. Search", find your name. Use "Compact PDF" to minimize file size.
+    *   **Scan to USB:** Login -> Plug in USB drive -> "User Box" -> "Save Document" -> "System User Box" -> "External Memory".
+
+*   **Printer setup:** Refer to the printer setup guide for queues like `mfpxxx`, `mfpxxx_color`, `mfpxxx_duplex`.
+*   **Help:** Email [email protected]
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Hosting Policy - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/287-hosting-policy
+
+**Content:**
+The DSC hosts computational servers for other FSU academic units in its facility, which includes raised floor, power, cooling, and high-speed networking. A portion (up to 25%) of the facility's capacity is available on a first-come, first-served basis.
+
+*   **Eligibility:** All units within the College of Arts and Sciences. Requests are evaluated by the DSC's Local Systems Committee.
+
+*   **Requirements:**
+    1.  **Incidental costs:** The requesting unit is responsible for costs like server racks, PDUs, and network switches.
+    2.  **Hardware proposal:** A detailed hardware proposal is required for compatibility and capacity planning.
+    3.  **Management proposal:** A plan for system management must be provided. Options are DSC management or self-management by a designated administrator.
+    4.  **Cycle sharing:** All hosted systems must participate in the Condor job scheduling system to maximize resource throughput.
+    5.  **Faculty Liaison:** A designated faculty liaison is required for communication, account approvals, and other requests.
+
+*   **Contact:** For availability, contact Jim Wilgenbusch at 645-0307 or [email protected]
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Firefox/Thunderbird Troubleshooting - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/290-firefox-troubleshooting
+
+**Content:**
+*   **If Firefox will not start (due to lockfiles):**
+    ```bash
+    # killall -9 firefox
+    # /panfs/panasas1/system/sysfiles/usrcommon/scripts/cleanFirefox.sh
+    # /panfs/panasas1/system/sysfiles/usrcommon/scripts/cleanThunderbird.sh
+    ```
+
+*   **Useful Firefox Options:**
+    *   `firefox -P` (Profile Manager)
+    *   `firefox -no-remote`
+    *   `firefox -safe-mode`
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Stereographic Visualization - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/306-stereographic-visualization
+
+**Content:**
+The DSC hosts a high-resolution stereographic projection system in its seminar room (4th floor, Dirac Science Library), funded in part by the NSF. The room seats ~100 people.
+
+*   **Equipment:**
+    *   A presentation console with a touch panel controller.
+    *   Connections: Windows XP workstation (2480x1050 resolution), laptop connections, document camera, DVD/VHS player, cable TV, stereo audio, wireless microphone.
+    *   Four high-resolution projectors illuminate a 17.5' x 7.5' screen.
+
+*   **Reservations:** Subject to availability, the room may be booked by non-DSC faculty and staff.
+
+*   **Attachments:**
+    *   **xpo_user_manual.pdf:** XPO user manual (660 kB)
+    *   **StereoWallIntro.pdf:** Introduction to the StereoWall (9774 kB)
+    *   **Control Interface:** Control Interface (85 kB)
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Gnuplot - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/322-gnuplot
+
+**Content:**
+Gnuplot is a portable, command-line driven, interactive data and function plotting utility. It is free, has been in development since 1986, and supports non-interactive uses like web scripting. More info at the Gnuplot homepage.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** ImageMagick - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/323-imagemagick
+
+**Content:**
+ImageMagick is a software suite to create, edit, and compose bitmap images. It can read, convert, and write images in various formats. More info at the ImageMagick website.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** LaTeX - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/324-latex
+
+**Content:**
+LaTeX is a document preparation system for high-quality typesetting, often used for technical or scientific documents.
+*   **Home Page:** http://www.latex-project.org/
+*   **Use:**
+    *   TeXMaker is the recommended frontend.
+    *   Available on almost every DSC-managed computer.
+    *   Execute with commands: `latex filename.tex`, `pdflatex filename.tex`, `pslatex filename.tex`.
+*   **Missing Style Files:**
+    *   Request TSG to install standard packages by emailing [email protected]
+    *   Alternatively, download and place them in `~/texmf/`.
+    *   To find where a style file is: `kpsewhich filename.sty`
+    *   To generate a `.sty` from a `.ins` file: `latex filename.ins`
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** MATLAB - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/325-matlab
+
+**Content:**
+MATLAB is a high-level language and interactive environment for technical computing.
+
+*   **Toolboxes Available (as of Spring 2009):** Control System, Fixed-Point, Image Processing, Mapping, Neural Network, Optimization, Partial Differential Equation, Signal Processing, Statistics, System Identification, Wavelet.
+*   **High-Performance Computing:**
+    *   MATLAB Distributed Computing Engine for cluster applications.
+    *   MatlabMPI for running MATLAB programs on parallel computers.
+*   **Running MATLAB:**
+    *   **DSC General Access (via SGE):**
+        1.  From an X11 terminal, type: `qlogin`
+        2.  After authenticating, type: `matlab`
+        3.  If `qlogin` is not available, first `ssh -X pamd.sc.fsu.edu`.
+    *   **Classroom/Hallway Computers:** `matlab` is installed locally.
+    *   **Batch Mode:** Use flags like `-nodesktop -nojvm -nosplash`.
+        Example in a Makefile: `cd WORKING_DIRECTORY && matlab -nosplash -nojvm -r PATH_TO_MATLAB_SCRIPT`
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** R - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/326-r
+
+**Content:**
+R is a language and environment for statistical computing and graphics, similar to the S language. It is a GNU project and is highly extensible.
+*   **Running R:**
+    *   Access is available on the General Purpose (GP) Cluster through SGE.
+    *   From a terminal, run:
+        ```
+        % ssh pamd
+        % qlogin -l r
+        % R
+        ```
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** Mathematica - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/330-mathematica
+
+**Content:**
+Mathematica is a general-purpose computer algebra system for solving mathematical problems and creating graphics.
+*   **Home Page:** http://www.wolfram.com/products/mathematica/index.html
+*   **Use:**
+    *   A floating network license is available. The License Manager server is `license.sc.fsu.edu`.
+    *   Installed on classroom, hallway, and GP cluster computers. Other installations can be requested.
+    *   Requires an X11 terminal.
+    *   **To run:**
+        1.  From a DSC desktop: `qlogin -l mathematica`
+        2.  From other machines: `ssh -Y pamd.sc.fsu.edu`, then `qlogin -l mathematica`
+        3.  At the GP prompt, type `mathematica`.
+    *   **Non-graphical version:** `math`
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+*   **Category:** Supported Applications
+
+<---->
+
+**Page Title:** GNU Compiler Collection (GCC) - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/334-gcc
+
+**Content:**
+The GNU Compiler Collection (GCC) is an integrated compiler for C, C++, and Fortran. More information is at the GNU GCC website.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** g++ - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/335-g
+
+**Content:**
+The command `g++` invokes the C++ compiler from GCC. It automatically sets the default language to C++ and links against the C++ library. C++ source files typically use suffixes like `.C`, `.cc`, `.cpp`, `.c++`, `.cp`, or `.cxx`. Documentation is available on the GCC web site.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** g77 - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/336-g77
+
+**Content:**
+g77 is a free Fortran 77 compiler, now integrated into GCC. Documentation is available online.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** g95 - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/337-g95
+
+**Content:**
+GNU FORTRAN 95.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** GSL - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/341-gsl
+
+**Content:**
+The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers, providing a wide range of mathematical routines. More info at the GSL website or its reference manual.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** LAPACK - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/342-lapack
+
+**Content:**
+LAPACK (Linear Algebra PACKage) is a Fortran90 library for solving linear equations, least-squares problems, eigenvalue problems, and singular value problems. To link to the library, use the option `-llapack`. More info at the LAPACK website.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** Super LU - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/343-superlu
+
+**Content:**
+Super LU is a C library for the direct solution of large, sparse, nonsymmetric systems of linear equations. It is callable from C or Fortran. More info at the Super LU website or its users' guide.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** GROMACS - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/344-gromacs
+
+**Content:**
+GROMACS is a versatile package for molecular dynamics simulations of systems with hundreds to millions of particles, primarily for biochemical molecules but also used for non-biological systems like polymers. More info at the GROMACS website or tutorials.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Supported Libraries & Compilers
+
+<---->
+
+**Page Title:** Using SSH - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/345-using-ssh
+
+**Content:**
+**Note:** Passwordless authentication is disabled on `pamd` servers, but can be set up for other hosts once inside the network.
+
+*   **Passwordless Authentication (OpenSSH to OpenSSH):**
+    1.  Generate a key: `ssh-keygen -t dsa` (leave passphrase blank).
+    2.  This creates `~/.ssh/id_dsa` (private) and `~/.ssh/id_dsa.pub` (public).
+    3.  Append the public key to the remote host's `authorized_keys2` file:
+        `cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys2`
+    4.  If the remote host doesn't mount your home directory, copy the public key over first.
+
+*   **OpenSSH to ssh.com:**
+    1.  Convert the OpenSSH public key to SECSH format: `ssh-keygen -e -f ~/.ssh/id_dsa.pub > ~/.ssh/id_dsa_secsh.pub`
+    2.  On the remote host, create `~/.ssh2` if it doesn't exist.
+    3.  Copy the new key (`id_dsa_secsh.pub`) to the remote `~/.ssh2` directory.
+    4.  Create or append to the remote `~/.ssh2/authorization` file: `echo Key id_dsa_secsh.pub >> authorization`
+
+*   **ssh.com to OpenSSH:**
+    1.  On the local host: `ssh-keygen -t dsa`, then create `~/.ssh2/identification` with `IdKey id_dsa_1024_a`.
+    2.  Copy the public key (`id_dsa_1024_a.pub`) to the remote host's `~/.ssh/` directory.
+    3.  On the remote host, convert the key and append to `authorized_keys2`:
+        `ssh-keygen -f id_dsa_1024_a.pub -i > newkey.pub`
+        `cat newkey.pub >> authorized_keys2`
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Printing FAQ - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/352-printerfaq
+
+**Content:**
+Printing is managed by a print accounting system (Pykota on CUPS). For issues, contact TSG with your job number.
+*   **Q: What is my quota?**
+    *   A: Default is $30/semester for faculty, $10/semester for students. Color pages are 6 cents, grayscale is 1 cent.
+*   **Q: How do I check my balance?**
+    *   A: Use the print quota link on the main website (login required).
+*   **Q: Why don't I have a quota?**
+    *   A: You may not be listed as part of the department. Contact [email protected] to correct it.
+*   **Q: How do I add money to my quota?**
+    *   A: Contact Michele Locke to arrange for additional credit.
+*   **Q: Why won't my job print from my personal laptop?**
+    *   A: Ensure your local username matches your SC/FSU username. Use the `lpr -U` flag if needed. Also, ensure you are on the correct network (e.g., via VPN).
+*   **Q: Why is my print job stuck in the queue?**
+    *   A: The printer might be busy with copying/scanning, or another job is printing. Email [email protected] if it needs attention.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** NetBeans - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/355-netbeans
+
+**Content:**
+NetBeans is an IDE for developing Java. More info at the NetBeans website.
+*   **Use:**
+    *   Requires an X11 terminal.
+    *   If installed locally (e.g., VisLab), type `netbeans`.
+    *   Otherwise, from a DSC desktop, use `qlogin -l netbeans` and then `netbeans`.
+    *   From other machines, `ssh -Y pamd.scs.fsu.edu`, then `qlogin -l netbeans`, then `netbeans`.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** PETSc - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/356-petsc
+
+**Content:**
+PETSc is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations. It uses MPI for communication. More info at the PETSc web pages.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Totalview - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/357-totalview
+
+**Content:**
+TotalView is a source-level and machine-level debugger with support for Fortran, C, C++, OpenMP, MPI, and threads. The website and a tutorial are available.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** VMD - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/358-vmd
+
+**Content:**
+Visual Molecular Dynamics (VMD) is a molecular visualization program for displaying, animating, and analyzing large biomolecular systems. More info on the VMD home page.
+*   **Use:**
+    *   Requires an X11 terminal.
+    *   If installed locally (e.g., VisLab), type `vmd`.
+    *   Otherwise, from a DSC desktop, use `qlogin -l vmd` and then `vmd`.
+    *   From other machines, `ssh -Y pamd.sc.fsu.edu`, then `qlogin -l vmd`, then `vmd`.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Portland Group Compliers - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/359-portland-group-compliers
+
+**Content:**
+The Portland Group, Inc. (PGI) provides high-performance parallelizing/optimizing Fortran, C, and C++ compilers. More info on the PGI home page.
+**Note:** PGI compilers are not available at DSC at this time but are available at the FSU HPC.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Intel Compliers - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/360-intel-compliers
+
+**Content:**
+Intel compilers provide improved performance over GNU compilers by optimizing and parallelizing software for multi-core Intel processors. More info about Intel C/C++ and Fortran compilers is available here.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** MPI - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/361-mpi
+
+**Content:**
+Message Passing Interface (MPI) is a specification for an API allowing computers to communicate. OpenMPI and MPICH2 are two popular free implementations.
+**Note:** At DSC, we currently support OpenMPI and MPICH2 on owner-based clusters only.
+*   **OpenMPI:** An open-source MPI-2 implementation combining technologies from several other projects.
+*   **MPICH2:** A portable implementation of MPI-1 and MPI-2.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Short Technical Courses - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/365-short-technical-courses
+
+**Content:**
+The DSC Technical Workshop Series consists of one-hour labs to give hands-on experience with various applications.
+*   **Topics Covered:**
+    *   Overview of computing resources in the DSC
+    *   Introduction to FSU's HPC facility
+    *   Introduction to Unix
+    *   Introduction to Digital Video and Video Encoding
+    *   Introduction to Software Versioning, SVN
+    *   Introduction to shell programming
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Owner-Based FAQs - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/383-owner-based-faqs
+
+**Content:**
+*   **How do I get an account on a cluster?**
+    *   If you have a DSC account, request access through SCUM. If not, request a sponsored DSC account first.
+*   **How do I log into the cluster?**
+    *   Access cluster resources through the headnode via `ssh`. From outside the DSC network, you must first log into `pamd.sc.fsu.edu`.
+*   **How do I compile programs?**
+    *   Use the cluster headnode to compile. Your default path will be set correctly.
+*   **How do I run programs?**
+    *   Submit all programs via the cluster's queuing system. Do NOT run resource-intensive programs directly on the headnode.
+*   **How do I log into a specific node?**
+    *   Use the queuing system: `qlogin -q [queue-name]` or `qlogin -q [queue-name]@[machine-name]`.
+*   **What are the differences between MPI implementations?**
+    *   OpenMPI is recommended for new development. Other implementations are available on certain clusters but may be less scheduler-friendly.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Macintosh System Configurations - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/433-macintosh-setup
+
+**Content:**
+Basic system configurations for SC Macintosh clients running Leopard (OS X 10.5.x).
+
+*   **Configure LDAP Authentication:**
+    1.  Open Directory Utility.
+    2.  Add a new LDAPv3 server.
+    3.  **Server Name:** `ldap-vm0.sc.fsu.edu` (leave SSL unchecked initially).
+    4.  **Template:** RFC 2307 (Unix)
+    5.  **Search Base:** `ou=people,dc=sc,dc=fsu,dc=edu`
+
+*   **Configure LDAP with SSL:**
+    1.  In Directory Utility, check "Encrypt using SSL" for the LDAPv3 service.
+    2.  Append the Go Daddy Class 2 CA certificate to `/usr/share/curl/curl-ca-bundle.crt`.
+    3.  Append `TLS_CACERT /usr/share/curl/curl-ca-bundle.crt` to `/etc/openldap/ldap.conf`.
+    4.  Change `TLS_REQCERT` back to `demand` in `/etc/openldap/ldap.conf`.
+
+*   **Automount Remote Homedirectory:**
+    *   In Directory Utility -> Mounts tab:
+        *   **Remote NFS URL:** `nfs://pan-nfs.sc.fsu.edu/`
+        *   **Mount location:** `/panfs/panasas1`
+
+*   **Configure CUPS Printers:**
+    *   Edit `/etc/cups/client.conf` and add: `ServerName cups.sc.fsu.edu`
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Macintosh Frontpage - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/446-macintosh-frontpage
+
+**Content:**
+General questions about managed Macintosh systems.
+
+*   **Typical Configuration for OS X (Leopard):**
+    *   Install Leopard, run updates, setup LDAP, configure MFP printers, Office 2008, Firefox, Thunderbird, ntfs-3g, svnX, MacTeX, and Xcode.
+*   **Windows for Mac Users:**
+    *   **Virtual Machines:** VirtualBox
+    *   **Access NTFS drives:** ntfs-3g
+    *   **Run Windows OS:** Boot Camp
+*   **Remote Control Macintosh:**
+    *   Install and configure Vine Server on OS X. Users can connect from Windows/Linux via VNC clients. Use SSH tunnels for security over public networks.
+*   **How to change user short name:** A link is provided for instructions.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Google Applications - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/527-google-applications97
+
+**Content:**
+The department uses Google Calendar for scheduling.
+*   **Google Calendar:**
+    *   Login at http://calendar.sc.fsu.edu/. Contact [email protected] for help setting up an account.
+    *   You can customize settings, add/view/share calendars, and schedule group meetings by adding guests.
+    *   Tasks can be managed from within the calendar interface.
+*   **Google Documents:**
+    *   A handy option for multiplatform collaboration when security is not paramount. Access via http://docs.google.com/.
+*   **Google Sites:**
+    *   Used for personal website hosting. Access via http://sites.google.com/.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Personal Website Hosting - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/528-personal-website-hosting
+
+**Content:**
+Recommended methods for hosting a personal website.
+*   **DSC's `public_html` Solution:**
+    *   URL: `https://people.sc.fsu.edu/~FSUID` or `https://sc.fsu.edu/~FSUID`
+    1.  `chmod 0711 ~`
+    2.  `mkdir ~/public_html`
+    3.  `chmod 755 ~/public_html`
+    4.  Add content. **IMPORTANT:** This will likely allow other users to read files in your home directory. Manage permissions carefully.
+*   **Google portals and other hosts:**
+    *   Google Site (formerly Google Pages), etc.
+*   **FSU's myWebDAV Solution:**
+    *   URL: `http://myweb.fsu.edu/FSUID`
+    *   Available to all Faculty and Students. Submit a support ticket at help.fsu.edu if your site is not created.
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Web Design
+
+<---->
+
+**Page Title:** Windows X11 - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/532-windows-x11
+
+**Content:**
+To access Linux X11 resources from Windows, you need SSH Secure Shell Client and X-Win32 configured. Use a VPN client if off-campus.
+*   **Turn on X11 Tunneling in SSH Secure Shell Client:**
+    *   Go to "Profiles/Edit Profiles", select your profile, go to the "Tunneling" tab, and check "Tunnel X11 connections".
+*   **Enable X-Win32 License (for all users):**
+    *   Ask your system administrator or email [email protected] for help.
+    *   After entering the license, copy `C:\Documents and Settings\username\Application Data\StarNet\X-Win32\License.config` to `C:\Program Files\StarNet\X-Win32 9.4`.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Seminar Room Equipment - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/620-seminar-room-equipment
+
+**Content:**
+*   **Problem:** The screen is flickering when I connect my external device.
+    *   **Solution:** Power cycle the top two Cyviz boxes in the left cabinet (turn off for 30 seconds, then on).
+*   **Problem:** The screen is missing some colors (red/green/blue).
+    *   **Solution:** Likely a faulty wire. Try the other input cable and submit a help request to [email protected]
+
+If solutions don't work, contact the Technical Support Group.
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Sun Analyzer - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/655-sun-analyzer
+
+**Content:**
+Sun Analyzer Report. (No other content provided).
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Video Conferencing - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/661-video-conferencing
+
+**Content:**
+Slides from a presentation by Michael McDonald outlining video conferencing tools available to faculty and students.
+*   **Tools covered:** Skype, Google Hangouts, iChat, EVO, Access Grid.
+*   **Attachments:**
+    *   **Video Conferencing Presentation:** Created by Michael McDonald (2207 kB)
+
+**Details:**
+*   **Written by:** Michael McDonald
+*   **Category:** Video Conferencing
+
+<---->
+
+**Page Title:** RHEL6 - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/685-rhel6
+
+**Content:**
+Red Hat Enterprise Linux.
+
+*   **Upgrade FAQs:**
+    *   **Is Firefox crashing or you can't read FSU email?**
+        1.  Backup your bookmarks.
+        2.  Close Firefox.
+        3.  `move ~/.mozilla ~/.mozilla.backup`
+    *   **Problems with Acroread Firefox plugin?**
+        1.  Follow the steps above.
+        2.  If that fails, in Firefox, go to Edit->Preferences->Applications->pdf and change the document viewer.
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Usage of the HTML pre Tag - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/688-usage-of-the-html-pre-tag
+
+**Content:**
+Proper usage of the HTML `<pre>` tag is shown. Text in a `<pre>` element is displayed in a fixed-width font and preserves both spaces and line breaks.
+*   **Example:**
+    ```
+    code line 1
+    code line 2
+    code line 3
+    ```
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** FSU Virtual Lab (myFSUVLab) - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/736-myfsuvlab
+
+**Content:**
+Florida State University's virtual computer lab, myFSUVLab, provides access to university software like SPSS or MATLAB anytime, anywhere, from any computer, tablet, or mobile device.
+*   **Learn More:** Click Here to Learn More About myFSUVLab
+*   **Launch:** Click Here to Launch myFSUVLab
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Network Time Protocol (NTP) - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/737-ntp
+
+**Content:**
+Access to external NTP resources on the DSC network is prohibited due to security issues. You may use our internal NTP server for synchronizing clocks:
+`ntp.sc.fsu.edu`
+
+**Details:**
+*   **Written by:** Michael McDonald
+
+<---->
+
+**Page Title:** Intel Parallel Studio - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/739-intel-parallel-studio
+
+**Content:**
+Intel's Parallel Studio is available on classroom and hallway nodes.
+
+*   **Getting Started:**
+    *   **Intel VTune Amplifier:**
+        *   Environment: `source /opt/intel-studio/vtune_amplifier_xe_2013/amplxe-vars.sh`
+        *   GUI: `amplxe-gui`
+        *   CLI: `amplxe-cl`
+    *   **Intel Inspector:**
+        *   Environment: `source /opt/intel-studio/inspector_xe_2013/inspxe-vars.sh`
+        *   GUI: `inspxe-gui`
+        *   CLI: `inspxe-cl`
+    *   **Intel Advisor:**
+        *   Environment: `source /opt/intel-studio/advisor_xe_2013/advixe-vars.sh`
+        *   GUI: `advixe-gui`
+        *   CLI: `advixe-cl`
+    *   **Intel Composer (Compilers):**
+        *   Environment (bash): `source /opt/intel-studio/bin/compilervars.sh intel64`
+        *   C++ Compiler: `icpc`
+        *   C Compiler: `icc`
+        *   Fortran Compiler: `ifort`
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** FSU Calendar Service - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/243-fsu-calendar
+
+**Content:**
+For general questions about the FSU calendar, email [email protected], [email protected], or visit Information Technology Services.
+
+*   **How to allow someone else to manage your calendar:**
+    1.  Login to http://webmail.fsu.edu and go to Calendar.
+    2.  Select "Manage Calendars..." from the "Current Calendar" drop-down.
+    3.  Click "Edit" on the calendar, then "Share this calendar with specific users".
+    4.  Enter the username and grant desired permissions (Read, Modify, etc.).
+
+*   **How to view another FSU user's calendar:**
+    1.  Go to "Manage Calendars...".
+    2.  Click the "Subscribe..." button.
+    3.  Search for and select the calendars you wish to view.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+
+<---->
+
+**Page Title:** Overview to Computing Resources in the Deptartment of Scientific Computing - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/366-overview-to-computing-resources-in-the-deptartment-of-scientific-computing
+
+**Content:**
+This event provides an overview of computing resources available in the department for faculty, students, and staff. It covers where to run serial and parallel jobs, compile software, use MATLAB, and visualize data. Slides and videos from previous presentations are available.
+
+**Details:**
+*   No author listed.
+
+<---->
+
+**Page Title:** Google Applications - FSUSciComp
+**URL:** https://www.sc.fsu.edu/computing/tech-docs/527-google-applications
+
+**Content:**
+The department uses Google Calendar for scheduling.
+*   **Google Calendar:**
+    *   Login at http://calendar.sc.fsu.edu/. Contact [email protected] for help setting up an account.
+    *   You can customize settings, add/view/share calendars, and schedule group meetings by adding guests.
+    *   Tasks can be managed from within the calendar interface.
+*   **Google Documents:**
+    *   A handy option for multiplatform collaboration when security is not paramount. Access via http://docs.google.com/.
+*   **Google Sites:**
+    *   Used for personal website hosting. Access via http://sites.google.com/.
+
+**Details:**
+*   **Written by:** Xiaoguang Li
+```

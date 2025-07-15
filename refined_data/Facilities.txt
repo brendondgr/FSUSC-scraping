@@ -1,0 +1,53 @@
+```
+**Title:** Facilities Statement - FSUSciComp
+<---->
+**URL:** https://www.sc.fsu.edu/facilities
+<---->
+**Overview: Facilities, Computational Infrastructure**
+The Department of Scientific Computing (DSC) at Florida State University (FSU) provides facilities and technical expertise to support FSU's cyberinfrastructure. The DSC manages a dedicated and highly flexible computing facility on the main FSU campus in the Dirac Science Library, designed to support specialized and experimental hardware and software systems. Researchers are encouraged to copy relevant portions of this text for their proposals.
+<---->
+**DSC Computing Facility**
+- **Location:** Main FSU campus, Dirac Science Library.
+- **Hosted Systems:** The facility hosts a variety of computer architectures, interconnects, and operating systems. These systems are owned by the DSC.
+- **Research Areas Supported:** Machine learning, neuroscience, molecular biophysics, evolutionary biology, network modeling, and Monte-Carlo algorithm development.
+- **Physical Infrastructure:**
+    - **Cooling:** Two 40-ton HVAC cooling units.
+    - **Space:** 1000 ft² of raised floor.
+    - **Power:** An extensive power distribution system, UPS battery backup, and a 550 KVA diesel-powered backup generator that powers all hardware and HVAC systems.
+- **Network Infrastructure:**
+    - **Backbone:** 10 Gbps backbone providing connectivity to switching infrastructure, key servers, and storage.
+    - **External Connection:** 100 Gbps connection to the FSU campus backbone, which connects to the Florida/National LamdaRail.
+<---->
+**FSU RCC (formerly the Shared-HPC)**
+For information on the FSU Research Computing Center (RCC), please access the latest RCC facilities statement at the following link: https://its.fsu.edu/help/it-support/researchers#grants
+<---->
+**Scientific Visualization**
+- **Visualization Laboratory:**
+    - **Location:** Fourth floor of the Dirac Science Library (DSL).
+    - **Access:** General access laboratory for scientific visualization and computational intelligence.
+    - **Equipment:** Multiple high-end visualization workstations equipped with GPU video cards compatible with the CUDA SDK.
+    - **Storage:** All workstations have access to a multi-terabyte shared high-performance storage system.
+
+- **High-Resolution Projection System:**
+    - **Location:** Main seminar room, adjacent to the Visualization Lab.
+    - **Technology:** A cutting-edge 4K Enhancement Technology rear-mounted laser projector.
+    - **Screen:** Illuminates an 18' x 8' screen.
+    - **Control:** Supports numerous input devices via a simple-to-use touch panel screen.
+<---->
+**General DSC Infrastructure**
+- **Office Space:** The DSC provides office space for its faculty, postdocs, graduate students, and associated support personnel. Designated visitor offices are also available. All offices are equipped with a desktop computer and network connections.
+- **Wireless:** Wireless network is available throughout the FSU campus.
+- **Meeting & Seminar Rooms:**
+    - **Large Seminar Room:** Located on the fourth floor with a capacity for 80 people, equipped with a 4K Enhanced rear-mounted laser projection system.
+    - **Conference Rooms:** Two smaller conference rooms are available, equipped with large high-definition displays.
+<---->
+**DSC Classroom**
+The DSC maintains a cutting-edge classroom facility designed to support its scientific programming curriculum.
+- **Environment:** Recently updated to provide a conducive environment for modern computational and scientific teaching and learning.
+- **Systems:** 20 new workstations running LINUX or Windows.
+- **Workstation Specifications:**
+    - **Processor:** Intel® Core™ i9-10940X (3.30GHz, 14 cores).
+    - **RAM:** 64GB.
+    - **GPU:** NVIDIA RTX A5000.
+- **Purpose:** Ideal for hands-on learning and research in machine learning, data science, and scientific computing.
+```

@@ -1,0 +1,16 @@
+```
+**Page Title:** Student Groups - FSUSciComp
+
+<---->
+
+**URL:** https://www.sc.fsu.edu/student-groups
+
+<---->
+
+**Page Heading:** Student groups.
+
+<---->
+
+**Action Link:**
+*   **Text:** Click Here to Register an Organization with Nole Central!
+```

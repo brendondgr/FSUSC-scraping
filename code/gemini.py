@@ -15,7 +15,10 @@ def refine_all_raw_data(api_key):
     client = genai.Client(api_key=open("api_key.txt", "r").read())    
     model = "gemini-2.5-pro"
     
-    instructions = "The following is the raw textual data from an HTML Website. Please take the data and create a clear and organized structure for the data in a textual format."
+    instructions = """The following is the raw textual data from an HTML Website. Please take the data and create a clear and organized structure for the data in a textual format.
+    
+    Ensure that you put your answer between ``` and ```, so that it can be parsed by the code, and please separate each sub-section/section with '<---->'.
+    """
 
     if not os.path.exists(raw_data_dir):
         print("No raw data directory found.")

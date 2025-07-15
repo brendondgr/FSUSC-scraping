@@ -1,0 +1,55 @@
+```
+**Header**
+*   **Title:** Home - FSUSciComp
+*   **URL:** https://www.sc.fsu.edu/
+
+<---->
+
+**What is Computational Science?**
+Computational science is an exciting, ever-evolving field that uses computers, networks, software, and algorithms to solve problems, do simulations, build things, and create new knowledge.
+
+<---->
+
+**New MS Degree in Interdisciplinary Data Science**
+The department is offering a new 30-credit MS degree in Interdisciplinary Data Science (IDS) with a major in Scientific Computing, which began in Fall 2021.
+
+<---->
+
+**The Uniqueness of the Department of Scientific Computing at FSU**
+The department offers innovative undergraduate and graduate programs in computational science, providing extensive, interdisciplinary hands-on training. It is a self-contained department, which is unusual, with faculty members from a diverse range of disciplines, including:
+*   Biologists
+*   Computer scientists
+*   Engineers
+*   Geneticists
+*   Geophysicists
+*   Material scientists
+*   Hydrologists
+*   Mathematicians
+*   Physicists
+
+This variety allows for a broad spectrum of research interests.
+
+<---->
+
+**Facilities**
+The department maintains a large computing infrastructure to support research and education.
+*   **Computing Resources:**
+    *   Large super-computers
+    *   Specialized high-performance computational servers
+    *   A laboratory for computational intelligence and scientific visualization
+    *   A bio-informatics server
+    *   A morphometrics lab
+*   **Physical Spaces:**
+    *   A state-of-the-art computer classroom
+    *   A large multi-purpose seminar room with an 8-foot by 16-foot rear laser projection screen
+
+<---->
+
+**Job Placements**
+The website provides a link to a sample of excellent jobs that students with a degree in Computational Science from Florida State University have secured.
+
+<---->
+
+**Students**
+There is a call to action for prospective students to apply to FSU.
+```

@@ -1,0 +1,25 @@
+```
+Page Title: Directions - FSUSciComp
+Page URL: https://www.sc.fsu.edu/contact-us/directions
+<---->
+Section: Directions
+Department: Department of Scientific Computing
+Location: Dirac Science Library
+Floors: Fourth and First floors
+Relative Location: Immediately west of the FSU Bookstore and Parking Garage on Woodward Avenue.
+General Directions: Available on the Visitor Center web site.
+<---->
+Section: Campus Map
+To find the building, use the Campus Map and click "Dirac Science Library (DSL)" in the Building Directory.
+<---->
+Section: A Note About Parking
+Visitor Parking Options:
+- Park in metered parking spaces located throughout campus.
+- Purchase a daily or semester "V" permit.
+
+Special Arrangements:
+- Guests with prior arrangements with a department sponsor/host may be issued a temporary permit.
+- This permit allows parking in student and faculty/staff facilities.
+
+Additional Information: Available from the Visitor Center web site.
+```

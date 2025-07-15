@@ -1,0 +1,243 @@
+```
+Page Information:
+- Title: Jobs - FSUSciComp
+- URL: https://www.sc.fsu.edu/job-placements
+<---->
+Introduction:
+- Header: Job Placements
+- Description: The following list of companies, institutions, and government labs shows the variety and caliber of jobs our students are landing with a degree in Computational Science from Florida State University.
+<---->
+Job Placement List:
+
+- Company/Institution: Advanced Cooling Technologies, Inc.
+  - Location: Lancaster, PA
+  - Degree(s): Not Specified
+
+- Company/Institution: Aerojet Rocketdyne
+  - Location: Huntsville, AL
+  - Degree(s): Ph.D.
+
+- Company/Institution: Arizona State University
+  - Location: Tempe, AZ
+  - Degree(s): Ph.D.
+
+- Company/Institution: Bank of America
+  - Location: Charlotte, NC
+  - Degree(s): Ph.D.
+
+- Company/Institution: Cairo University
+  - Location: Giza, Egypt
+  - Degree(s): M.S.
+
+- Company/Institution: Carnegie Mellon University
+  - Location: Pittsburgh, PA
+  - Degree(s): Ph.D.
+
+- Company/Institution: Cerner
+  - Location: Kansas City, MO
+  - Degree(s): M.S.
+
+- Company/Institution: codeslam
+  - Location: Tallahassee, FL
+  - Degree(s): Ph.D.
+
+- Company/Institution: Datamaxx Group
+  - Location: Tallahassee, FL
+  - Degree(s): Not Specified
+
+- Company/Institution: Digitalsmiths
+  - Location: Durham, NC
+  - Degree(s): Not Specified
+
+- Company/Institution: Epic Careers
+  - Location: Verona, WI
+  - Degree(s): B.S.
+
+- Company/Institution: Facebook
+  - Location: Menlo Park, CA
+  - Degree(s): Not Specified
+
+- Company/Institution: Fidelity Investments
+  - Location: Durham, NC
+  - Degree(s): B.S.
+
+- Company/Institution: First Data
+  - Location: Palo Alto, CA
+  - Degree(s): Not Specified
+
+- Company/Institution: Florida Department of Transportation
+  - Location: Tallahassee, FL
+  - Degree(s): M.S.
+
+- Company/Institution: Florida State University
+  - Location: Tallahassee, FL
+  - Degree(s): Not Specified
+
+- Company/Institution: General Motors
+  - Location: Milford, MI
+  - Degree(s): Not Specified
+
+- Company/Institution: Google
+  - Location: Mountain View, CA
+  - Degree(s): Not Specified
+
+- Company/Institution: Infinity Software Development, Inc.
+  - Location: Tallahassee, FL
+  - Degree(s): M.S.
+
+- Company/Institution: Johns Hopkins University
+  - Location: Baltimore, MD
+  - Degree(s): Ph.D.
+
+- Company/Institution: JPL: Radar Science & Engineering
+  - Location: Los Angeles, CA
+  - Degree(s): Ph.D.
+
+- Company/Institution: King Abdullah University of Science and Technology
+  - Location: Saudi Arabia
+  - Degree(s): M.S.
+
+- Company/Institution: Lawrence Berkeley National Laboratory
+  - Location: Berkeley, CA
+  - Degree(s): M.S.
+
+- Company/Institution: Lowes
+  - Location: Mooresville, NC
+  - Degree(s): Not Specified
+
+- Company/Institution: Los Alamos National Laboratory
+  - Location: New Mexico
+  - Degree(s): Not Specified
+
+- Company/Institution: Lucidworks
+  - Location: San Francisco, CA
+  - Degree(s): Not Specified
+
+- Company/Institution: Lyft
+  - Location: San Francisco, CA
+  - Degree(s): Ph.D.
+
+- Company/Institution: Minnesota Supercomputing Institute
+  - Location: Minneapolis, MN
+  - Degree(s): Not Specified
+
+- Company/Institution: NantHealth
+  - Location: Panama City, FL
+  - Degree(s): Not Specified
+
+- Company/Institution: NASA Jet Propulsion Lab
+  - Location: Pasadena, CA
+  - Degree(s): Not Specified
+
+- Company/Institution: National Institute of Health
+  - Location: Bethesda, MD
+  - Degree(s): Ph.D.
+
+- Company/Institution: National Superconducting Cyclotron Laboratory
+  - Location: East Lansing, MI
+  - Degree(s): Ph.D., M.S., B.S.
+
+- Company/Institution: NewSci / NewSci Labs
+  - Location: Tallahassee, FL
+  - Degree(s): M.S.
+
+- Company/Institution: Nokia Technologies
+  - Location: Sunnyvale, CA
+  - Degree(s): M.S., Ph.D.
+
+- Company/Institution: Oak Ridge National Laboratory
+  - Location: Oak Ridge, TN
+  - Degree(s): M.S.
+
+- Company/Institution: outbrain
+  - Location: Cambridge, MA
+  - Degree(s): Not Specified
+
+- Company/Institution: Pacific Northwest National Laboratory
+  - Location: Richland, WA
+  - Degree(s): M.S.
+
+- Company/Institution: Sony, Playstation
+  - Location: San Mateo, CA
+  - Degree(s): M.S.
+
+- Company/Institution: Platfora
+  - Location: San Mateo, CA
+  - Degree(s): M.S., Ph.D.
+
+- Company/Institution: Purdue University
+  - Location: West Lafayette, IN
+  - Degree(s): Not Specified
+
+- Company/Institution: Raytheon
+  - Location: Largo, FL
+  - Degree(s): Not Specified
+
+- Company/Institution: Science Applications International Corporation
+  - Location: San Diego, CA
+  - Degree(s): Ph.D.
+
+- Company/Institution: Smarter Data
+  - Location: San Ramon, CA
+  - Degree(s): B.S.
+
+- Company/Institution: St. Jude Children's Research Hospital
+  - Location: Memphis, TN
+  - Degree(s): Not Specified
+
+- Company/Institution: Stinger Ghaffarian Technologies, Inc. (SGT)
+  - Location: Greenbelt, MD
+  - Degree(s): M.S.
+
+- Company/Institution: Strong Analytics LLC
+  - Location: Chicago, IL
+  - Degree(s): Not Specified
+
+- Company/Institution: Synopsys, Inc.
+  - Location: Marlborough, MA
+  - Degree(s): Not Specified
+
+- Company/Institution: Tall Timbers
+  - Location: Tallahassee, FL
+  - Degree(s): Ph.D.
+
+- Company/Institution: Tinder
+  - Location: Palo Alto, CA
+  - Degree(s): Not Specified
+
+- Company/Institution: Torch Technologies
+  - Location: Huntsville, AL
+  - Degree(s): M.S.
+
+- Company/Institution: U.S. Environmental Protection Agency
+  - Location: Raleigh-Durham, NC
+  - Degree(s): Ph.D.
+
+- Company/Institution: University of California, Los Angeles (UCLA)
+  - Location: Los Angeles, CA
+  - Degree(s): Ph.D.
+
+- Company/Institution: University of California, Santa Barbara (UCSB)
+  - Location: Santa Barbara, CA
+  - Degree(s): Ph.D.
+
+- Company/Institution: University of Michigan
+  - Location: Ann Arbor, MI
+  - Degree(s): Ph.D.
+
+- Company/Institution: University of Petroleum and Energy Studies
+  - Location: Dehradun, India
+  - Degree(s): Ph.D.
+
+- Company/Institution: University of Texas at Austin
+  - Location: Austin, TX
+  - Degree(s): M.S.
+
+- Company/Institution: Vertisystem Inc.
+  - Location: Fremont, CA
+  - Degree(s): M.S.
+
+- Company/Institution: Visual.ly
+  - Location: California
+  - Degree(s): Not Specified
+```

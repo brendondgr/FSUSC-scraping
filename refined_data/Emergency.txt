@@ -1,0 +1,41 @@
+```
+**Title:** Emergency - FSUSciComp
+**URL:** https://www.sc.fsu.edu/emergency
+
+<---->
+
+**Section 1: FSU Emergency & COVID-19 Information**
+
+*   **Header:** Emergency Info
+*   **STAY HEALTHY FSU:** Aligned with the Florida Board of Governors Re-opening Blueprint.
+*   **COVID-19 CASE STATISTICS**
+*   **FSU ALERT - Emergency Information and Instructions:** Provides current university status, official announcements, and situation reports.
+*   **FSU's coronavirus response**
+*   **Coronavirus: Frequently Asked Questions**
+
+<---->
+
+**Section 2: Office of Distance Learning (ODL) Emergency Online Instruction**
+
+*   **Description:** When an emergency affects your ability to teach your courses, ODL is here to help. Even if you've never taught online, learning a few basics can help you keep your courses running in spite of a campus closure. It can also help you recover after the emergency is over. Whether you're new to Canvas or have some experience, ODL has assembled resources for delivering your classes online.
+
+<---->
+
+**Section 3: FSU ITS Employee Remote Work Essentials**
+
+*   **Description:** To successfully work remotely, you’ll need a computer, a reliable internet connection, and your FSU login credentials. It is also recommended to bookmark your essential websites to make accessing your go-to files easier. Make sure to test everything out before you plan to be away to ensure you are set up for success.
+
+<---->
+
+**Section 4: External COVID-19 Resources**
+
+*   **Who’s staying home because of COVID-19?:** A list of all the companies WFH or events changed because of COVID-19.
+*   **MAP: Coronavirus Resource Center - Johns Hopkins:** Track Reported Cases of COVID-19.
+
+<---->
+
+**Section 5: Attachments**
+
+*   **File:** COVID-19 CampusEventsGuidance.pdf
+*   **File Size:** 144 kB
+```

@@ -1,0 +1,10 @@
+```
+Title: Job Opportunities - FSUSciComp
+<---->
+URL: https://www.sc.fsu.edu/jobs
+<---->
+Header: Job Opportunities
+<---->
+Content:
+We are always looking for new collaborators and new students. We invite you to contact our faculty to discuss the opportunities for you. Right now the following positions are open at the Department of Scientific Computing.
+```

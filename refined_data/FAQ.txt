@@ -1,0 +1,243 @@
+```
+**Title:** FSUSciComp FAQs Summary
+**URL:** https://www.sc.fsu.edu/faq
+**Introduction:** If you have a question which is not in this section, then please contact us here: [Protected Email Address]
+
+<---->
+
+**Section: Room Reservations**
+
+**Question:** How do I reserve the Scientific Computing Interactive Classroom (422 DSL)?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+**Question:** Who do I contact to reserve the large seminar room (499) or the small conference room (416)?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+**Question:** How do I reserve the Dirac Computer Classroom (152)?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+<---->
+
+**Section: Facilities**
+
+**Question:** To whom should I report facility problems with the elevator, lights, bathroom, leaks, etc.?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+**Question:** If the coffee supplies run out, what should I do?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+<---->
+
+**Section: For Students**
+
+**Question:** Where can I find forms for graduate students?
+**Answer:** See Links to DocuSign PowerForms.
+
+**Question:** What information is needed for the prospectus defense?
+**Answer:**
+Step 1: Complete the Ph.D. Committee Form.
+Step 2: Complete the Ph.D. Result of Prospectus Defense Form *after* defending.
+The information needed for the prospectus is:
+(i) a survey/summary of the relevant literature
+(ii) an outline of the proposed doctoral research project
+(iii) a summary of preliminary results
+(iv) an expected time-line for completion of the key tasks proposed
+Please refer to the Graduate Handbook for more details.
+
+**Question:** Is there funding for students to attend conferences?
+**Answer:** Yes. Since 2024, the department contributes funds for students presenting at conferences. Any student presenting a talk or poster at a national or international scientific conference is eligible to apply for up to a $1000 travel award. Each student can receive one travel award in the fiscal year (July-June) as long as funds are available. A brief description of the presentation and conference information should be submitted in advance. All money is disbursed via Concur. The student must be enrolled in the program and in good academic standing. It is expected that students also apply for other FSU travel awards, such as COGS travel grants.
+
+**Question:** Where can students find career opportunities (internships, fellowships, postdocs, etc.)?
+**Answer:** We offer many links/resources for career seeking students here.
+
+**Question:** Where do I go to apply for the scientific computing graduate program?
+**Answer:** Read the application overview and apply now here!
+
+**Question:** Where can students find info on Graduation checks and clearance?
+**Answer:** Click here for the College of Arts and Sciences Graduation checks and clearance FAQ.
+
+**Question:** What is the recommended minimum score for the TOEFL and GRE?
+**Answer:** For TOEFL a score >80, and for GRE a score >160 makes an application competitive.
+
+**Question:** How can I get help with improving my grammar?
+**Answer:** Try this online resource.
+
+**Question:** Looking for research opportunities (and funding) for undergraduates?
+**Answer:**
+- Read about Undergraduate Research Opportunity Program (UROP)
+- Read about IDEA Grants (formerly URCAA/MRCE)
+
+**Question:** Where can graduate students find info on Thesis, Treatise, Dissertation Clearance Procedures and Deadlines?
+**Answer:** Click here for the College of Arts and Sciences Thesis, Treatise, Dissertation Clearance Procedures and Deadlines.
+
+**Question:** How can I get help with Calculus?
+**Answer:** Try this Khan Academy online resource.
+
+**Question:** Where can undergraduate students find more details on the Center for Undergraduate Research & Academic Engagement (CRE)?
+**Answer:** Click here for cre.fsu.edu.
+**Attachment:**
+- File: CRE-Resources.pdf
+- Description: Presentation
+- File size: 860 kB
+
+**Question:** Is there a Database to search for Funding and Grant opportunities?
+**Answer:** Yes. COS/PIVOT (formerly Community of Science). The Community of Science funding search engine, commonly referred to as COS, has recently changed its name to Pivot.
+
+**Question:** Where can undergraduate students find more details on Financial Information, Tuition, Fees, Aid, Scholarships, and Employment?
+**Answer:** It's all in the UNDERGRADUATE BULLETIN here.
+
+**Question:** Is there a central website where all federal agencies post open procurement opportunities?
+**Answer:** Yes. Federal Business Opportunities (fbo.gov).
+
+**Question:** Where can students find more details on Scholarships, Grants, and Fellowships that Accept Applications from Non-US Citizens?
+**Answer:** Click here for Non-US Citizen Opportunties.
+
+<---->
+
+**Section: Employment, Personnel, and Visa Issues**
+
+**Question:** Who is the FACULTY liaison for appointments, payroll, benefits and any other questions regarding employment at FSU?
+**Answer:** Please Email [Protected Email Address].
+
+**Question:** Who processes appointment papers for students, post docs and staff, to include new appointments and reappointments (any non-faculty)?
+**Answer:** Please email [Protected Email Address].
+
+**Question:** Who can help me with a Visa Problem?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer OR Paul Keyser.
+
+**Question:** Who processes appointment papers for anyone who has a visa?
+**Answer:** Please email [Protected Email Address].
+
+**Question:** Who should receive my timesheet when it is due?
+**Answer:** Please email [Protected Email Address].
+
+**Question:** Who is the Personnel Representative for the Department of Scientific Computing?
+**Answer:** Please email [Protected Email Address].
+
+<---->
+
+**Section: General**
+
+**Question:** How do I make an appointment to see the Chair?
+**Answer:** Please Email [Protected Email Address].
+
+**Question:** Looking for Info Regarding Employment Outside the University?
+**Answer:** Refer to the FSU Faculty Handbook here. For any secondary employment by an employer other than the University, a faculty member should fill out the Faculty Outside Activity Statement form.
+
+**Question:** Looking for Info Regarding Teaching & Student/Faculty Interactions?
+**Answer:** Refer to the FSU Faculty Handbook here.
+
+**Question:** Who prepares the department Newsletter and handles public relations?
+**Answer:** Please Email [Protected Email Address], Attn: DSC Public Relations.
+
+**Question:** How do I ask for computer support?
+**Answer:** Please Email [Protected Email Address].
+
+**Question:** Who are the current (2017-2019) department faculty senator and alternate?
+**Answer:** Dennis Slice ([Protected Email Address]) is the Faculty Senator. Peter Beerli ([Protected Email Address]) is the Alternate.
+
+**Question:** Need info about the Family Educational Rights and Privacy Act (FERPA)?
+**Answer:** Then go here http://registrar.fsu.edu/ferpa/
+
+**Question:** Where can I get information on Title IX?
+**Answer:** hr.fsu.edu
+**Attachment:**
+- File: 2016 - 2017 Title IX Reporting training.pptx
+- Description: Title IX Reporting
+- File size: 539 kB
+
+**Question:** I want to post a news article to the website. Who can help me with this?
+**Answer:** Please Email [Protected Email Address], Attn: DSC Public Relations.
+
+**Question:** Is there a Database to search for Funding and Grant opportunities?
+**Answer:** Yes. COS/PIVOT (formerly Community of Science).
+
+<---->
+
+**Section: Grants, Proposals, Budget, and Start-ups**
+
+**Question:** Who do I talk with about New Faculty Start-Up Procedures?
+**Answer:** Please Email [Protected Email Address], Attn: TBA.
+
+**Question:** Who do you see about funding issues for specific budgets?
+**Answer:** Please Email [Protected Email Address], Attn: TBA.
+
+**Question:** Who do I contact for help with grants and proposals?
+**Answer:** Please Email [Protected Email Address], Attn: TBA.
+
+**Question:** Is there a central website where faculty can search all federal agencies for open procurement opportunities?
+**Answer:** Yes. Federal Business Opportunities (fbo.gov).
+
+<---->
+
+**Section: Inventory**
+
+**Question:** Who can answer surplus questions or assist with recycling equipment?
+**Answer:** Paul Keyser.
+
+**Question:** Who should I tell about missing or stolen property?
+**Answer:** Please Email [Protected Email Address], Attn: Paul Keyser.
+
+**Question:** Who can answer inventory questions or assist with paperwork?
+**Answer:** Please Email [Protected Email Address], Attn: Paul Keyser.
+
+<---->
+
+**Section: Office Supplies**
+
+**Question:** Who is in charge of ordering office supplies?
+**Answer:** Please Email [Protected Email Address].
+
+<---->
+
+**Section: Purchasing**
+
+**Question:** Who do I speak with about purchasing questions via the FSU system or the FSU computer store?
+**Answer:** Please email [Protected Email Address].
+
+**Question:** Who do I see to order equipment through my grant?
+**Answer:** Please Email [Protected Email Address], Attn: TBA.
+
+**Question:** What is required for use of department petty cash?
+**Answer:** Please submit this Petty Cash Request Form. If you are approved, then follow up details will be provided by Paul Keyser.
+
+<---->
+
+**Section: Seminars and Event Planning**
+
+**Question:** If I need help planning an event, whom do I see?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+**Question:** Who will help me advertise a department seminar/workshop via e-mails and/or flyers?
+**Answer:** Please Email [Protected Email Address].
+
+<---->
+
+**Section: Students (General Inquiries)**
+
+**Question:** Who supervises the students?
+**Answer:** Administration.
+
+**Question:** Is it OK for me to ask the students to make copies?
+**Answer:** Yes.
+
+<---->
+
+**Section: Travel**
+
+**Question:** Who do I see for help with travel arrangements?
+**Answer:** Please email [Protected Email Address] for help with travel arrangements for you, or for visitors or seminar speakers, including airline, hotel, and rental car. They will help to complete the necessary forms as required by FSU.
+
+<---->
+
+**Section: Visitors**
+
+**Question:** How do I get temporary parking (not more than 1 week) for a visitor?
+**Answer:** Please Email [Protected Email Address], Attn: Cecelia Farmer.
+
+**Question:** How do I request a user account for a visitor?
+**Answer:** It can be requested by filling out the Visitor Request Form for a short-term visitor (less than 2 weeks). For a post-doc or a long term visiting scientist (more than 2 weeks), contact Administration AND request an account at 'Getting an Account'.
+
+**Question:** What do I do if I have a new post doc or a long term visiting scientist (more than 2 weeks)?
+**Answer:** Contact Administration and they will provide office space, keys, etc. The Host is responsible for computer equipment. The visitor is responsible for requesting an FSUID at 'Getting an Account'.
+```

@@ -1,0 +1,38 @@
+```
+Page Title: Publications - FSUSciComp
+URL: https://www.sc.fsu.edu/publications
+<---->
+Section: Main Content
+Header: Publications
+Link: Google Scholar Citations
+<---->
+Section: Researchers
+- Alvarez Illan, Ignacio
+- Beerli, Peter
+- Bertagna, Luca
+- Chen, Xiao
+- Chi, Yu-Chieh
+- Chipilski, Hristo
+- Dexter, Nicholas
+- Erlebacher, Gordon
+- Gunzburger, Max
+- Handy, Timothy
+- Huang, Chen
+- Lemmon, Alan
+- Mashayekhi, Somayeh
+- McDonald, Michael
+- Meyer-Baese, Anke
+- Navon, Michael
+- Palczewski, Michal
+- Plewa, Tomasz
+- Quaife, Bryan
+- Ridley, Dennis
+- Shanbhag, Sachin
+- Slice, Dennis
+- Solimine, Philip
+- Tahmassebi, Amirhessam
+- Witman, David
+- Ye, Ming
+- Zaman, Sayem
+- Zavala Romero, Olmo
+```

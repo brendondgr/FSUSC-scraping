@@ -1,0 +1,95 @@
+```
+Title: By-laws - FSUSciComp
+<---->
+URL: https://www.sc.fsu.edu/by-laws
+<---->
+Document Header:
+Bylaws of the Department of Scientific Computing in the College of Arts and Sciences Florida State University
+<---->
+Revision History:
+- Revisions approved on August 22, 2022 by a majority of faculty members of the Department of Scientific Computing by a secret ballot.
+- Revisions approved on January 13, 2020 by a majority of faculty members of the Department of Scientific Computing by a secret ballot.
+- Revisions approved on December 18, 2018 by a majority of faculty members of the Department of Scientific Computing by a secret ballot.
+- Revisions approved on March 18, 2013 by a majority of faculty members of the Department of Scientific Computing by a secret ballot.
+- Approved on August 26, 2009 by a majority of faculty members of the Department of Scientific Computing by a secret ballot.
+<---->
+Access Link:
+Click Here to Access the Latest By-laws
+<---->
+Table of Contents:
+I. BYLAWS
+  A. ADHERENCE WITH OTHER GOVERNING DOCUMENTS.
+  B. BYLAWS REVISION.
+  D. SUBSTANTIVE CHANGE STATEMENT.
+
+II. MEMBERSHIP AND VOTING RIGHTS
+  A. FACULTY MEMBERSHIP.
+  B. DEPARTMENT MEMBERSHIP.
+  C. FACULTY VOTING RIGHTS.
+  D. NON-FACULTY VOTING RIGHTS.
+
+III. DEPARTMENT ORGANIZATION AND GOVERNANCE
+  A. FACULTY MEETINGS.
+    1) Frequency
+    2) Faculty Meeting Procedures
+    3) Elections and Appointments
+  B. DEPARTMENT CHAIR SELECTION.
+  C. DEPARTMENT LEADERSHIP AND COMMITTEES
+    1) Leadership Positions
+    2) Standing Committees
+  D. FACULTY SENATORS.
+  E. FACULTY RECRUITMENT.
+    1) Faculty
+    2) Affiliated Faculty
+  F. UNIT REORGANIZATION.
+
+IV. CURRICULUM
+
+V. ANNUAL EVALUATION OF FACULTY ON PERFORMANCE AND MERIT
+  A. PEER INVOLVEMENT IN ANNUAL PERFORMANCE AND MERIT EVALUATION.
+    1) Annual Evaluation Procedures
+  B. CRITERIA FOR EVALUATION OF TENURE-TRACK FACULTY.
+    1) Teaching
+    2) Scholarship/Research.
+    3) Service.
+  C. CRITERIA FOR EVALUATION OF SPECIALIZED FACULTY
+    1) Teaching.
+    2) Scholarship/Research.
+    3) Service.
+
+VI. PROMOTION AND TENURE
+  A. PROGRESS TOWARD PROMOTION LETTER.
+  B. THIRD YEAR REVIEW FOR TENURE-TRACK FACULTY.
+  C. PEER INVOLVEMENT IN EVALUATION OF PROMOTION AND TENURE OF FACULTY.
+  D. CRITERIA FOR PROMOTION AND TENURE OF TENURE-TRACK FACULTY.
+  E. CRITERIA FOR PROMOTION OF SPECIALIZED FACULTY.
+<---->
+Attachments:
+- File: DSC_Bylaws_current-2022-08-22.pdf
+  - Description: Revisions approved on August 22, 2022
+  - File size: 263 kB
+
+- File: DSC_Bylaws_template_2022-07-20_final.pdf
+  - Description: restructured to university format
+  - File size: 263 kB
+
+- File: DSC_Bylaws_template_2022-07-20_final.docx
+  - Description: restructured to university format
+  - File size: 67 kB
+
+- File: bylaws-dsc-fsu-2020-02-05_approved.pdf
+  - Description: Revisions approved on January 13, 2020
+  - File size: 223 kB
+
+- File: bylaws-dsc-fsu-2018-12-20.pdf
+  - Description: Revisions approved on December 18, 2018
+  - File size: 236 kB
+
+- File: Scientific_Computing_GFS_FINAL_7.4.09.pdf
+  - Description: Graduate Faculty Criteria
+  - File size: 14 kB
+
+- File: sc-bylaws-03-14.pdf
+  - Description: Bylaws of the Department of Scientific Computing Florida State University
+  - File size: 79 kB
+```

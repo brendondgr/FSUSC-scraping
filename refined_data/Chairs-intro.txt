@@ -1,0 +1,52 @@
+```
+Page Title: Chair's Introduction - FSUSciComp
+<---->
+URL: https://www.sc.fsu.edu/chairs-intro
+<---->
+Header: Chair's Introduction
+<---->
+Welcome Message
+- To: Department of Scientific Computing
+- At: Florida State University
+<---->
+Introduction from the Chair
+The chair, Peter Beerli, reflects on the profound change in the role of computers in science. Initially a specialized tool for a few researchers, computers are now indispensable for science and have become powerful, mobile, and integral to society. The future may involve a transition to versatile quantum computers.
+<---->
+Departmental Focus
+The Department of Scientific Computing positions itself at the intersection where theory and computation meet. The faculty's work involves:
+- Modeling processes.
+- Improving precision and calculation time.
+- Achieving accurate predictions of actual processes.
+<---->
+Research Examples
+- Detecting tumors
+- Explaining the flow of forest fires
+- Describing details of star explosions
+- Describing evolutionary patterns
+<---->
+Interdisciplinary Nature
+The department is interdisciplinary at its core, with faculty from diverse fields including:
+- Mathematicians
+- Physicists
+- Biologists
+- Engineers
+- Material scientists
+- Computer scientists
+
+The faculty uses computers as a tool to improve theory, calculations, modeling, and inference.
+<---->
+Educational Programs
+- **Undergraduate Program:** A program in computational science that emphasizes the interaction of mathematics, computing, and problem-solving.
+- **Graduate Programs:**
+    - Doctoral program in computational science
+    - Master's program in computational science
+    - Master's program in datascience (in collaboration with 3 other departments)
+<---->
+Invitation and Call to Action
+The department encourages prospective students and other interested parties to explore the website, learn about the programs, and contact them to establish a dialogue. They are particularly interested in hearing from prospective students who want to become part of a discipline that is changing the world.
+<---->
+Closing
+Sincerely,
+Peter Beerli
+Professor and Chair
+```

@@ -1,0 +1,55 @@
+```
+Title: Software - FSUSciComp
+URL: https://www.sc.fsu.edu/software
+
+<---->
+
+Section: Morphometrics Lab Software
+
+<---->
+
+Software: Morpheus
+Description: A cross-platform, general purpose software package for morphometric analysis.
+Availability: More information is available here.
+
+<---->
+
+Software: forAge
+Description: A program for age-at-death estimation using 3D laser scans of the adult human pubic symphysis.
+Availability: More information is available here.
+
+<---->
+
+Software: GPSA
+Description: Software implementing the Generalized Procrustes Surface Analysis (GPSA).
+Availability: More information is available here.
+
+<---->
+
+Section: Other Software
+
+<---->
+
+Software: Migrate
+Description: A program to estimate population sizes and asymmetrical migration rates between populations. Migrate uses maximum likelihood and Bayesian approaches to analyze sequences (DNA, RNA), single nucleotide polymorphisms (SNP), microsatellites, and electrophoretic markers. Both approaches utilize the Metropolis-Hastings algorithm to integrate over all possible genealogical relationships.
+Authors: This email address is being protected from spambots. You need JavaScript enabled to view it.
+Future Developments: Speed improvements (via code optimization and additional parallelization) and the relaxation of some population genetic assumptions (e.g., the constancy of size and migration rates through time).
+Platform Support: Runs on any modern computer platform and also on clusters using the Message Passing Interface.
+Availability: The C source code is distributed free of charge here.
+
+<---->
+
+Software: MrBayes
+Description: A program for the Bayesian estimation of phylogeny and evolution. It handles a wide variety of stochastic evolutionary models for molecular, morphological and other types of discrete data. MrBayes uses Metropolis-coupled Markov chain Monte Carlo techniques to estimate the posterior probability distribution.
+Authors: John Huelsenbeck (University of California, Berkeley) and This email address is being protected from spambots. You need JavaScript enabled to view it. (Florida State University).
+Platform Support: Runs on all common platforms and is also available in an MPI-enabled version for cluster computers and shared-memory machines.
+Availability: The source code and executables are distributed free of charge from here.
+
+<---->
+
+Software: PAUP*
+Description: Infers phylogenetic trees from DNA and protein sequences and morphological data according to parsimony, distance, and maximum likelihood optimality criteria.
+Features: Data-format conversion, post-tree analyses such as consensus trees and ancestral-state reconstruction, and graphical output.
+Platform Support: Executables are available to run on Macintosh, Windows, Linux and several other Unix operating systems. The most recent release supports multithreading on multiprocessor machines. A version under development supports parallel computation on clusters and supercomputers, using MPI or PVM.
+Availability: More information is available here.
+```

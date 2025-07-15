@@ -1,0 +1,38 @@
+```
+**Title:** Account Policy - FSUSciComp
+
+**URL:** https://www.sc.fsu.edu/accounts?view=article&id=531:account-policy&catid=96:tech-docs
+<---->
+**Policy Overview**
+
+**Purpose:** This policy clarifies when DSC users must change their password, what sponsors must do to maintain a sponsored account, and how to prevent sponsored accounts from being "orphaned" if a sponsor leaves the DSC.
+
+**Sponsor Eligibility:** Only DSC faculty and Staff are permitted to sponsor accounts.
+<---->
+**Password Expiration Policy**
+
+This policy applies when a user does not change their password.
+
+*   **180 Days:** The user receives a warning requiring them to change their password.
+*   **200 Days:** The user account is locked, and the sponsor is notified via email. The account owner must contact a member of the Technical Support Group (TSG) to restore access. (Email provided: "This email address is being protected from spambots. You need JavaScript enabled to view it.")
+*   **350 Days:** The account owner and sponsor receive a warning that the account data will be deleted in 10 days unless the password is changed by contacting TSG.
+*   **360 Days:** The user account and its associated data are deleted from the DSC file system.
+<---->
+**Sponsored Account Verification Policy**
+
+This policy applies when a sponsor does not verify continued sponsorship for an account.
+
+*   **180 Days:** The sponsor receives a warning requiring them to verify the sponsorship.
+*   **200 Days:** The sponsored account is locked, and the sponsor is notified via email. The sponsor must contact a member of the TSG to restore access. (Email provided: "This email address is being protected from spambots. You need JavaScript enabled to view it.")
+*   **350 Days:** The account owner and sponsor receive a warning that the account and its data will be deleted.
+*   **360 Days:** The account and its associated data are deleted from DSC file systems.
+<---->
+**Sponsoring Account Removal Policy**
+
+This policy applies when a *sponsor* does not change their own password.
+
+*   **220 Days:** The sponsoring account and its sponsored accounts receive a warning.
+*   **290 Days:** The sponsoring account and its sponsored accounts are locked.
+*   **350 Days:** The sponsoring account and its sponsored accounts receive a warning that the accounts and data will be deleted in 10 days.
+*   **360 Days:** The sponsoring account, its sponsored accounts, and all associated data are deleted from the DSC file systems.
+```

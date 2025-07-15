@@ -1,0 +1,231 @@
+```
+### General Overview of the Department of Scientific Computing (FSUSciComp)
+
+The Department of Scientific Computing (DSC) at Florida State University (FSU) offers innovative, interdisciplinary undergraduate and graduate training programs. The focus is on the invention, implementation, testing, and application of algorithms and software to solve large-scale scientific and engineering problems. The department faculty comes from diverse disciplines, including biology, engineering, geology, mathematics, and physics.
+
+**Key Distinction:** Computational science is different from computer science. Computer science is about the science of computers, whereas computational science is about using computers to solve problems in science and engineering.
+
+**Degrees Offered:**
+*   Bachelor of Science (B.S.) in Computational Science
+*   Minor in Computational Science
+*   Master of Science (M.S.) in Computational Science
+*   Master of Science (M.S.) in Interdisciplinary Data Science (IDS)
+*   Doctor of Philosophy (Ph.D.) in Computational Science (with multiple specializations)
+*   Doctor of Philosophy (Ph.D.) in Fire Dynamics
+*   Doctor of Philosophy (Ph.D.) in Geophysical Fluid Dynamics
+
+**Contact:**
+*   **General Inquiries:** [email protected]
+*   **Location:** 4th floor of the Dirac Science Library
+
+<---->
+### Graduate Programs
+
+<---->
+#### M.S. in Computational Science
+
+**Description:**
+This program is for students with a strong desire to do computational science, equipping them with scientific and computational expertise as well as management and leadership skills. It is open to students with a bachelor's degree in mathematical and physical sciences and engineering.
+
+**Coursework and Credits:**
+*   **Total Credits:** 30 credit hours for the major track.
+*   **Core Courses (Group A):** 2 required core computational science courses.
+*   **Elective Core Courses (Group B):** Minimum of 9 credit hours in other computational science courses.
+*   **Additional Electives (Group C):** 6 additional credit hours from computer science, engineering, mathematics, or an applied science.
+*   **Seminar:** 2 seminar hours (details in Graduate Handbook, Page 10, section 5.1.3).
+
+**Master's Tracks:**
+*   M.S. in Computational Science
+*   M.S. in Data Science
+
+**Application & Information:**
+*   Apply online via the FSU graduate programs portal.
+*   For further information, email [email protected]
+
+<---->
+#### M.S. in Interdisciplinary Data Science (IDS)
+
+**About the Program:**
+A 30-credit M.S. degree in Interdisciplinary Data Science (IDS) with a major in Scientific Computing, which began in Fall 2021. The program prepares students to create the next generation of computational algorithms to model, manipulate, analyze, visualize, and transform data. A strong core of fundamentals is built from Statistics, Mathematics, Data Mining, Machine Learning, Data Science, and Data Ethics courses.
+
+**Admission Requirements:**
+*   Bachelor’s degree from an accredited institution.
+*   Minimum 3.0 GPA on the last 60 hours of undergraduate credits.
+*   GRE score of 146 Verbal and 155 Quantitative (currently waived for Master's admission).
+*   Three letters of recommendation.
+*   A statement of intent.
+*   **Required Background:** Calculus 2, college algebra, basic probability and statistics, and experience in an object-oriented programming language (e.g., C++, Python, Julia, Matlab).
+
+**Graduation Requirements:**
+*   Course-based Master of Science (M.S.) degree.
+*   **Core Curriculum:** 18 credits.
+*   **Elective Courses:** At least 12 credits.
+
+**Faculty and Contacts:**
+*   **Administrative Director:** Jennifer Clark ([email protected], (850) 645-8887)
+*   **Program Director:** Gordon Erlebacher ([email protected], (850) 322-0194)
+*   **Faculty:** Nicholas Dexter, Anke Meyer-Baese, Sachin Shanbhag, Xiaoqiang Wang, Olmo Zavala Romero.
+*   **Affiliated Faculty:** Nathan Crock.
+
+<---->
+#### Ph.D. in Computational Science
+
+**Description and Goals:**
+This program trains graduate students to have extensive knowledge in computational science and acquire expertise in one or more areas of science, mathematics, or engineering. The interdisciplinary environment prepares students to be essential members of research teams solving complex problems.
+
+**Program Tracks and Specializations:**
+*   **Major Track:** Focus on computational mathematics or computer science relevant to computational science.
+*   **Specialized Tracks:**
+    *   Atmospheric Science
+    *   Biochemistry
+    *   Biological Science
+    *   Geological Science
+    *   Materials Science
+    *   Physics
+
+**Coursework and Credits:**
+*   **Coursework Hours:** A total of 29 specified credit hours.
+*   **Dissertation Hours:** Minimum of 24 credit hours.
+*   **Required Core Courses (Group A - 14 credits):**
+    *   Introduction to Scientific Programming (3 credits)
+    *   Applied Computational Science I (4 credits)
+    *   Applied Computational Science II (4 credits)
+    *   Parallel Programming, Algorithms and Architectures (3 credits)
+*   **Elective Core Courses (Group B):** Minimum of 9 credit hours from a list including Monte Carlo Simulations, Numerical PDEs, Molecular Dynamics, Data Mining, etc.
+*   **Additional Electives (Group C):** 9 additional credit hours from computer science, engineering, mathematics, or an applied science.
+*   **Seminar:** 6 seminar hours (details in Graduate Handbook, section 5.2.2).
+
+<---->
+#### Ph.D. in Fire Dynamics
+
+**Program Overview:**
+Administered by the Department of Scientific Computing and the Geophysical Fluid Dynamics Institute (GFDI), this program studies fire in nature as a fluid dynamical phenomenon. It emphasizes mathematical and physical concepts and supports both lab and field experiments. It is suitable for students with backgrounds in physical science, math, meteorology, physics, or engineering.
+
+**Facilities:**
+The Geophysical Fluid Dynamics Institute provides extensive facilities, including a modern lab for hydrodynamics, rotating turntables, a water channel, data acquisition systems, and more.
+
+<---->
+#### Ph.D. in Geophysical Fluid Dynamics (GFD)
+
+**Program Overview:**
+An interdisciplinary Ph.D. program (no Master's offered) administered by the Department of Scientific Computing and the GFDI. It focuses on the basic understanding of natural fluid flows, such as those related to climate, hydrology, and hurricane dynamics. The program emphasizes fundamentals of mathematics, physics, and fluid dynamics.
+
+**Facilities:**
+Facilities are housed in the Geophysical Fluid Dynamics Institute and include a hydrodynamics lab, reading room, machine shop, rotating turntables, a water channel, and other specialized equipment for fluid dynamics research.
+
+<---->
+### Undergraduate Programs
+
+<---->
+#### B.S. in Computational Science
+
+**Program Description:**
+This emerging discipline provides the tools to solve science and engineering problems on computers. Graduates are prepared for employment in industry and government labs or for graduate school.
+
+**Prerequisite Coursework:**
+*   MAC 2311 (Calculus I)
+*   MAC 2312 (Calculus II)
+*   ISC 3313 (Intro to Scientific Computing) or an equivalent introductory programming course.
+*   A laboratory-based science course for science majors (4 credits).
+
+**Graduation and Major Requirements:**
+*   **Foreign Language:** Proficiency through the intermediate (2220) level.
+*   **Grading:** A grade of C- or better is required in all major courses. More than five unsatisfactory grades in related science/math/CS courses will prevent graduation.
+*   **Major Program of Studies (54 hours):**
+    *   **Core Courses (30 hours):** ISC 3222, ISC 4304, ISC 4220, ISC 4221, ISC 4223, ISC 4232, MAS 3105, and an approved STA course.
+    *   **Seminar Classes (3 hours):** ISC 4931r (Junior Seminar) and ISC 4932r (Senior Seminar).
+    *   **Practicum (3 hours):** ISC 4943.
+    *   **Electives (18 hours):** 9 hours of computational science electives and 9 hours of other approved electives.
+*   **Collateral Courses (26 hours):** Includes programming, Calculus I & II, and two lab science courses.
+*   **Minor:** A minor is required. A minor in mathematics can be satisfied by the collateral coursework.
+
+**Special Programs:**
+*   **Degree in Three:** A program for students who wish to graduate in three years or less, typically for those entering with AP, IB, or dual enrollment credits.
+*   **Honors in the Major:** Students can earn "with honors" by completing a research thesis or creative project over 2-3 semesters (6-9 credit hours).
+
+**Employment Information:**
+*   **Job Titles:** Computational scientist, programmer, computer modeler, software engineer.
+*   **Employers:** Universities, government/private research labs, industry, state/federal agencies.
+
+<---->
+#### Minor in Computational Science
+
+**Program Description:**
+The minor offers a substantive programming and algorithmic knowledge base to non-majors, developing marketable computing and modeling skills.
+
+**Course Requirements (Minimum 14 hours):**
+*   **Required Courses:**
+    *   ISC 3222 - Symbolic and Numerical Computations
+    *   ISC 4304 - Programming for Scientific Applications
+*   **Algorithms Course (choose one):**
+    *   ISC 4220 - Continuous Algorithms for Science Applications (4 credits)
+    *   ISC 4221 - Discrete Algorithms for Science Applications (4 credits)
+*   **Elective Course (choose one):**
+    *   An additional course from the algorithms list or from an approved list including topics like Data Mining, Scientific Visualization, Game Design, etc.
+*   **Note:** A grade of C- or better is required for all minor courses.
+
+<---->
+#### Minor in Computational Science Entrepreneurship
+
+An academic program guide for this minor is available, but no further details are provided in the source text.
+
+<---->
+### Application and Admission Information
+
+**General Process for Graduate Applicants:**
+1.  Complete FSU's Office of Admissions on-line application.
+2.  Pay the $30 FSU application fee.
+3.  Have official GRE scores sent to FSU (school code 5219). **Note: GRE is currently waived for Master's admission but still required for doctoral programs.**
+4.  Submit two unofficial transcripts from every college/university attended.
+5.  Ensure the "Department of Scientific Computing Supplemental Application for Admission" appears in the FSU Application Status Checklist.
+
+**Application Deadlines (for Fall 2026 Admission in *Computational Science*):**
+*   **January 15, 2026:** Deadline for Ph.D. applicants to be considered for University fellowships and departmental awards.
+*   **April 30, 2026:** Deadline for international student admission.
+*   **July 1, 2026:** Deadline for domestic student admission.
+*   **Data Science Applications:** Follow standard University Registration Deadlines.
+
+**FSU General Graduate Admission Requirements:**
+*   A baccalaureate degree from an accredited institution.
+*   Good standing at the last institution attended.
+*   At least a 3.0 GPA in upper-division undergraduate work.
+*   Minimum GRE scores of 85th percentile (quantitative) and 50th percentile (verbal) for programs that require it.
+*   Proof of English proficiency (for most international applicants).
+*   Approval by the Department of Scientific Computing.
+
+<---->
+### Financial Aid
+
+Financial aid is available to qualified graduate applicants in the form of teaching or research assistantships. The FSU graduate school application serves as the request for an assistantship. The University also has a competitive Fellowship program and an Office of National Fellowships to assist students. All Master of Science (M.S.) students in Computational Science are self-pay.
+
+<---->
+### Committees
+
+**Graduate Program Committee:**
+*   Chen Huang [chair]
+*   Xiaoqiang Wang
+*   Alan Lemmon
+*   Karey Fowler [ex officio]
+*   Contact: [email protected]
+
+**Undergraduate Program Committee:**
+*   Sachin Shanbhag [chair]
+*   Bryan Quaife
+*   Karey Fowler [ex officio]
+*   Contact: [email protected]
+*   Attachments on the website include public meeting minutes from 2011 and 2012.
+
+<---->
+### Forms and Resources
+
+**Graduate Student Forms:**
+A comprehensive list of DocuSign PowerForms is available on the department website for common, M.S., and Ph.D. related academic processes, including:
+*   Directed Independent Study (DIS) Approval Form
+*   Annual Progress Report Form
+*   Committee and Program of Study Forms
+*   Defense and Examination Result Forms
+*   Manuscript Clearance Portal
+
+**Graduate Handbook:**
+The department provides different versions of the Graduate Handbook based on the student's entry date, with the most recent revised in July 2025 for students entering Fall 2025 and later.
+```

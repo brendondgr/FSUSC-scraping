@@ -1,0 +1,152 @@
+```
+Page Title: Faculty Meetings - FSUSciComp
+URL: https://www.sc.fsu.edu/faculty-meetings
+<---->
+Section: Main
+Header: Faculty Meetings
+Description: The following documents contain the Department of Scientific Computing's Faculty Meeting minutes.
+<---->
+Section: Zoom Information
+Link Text: Click Here to Join via Zoom
+Meeting ID: 999 3005 9533
+<---->
+Section: 2025 Faculty Meetings
+Attachments:
+- File: 2025.04.07 | Description: Meeting Minutes | File size: 37 kB
+- File: 2025.03.07 | Description: Meeting Minutes | File size: 74 kB
+- File: 2025.02.03 | Description: Meeting Minutes | File size: 39 kB
+<---->
+Section: 2024 Faculty Meetings
+Attachments:
+- File: 2024.11.04 | Description: Meeting Minutes | File size: 40 kB
+- File: 2024.10.07 | Description: Meeting Minutes | File size: 47 kB
+- File: 2024.08.26 | Description: Meeting Minutes | File size: 43 kB
+- File: 2024.03.04 | Description: Meeting Minutes | File size: 35 kB
+- File: 2024.02.05 | Description: Meeting Minutes | File size: 45 kB
+<---->
+Section: 2023 Faculty Meetings
+Attachments:
+- File: 2023.12.04 | Description: Meeting Minutes | File size: 36 kB
+- File: 2023.11.06 | Description: Meeting Minutes | File size: 51 kB
+- File: 2023.08.28 | Description: Meeting Minutes | File size: 49 kB
+- File: 2023.03.06 | Description: Meeting Minutes | File size: 50 kB
+- File: 2023.02.08 | Description: Meeting Minutes | File size: 25 kB
+<---->
+Section: 2022 Faculty Meetings
+Attachments:
+- File: 2022.12.05 | Description: Meeting Minutes | File size: 43 kB
+- File: 2022.11.06 | Description: Meeting Minutes | File size: 36 kB
+- File: 2022.10.03 | Description: Meeting Minutes | File size: 32 kB
+- File: 2022.08.22 | Description: Meeting Minutes | File size: 48 kB
+- File: 2022.05.02 | Description: Meeting Minutes | File size: 62 kB
+- File: 2022.04.04 | Description: Meeting Minutes | File size: 68 kB
+<---->
+Section: 2021 Faculty Meetings
+Attachments:
+- File: 2021.10.04 | Description: Meeting Minutes | File size: 29 kB
+- File: 2021.08.30 | Description: Meeting Minutes | File size: 28 kB
+- File: 2021.03.01 | Description: Meeting Minutes | File size: 37 kB
+- File: 2021.02.01 | Description: Meeting Minutes | File size: 30 kB
+- File: 2021.01.11 | Description: Meeting Minutes | File size: 34 kB
+<---->
+Section: 2020 Faculty Meetings
+Attachments:
+- File: 2020.12.06 | Description: Meeting Minutes | File size: 36 kB
+- File: 2020.11.02 | Description: Meeting Minutes | File size: 36 kB
+- File: 2020.10.05 | Description: Meeting Minutes | File size: 35 kB
+- File: 2020.03.02 | Description: Meeting Minutes | File size: 34 kB
+- File: 2020.02.03 | Description: Meeting Minutes | File size: 39 kB
+- File: 2020.01.13 | Description: Meeting Minutes | File size: 30 kB
+<---->
+Section: 2019 Faculty Meetings
+Attachments:
+- File: 2019.12.02 | Description: Meeting Minutes | File size: 28 kB
+- File: 2019.11.04 | Description: Meeting Minutes | File size: 73 kB
+- File: 2019.10.07 | Description: Meeting Minutes | File size: 38 kB
+- File: 2019.09.09 | Description: Meeting Minutes | File size: 80 kB
+- File: 2019.04.01 | Description: Meeting Minutes | File size: 35 kB
+- File: 2019.02.04 | Description: Meeting Minutes | File size: 33 kB
+- File: 2019.01.14 | Description: Meeting Minutes | File size: 34 kB
+<---->
+Section: 2018 Faculty Meetings
+Attachments:
+- File: 2018.12.05 | Description: Meeting Minutes | File size: 37 kB
+- File: 2018.11.05 | Description: Meeting Minutes | File size: 31 kB
+- File: 2018.10.01 | Description: Meeting Minutes | File size: 32 kB
+- File: 2018.09.10 | Description: Meeting Minutes | File size: 37 kB
+- File: 2018.04.09 | Description: Meeting Minutes | File size: 38 kB
+- File: 2018.03.05 | Description: Meeting Minutes | File size: 30 kB
+- File: 2018.02.05 | Description: Meeting Minutes | File size: 30 kB
+- File: 2018.01.08 | Description: Meeting Minutes | File size: 32 kB
+<---->
+Section: 2017 Faculty Meetings
+Attachments:
+- File: 2017.11.06 | Description: Meeting Minutes | File size: 18 kB
+- File: 2017.10.09 | Description: Meeting Minutes | File size: 30 kB
+- File: 2017.09.18 | Description: Meeting Minutes | File size: 22 kB
+- File: 2017.05.01 | Description: Meeting Minutes | File size: 15 kB
+- File: 2017.04.10 | Description: Meeting Minutes | File size: 21 kB
+- File: 2017.03.06 | Description: Meeting Minutes | File size: 10 kB
+- File: 2017.02.06 | Description: Meeting Minutes | File size: 12 kB
+- File: 2017.01.09 | Description: Meeting Minutes | File size: 9 kB
+<---->
+Section: 2016 Faculty Meetings
+Attachments:
+- File: 2016.11.28 | Description: Meeting Minutes | File size: 9 kB
+- File: 2016.10.24 | Description: Meeting Minutes | File size: 9 kB
+- File: 2016.09.12 | Description: Meeting Minutes | File size: 27 kB
+- File: 2016.03.14 | Description: Meeting Minutes | File size: 28 kB
+- File: 2016.02.08 | Description: Meeting Minutes | File size: 19 kB
+- File: 2016.01.25 | Description: Meeting Minutes | File size: 30 kB
+<---->
+Section: 2013 Faculty Meetings
+Attachments:
+- File: 2013.10.21 | Description: Meeting Minutes | File size: 84 kB
+- File: 2013.09.04 | Description: Meeting Minutes | File size: 38 kB
+<---->
+Section: 2012 Faculty Meetings
+Attachments:
+- File: 2012.12.10 | Description: Meeting Minutes | File size: 97 kB
+- File: 2012.10.08 | Description: Meeting Minutes | File size: 98 kB
+- File: 2012.09.04 | Description: Meeting Minutes | File size: 97 kB
+- File: 2012.03.12 | Description: Meeting Minutes | File size: 36 kB
+- File: 2012.02.13 | Description: Meeting Minutes | File size: 36 kB
+- File: 2012.01.11 | Description: Meeting Minutes | File size: 35 kB
+<---->
+Section: 2011 Faculty Meetings
+Attachments:
+- File: 2011.11.30 | Description: Meeting Minutes | File size: 34 kB
+- File: 2011.10.26 | Description: Meeting Minutes | File size: 38 kB
+- File: 2011.09.14 | Description: Meeting Minutes | File size: 36 kB
+- File: 2011.08.11 | Description: Meeting Minutes | File size: 32 kB
+- File: 2011.07.18 | Description: Meeting Minutes | File size: 31 kB
+- File: 2011.06.06 | Description: Meeting Minutes | File size: 51 kB
+<---->
+Section: 2010 Faculty Meetings
+Note: No attachments listed for this year.
+<---->
+Section: 2009 Faculty Meetings
+Attachments:
+- File: 2009.09.21 | Description: Meeting Minutes | File size: 9 kB
+- File: 2009.08.26 | Description: Meeting Minutes | File size: 10 kB
+- File: 2009.02.04 | Description: Meeting Minutes | File size: 10 kB
+<---->
+Section: 2008 Faculty Meetings
+Attachments:
+- File: 2008.09.08 | Description: Meeting Minutes | File size: 10 kB
+- File: 2008.08.08 | Description: Meeting Minutes | File size: 9 kB
+<---->
+Section: 2007 Faculty Meetings
+Attachments:
+- File: 2007.10.08 | Description: Meeting Minutes | File size: 10 kB
+- File: 2007.02.12 | Description: Meeting Minutes | File size: 21 kB
+<---->
+Section: 2006 Faculty Meetings
+Attachments:
+- File: 2006.11.01 | Description: Meeting Minutes | File size: 20 kB
+- File: 2006.09.18 | Description: Meeting Minutes | File size: 21 kB
+<---->
+Section: 2005 Faculty Meetings
+Attachments:
+- File: 2005.09.07 | Description: Meeting Minutes | File size: 21 kB
+```

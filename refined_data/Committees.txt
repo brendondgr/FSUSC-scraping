@@ -1,0 +1,54 @@
+```
+Title: Committees - FSUSciComp
+URL: https://www.sc.fsu.edu/committees
+Article Title: * Committee History *
+List of Committees:
+- Research Committee
+- Graduate Program Committee
+- Undergraduate Program Committee
+- Promotion Committee
+- Executive Committee
+<---->
+Title: Executive - FSUSciComp
+URL: https://www.sc.fsu.edu/committees/executive
+Committee Name: Executive Committee
+Description: Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+Current Committee Members:
+- Anke Meyer-Baese [- Fall 2023 voted]
+- Sachin Shanbhag [Fall 2022 - Fall 2024 voted]
+- Xiaoqiang Wang [Fall 2023, appointed]
+- Alan Lemmon [Fall 2023, appointed]
+Attachments:
+- File: 2007.03.14
+- Description: Meeting Minutes
+- File size: 1 kB
+<---->
+Title: Promotion - FSUSciComp
+URL: https://www.sc.fsu.edu/committees/promotion
+Committee Name: Promotion Committee
+Description: Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+Current Committee Members:
+- For cases that involve promotion to Full Professor:
+  - Peter Beerli
+  - Gordon Erlebacher
+  - Alan Lemmon
+  - Anke Meyer-Baese
+  - Tomasz Plewa
+  - Sachin Shanbhag
+  - Kevin Speer
+  - Xiaoqiang Wang
+- For cases that involve tenure and promotion to Associate Professor:
+  - Chen Huang
+  - Bryan Quaife
+<---->
+Title: Research - FSUSciComp
+URL: https://www.sc.fsu.edu/committees/research
+Committee Name: Research Committee
+Description: Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+Current Committee Members:
+- Tomasz Plewa [chair]
+- Hristo Chipilski
+- Nicholas Dexter
+- Olmo Zavala Romero
+- Xiaoguang Li [ex officio]
+```

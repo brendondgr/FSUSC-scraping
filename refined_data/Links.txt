@@ -1,0 +1,228 @@
+```
+**Web Links - Main Page Summary**
+
+*   **Title:** Web Links - FSUSciComp
+*   **URL:** https://www.sc.fsu.edu/links
+
+**Link Categories:**
+*   Uncategorised: 1 link
+*   Wiki Sites: 7 links
+*   Careers: 13 links
+*   Undergraduate Opportunities: 3 links
+*   Graduate Opportunities: 13 links
+*   Postdoc Positions: 5 links
+*   Funding Opportunities & Fellowships: 9 links
+*   Connect with Social Media: 5 links
+*   Videos: 0 links
+*   Colloquium Recordings: 128 links (Protected, requires sign-in)
+
+<---->
+
+**Section: Uncategorised**
+
+*   **Title:** Uncategorised
+*   **URL:** https://www.sc.fsu.edu/links/208-uncategorised
+
+**Links:**
+*   **Title:** Map of Dirac Science Library
+    *   **Description:** 1st and 4th floor Maps of Dirac Science Library
+
+<---->
+
+**Section: Wiki Sites**
+
+*   **Title:** Wiki Sites
+*   **URL:** https://www.sc.fsu.edu/links/wiki-sites
+
+**Links:**
+*   **Title:** SC Wiki
+    *   **Description:** General access wiki site for SCS. Readable by everyone and writable by SCS users.
+*   **Title:** Faculty Wiki
+    *   **Description:** Restricted access wiki site for Faculty. Readable and writable by Faculty users.
+*   **Title:** Migrate Wiki
+    *   **Description:** Limited access wiki site for Migrate. Readable by everyone and writable by Migrate users.
+*   **Title:** Morphbank Wiki
+    *   **Description:** Restricted access wiki site for Morphbank. Readable and writable by Morphbank users.
+*   **Title:** Paup Wiki
+    *   **Description:** Limited access wiki site for Paup. Readable by everyone and writable by Paup users.
+*   **Title:** TSG Wiki
+    *   **Description:** Restricted access wiki site for TSG. Readable and writable by TSG users.
+*   **Title:** SC TWiki
+    *   **Description:** Old general access TechHelp TWiki site. The TWiki system is being replaced.
+
+<---->
+
+**Section: Careers**
+
+*   **Title:** Careers
+*   **URL:** https://www.sc.fsu.edu/links/222-careers
+
+**Links:**
+*   **Title:** SIAM.org
+    *   **Type:** Internships, Post Docs, Careers in Applied Mathematics
+*   **Title:** glassdoor.com
+    *   **Type:** Internships
+    *   **Description:** Your Next Career Move Starts Here. Search Millions of Job Listings. See Real Employee Salaries. Read Reviews from Employees.
+*   **Title:** FSU Career Center
+    *   **Type:** Internships
+    *   **Description:** The FSU Career Center provides comprehensive career services to students, alumni, employers, faculty/staff and other members of the FSU community.
+*   **Title:** ThisIsStatistics.org
+    *   **Description:** Statisticians aren’t who you think they are.
+*   **Title:** MathJobs.Org
+    *   **Type:** Careers
+    *   **Description:** MATHJOBS, a website where you can find job opportunities in academics, industry, and national laboratories.
+*   **Title:** MathPrograms.Org
+    *   **Type:** Careers
+    *   **Description:** MATHPROGRAMS, a website listing REU's, graduate workshops, grant opportunities.
+*   **Title:** SIAM.org Career Center
+    *   **Type:** Careers
+    *   **Description:** SIAM JOBS, a list of job openings for graduates with degrees in applied mathematics and computational science.
+*   **Title:** CRA.org - Computing Research Association
+    *   **Type:** Careers
+    *   **Description:** cra.org is a web site run by "Computing Research Association" which includes an extensive list of jobs in computing (Not just computer science, but computational science, graphics, computer engineering, and so on).
+*   **Title:** jobs.ACM.org
+    *   **Type:** Careers
+    *   **Description:** jobs.ACM.org is a web site maintained by the Association for Computing Machinery with an international listing of academic, industrial, and lab jobs.
+*   **Title:** OkCupid
+    *   **Type:** Careers
+    *   **Description:** You might want to work here.
+*   **Title:** Walmart
+    *   **Type:** Careers
+    *   **Description:** Data Science and Analytics.
+*   **Title:** FSU Career Center: Landing a Part-time Job
+    *   **Type:** Internships
+    *   **Description:** Part-time jobs provide an opportunity to develop new skills and competencies that complement classroom learning and can be highlighted in future job searches or the graduate school application process.
+*   **Title:** Lowes
+    *   **Type:** Careers
+    *   **Description:** Data Scientist
+
+**Note:** This page also lists subcategories which are detailed in their own sections: Undergraduate Opportunities, Graduate Opportunities, Postdoc Positions, and Funding Opportunities & Fellowships.
+
+<---->
+
+**Section: Undergraduate Opportunities**
+
+*   **Title:** Undergraduate Opportunities
+*   **URL:** https://www.sc.fsu.edu/links/222-careers/262-undergraduate-opportunities
+
+**Links:**
+*   **Title:** Undergraduate - Bruins-In-Genomics (B.I.G.) Summer Undergraduate Research Program
+    *   **Type:** Internships
+    *   **Description:** An 8-week full-time immersion program for undergraduates interested in learning how to read and analyze genes and genomes.
+    *   **Application Deadline:** Rolling/Annual, June 20 to August 11.
+*   **Title:** Undergraduate - Naval Research Enterprise Intern Program (NREIP)
+    *   **Description:** A ten-week intern program for undergraduate and graduate students to participate in research at a participating Navy laboratory.
+    *   **Contact:** Hristo Chipilski
+*   **Title:** Undergraduate - STEM Student Employment Program (SSEP)
+    *   **Description:** A direct hire authority for undergraduate and graduate students in STEM majors. Students must be continuously enrolled at least half-time.
+    *   **Contact:** Hristo Chipilski
+
+<---->
+
+**Section: Graduate Opportunities**
+
+*   **Title:** Graduate Opportunities
+*   **URL:** https://www.sc.fsu.edu/links/222-careers/226-graduate-opportunities
+
+**Links:**
+*   **Title:** Internships - Blue Waters
+    *   **Type:** Internships
+    *   **Description:** National Computational Science Institute (NCSI).
+    *   **Application Deadline:** Annually/Biannually due by end of January.
+*   **Title:** Internships - SIAM.org
+    *   **Type:** Internships
+    *   **Description:** SIAM INTERNSHIPS, a list of companies and their internship offerings for students in applied mathematics and computational science.
+*   **Title:** Internships - Risk Management Solutions
+    *   **Type:** Internships
+    *   **Description:** Risk Management Solutions (RMS), HWind/RMS-Tallahaassee.
+*   **Title:** Internships - Pittsburgh Supercomputing Center
+    *   **Type:** Internships
+    *   **Description:** Pittsburgh Supercomputing Center (PSC).
+*   **Title:** Syntech Systems
+    *   **Description:** A defense and commercial engineering design and manufacturing firm specializing in automated fuel management systems and munitions support equipment. Located in Tallahassee, FL.
+*   **Title:** Internships - Tall Timbers
+    *   **Type:** Internships
+    *   **Description:** The mission of Tall Timbers is to foster exemplary land stewardship through research, conservation and education.
+    *   **Contact:** Bryan Quaife
+*   **Title:** Internships - Department of Navy HBCU/MI Internship Program
+    *   **Type:** Internships
+    *   **Description:** Perform research with Naval Research Laboratory (NRL) scientists and engineers in Washington D.C.
+    *   **Application Deadline:** Closes in January.
+    *   **Contact:** Hristo Chipilski
+*   **Title:** Graduate - Naval Research Enterprise Intern Program (NREIP)
+    *   **Description:** A ten-week intern program for undergraduate and graduate students to participate in research at a participating Navy laboratory.
+    *   **Contact:** Hristo Chipilski
+
+<---->
+
+**Section: Postdoc Positions**
+
+*   **Title:** Postdoc Positions
+*   **URL:** https://www.sc.fsu.edu/links/222-careers/227-postdoc-positions
+
+**Links:**
+*   **Title:** Postdoc - NRC Research Associateship Programs
+    *   **Description:** Prestigious postdoctoral and senior research awards for opportunities at federal laboratories like NRL.
+    *   **Contact:** Hristo Chipilski
+*   **Title:** Postdoc - NCAR ASP Postdoc Fellowship
+    *   **Type:** Internships
+    *   **Description:** Fellows develop research projects in collaboration with NCAR scientists and engineers with considerable freedom.
+    *   **Application Deadline:** Late October, annually.
+    *   **Contact:** Hristo Chipilski
+*   **Title:** Postdoc - NRL Postdoctoral Fellowship Program
+    *   **Type:** Internships
+    *   **Description:** Provides approximately 40 new postdoctoral appointments per year, managed by the American Society for Engineering Education (ASEE).
+    *   **Contact:** Hristo Chipilski
+
+<---->
+
+**Section: Funding Opportunities & Fellowships**
+
+*   **Title:** Funding Opportunities & Fellowships
+*   **URL:** https://www.sc.fsu.edu/links/222-careers/228-funding-and-fellowships
+
+**Links:**
+*   **Title:** DOE Computational Science Graduate Fellowship
+    *   **Type:** Fellowships
+    *   **Description:** Provides benefits and opportunities to students pursuing doctoral degrees using high-performance computing to solve complex science and engineering problems.
+*   **Title:** Office of Science Graduate Student Research (SCGSR) Program
+    *   **Type:** Careers
+    *   **Description:** Prepares graduate students for STEM careers by providing graduate thesis research opportunities at DOE laboratories.
+*   **Title:** Oak Ridge National Laboratory (ORNL) Distinguished Staff Fellowship Program
+    *   **Type:** Fellowships
+    *   **Description:** Aims to cultivate future scientific leaders. Includes the Russell, Weinberg, and Wigner Fellowships for early-career scientists and engineers.
+    *   **Application Deadline:** Posted annually.
+*   **Title:** Fellowship - Graduate Visitor Program
+    *   **Type:** Internships
+    *   **Description:** NCAR's Advanced Study Program's Graduate Student (GVP) Fellowship allows students to spend time at NCAR and work on their thesis or final project.
+    *   **Application Deadline:** Late October, annually.
+    *   **Contact:** Hristo Chipilski
+
+<---->
+
+**Section: Connect with Social Media**
+
+*   **Title:** Connect with Social Media
+*   **URL:** https://www.sc.fsu.edu/links/246-connect-with-social-media
+
+**Links:**
+*   Follow Us On Facebook
+*   Follow Us On Twitter
+*   Linkedin University Page
+*   Follow Us On Instagram
+*   Subscribe To Our Youtube Channel
+
+<---->
+
+**Section: Videos**
+
+*   **Title:** Videos
+*   **URL:** https://www.sc.fsu.edu/links/268-videos
+
+**Information:**
+*   There are no Web Links in this category.
+
+**Subcategories:**
+*   **Colloquium Recordings:** Contains 128 recordings.
+    *   **Note:** These are protected recordings and require a sign-in to view.
+```

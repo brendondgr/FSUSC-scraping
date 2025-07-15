@@ -1,0 +1,79 @@
+```
+**Header**
+*   **Title:** Overview - FSUSciComp
+*   **URL:** https://www.sc.fsu.edu/education
+
+<---->
+
+**Department Overview**
+*   **Department:** Department of Scientific Computing (DSC)
+*   **Educational Mission:** To provide innovative, interdisciplinary undergraduate and graduate training programs in computational science and its applications. The degree programs are designed to provide students with broad training in the design, implementation, and use of algorithms for solving science and engineering problems on computers.
+
+<---->
+
+**Degree Programs Offered**
+*   Doctor of Philosophy (Ph.D.) in Computational Science
+*   Doctor of Philosophy (Ph.D.) in Fire Dynamics
+*   Doctor of Philosophy (Ph.D.) in Geophysical Fluid Dynamics
+*   Master of Science (M.S.) in Computational Science
+*   Master of Science (M.S.) in Data Science
+*   Bachelor of Science (B.S.) in Computational Science
+*   Minor in Computational Science
+
+<---->
+
+**Undergraduate Programs**
+*   **Bachelor of Science (B.S.) in Computational Science:**
+    *   **Description:** An innovative degree program where students learn to develop and apply new computational tools to solve science and engineering problems.
+    *   **Target Audience:** Well-suited for students who like working on computers and are interested in mathematical sciences (mathematics, computer science, statistics), natural sciences (biology, chemistry, physics, etc.), or engineering. It is of special interest to students interested in multiple of these areas.
+    *   **Key Distinction:** Computational science is different from computer science. Computer science is about the science of computers, whereas computational science is about the use of computers to solve science and engineering problems.
+*   **Minor in Computational Science:**
+    *   **Description:** Offers a substantive programming and algorithmic knowledge base to non-Computational Science students.
+    *   **Benefit:** Students develop critical computing and modeling skills that are marketable and attractive to potential employers.
+    *   **Requirements:** At least 14 hours of coursework. Students must earn a C- or above in each course for it to be accepted for minor credit.
+
+<---->
+
+**Graduate Programs**
+*   **Master of Science (M.S.) Degrees:**
+    *   M.S. in Computational Science
+    *   M.S. in Data Science
+*   **Doctor of Philosophy (Ph.D.) Degrees:**
+    *   **Ph.D. in Computational Science:** Students specialize in the more mathematical or computer science aspects of computational science. This major includes specializations in:
+        *   Atmospheric Science
+        *   Biochemistry
+        *   Biological Science
+        *   Geological Science
+        *   Materials Science
+        *   Physics
+    *   **Other Ph.D. Programs:**
+        *   Ph.D. in Fire Dynamics
+        *   Ph.D. in Geophysical Fluid Dynamics
+
+<---->
+
+**Departmental Focus and Strengths**
+*   **Interdisciplinary Approach:** The department's research and training focuses on inventing, analyzing, and implementing computational algorithms that transcend traditional disciplines.
+*   **Faculty:** The faculty is comprised of members trained in a variety of disciplines including biology, aeronautical engineering, chemical engineering, geological sciences, electrical engineering, material sciences, mathematics, nuclear engineering, and physics. The department also has affiliated faculty from other universities, companies, and laboratories.
+*   **Research & Training Areas:** Includes (but is not limited to) astrophysics, bioinformatics, climate and weather modeling, computational fluid mechanics, computational geometry, computer game design, evolutionary biology, data mining, GPU computing, high-energy density physics, high-performance computing, hydrology, machine learning, material science, medical imaging, morphometrics, nano-materials, numerical analysis, partial differential equations, phylogenetics, polymers, population genetics, scientific visualization, subsurface environmental modeling, superconductivity, systems biology, and uncertainty quantification.
+*   **Contributions to FSU:**
+    *   Offers courses of interest to students in other departments.
+    *   Provides tutorials and short courses.
+    *   Manages high-performance computational resources for the campus community.
+
+<---->
+
+**Program Links and Resources**
+*   **Undergraduate Program Overview:**
+    *   B.S. in Computational Science
+    *   Undergraduate courses
+*   **Graduate Program Overview:**
+    *   Ph.D. in Computational Science
+    *   M.S. in Computational Science
+    *   M.S. in Data Science
+    *   Graduate courses
+*   **Additional Information:**
+    *   Application Instructions
+    *   Graduate Handbook
+    *   Financial Aid
+```

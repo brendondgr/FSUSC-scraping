@@ -1,0 +1,699 @@
+```
+**Administration**
+
+**Sub-section: Main Administration**
+
+*   **Name:** Liston Davis
+*   **Title/Role:** Administrative Associate
+*   **Office:** 409 DSL
+*   **Phone:** (850) 645-0304
+*   **Responsibilities:** Procurement, HR, Travel
+
+<---->
+
+*   **Name:** Cecelia Farmer
+*   **Title/Role:** Admin Support Assistant
+*   **Office:** 408A DSL
+
+<---->
+
+*   **Name:** Karey G. Fowler
+*   **Title/Role:** Academic Advisor
+*   **Office:** 406 DSL
+*   **Phone:** (850) 644-0143
+*   **Social Media:** Karey's LinkedIn Profile
+
+<---->
+
+*   **Name:** Paul Keyser
+*   **Title/Role:** Administrative Assistant / Facilities, Property, & Immigration
+*   **Office:** 404 DSL
+*   **Phone:** (850) 644-1864
+
+<---->
+
+*   **Name:** Daniel Overturf
+*   **Title/Role:** Business Manager
+*   **Office:** 405 DSL
+*   **Phone:** (850) 644-2273
+
+**Sub-section: Technical Support Group**
+
+*   **Name:** Anthony Amato
+*   **Title/Role:** IT Support Specialist
+*   **Office:** 452 DSL
+*   **Phone:** (850) 645-1422
+*   **Social Media:** Anthony's LinkedIn Profile
+
+<---->
+
+*   **Name:** Xiaoguang Li
+*   **Title/Role:** Systems Administrator
+*   **Office:** 432 DSL
+*   **Phone:** (850) 644-0188
+*   **Links:** Personal Homepage
+*   **Social Media:** Xiaoguang's LinkedIn Profile
+
+<---->
+
+*   **Name:** Michael McDonald
+*   **Title/Role:** Sr. Research Associate / Systems Administrator
+*   **Office:** 408 DSL
+*   **Phone:** (772) 600-4665
+*   **Links:** Personal Homepage
+*   **Social Media:** Michael's LinkedIn Profile
+*   **Research Interests:** High-performance Computing, Data Storage, Web Design, Video Conferencing, Social Networks
+*   **Education:**
+    *   M.S., Electrical Engineering, Florida State University, 2007
+    *   B.S., Computer Engineering, Florida State University, 2005
+    *   B.S., Electrical Engineering, Florida State University, 2005
+*   **Publications:** Michael's Google Scholar Citations
+
+<---->
+
+*   **Name:** John Thompson
+*   **Title/Role:** IT Support Specialist
+*   **Office:** 450 DSL
+*   **Phone:** (850) 933-5866
+
+<---->
+
+**Faculty**
+
+**Sub-section: Core Faculty**
+
+*   **Name:** Peter Beerli
+*   **Title/Role:** Professor & Chair, Department of Scientific Computing
+*   **Office:** 402 DSL
+*   **Phone:** (850) 644-1010
+*   **Links:** Personal Homepage
+*   **Social Media:** Peter's LinkedIn Profile, @peterbeerli on Twitter, @peterbeerli on Instagram
+*   **Research Interests:** Biological Sciences, Population Genetics, Phylogenetics, Bayesian inference, Model selection
+*   **Education:** PhD Zoology, University of Zurich, Switzerland (1994)
+*   **Publications:** Peter's Google Scholar Citations
+
+<---->
+
+*   **Name:** Hristo Chipilski
+*   **Title/Role:** Assistant Professor
+*   **Office:** 483 DSL
+*   **Social Media:** Hristo's LinkedIn Profile, @hristochipilski on Twitter
+*   **Research Interests:** Data Assimilation, Artificial Intelligence, Numerical Weather Prediction, Atmospheric Dynamics
+*   **Education:**
+    *   2021-2023: ASP Postdoctoral Fellow, National Center for Atmospheric Research
+    *   2016-2021: PhD, Meteorology, University of Oklahoma
+    *   2012-2016: MMet, Meteorology and Climate, University of Reading (UK)
+*   **Publications:** Hristo's Google Scholar Citations
+
+<---->
+
+*   **Name:** Nicholas Dexter
+*   **Title/Role:** Assistant Professor
+*   **Office:** 489 DSL
+*   **Links:** Personal Homepage
+*   **Social Media:** Nicholas's LinkedIn Profile
+*   **Research Interests:** Data Science, Scientific Computing, Deep Learning, Compressed Sensing, Mathematical Optimization, Uncertainty Quantification, Numerical Analysis, Inverse problem, Computational Epidemiology, Computational Genomics, Harmonic Analysis
+*   **Education:**
+    *   Ph.D., Mathematics, University of Tennessee, 2018
+    *   B.S., Computational Mathematics, Rochester Institute of Technology, 2011
+*   **Publications:** Nicholas's Google Scholar Citations
+
+<---->
+
+*   **Name:** Gordon Erlebacher
+*   **Title/Role:** Professor, Department of Scientific Computing; Program Director, Interdisciplinary Data Science
+*   **Office:** 464 DSL
+*   **Phone:** (850) 322-0194
+*   **Social Media:** Gordon's LinkedIn Profile
+*   **Research Interests:** Data Science, Artificial Intelligence
+*   **Education:**
+    *   Ph.D., Columbia University, New York, NY
+    *   M.Sc., Free University of Brussels, Belgium
+    *   B.Sc., Free University of Brussels, Belgium
+*   **Publications:** Gordon's Google Scholar Citations
+
+<---->
+
+*   **Name:** Chen Huang
+*   **Title/Role:** Associate Professor
+*   **Office:** 484 DSL
+*   **Phone:** (850) 644-2434
+*   **Links:** Personal Homepage
+*   **Social Media:** Chen's LinkedIn Profile
+*   **Research Interests:** Computational Materials Science, Scientific Computing
+*   **Education:**
+    *   Ph.D. Princeton University
+    *   B.Sc. Tsinghua University, P. R. China
+*   **Publications:** Chen's Google Scholar Citations
+
+<---->
+
+*   **Name:** Alan Lemmon
+*   **Title/Role:** Professor
+*   **Office:** 150D DSL
+*   **Phone:** (850) 445-4393
+*   **Links:** Personal Homepage
+*   **Research Interests:** Biological Sciences
+*   **Publications:** Alan's Google Scholar Citations
+
+<---->
+
+*   **Name:** Anke Meyer-Baese
+*   **Title/Role:** Professor
+*   **Office:** 476 DSL
+*   **Phone:** (850) 644-3494
+*   **Links:** Personal Homepage
+*   **Social Media:** Anke's LinkedIn Profile
+*   **Research Interests:** Medical imaging, Computational biology, Computational neuroscience
+*   **Education:**
+    *   1995 Ph.D., Electrical and Computer Engineering, Darmstadt University of Technology, Germany
+    *   1990 M.S., Electrical and Computer Engineering, Darmstadt University of Technology, Germany
+*   **Publications:** Anke's Google Scholar Citations
+
+<---->
+
+*   **Name:** Tomasz Plewa
+*   **Title/Role:** Professor
+*   **Office:** 413 DSL
+*   **Links:** Personal Homepage
+*   **Social Media:** Tomasz's LinkedIn Profile
+*   **Research Interests:** Computational Astrophysics, Scientific Computing, fluid dynamics, reactive flows, turbulence, adaptive mesh refinement (AMR), machine learning, stellar evolution, laser-driven experiments, high-energy density physics, high performance computing
+*   **Publications:** Tomasz's Google Scholar Citations
+
+<---->
+
+*   **Name:** Bryan Quaife
+*   **Title/Role:** Associate Professor
+*   **Office:** 444 DSL
+*   **Links:** Personal Homepage
+*   **Social Media:** Bryan's LinkedIn Profile
+*   **Research Interests:** Integral equation methods for complex fluids, vesicle suspensions, PDEs on surfaces, viscous flow; Adaptive and high-order time stepping schemes; Regularizations of Green's functions; Preconditioners for integral equations
+*   **Publications:** Bryan's Google Scholar Citations
+
+<---->
+
+*   **Name:** Sachin Shanbhag
+*   **Title/Role:** Professor
+*   **Office:** 488 DSL
+*   **Phone:** (850) 644-6548
+*   **Links:** Personal Homepage
+*   **Research Interests:** Polymer Physics, Rheology, Complex Fluids, Modeling for Biological and Materials Applications
+*   **Education:** B.Tech, IIT Bombay (1999)
+*   **Publications:** Sachin's Google Scholar Citations
+
+<---->
+
+*   **Name:** Kevin Speer
+*   **Title/Role:** Professor
+*   **Phone:** (850) 644-5594
+*   **Research Interests:** Geophysical Fluid Dynamics Institute (GFDI). Research ranges from the global ocean circulation to the dynamics of hydrothermal plumes.
+
+<---->
+
+*   **Name:** Xiaoqiang Wang
+*   **Title/Role:** Professor
+*   **Office:** 495 DSL
+*   **Links:** Personal Homepage
+*   **Social Media:** Xiaoqiang's LinkedIn Profile
+*   **Research Interests:** Numerical analysis and applied partial differential equations, Mathematical biology, Image processing, scientific visualization and data mining, High-performance scientific computing
+*   **Education:** Ph.D., Pennsylvania State University, 2005
+
+<---->
+
+*   **Name:** Olmo Zavala Romero
+*   **Title/Role:** Assistant Professor
+*   **Office:** 445 DSL
+*   **Links:** Personal Homepage
+*   **Social Media:** Olmo's LinkedIn Profile
+*   **Research Interests:** Data Science, Scientific Computing, Medical Image Processing, Applied machine learning (medical imaging, earth sciences), Climate change, Scientific Machine Learning (PINNs)
+*   **Education:**
+    *   Ph.D., Computation Science, Florida State University, 2015
+    *   M.S., Computation Science, Florida State University, 2013
+*   **Publications:** Olmo's Google Scholar Citations
+
+**Sub-section: Emeritus Faculty**
+
+*   **Name:** Max Gunzburger
+*   **Title/Role:** Robert O. Lawton Distinguished Professor / Krafft Professor Emeritus
+*   **Links:** Personal Homepage
+*   **Research Interests:** Mathematics, Scientific Computing
+*   **Education:**
+    *   Ph.D., New York University, 1969
+    *   M.S., New York University, 1967
+    *   B.S., New York University, 1966
+*   **Publications:** Max's Google Scholar Citations
+
+<---->
+
+*   **Name:** Mike Navon
+*   **Title/Role:** Professor Emeritus
+*   **Links:** Personal Homepage
+*   **Social Media:** Michael's LinkedIn Profile
+*   **Research Interests:** Reduced order modeling
+*   **Publications:** Michael's Google Scholar Citations
+
+<---->
+
+*   **Name:** Janet Peterson
+*   **Title/Role:** Professor Emeritus
+*   **Links:** Personal Homepage
+*   **Social Media:** Janet's LinkedIn Profile
+*   **Research Interests:** Scientific Computing
+
+**Sub-section: Affiliated Faculty**
+
+*   **Name:** Bridget FB Algee-Hewitt
+*   **Title/Role:** Senior Research Scientist, Stanford University
+*   **Links:** Personal Homepage
+*   **Research Interests:** Biological anthropology, skeletal and genetic trait variation, forensic identification, paleodemographic reconstruction
+*   **Education:**
+    *   PhD Biological Anthropology, University of Tennessee – Knoxville
+    *   MA Classical and Near Eastern Archaeology, Bryn Mawr College
+    *   BA Classics and Art History, Mount Allison University
+
+<---->
+
+*   **Name:** Adrian Barbu
+*   **Title/Role:** Associate Professor, Department of Statistics, Florida State University
+*   **Office:** 106C OSB
+*   **Phone:** (850) 644-6688
+*   **Links:** Personal Homepage
+*   **Research Interests:** Efficient, learning based computational methods (Active Models, Marginal Space Learning), Hierarchical statistical modeling for object detection and segmentation, Medical imaging applications
+*   **Education:**
+    *   2005 - PhD Computer Science - UCLA
+    *   2000 - PhD Mathematics - Ohio State University
+    *   1995 - BSc Mathematics - University of Bucharest, Romania
+
+<---->
+
+*   **Name:** Hongmei Chi
+*   **Title/Role:** Department of computer and information sciences, FAMU
+*   **Office:** 494 DSL
+*   **Links:** Personal Homepage
+
+<---->
+
+*   **Name:** Nathan D. Crock
+*   **Title/Role:** Director, NewSci Labs
+*   **Office:** 475 DSL
+*   **Phone:** (727) 460-6353
+*   **Links:** Personal Homepage
+*   **Social Media:** Nathan's LinkedIn Profile
+*   **Research Interests:** Neural Networks
+*   **Education:**
+    *   Ph.D., Computation Science, Florida State University, 2020
+    *   M.S., Computation Science, Florida State University, 2013
+    *   B.S., Applied and Computational Mathematics, Florida State University, 2011
+
+<---->
+
+*   **Name:** Dennis Duke
+*   **Title/Role:** Professor, Physics
+*   **Phone:** (850) 644-0175
+*   **Links:** Personal Homepage
+
+<---->
+
+*   **Name:** Fengfeng Ke
+*   **Title/Role:** Associate Professor, Educational Psychology and Learning Systems Department, College of Education
+*   **Links:** Personal Homepage
+*   **Research Interests:** Inclusive Design of Computer-Supported Collaborative Learning, Mixed-Reality-Integrated Immersive Learning, Digital Game-Based Learning
+*   **Education:**
+    *   PhD, Pennsylvania State University. Major: Instructional Systems, 2006
+    *   MS, Northern Illinois University. Major: Adult Education, 2002
+    *   BA, Beijing International Studies University. Major: English and Literature, 1997
+
+<---->
+
+*   **Name:** Rodman R Linn
+*   **Title/Role:** Los Alamos National Lab
+
+<---->
+
+*   **Name:** Michael Mascagni
+*   **Title/Role:** Professor, Department of Computer Science, Florida State University
+*   **Office:** 498 DSL
+*   **Links:** Personal Homepage
+*   **Research Interests:** Computational Science, Computer Science, Mathematical Biology, Monte Carlo Methods, Numerical Analysis, Parallel/Distributed/Grid Computing, Random Number Generation, Software Engineering
+*   **Education:**
+    *   1987 - Ph.D. Mathematics - New York University
+    *   1984 - M.S. Mathematics - New York University
+    *   1981 - B.S. Mathematics & B.S.E. Biomedical Engineering - University of Iowa
+
+<---->
+
+*   **Name:** Somayeh Mashayekhi
+*   **Title/Role:** Affiliated Faculty
+*   **Office:** 479 DSL
+*   **Links:** Personal Homepage
+*   **Social Media:** Somayeh's LinkedIn Profile
+*   **Research Interests:** Computational methods, Fractional calculus, Population genetics, Optimal control, Spectral methods
+*   **Education:**
+    *   PhD, Mathematics, Mississippi State University, USA (2015)
+    *   PhD, Applied Mathematics, AL Zahra University, Tehran, Iran (2013)
+    *   MS, Applied Mathematics, AL Zahra University, Tehran, Iran
+
+<---->
+
+*   **Name:** Nick Moore
+*   **Title/Role:** Associate Professor of Mathematics
+
+<---->
+
+*   **Name:** Mark Petersen
+*   **Title/Role:** Los Alamos National Lab
+
+<---->
+
+*   **Name:** Katja Pinker-Domenig, MD, EBBI
+*   **Title/Role:** Associate Professor of Radiology / Medical University Vienna / Memorial Sloan Kettering Cancer Center
+*   **Address 1:** Dept. of Biomedical Imaging & Image-guided Therapy, Medical University Vienna, 1090 Vienna
+*   **Address 2:** Memorial Sloan Kettering Cancer Center, New York, NY 10065
+
+<---->
+
+*   **Name:** Dr. Dennis Ridley
+*   **Title/Role:** Professor of Operations Management/Global Logistics, Florida A&M University
+*   **Office:** 473 DSL
+*   **Research Interests:** Antithetic spectral time series analysis, information feed forward statistical process control, data mining, forecasting, global logistics, simulation & artificial intelligence.
+*   **Publications:** Dennis's Google Scholar Citations
+
+<---->
+
+*   **Name:** Amirhessam Tahmassebi
+*   **Title/Role:** Senior Data Scientist, Rivian
+*   **Links:** Personal Homepage
+*   **Social Media:** Amirhessam's LinkedIn Profile
+*   **Research Interests:** Data Science, Machine Learning
+*   **Education:** PhD, Computational Science, Florida State University, 2018
+*   **Publications:** Amirhessam's Google Scholar Citations
+
+<---->
+
+*   **Name:** Ming Ye
+*   **Title/Role:** Professor, EOAS
+*   **Office:** EOAS 3015
+*   **Phone:** (850) 645-4987
+*   **Links:** Personal Homepage
+*   **Research Interests:** Stochastic methods for flow/transport in heterogeneous media, geostatistical methods, inverse methods, groundwater uncertainty analysis, high performance computing, flow/transport in unsaturated fractured systems.
+*   **Education:** Ph.D. in Hydrology, University of Arizona, 2002
+*   **Publications:** Ming's Google Scholar Citations
+
+<---->
+
+**Post Docs**
+
+*   **Name:** Pankaj Chouhan
+*   **Title/Role:** Postdoctoral Research Associate
+*   **Office:** 421E DSL
+*   **Social Media:** Pankaj's LinkedIn Profile
+*   **Research Interests:** Machine Learning, Data Science
+*   **Education:** Ph.D., Computational Science, Florida State University, Summer 2024
+
+<---->
+
+*   **Name:** Tara Khodaei
+*   **Title/Role:** Postdoctoral Research Associate
+*   **Social Media:** Tara's LinkedIn Profile
+*   **Education:**
+    *   Ph.D., Computational Science, Florida State University, Fall 2023
+    *   M.S., Computational Science, Florida State University, Fall 2020
+
+<---->
+
+**Students**
+
+**Sub-section: Graduate Students**
+
+*   **Name:** Sri Ram Reddy Anumandla - Graduate Student
+*   **Name:** Stephen Asare - Graduate Student
+*   **Name:** Jessica Bellaire - Graduate Student
+*   **Name:** Mary Broling - Graduate Student
+*   **Name:** Ezra Brooker - Graduate Student (LinkedIn Profile available)
+*   **Name:** Maria Calvo - Graduate Student
+*   **Name:** Srirama Murthy Chellu - Graduate Student
+*   **Name:** Zehao Chen - Graduate Student (LinkedIn Profile available)
+*   **Name:** Jake Cherry - Graduate Student
+*   **Name:** Jayakrishna Sai Chintagumpula - Graduate Student
+*   **Name:** Piyush Choudhary - Graduate Student
+*   **Name:** Kavindu Galla Wellalage - Graduate Student
+*   **Name:** Kisalay Ghosh - Graduate Student
+*   **Name:** Yashwanth Goud Gowram - Graduate Student
+*   **Name:** Jhamieka Greenwood - Graduate Student
+*   **Name:** Haputhanthrige Lasitha Gunasekara - Graduate Student
+*   **Name:** Shirisha Hechirla - Graduate Student
+*   **Name:** Iffat Jahan - Graduate Student
+*   **Name:** Anand Kamble - Graduate Student
+*   **Name:** Kunal Kanawade - Graduate Student
+*   **Name:** Kirti Katiyar - Graduate Student
+*   **Name:** Young Hwan Kim - Graduate Student
+*   **Name:** Keely Kinnane - Graduate Student
+*   **Name:** Jose Miranda - Graduate Student
+*   **Name:** Eesha Mukherjee - Graduate Student
+*   **Name:** Sudha Murikipudi - Graduate Student
+*   **Name:** Divya Nellepalli - Graduate Student
+*   **Name:** Haoyong Ouyang - Graduate Student
+*   **Name:** Dorianis Perez - Graduate Student
+*   **Name:** Sanjeeb Poudel - Graduate Student
+*   **Name:** Sameera Rompicherla - Graduate student
+*   **Name:** Daryn Sagel - Graduate Student (LinkedIn Profile available)
+*   **Name:** Shifur Rahman Shakil - Graduate Student
+*   **Name:** MJ Shooshtari - Graduate Student
+*   **Name:** Zlatko Sokolikj - Graduate Student (LinkedIn Profile available)
+*   **Name:** Ankitha Sreeramoju - Graduate Student
+*   **Name:** Farhana Taiyebah - Graduate Student
+*   **Name:** Purna Tummala - Graduate Student
+*   **Name:** Mani Tyagi - Graduate Student
+*   **Name:** Jorge Eduardo Velasco Zavala - Graduate Student
+*   **Name:** Peyton Wade - Graduate Student
+*   **Name:** Yifan Wang - Graduate Student
+*   **Name:** Liam White - Graduate Student (LinkedIn Profile available)
+*   **Name:** Kevin Ziegler - Graduate Student
+
+**Sub-section: Affiliated Students**
+
+*   **Name:** Shivangi Mittal
+*   **Title/Role:** Visiting Fulbright Research Scholar
+*   **Office:** 472 DSL
+
+<---->
+
+**Alumni**
+
+*   **Ignacio Alvarez Illan** - Former Postdoc (LinkedIn Profile available)
+*   **Ronney Aovida** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Haleh Ashki** - Former Graduate Student (LinkedIn Profile available)
+*   **Efe Ataman** - Former Graduate Student
+*   **Alex Ayoub** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Bryan Azbill** - Former Graduate Student (LinkedIn Profile available)
+*   **Ariel Azoulay** - Former Graduate Student (LinkedIn Profile available)
+*   **Christopher Baker** - Former Graduate Student (LinkedIn Profile available)
+*   **Brian Bartoldson** - Former Graduate Student (LinkedIn Profile available)
+*   **Cameron Berkley** - Former Graduate Student (LinkedIn Profile available)
+*   **Luca Bertagna** - Former Postdoc (LinkedIn Profile available)
+*   **Ryan Bie** - Former Undergraduate Student
+*   **Kirby Birch** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Siddhartha Bishnu** - Former Graduate Student
+*   **Philip Boehner** - Former Graduate Student (LinkedIn Profile available)
+*   **Evan Bollig** - Former Graduate Student (LinkedIn Profile available)
+*   **Seth Boren** - Former Graduate Student (LinkedIn Profile available)
+*   **Justin Bricker** - Former Graduate Student (LinkedIn Profile available)
+*   **Thomas Britton** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Olena Burkovska** - Former Postdoc (LinkedIn Profile available)
+*   **Lukas Bystricky** - Former Graduate Student (LinkedIn Profile available)
+*   **Xiao Chen** - Former Affiliate Graduate Student (LinkedIn Profile available)
+*   **Xi Chen** - Former Graduate Student
+*   **James Cheung** - Former Graduate Student (LinkedIn Profile available)
+*   **Yu-Chieh Chi** - Former Graduate Student
+*   **Shang-Huan Chiu** - Former Postdoc
+*   **Pankaj Chouhan** - Former role: Postdoctoral Research Associate (LinkedIn Profile available)
+*   **Zachary Clement** - Former Undergraduate Student
+*   **Michael Conry** - Former Graduate Student
+*   **John Cothrun** - Former Graduate Student (LinkedIn Profile available)
+*   **Evan Cresswell-Clay** - Former Graduate Student (LinkedIn Profile available)
+*   **Benjamin Crysup** - Former Graduate Student (LinkedIn Profile available)
+*   **Heng Dai** - Former Graduate Student (LinkedIn Profile available)
+*   **Albert Dearden** - Former Postdoc (LinkedIn Profile available)
+*   **Liangjing Ding** - Former Graduate Student
+*   **Santosh Dubey** - Former Graduate Student (LinkedIn Profile available)
+*   **Anahid Ehtemami** - Former Graduate Student (LinkedIn Profile available)
+*   **Austin Eovito** - Former Graduate Student (LinkedIn Profile available)
+*   **Daniel Fenn** - Former Graduate Student (LinkedIn Profile available)
+*   **Cody Ficarra** - Former Graduate Student (LinkedIn Profile available)
+*   **Matthew Fischer** - Former Undergraduate Student
+*   **Markus Flaig** - Former Postdoc (LinkedIn Profile available)
+*   **Nicholas Forinash** - Former Graduate Student (LinkedIn Profile available)
+*   **Daniel Fratte** - Former Graduate Student (LinkedIn Profile available)
+*   **Ashley Gannon** - Former Graduate Student (LinkedIn Profile available)
+*   **Christine Geshel** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Yusef Golden** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Brett-Michael Green** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Mont Grunthal** - Former Undergraduate Student
+*   **Rui Gu** - Former Graduate Student (LinkedIn Profile available)
+*   **Qingguang Guan** - Former Graduate Student (LinkedIn Profile available)
+*   **Brandon Gusto** - Former Graduate Student
+*   **Timothy Handy** - Former Graduate Student & Postdoc (LinkedIn Profile available)
+*   **Mario Harper** - Former Graduate Student (LinkedIn Profile available)
+*   **Steven Henke** - Former Graduate Student (LinkedIn Profile available)
+*   **Minh Ho** - Former Undergraduate Student
+*   **John Hogan** - Former Graduate Student
+*   **Albert Iglesias** - Former Graduate Student
+*   **Douglas Jacobsen** - Former Graduate Student (LinkedIn Profile available)
+*   **Brandon Johnson** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Cody Jordan** - Former Undergraduate Student
+*   **Tara Khodaei** - Former role: Postdoctoral Research Associate (LinkedIn Profile available)
+*   **Jarod Klion** - Former Graduate Student
+*   **Mark Lambert** - Former Graduate Student (LinkedIn Profile available)
+*   **Lydia Laseur** - Former Undergraduate Student
+*   **Amar Latchireddy** - Former Graduate Student
+*   **Nathan Lay** - Former Graduate Student (LinkedIn Profile available)
+*   **Ryan Learn** - Former Graduate Student (LinkedIn Profile available)
+*   **Eitan Lees** - Former Graduate Student (LinkedIn Profile available)
+*   **Hongzhuan Lei** - Former Graduate Student (LinkedIn Profile available)
+*   **Jerrison Li Liu** - Former Undergraduate Student
+*   **Juan Llanos** - Former Graduate Student (LinkedIn Profile available)
+*   **Gwen Lofman** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Nicolas Lopez** - Former Graduate Student (LinkedIn Profile available)
+*   **Michelle Lorini** - Former Undergraduate Student
+*   **Ian Lozano** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Dan Lu** - Former Graduate Student (LinkedIn Profile available)
+*   **Isaac Lyngaas** - Former Graduate Student (LinkedIn Profile available)
+*   **Ian McCann** - Former Graduate Student (LinkedIn Profile available)
+*   **Ben McLaughlin** - Former Graduate Student (LinkedIn Profile available)
+*   **Alisha Mechtley** - Former Graduate Student (LinkedIn Profile available)
+*   **Geoffery Miller** - Former Graduate Student (LinkedIn Profile available)
+*   **Kathryn Miyar** - Former Postdoc for Dr. Slice
+*   **Mamdouh Mohamed** - Former Graduate Student (LinkedIn Profile available)
+*   **Behshad Mohebali** - Former Graduate Student (LinkedIn Profile available)
+*   **Brittany Morgan** - Former Undergraduate Student
+*   **Kevin Mueller** - Former Graduate Student (LinkedIn Profile available)
+*   **Marcelina Nagales** - Former Graduate Student (LinkedIn Profile available)
+*   **Livia Nason** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Jonathon Nosowitz** - Former Graduate Student (LinkedIn Profile available)
+*   **Julia Oliveto** - Former Graduate Student (LinkedIn Profile available)
+*   **Michal Palczewski** - Former Graduate Student (LinkedIn Profile available)
+*   **Yagna Sree Bhavani Pendala** - Former Graduate Student
+*   **Charles Pennington** - Former Graduate Student
+*   **Michelle Perry Kuchera** - Former Graduate Student (LinkedIn Profile available)
+*   **Alexander Peterson** - Former Graduate Student (LinkedIn Profile available)
+*   **Jacob Pettit** - Former Undergraduate Student (LinkedIn Profile available)
+*   **Serena Pham** - Former Graduate Student (LinkedIn Profile available)
+*   **Konstantin Pieper** - Former Postdoc
+*   **Benjamin Pomidor** - Former Graduate Student (LinkedIn Profile available)
+*   **Jeremy Quinto** - Former Graduate Student (LinkedIn Profile available)
+*   **Jill Reese** - Former Postdoc (LinkedIn Profile available)
+*   **David Robinson** - Former Graduate Student (LinkedIn Profile available)
+*   **Michael Rodriguez** - Former Undergraduate Student
+*   **Brennan Romash** - Former Graduate Student (LinkedIn Profile available)
+*   **Daniel Rosales Giron** - Former Graduate Student
+*   **Marjan Sadeghi** - Former Graduate Student (LinkedIn Profile available)
+*   **Bikash Saha** - Former Graduate Student (LinkedIn Profile available)
+*   **Rachel Scarboro** - Former Undergraduate Student
+*   **Renata Schama Lellis** - Former Graduate Student
+*   **Michael Schneier** - Former Graduate Student (LinkedIn Profile available)
+*   **Kyle Schueller** - Former Graduate Student (LinkedIn Profile available)
+*   **Pablo Seleson** - Former Graduate Student
+*   **Maliheh Shaban Tameh** - Former Graduate Student
+*   **Eric Sharkey** - Former Graduate Student (LinkedIn Profile available)
+*   **Sarthak Sharma** - Former Graduate Student (LinkedIn Profile available)
+*   **Kyle Shaw** - Former Graduate Student
+*   **Danial Smith** - Former Graduate Student
+*   **Aria Smith** - Former Graduate student (LinkedIn Profile available)
+*   **Kenneth Sockwell** - Former Graduate Student (LinkedIn Profile available)
+*   **James Soda** - Former Graduate Student (LinkedIn Profile available)
+*   **Philip Solimine** - Former Graduate Student (LinkedIn Profile available)
+*   **Xuehang Song** - Former Postdoc (LinkedIn Profile available)
+*   **Jeffrey Steward** - Former Graduate Student (LinkedIn Profile available)
+*   **Detelina Stoyanova** - Former Graduate Student & Postdoc (LinkedIn Profile available)
+*   **Huaiwei Sun** - Former Postdoc
+*   **Gi Sung** - Former Undergraduate Student
+*   **Amirhessam Tahmassebi** - Senior Data Scientist, Rivian (LinkedIn Profile available)
+*   **Arsia Takeh** - Former Graduate Student (LinkedIn Profile available)
+*   **Aretha Teckentrup** - Former Postdoc
+*   **Xin Tong** - Former Postdoc (LinkedIn Profile available)
+*   **Stephen Townsend** - Former Graduate Student (LinkedIn Profile available)
+*   **Toan Tran** - Former Graduate Student (LinkedIn Profile available)
+*   **Luke Van Popering** - Former Graduate Student
+*   **Hans-Werner Van Wyk** - Former Postdoc (LinkedIn Profile available)
+*   **Kushal Venkatesh** - Former Graduate Student (LinkedIn Profile available)
+*   **Yang Wang** - Former Graduate Student
+*   **Jilu Wang** - Former Postdoc
+*   **Chaolun Wang** - Former Graduate Student (LinkedIn Profile available)
+*   **Jie Wang** - Former Graduate Student (LinkedIn Profile available)
+*   **Clayton Webster** - Former Graduate Student (LinkedIn Profile available)
+*   **David Witman** - Former Graduate Student (LinkedIn Profile available)
+*   **Geoffrey Womeldorff** - Former Graduate Student (LinkedIn Profile available)
+*   **Jonathan Woods** - Former Undergraduate Student
+*   **Feifei Xu** - Former Graduate Student (LinkedIn Profile available)
+*   **Anna Yannakopoulos** - Former Undergraduate Student
+*   **Andrew Young** - Former Graduate Student (LinkedIn Profile available)
+*   **Haiping Yuan** - Former Graduate Student
+*   **Sayem Zaman** - Former Postdoc
+*   **Jingze Zhang** - Former Graduate Student (LinkedIn Profile available)
+*   **Guannan Zhang** - Former Graduate Student
+*   **Wenju Zhao** - Former Graduate Student (LinkedIn Profile available)
+*   **Xueming Zheng** - Former Graduate Student (LinkedIn Profile available)
+*   **Yan Zhu** - Former Postdoc
+
+<---->
+
+**Email Lists and Groups**
+
+**General Lists**
+*   **all@**: Includes admin@, faculty@, postdocs@, grad_student@, ug@, affiliated-faculty@
+*   **4th-Floor Email List**: Served by Mailman
+*   **tsg@ (Technical Support Email List)**: AD Group: dl-sc-tsg
+*   **support@**: Superset of tsg@
+*   **admin@ (Administration Email List + Dept. Chair)**: AD Group: dl-sc-adm
+*   **faculty@ (Faculty Email List)**: AD Group: dl-sc-faculty
+*   **postdocs@ (Postdoc Email List)**: Served by Mailman
+*   **grad_student@ (Graduate Student Email List)**: Served by Mailman (Aliases: grad-student@, grad-students@, grad_students@)
+*   **ug@ (Undergraduate Student Email List)**: Served by Mailman
+*   **affiliated-faculty@ (Affiliated Faculty Email List)**: Served by Mailman
+*   **alumni@ (DSC Alumni List)**: Served by Mailman
+
+**Committee Lists**
+*   **sc-grad-cmte@ (Graduate Committee Email List)**: AD Group: SC-Graduate-Committee
+*   **sc-ug-cmte@ (Undergraduate Committee Email List)**: AD Group: SC-Undergraduate-Committee
+*   **sc-exec@ (Executive Committee Email List)**: AD Group: SC-Executive-Committee
+*   **sc-promo@ (Promotion Committee Email List)**: AD Group: SC-Promotion-Committee
+*   **sc-research@ (Research Committee Email List)**: AD Group: SC-Research-Committee
+*   **sc-recruit@ (Faculty Search Committee)**: AD Group: dl-sc-recruit
+*   **dl-sc-gpc-physrev-external@**: Graduate Policy Committee subcommittee (non-physics, external)
+*   **dl-sc-gpc-physrev@**: Graduate Policy Committee subcommittee (all members)
+
+**Other Lists**
+*   **seminar@**: Seminar Announce Mailing list
+*   **morphlab@**: Dr. Slice's Morphlab Mailing list
+*   **logs@**: System Logs
+*   **ml-group@**: Machine Learning (ML) Group discussion list
+
+**Legacy Lists**
+*   **mbadmin@**: Mbadmin Mailing list
+
+**Aliases Controlled by FSU AD**
+*   **sc-advising@**: Academic Advising
+*   **sc-billing@** (alias sc-invoice@): Internal Billing/Invoice Notices
+*   **sc-connect@**: connect.fsu.edu portal
+*   **sc-education@**: Education Group
+*   **sc-info@**: Education Information
+*   **sc-pr@**: Public Relations
+*   **sc-premajors@**: Pre-major Undergraduate Students
+*   **sc-social@**: Social Media Team
+*   **sc-vizlab@**: Visualization Lab
+*   **sc-search@**: Search TBD
+
+<---->
+
+**Testimonials**
+
+*   "Thank you for teaching me R! Since completing my Masters a few years ago I’ve been working in business analytics. The last year and a half with a movie theater chain mining their customer databases and performing website experiments to help improve the business. I got that job 100% because of a report I put together using R." - **GF**
+
+*   "I was surrounded all the time by the most extraordinary and intelligent people. The best experience of my life." - **Daniel Fratte**
+
+*   "I feel like the training that I got at this department was perfectly suited for the position I have now. ...I know enough [physics, math and computer science] to function and contribute in circles with people who are experts and be the glue between those disciplines." - **Geoffrey Womeldorff**
+
+*   "I had a wonderful five years at the Department of Scientific Computing!" - **Dan Lu**
+
+*   "My experience at the Department of Scientific Computing was exceptional." - **Myrna Merced-Serrano**
+```

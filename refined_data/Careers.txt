@@ -1,0 +1,13 @@
+```
+Page Title: Careers - FSUSciComp
+<---->
+URL: https://www.sc.fsu.edu/careers
+<---->
+Main Heading: Funding, Fellowships, Internships, & Careers
+<---->
+Content:
+The department faculty and staff are available to help with internships, fellowships, postdoc positions, and any other career-related inquiries.
+<---->
+Call to Action:
+Contact the Faculty or Administration for assistance.
+```

@@ -1,0 +1,279 @@
+```
+### Title: Computing - FSUSciComp
+URL: https://www.sc.fsu.edu/computing
+
+**Overview:**
+The Department of Scientific Computing maintains a large and dynamic computing infrastructure in support of research and education. Computing resources include the FSU RCC/HPC, a number of clusters and computational servers, a laboratory for scientific visualization, a bioinformatics server, and more. While many of the department's computing resources are dedicated to specific research areas, an increasing number of machines are being made available to the University research community in general through the use of high throughput management tools and job schedulers.
+
+**Main Sections:**
+*   Getting Started
+*   Hardware
+*   Remote Access
+*   Software
+*   General Access
+*   Tech Docs
+
+<---->
+
+### Title: Getting Started - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/getting-started
+
+For new users getting started in our department, the following technical documents should be read first:
+*   Getting an account
+*   Logging in to SC systems
+*   Changing your password or environment
+*   Configuring Email
+*   Personal Website Hosting
+*   Account Policy
+
+<---->
+
+### Title: Hardware - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/hardware
+
+The Department of Scientific Computing (DSC) maintains computing hardware in a robust machine room on the fourth floor of Dirac Science Library. Most of this hardware is owned by DSC and non-DSC research groups and is dedicated to a wide range of research problems.
+
+*   **Idle Cycle Access:** DSC faculty and students can access idle cycles on owner-based machines using a system called **condor**. The condor system matches single-process non-interactive batch submissions to any idle CPUs in the DSC machine room or on DSC desktop machines.
+*   **General Access Machines:** These are available to DSC faculty and students to compile software and run interactive jobs (e.g., MatLab).
+*   **Managed Facilities:** The DSC manages and supports a general access visualization lab and FSU's shared HPC facility.
+
+**Learn More:**
+*   General Access
+*   Facilities, Computational Infrastructure
+
+<---->
+
+### Title: General Access - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/general-access
+
+The Department of Scientific Computing manages and supports a number of general access facilities for DSC faculty and students as well as the University computing community in general.
+
+**Resources:**
+*   Interactive
+*   Visualization
+*   High Performance Computing
+
+<---->
+
+### Title: High Performance Computing (RCC / HPC) - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/general-access/hpc
+
+**High Performance Computing (HPC): The Research Computing Center (RCC)**
+The RCC, formerly known as the FSU shared-HPC facility, enables multidisciplinary computing for the FSU research community.
+*   **Website:** RCC Homepage
+
+<---->
+
+### Title: Interactive - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/general-access/interactive
+
+DSC students, faculty, and students in Computational Science courses can interactively access computers in DSL 152 and the hallway via SSH.
+
+**How to Run an Interactive Job:**
+1.  Open an X11 terminal and type one of the following commands:
+    *   `qlogin`
+    *   `hallway` (to access hallway nodes only)
+    *   `classroom` (to access classroom nodes only)
+2.  After authenticating, type the name of the program you want to run (e.g., `matlab`).
+
+**If `qlogin` is not available on your machine:**
+1.  SSH to a DSC desktop or hallway machine: `ssh -X hallway-a.sc.fsu.edu`
+2.  Then follow the instructions above.
+
+**Access Policy:**
+*   1 job per user.
+
+**Availability:**
+*   **Classroom queues:** Available except for Mon - Fri, 7:45 AM to 6:00 PM. All remote classroom sessions are terminated at 7:45 AM on weekdays.
+*   **Hallway queues:** Available 24/7.
+*   **To specify a queue:** Use `qlogin -q classroom` or `qlogin -q hallway`.
+
+**Note:** The classroom and hallway machines are for student assignments, not for production-level jobs. Use FSU's HPC system (http://rcc.fsu.edu) for production batch schedule jobs.
+
+**Supported Submission Tools:**
+*   (List of tools seems to be missing, but the section exists)
+
+<---->
+
+### Title: Visualization - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/general-access/visualization
+
+The visualization laboratory is a DSC facility available for all researchers at Florida State University. The goal is to provide tools to analyze data, extract features, and display data meaningfully.
+
+**Use Categories:**
+*   Visualization Research
+*   Visualization Education
+*   Application of Visualization
+
+**Access Methods:**
+1.  **Work within the visualization lab:** Utilize dual large screens and a 12 TByte local storage facility.
+2.  **Remote access:** Use SSH connections and X-Window tunneling. The Vis Lab is also testing new HP software for full graphics remote access from Linux or Windows desktops.
+
+**Education:**
+Visualization is an integral component of the research workflow, used to:
+*   Construct computational grids
+*   Check data for accuracy
+*   Analyze and extract features from simulation data
+*   Ask questions of the data
+
+**Research Areas of Interest:**
+*   Real-time rendering using graphics hardware
+*   Remote and collaborative visualization
+*   Pattern recognition and feature extraction
+*   Information visualization and visual realism
+*   Visualization of uncertainty, stochastic multi-dimensional processes, and higher-dimensional data
+*   Computer Vision
+
+<---->
+
+### Title: Remote Access - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/remote-access
+
+Recommended remote resources for Computational Science students.
+
+*   **Scientific Computing Resources (some restrictions apply):**
+    *   Connect via SSH to `pamd.sc.fsu.edu`.
+    *   From there, run `qlogin` or `classroom` for an interactive shell.
+*   **Remote Desktop Connections:**
+    *   Tunnel through `pamd.sc.fsu.edu` to access a protected remote desktop resource.
+*   **myFSUVLab (24x7 Access):**
+    *   URL: myfsuvlab.its.fsu.edu
+    *   Service Details: Click Here for myFSUVLab's Service Details
+*   **MATLAB Online (24x7 Access):**
+    *   URL: matlab.mathworks.com
+    *   General Limitations: Click Here for MATLAB Online's General Limitations
+*   **Research Computing (RCC/HPC) (24x7 Access):**
+    *   Getting Started: its.fsu.edu/research/rcc-user-accounts
+    *   DSC Faculty Sponsors: Gordon Erlebacher, Peter Beerli, Sachin Shanbhag, Xiaoqiang Wang.
+
+<---->
+
+### Title: Remote Desktop at DSC - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/remote-access/desktop
+
+Instructions for GUI access to classroom and hallway systems for DSC faculty and students.
+
+**Setup:**
+1.  **Install Software:**
+    *   **Mac:** Install "Microsoft Remote Desktop".
+    *   **Windows:** The app is available by default.
+2.  **Create SSH Tunnel:** Open a terminal (Mac) or command prompt (Windows) and run the appropriate command, replacing `hostname` and `your_fsuid`.
+    *   **Mac:** `ssh -L:3389:hostname.sc.fsu.edu:3389 your_fsuid@pamd.sc.fsu.edu`
+    *   **Windows:** `ssh -L:13389:hostname.sc.fsu.edu:3389 your_fsuid@pamd.sc.fsu.edu`
+    *   Login and keep the tunnel open.
+3.  **Connect via Remote Desktop:**
+    *   **Mac:**
+        *   Add a new PC in Microsoft Remote Desktop.
+        *   PC name: `localhost`
+        *   Open the connection and log in.
+    *   **Windows:**
+        *   Open Remote Desktop Connection.
+        *   Computer: `localhost:13389`
+        *   User name: `your_fsuid`
+        *   Click "Connect" and log in.
+*Note: You can safely ignore certificate warnings.*
+
+<---->
+
+### Title: SSH Access - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/remote-access/ssh
+
+Most department computing resources are accessible from `pamd.sc.fsu.edu`.
+
+**Connecting to Application Servers:**
+*   From `pamd`, use the `hallway`, `classroom`, or `cil` command.
+*   The `qlogin` command is also available on desktop workstations (e.g., dskscsXXX.sc.fsu.edu).
+
+**Connecting to Departmental Desktops:**
+*   From `pamd` or `pamd2`, use `ssh dskscsXXX.sc.fsu.edu`.
+
+**Warning:** Never use `pamd.sc.fsu.edu` servers to run processor-intensive jobs. Such processes will be terminated to ensure SSH access for all users.
+
+<---->
+
+### Title: Software - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/software
+
+The department's technical support group supports the following software categories. Support for additional tools must be approved by the Technology Committee.
+
+*   Supported Applications
+*   Supported Libraries & Compilers
+*   Supported Submission Tools
+
+<---->
+
+### Title: Supported Applications - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/software/applications
+
+The following applications are supported by the department's technical support group. Approval from the Technology Committee is needed for any additions.
+*   Acrobat Reader
+*   Mathematica
+*   R
+*   MATLAB
+*   LaTeX
+*   ImageMagick
+*   Gnuplot
+
+<---->
+
+### Title: Supported Libraries & Compilers - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/software/libraries-compilers
+
+The following libraries and compilers are supported by the department's technical support group. Approval from the Technology Committee is needed for any additions.
+*   GROMACS
+*   Super LU
+*   LAPACK
+*   GSL
+*   FFTW
+*   BLAS
+*   ARPACK
+*   g95
+*   g77
+*   g++
+*   GNU Compiler Collection (GCC)
+
+<---->
+
+### Title: Supported Submission Tools - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/software/submission-tools
+
+The following submission tools are supported by the department's technical support group. Approval from the Technology Committee is needed for any additions.
+*   Interactive
+
+<---->
+
+### Title: Tech Docs: Version Control Systems - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/96-tech-docs/225-svn-information
+
+**Is your code for free / open-source software?**
+*   **YES:** Try a free source code repository like:
+    *   **GitHub:** A community for collaborative development.
+    *   **SourceForge.net:** The world's largest open-source software development website.
+*   **NO:** We recommend using **git**.
+
+**Quick Start for Git:**
+1.  **Creating and Committing on pamd.sc.fsu.edu:**
+    *   `$ cd (project-dir)`
+    *   `$ git init`
+    *   `(add some files)`
+    *   `$ git add .`
+    *   `$ git commit -m 'Initial commit'`
+2.  **Cloning and Creating a Patch:**
+    *   `$ git clone ssh://{mylogin}@pamd.sc.fsu.edu/panfs/panasas1/research/{mydir}/{mygitproj}`
+    *   `$ cd {mygitproj}`
+    *   `(edit files)`
+    *   `$ git add (files)`
+    *   `$ git commit -m 'explain what I changed'`
+    *   `$ git format-patch origin/master`
+
+For more information, see the Git Community Book, especially the section on Distributed Workflows. Once your code is presentation-ready, email the details to be posted to the Department software collection.
+
+<---->
+
+### Title: HELP! - Technical Support - FSUSciComp
+URL: https://www.sc.fsu.edu/computing/help
+
+If you have a technology question or other issue, send an email to the support address. Your request will be directed to someone who can help.
+
+**Email:** *This email address is being protected from spambots. You need JavaScript enabled to view it.*
+```
