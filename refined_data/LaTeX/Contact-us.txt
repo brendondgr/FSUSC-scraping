@@ -1,0 +1,37 @@
+```latex
+\section{Contact Information}
+\texttt{https://www.sc.fsu.edu/contact-us}
+
+\subsection{General Contacts}
+\begin{tabular}{@{}ll}
+    General Contacts & (850) 644-1010 \\
+    Dept. Chair      & (850) 644-7054 \\
+    Facilities       & (850) 645-0304 \\
+    Human Resources (HR) & \\
+\end{tabular}
+
+\subsection{Department Address}
+\textit{Please use this address for direct shipping (DHL, FedEx, UPS, etc.)}
+\vspace{1em}
+
+\noindent
+[Name of department member] \\
+Florida State University \\
+Department of Scientific Computing \\
+400 Dirac Science Library \\
+Tallahassee, FL 32306-4120
+
+\subsection{Department Chair}
+Peter Beerli
+
+\subsection{Directions, Parking, Maps}
+\noindent Driving Directions
+
+\subsection{Support and Academic Inquiries}
+\begin{itemize}
+    \item \textbf{Website Related Questions:} Email Website Support
+    \item \textbf{Technical Support Questions:} Email Technical Support
+    \item \textbf{Graduate Studies Questions:} Email Our Graduate Advisors
+    \item \textbf{Undergraduate Studies Questions:} Email Our Undergraduate Advisors
+\end{itemize}
+```

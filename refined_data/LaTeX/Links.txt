@@ -1,0 +1,194 @@
+\section{Careers}
+%\url{https://www.sc.fsu.edu/links/222-careers}
+
+\subsection{SIAM.org}
+\textit{Hits: 6334} \\
+\textbf{Internships}, \textbf{Post Docs} \\
+Careers in Applied Mathematics.
+
+\subsection{glassdoor.com}
+\textit{Hits: 9926} \\
+\textbf{Internships} \\
+Your Next Career Move Starts Here. Search Millions of Job Listings. See Real Employee Salaries. Read Reviews from Employees.
+
+\subsection{FSU Career Center}
+\textit{Hits: 9964} \\
+\textbf{Internships} \\
+The FSU Career Center provides comprehensive career services to students, alumni, employers, faculty/staff and other members of the FSU community.
+
+\subsection{ThisIsStatistics.org}
+\textit{Hits: 23899} \\
+Statisticians aren’t who you think they are.
+
+\subsection{MathJobs.Org}
+\textit{Hits: 8816} \\
+\textbf{Careers} \\
+MATHJOBS, a website where you can find job opportunities in academics, industry, and national laboratories.
+
+\subsection{MathPrograms.Org}
+\textit{Hits: 6392} \\
+\textbf{Careers} \\
+MATHPROGRAMS, a website listing REU's, graduate workshops, grant opportunities.
+
+\subsection{SIAM.org Career Center}
+\textit{Hits: 5611} \\
+\textbf{Careers} \\
+SIAM JOBS, a list of job openings for graduates with degrees in applied mathematics and computational science.
+
+\subsection{CRA.org - Computing Research Association}
+\textit{Hits: 5206} \\
+\textbf{Careers} \\
+cra.org is a web site run by "Computing Research Association" which includes an extensive list of jobs in computing. (Not just computer science, but computational science, graphics, computer engineering, and so on).
+
+\subsection{jobs.ACM.org}
+\textit{Hits: 6265} \\
+\textbf{Careers} \\
+jobs.ACM.org is a web site maintained by the Association for Computing Machinery with an international listing of academic, industrial, and lab jobs.
+
+\subsection{OkCupid}
+\textit{Hits: 5532} \\
+\textbf{Careers} \\
+You might want to work here.
+
+\subsection{Walmart}
+\textit{Hits: 8036} \\
+\textbf{Careers} \\
+Data Science and Analytics.
+
+\subsection{FSU Career Center: Landing a Part-time Job}
+\textit{Hits: 5373} \\
+\textbf{Internships} \\
+When employers recruit new college graduates, they look beyond a student’s major for a skillset. Part-time jobs offer unique benefits, such as building your resume. Part-time jobs provide an opportunity to develop new skills and competencies that complement classroom learning and can be highlighted in future job searches or the graduate school application process.
+
+\subsection{Lowes}
+\textit{Hits: 12883} \\
+\textbf{Careers} \\
+Data Scientist
+
+\subsection{Subcategories}
+\begin{itemize}
+    \item Undergraduate Opportunities
+    \item Graduate Opportunities
+    \item Postdoc Positions
+    \item Funding Opportunities \& Fellowships
+\end{itemize}
+
+\section{Graduate Opportunities}
+%\url{https://www.sc.fsu.edu/links/222-careers/226-graduate-opportunities}
+
+\subsection{Internships - Blue Waters}
+\textit{Hits: 6541} \\
+\textbf{Internships} \\
+National Computational Science Institute (NCSI) \\
+Applications Deadline: Annually/Biannually due by end of January.
+
+\subsection{Internships - SIAM.org}
+\textit{Hits: 8290} \\
+\textbf{Internships} \\
+SIAM INTERNSHIPS, a list of companies and their internship offerings for students in applied mathematics and computational science.
+
+\subsection{Internships - Risk Management Solutions}
+\textit{Hits: 5919} \\
+\textbf{Internships} \\
+Risk Management Solutions (RMS) \\
+HWind/RMS-Tallahaassee
+
+\subsection{Internships - Pittsburgh Supercomputing Center}
+\textit{Hits: 4966} \\
+\textbf{Internships} \\
+Pittsburgh Supercomputing Center (PSC)
+
+\subsection{Syntech Systems}
+\textit{Hits: 7328} \\
+Syntech Systems, Incorporated is a dynamic defense and commercial engineering design and manufacturing firm. We specialize in automated fuel management systems and munitions support equipment. Our operations include engineering design, systems integration, independent research and development, and product manufacturing. We are experienced in designing and manufacturing according to customer concepts, product performance requirements, or item development specifications. \\
+Offices located in Tallahassee, FL, United States.
+
+\subsection{Internships - Tall Timbers}
+\textit{Hits: 3553} \\
+\textbf{Internships} \\
+The mission of Tall Timbers is to foster exemplary land stewardship through research, conservation and education. \\
+For more information please contact \textbf{Bryan Quaife}.
+
+\subsection{Internships - Department of Navy HBCU/MI Internship Program}
+\textit{Hits: 731} \\
+\textbf{Internships} \\
+Perform cutting edge research with world-renowned Naval Research Laboratory (NRL) scientists and engineers in Washington D.C. to strengthen America's naval defense. \\
+Application Closes: January. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\subsection{Graduate - Naval Research Enterprise Intern Program (NREIP)}
+\textit{Hits: 1011} \\
+Interested in summer work at NRL? \\
+The Naval Research Enterprise Intern Program (NREIP) is a ten-week intern program is designed to provide opportunities for undergraduate and graduate students to participate in research, under the guidance of an appropriate mentor, at a participating Navy laboratory. The Office of Naval Research (ONR) is offering summer appointments at a Navy lab to current sophomores, juniors, seniors and graduate students from participating schools. Saxman One is handling the administration of the application process through a website. Each electronic application from a prospective intern will be sent for evaluation to the point of contact at the Navy Lab identified by the applicant. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\section{Postdoc Positions}
+%\url{https://www.sc.fsu.edu/links/222-careers/227-postdoc-positions}
+
+\subsection{Postdoc - NRC Research Associateship Programs}
+\textit{Hits: 4289} \\
+Interested in a post-doc at NRL? \\
+The NRC Research Associateship Programs (RAP) are prestigious postdoctoral and senior research awards designed to provide promising scientists and engineers with high-quality research opportunities at federal laboratories and affiliated institutions. These programs offer a comprehensive experience, including mentorship, access to state-of-the-art facilities, and opportunities to influence government policy, all geared toward enhancing the research career development of the Research Associates. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\subsection{Postdoc - NCAR ASP Postdoc Fellowship}
+\textit{Hits: 2716} \\
+\textbf{Internships} \\
+The ASP postdoctoral fellowships provide successful applicants with considerable freedom to pursue their own research interests. Fellows develop research projects in collaboration with NCAR scientists and engineers, but all are expected to choose their own research directions and are responsible for the design and conduct of their projects. \\
+Deadline for applications is late October, [annually]. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\subsection{Postdoc - NRL Postdoctoral Fellowship Program}
+\textit{Hits: 767} \\
+\textbf{Internships} \\
+Interested in a post-doc at NRL? \\
+American Society for Engineering Education (ASEE). The NRL Postdoctoral Fellowship Program provides approximately forty (40) new postdoctoral appointments per year. Fellows are competitively selected on the basis of their overall qualifications and technical proposals addressing specific areas defined by the host Navy laboratories. The selected participants will work in a unique Navy laboratory environment, while interacting with senior laboratory scientists and engineers. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\section{Funding Opportunities \& Fellowships}
+%\url{https://www.sc.fsu.edu/links/222-careers/228-funding-and-fellowships}
+
+\subsection{DOE Computational Science Graduate Fellowship}
+\textit{Hits: 5492} \\
+\textbf{Fellowships} \\
+Established in 1991, the Department of Energy Computational Science Graduate Fellowship (DOE CSGF) provides outstanding benefits and opportunities to students pursuing doctoral degrees in fields that use high-performance computing to solve complex science and engineering problems. The program fosters a community of energetic and committed Ph.D. students, alumni, DOE laboratory staff and other scientists who want to have an impact on the nation while advancing their research. Fellows come from diverse scientific and engineering disciplines but share a common interest in using computing in their research.
+
+\subsection{Office of Science Graduate Student Research (SCGSR) Program}
+\textit{Hits: 13266} \\
+\textbf{Careers} \\
+The goal of the Office of Science Graduate Student Research (SCGSR) program is to prepare graduate students for science, technology, engineering, or mathematics (STEM) careers critically important to the DOE Office of Science mission, by providing graduate thesis research opportunities at DOE laboratories. The SCGSR program provides supplemental awards to outstanding U.S. graduate students (US citizens or lawful permanent residents) to pursue part of their graduate thesis research at a DOE laboratory/facility in areas that address scientific challenges central to the Office of Science mission. The research opportunity is expected to advance the graduate students’ overall doctoral thesis while providing access to the expertise, resources, and capabilities available at the DOE laboratories/facilities.
+
+\subsection{Oak Ridge National Laboratory (ORNL) Distinguished Staff Fellowship Program}
+\textit{Hits: 5560} \\
+\textbf{Fellowships} \\
+ORNL’s Distinguished Staff Fellowship program aims to cultivate future scientific leaders by providing dedicated mentors, world-leading scientific resources, and enriching research opportunities at a national laboratory. The program includes the Russell, Weinberg, and Wigner Fellowships. Fellowships are awarded to outstanding early-career scientists and engineers, new to ORNL, who demonstrate success within their academic, professional, and technical areas. \\
+Application Deadline: posted annualy.
+
+\subsection{Fellowship - Graduate Visitor Program}
+\textit{Hits: 1080} \\
+\textbf{Internships} \\
+NCAR's Advanced Study Program's Graduate Student (GVP) Fellowship is an excellent way to spend time at NCAR and work on parts of your thesis, or final project equivalent, with guidance from NCAR scientists and engineers. The GVP also is an opportunity to develop research collaborations at NCAR and to participate in professional development workshops and seminars. \\
+Deadline for applications is late October, annually. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\section{Undergraduate Opportunities}
+%\url{https://www.sc.fsu.edu/links/222-careers/262-undergraduate-opportunities}
+
+\subsection{Undergraduate - Bruins-In-Genomics (B.I.G.) Summer Undergraduate Research Program}
+\textit{Hits: 5840} \\
+\textbf{Internships} \\
+DO YOU HAVE A PASSION FOR COMPUTING, BIOLOGY, MATH, AND SCIENCE? \\
+Bruins-In-Genomics (B.I.G.) Summer Research Program is an 8-week full-time immersion program for undergraduates interested in learning how to read and analyze genes and genomes. Through this program students will have the opportunity to experience graduate-level coursework, and learn the latest cutting-edge research, tools and methods used by leading scientists to solve real-world problems. \\
+ROLLING/ANNUAL APPLICATION DEADLINE: JUNE 20 TO AUGUST 11.
+
+\subsection{Undergraduate - Naval Research Enterprise Intern Program (NREIP)}
+\textit{Hits: 1032} \\
+Interested in summer work at NRL? \\
+The Naval Research Enterprise Intern Program (NREIP) is a ten-week intern program is designed to provide opportunities for undergraduate and graduate students to participate in research, under the guidance of an appropriate mentor, at a participating Navy laboratory. The Office of Naval Research (ONR) is offering summer appointments at a Navy lab to current sophomores, juniors, seniors and graduate students from participating schools. Saxman One is handling the administration of the application process through a website. Each electronic application from a prospective intern will be sent for evaluation to the point of contact at the Navy Lab identified by the applicant. \\
+For more information please contact \textbf{Hristo Chipilski}.
+
+\subsection{Undergraduate - STEM Student Employment Program (SSEP)}
+\textit{Hits: 786} \\
+Interested in summer work at NRL? \\
+The STEM Student Employment Program (SSEP) is a direct hire authority for undergraduate and graduate degree seeking students enrolled in scientific, technical, engineering, or mathematics majors. Students must be continuously enrolled on at least a half-time basis at a qualifying educational institution and be at least 16 years of age. \\
+For more information please contact \textbf{Hristo Chipilski}.

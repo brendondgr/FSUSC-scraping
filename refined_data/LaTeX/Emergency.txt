@@ -1,0 +1,42 @@
+\section{Emergency Info}
+\url{https://www.sc.fsu.edu/emergency}
+
+\subsection{University-Wide Information}
+\begin{itemize}
+    \item \textbf{STAY HEALTHY FSU}
+    \item \textbf{ALIGNED WITH THE FLORIDA BOARD OF GOVERNORS RE-OPENING BLUEPRINT}
+    \item \textbf{COVID-19 CASE STATISTICS}
+    \item \textbf{FSU ALERT - Emergency Information and Instructions} \\
+    CURRENT UNIVERSITY STATUS. OFFICIAL ANNOUNCEMENTS. SITUATION REPORTS.
+    \item \textbf{FSU's coronavirus response}
+    \item \textbf{Coronavirus: Frequently Asked Questions}
+\end{itemize}
+
+\subsection{Remote Learning and Work Resources}
+\begin{itemize}
+    \item \textbf{Office of Distance Learning (ODL) Emergency Online Instruction} \\
+    When an emergency affects your ability to teach your courses, ODL is here to help. Even if you've never taught online, learning a few basics can help you keep your courses running in spite of a campus closure. It can also help you recover after the emergency is over. Whether you're new to Canvas or have some experience, we've assembled resources for delivering your classes online.
+    
+    \item \textbf{FSU ITS Employee Remote Work Essentials} \\
+    To successfully work remotely, you’ll need a computer, a reliable internet connection and your FSU login credentials. We also recommend bookmarking your essential websites to make accessing your go-to files easier. Make sure to take the time to test everything out before you plan to be away and make sure you are set up for success.
+\end{itemize}
+
+\subsection{External Resources and Data}
+\begin{itemize}
+    \item \textbf{Who’s staying home because of COVID-19?} \\
+    A list of all the companies WFH or events changed because of covid-19.
+    
+    \item \textbf{MAP: Coronavirus Resource Center - Johns Hopkins} \\
+    Track Reported Cases of COVID-19.
+\end{itemize}
+
+\subsection{Attachments}
+\begin{center}
+\begin{tabular}{p{6cm} p{6cm} r}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\
+\hline
+COVID-19 CampusEventsGuidance.pdf & & 144 kB \\
+\hline
+\end{tabular}
+\end{center}

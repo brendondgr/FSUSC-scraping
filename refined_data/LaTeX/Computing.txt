@@ -1,0 +1,303 @@
+\section{Computing}
+\url{https://www.sc.fsu.edu/computing}
+
+The Department of Scientific Computing maintains a large and dynamic computing infrastructure in support of research and education.
+
+Computing resources include the FSU RCC/HPC, a number of clusters and computational servers, a laboratory for scientific visualization, a bioinformatics server, and more. While many of the department's computing resources are dedicated to specific research areas, an increasing number of machines are being made available to the University research community in general through the use of high throughput management tools and job schedulers.
+
+\subsection{Getting Started}
+\url{https://www.sc.fsu.edu/computing/getting-started}
+
+For new users getting started in our department the following technical documents should be read first:
+\begin{itemize}
+    \item Getting an account
+    \item Logging in to SC systems
+    \item Changing your password or environment
+    \item Configuring Email
+    \item Personal Website Hosting
+    \item Account Policy
+\end{itemize}
+
+\subsection{Hardware}
+\url{https://www.sc.fsu.edu/computing/hardware}
+
+The Department of Scientific Computing maintains computing hardware in a robust machine room on the fourth floor of Dirac Science Library. Most the hardware in this machine room is owned by DSC and non-DSC research groups and is dedicated to a wide range of research problems including; molecular biophysics, evolutionary biology, network modeling, and Monte-Carlo algorithm development. DSC faculty and students can access the idle cycles on the owner based machines by using a system called \texttt{condor}. The \texttt{condor system} is configured to match single process non-interactive batch submissions to any idle CPUs hosted in the DSC machine room or in DSC desktop machines. Some general access machines are made available to DSC faculty and students to compile software and to run interactive jobs, e.g., MatLab. Also, the DSC manages and supports a general access visualization lab and FSU's shared HPC facility. To learn more about the hardware resources hosted or managed by DSC, click on one of the links below.
+\begin{itemize}
+    \item General Access
+    \item Facilities, Computational Infrastructure
+\end{itemize}
+
+\subsection{General Access}
+\url{https://www.sc.fsu.edu/computing/general-access}
+
+The Department of Scientific Computing manages and supports a number of general access facilities for DSC faculty and students as well the University computing in general. Click on any of the links below to learn more about these resources.
+\begin{itemize}
+    \item Interactive
+    \item Visualization
+    \item High Performance Computing
+\end{itemize}
+
+\subsubsection{High Performance Computing (RCC)}
+\url{https://www.sc.fsu.edu/computing/general-access/hpc}
+
+\paragraph{The Research Computing Center (RCC)} - formerly known as the FSU shared-HPC facility - enables multidisciplinary computing for the FSU research community. To learn more about this facility please see the RCC web site.
+\begin{itemize}
+    \item RCC Homepage
+    \item High-performance Computing
+\end{itemize}
+
+\subsubsection{Interactive}
+\url{https://www.sc.fsu.edu/computing/general-access/interactive}
+
+DSC students, faculty, and students taking Computational Science courses can interactively access the computers located in DSL 152 and the hallway via \texttt{ssh}. This allows you to request interactive resources and it will randomly instantiate a session on a workstation. What follows is a quick start for the DSC environment.
+
+\paragraph{How to Run an Interactive Job}
+Open an X11 terminal and type:
+\begin{itemize}
+    \item \texttt{qlogin}
+    \item OR
+    \item \texttt{hallway} (to access hallway nodes only)
+    \item \texttt{classroom} (to access classroom nodes only)
+\end{itemize}
+
+After authenticating, type the name of the program you want to run, e.g., \texttt{matlab}.
+
+If \texttt{qlogin} is not available on your machine, you must run the above commands from a DSC desktop. SSH to a DSC desktop or hallway machine:
+\texttt{ssh -X hallway-a.sc.fsu.edu}
+
+Then follow the above instructions.
+
+\paragraph{Access Policy}
+\begin{itemize}
+    \item 1 job per user
+\end{itemize}
+
+\paragraph{Availability}
+Classroom queues are available with the exception of Mon - Fri 7:45 AM till 6:00 PM.
+Hallway queues are available 24/7.
+To guarantee which queue you land in please use either \texttt{qlogin -q classroon} or \texttt{qlogin -q hallway}.
+
+\textbf{NOTE:} All remote classroom sessions will be terminated at 7:45 AM M-F. The purpose of the classroom and hallway machines is primarily for students to do their assignments - not as a production engine. Use FSU's HPC system (\url{http://rcc.fsu.edu}) for production batch schedule jobs.
+
+\subsubsection{Visualization}
+\url{https://www.sc.fsu.edu/computing/general-access/visualization}
+
+It is said that "A picture is worth a thousand words". How true. The ultimate goal of scientific visualization is to provide scientists with tools that permit them to analyze their data, extract information/features, correlate that information, and display their data in a meaningful way. More importantly, visualization encourages the scientists to ask questions. The more interactive an application, the more questions a scientist can pose. Application areas with large scale datasets (steady or time-dependent) include oceanography, study of hurricanes, data assimilation techniques, phylogenetic tree evolution, geophysics, fluid dynamics, and more.
+
+The visualization laboratory is a DSC facility available for the use of researchers across the entire Florida State University Campus. Use is divided into the following categories:
+\begin{itemize}
+    \item Visualization Research
+    \item Visualization Education
+    \item Application of Visualization
+\end{itemize}
+
+\paragraph{Applications}
+The laboratory is open to all researchers of Florida State University who have a need to visualize and analyze their simulation or other data. Be sure to check out the tutorial section of this web site. This access can take several forms:
+\begin{itemize}
+    \item \textbf{Work within the visualization lab}, making use of dual large screens for maximum flexibility during the generation and rendering of large scale imagery and the generation of sophisticated animations. User data resides on our local 12 TByte storage facility.
+    \item \textbf{Remote access to the visualization laboratory from desktop computers or workstations}. Typically this involves remote SSH connections and X-Window tunneling to run applications on the visualization machines from another location--this does not fully support hardware based graphics. During the coming months the Vis Lab will be testing innovative new software from HP, which allows users to execute any software that runs locally from a remote desktop Linux or windows machine in full graphics mode. As in the first case, data would be stored on our local file system for maximum efficiency.
+\end{itemize}
+
+\paragraph{Education}
+Perhaps most importantly, visualization is an integral component of the workflow adopted by researchers around the world. Visualization is necessary to:
+\begin{itemize}
+    \item construct computational grids that discretize the physical domain,
+    \item check data for accuracy, correctness
+    \item analyze simulation data
+    \item extract features from simulation data
+    \item ask questions of the data
+\end{itemize}
+
+\paragraph{Research}
+Scientists are encourage to use the laboratory for advanced research in the area of scientific visualization. Areas of interest include:
+\begin{itemize}
+    \item Real time rendering using graphics hardware
+    \item Remote rendering
+    \item Collaborative visualization
+    \item Pattern recognition
+    \item Feature extraction
+    \item Information visualization
+    \item Visual realism
+    \item Visualization of uncertainty
+    \item Visualization of stochastic multi-dimensional processes
+    \item Visualization of higher dimensional data (four and above)
+    \item and more ...
+    \item Computer Vision
+\end{itemize}
+
+\subsection{Remote Access}
+\url{https://www.sc.fsu.edu/computing/remote-access}
+
+For Computational Science students taking classes needing remote resources for their coursework and research. Please see the following recommended resources:
+
+\paragraph{Scientific Computing Resources}
+[some restrictions apply]
+\begin{itemize}
+    \item Students can use secure shell client to connect to \texttt{pamd.sc.fsu.edu}, from there run \texttt{qlogin} or \texttt{classroom}.
+    \item SSH to \texttt{pamd.sc.fsu.edu}
+    \item Interactive Shell using \texttt{qlogin} or \texttt{classroom}
+\end{itemize}
+
+\paragraph{Remote Desktop Connections}
+Students can use secure shell client to tunnel to \texttt{pamd.sc.fsu.edu}, from there you can reference "localhost" to tunnel to a protected remote desktop resource.
+
+\paragraph{myFSUVLab}
+[24x7 Access]
+\url{myfsuvlab.its.fsu.edu}
+Click Here for myFSUVLab's Service Details.
+
+\paragraph{MATLAB Online}
+[24x7 Access]
+\url{matlab.mathworks.com}
+Click Here for MATLAB Online's General Limitations.
+
+\paragraph{Research Computing (RCC/HPC)}
+[24x7 Access]
+Getting Started $>$ \url{its.fsu.edu/research/rcc-user-accounts}
+From the "Select a Faculty Sponsor" dropdown you can choose from the following DSC facuilty members: Gordon Erlebacher, Peter Beerli, Sachin Shanbhag, Xiaoqiang Wang.
+
+\subsubsection{Remote Desktop at DSC}
+\url{https://www.sc.fsu.edu/computing/remote-access/desktop}
+
+To facilitate GUI access to classroom and hallway systems, we have opened up remote desktop connections for DSC faculty and students with valid departmental account. Please email This email address is being protected from spambots. You need JavaScript enabled to view it. if you have any difficulty.
+
+\begin{enumerate}
+    \item Install "Microsoft Remote Desktop" for Mac; Windows users already have this app by default.
+    \item Open terminal for Mac; command prompt for Windows
+    \item Run the following command to create a tunnel to hostname (classXX or hallway-X where XX = 02 through 19; X = a through e)
+    
+    (Mac)
+    
+    \texttt{ssh -L:3389:hostname.sc.fsu.edu:3389 your\_fsuid@pamd.sc.fsu.edu}
+    
+    (Windows)
+    
+    \texttt{ssh -L:13389:hostname.sc.fsu.edu:3389 your\_fsuid@pamd.sc.fsu.edu}
+    
+    \item Login and keep this tunnel for the next step
+    \item Start Microsoft Remote Desktop (Mac) / Add PC
+    \begin{itemize}
+        \item PC name: \texttt{localhost}
+        \item Friendly name: My tunnel to classroom (whatever name you prefer)
+    \end{itemize}
+    \item Open this newly created "My tunnel to classroom" and login to the pre-selected hostname
+    
+    \textbf{NOTE:} You can safely ignore certificates warning by clicking on "Continue"
+    
+    \item Start Remote Desktop Connection (Windows) / Show Options
+    \begin{itemize}
+        \item Computer: "\texttt{localhost:13389}"
+        \item User name: "your\_fsuid"
+    \end{itemize}
+    \item Click on "Connect" and login to the pre-selected hostname
+    
+    \textbf{NOTE:} You can safely ignore certificates warning by clicking on "Yes"
+\end{enumerate}
+
+\subsubsection{SSH Access}
+\url{https://www.sc.fsu.edu/computing/remote-access/ssh}
+
+Most of the department computing resources can be accessed from \texttt{pamd.sc.fsu.edu}. Use the \texttt{hallway} or \texttt{classroom} or \texttt{cil} command to connect to our application servers. For example:
+\begin{verbatim}
+pamd% hallway
+pamd2% classroom
+\end{verbatim}
+The \texttt{qlogin} command is also available on our desktop workstations (e.g. hostname = \texttt{dskscsXXX.sc.fsu.edu} or \texttt{hallway-[a-e].sc.fsu.edu}). Students can also connect to their departmental desktops directly from pamd or pamd2 as follows:
+\begin{verbatim}
+pamd% ssh dskscsXXX.sc.fsu.edu
+\end{verbatim}
+\textbf{Never} use the \texttt{pamd.sc.fsu.edu} servers to run processor intensive jobs. Intensive processes will be terminated to ensure SSH access to \texttt{pamd.sc.fsu.edu} is available to all users.
+
+\subsection{Software}
+\url{https://www.sc.fsu.edu/computing/software}
+
+The following software categories are supported by the department's technical support group. Support for any additional submission tools needs to be approved by the Technology Committee.
+\begin{itemize}
+    \item Supported Applications
+    \item Supported Libraries \& Compilers
+    \item Supported Submission Tools
+\end{itemize}
+
+\subsubsection{Supported Applications}
+\url{https://www.sc.fsu.edu/computing/software/applications}
+
+The following software applications are supported by the department's technical support group. Support for any additional applications needs to be approved by the Technology Committee.
+\begin{itemize}
+    \item Acrobat Reader
+    \item Mathematica
+    \item R
+    \item MATLAB
+    \item LaTeX
+    \item ImageMagick
+    \item Gnuplot
+\end{itemize}
+
+\subsubsection{Supported Libraries \& Compilers}
+\url{https://www.sc.fsu.edu/computing/software/libraries-compilers}
+
+The following libraries and compilers are supported by the department's technical support group. Support for any libraries and compilers needs to be approved by the Technology Committee.
+\begin{itemize}
+    \item GROMACS
+    \item Super LU
+    \item LAPACK
+    \item GSL
+    \item FFTW
+    \item BLAS
+    \item ARPACK
+    \item g95
+    \item g77
+    \item g++
+    \item GNU Compiler Collection (GCC)
+\end{itemize}
+
+\subsubsection{Supported Submission Tools}
+\url{https://www.sc.fsu.edu/computing/software/submission-tools}
+
+The following submission tools are supported by the department's technical support group. Support for any additional submission tools needs to be approved by the Technology Committee.
+\begin{itemize}
+    \item Interactive
+\end{itemize}
+
+\subsection{Tech Docs}
+\subsubsection{Version Control Systems}
+\url{https://www.sc.fsu.edu/computing/96-tech-docs/225-svn-information}
+
+Will your code be for free / open source software?
+
+If \textbf{YES}, then you should first try one of these free source code repositories:
+\paragraph{github}
+"GitHub is how people build software. With a community of more than 15 million people, developers can discover, use, and contribute to over 38 million projects using a powerful collaborative development workflow." \textit{source}
+\paragraph{SourceForge.net}
+"SourceForge.net is the world's largest open source software development web site. We provide free services that help people build cool stuff and share it with a global audience." \textit{source}
+
+If \textbf{NO}, then we recommend using \texttt{git}.
+
+\paragraph{Quick start for Git}
+Creating and commiting on \texttt{pamd.sc.fsu.edu}
+\begin{verbatim}
+$ cd (project-dir)
+$ git init
+$ (add some files)
+$ git add .
+$ git commit -m 'Initial commit'
+\end{verbatim}
+Cloning and Creating a Patch
+\begin{verbatim}
+$ git clone ssh://{mylogin}@pamd.sc.fsu.edu/panfs/\
+   panasas1/research/{mydir}/{mygitproj}
+$ cd {mygitproj}
+$ (edit files)
+$ git add (files)
+$ git commit -m 'explain what I chanded'
+$ git format-patch origin/master
+\end{verbatim}
+For more information about how to use git see the Git Community Book. The section on Distributed Workflows is especially useful.
+
+\textbf{Note:} Once your code is presentation ready we recommend sharing the URL and details of your project for posting to our Department software collection here. You can email This email address is being protected from spambots. You need JavaScript enabled to view it. with the details.
+
+\section{HELP! - Technical Support}
+\url{https://www.sc.fsu.edu/computing/help}
+
+Need help? If you have a technology question or other issue, then send us an email, and your request will be directed to someone who will help.
+
+This email address is being protected from spambots. You need JavaScript enabled to view it.

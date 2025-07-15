@@ -1,0 +1,212 @@
+\section{Core Faculty}
+\texttt{URL: https://www.sc.fsu.edu/research/faculty}
+
+\subsection{Beerli, Peter}
+\textit{Professor \& Chair, Department of Scientific Computing} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Biological Sciences
+    \item Population Genetics
+    \item Phylogenetics
+    \item Bayesian inference
+    \item Model selection
+\end{itemize}
+
+I started out my science career as a practical evolutionary biologist working with frogs on islands in the mediterranean sea. There was no good analysis software for my data available at that time. Therefore, in 1994, I started a career as a computational biologist developing software (MIGRATE: https://popgen.sc.fsu.edu) for other biologists to analyze large-scale DNA datasets and compare different evolutionary hypotheses. My interests have centered on the coalescent and how we can use that to infer parameters of population genetic models and also compare them statistically.
+
+\subsection{Chipilski, Hristo}
+\textit{Assistant Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Data Assimilation
+    \item Artificial Intelligence
+    \item Numerical Weather Prediction
+    \item Atmospheric Dynamics
+\end{itemize}
+
+My research encompasses theoretical, computational and applied aspects of data assimilation — the science of optimally combining numerical models and observations of physical systems. In the past, I have utilized data assimilation algorithms to improve the representation of atmospheric convection through the incorporation of ground-based remote sensors. More recently, my focus has shifted to the development of new data assimilation methods which capitalize on the ongoing AI revolution. Beyond data assimilation, my interests also extend to numerical weather prediction, atmospheric dynamics, and various topics within the data sciences.
+
+\subsection{Dexter, Nicholas}
+\textit{Assistant Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Data Science
+    \item Scientific Computing
+    \item Deep Learning
+    \item Compressed Sensing
+    \item Mathematical Optimization
+    \item Uncertainty Quantification
+    \item Numerical Analysis
+    \item Inverse problem
+    \item Computational Epidemiology
+    \item Computational Genomics
+    \item Harmonic Analysis
+\end{itemize}
+
+Before joining the Department of Scientific Computing at FSU as an Assistant Professor in August 2022, I was previously a Pacific Institute for the Mathematical Sciences Postdoctoral Fellow working with Professors Ben Adcock, Maxwell Libbrecht, and Leonid Chindelevitch at Simon Fraser University. I studied Mathematics at the University of Tennessee under Professor Clayton Webster, and worked in the Computational and Applied Mathematics Group at Oak Ridge National Laboratory.
+
+\subsection{Erlebacher, Gordon}
+\textit{Professor, Department of Scientific Computing} \\
+\textit{Program Director, Interdisciplinary Data Science} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Data Science
+    \item Artificial Intelligence
+\end{itemize}
+
+I have been engaged in the development of artificial intelligence since 2014, beginning with the advent of word2vec. Over the years, my research has evolved alongside the field, encompassing work on autoencoders, pruning techniques, graph neural networks, and topic modeling, eventually leading to modern transformer-based architectures. More recently, my focus has shifted toward the application of large language models (LLMs) in education, where I am developing tools to enhance classroom engagement and learning outcomes using frontier AI capabilities. I am also exploring the integration of agentic systems to streamline operations within the Department of Scientific Computing, with the dual goals of reducing administrative workload and improving visibility to prospective students.
+
+\subsection{Huang, Chen}
+\textit{Associate Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Computational Materials Science
+    \item Scientific Computing
+\end{itemize}
+
+I am interested in computational material science. Two main research topics in my group are: (1) developing new multiphysics methods to achieve high accuracy in materials simulations (such as predicting novel electronic structures at oxide interfaces) and (2) developing new orbital-free density functional theory to enable large-scale, accurate simulations of functional materials (such as metal alloys and lithium battery materials).
+
+\subsection{Lemmon, Alan}
+\textit{Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Biological Sciences
+\end{itemize}
+
+\subsection{Meyer-Baese, Anke}
+\textit{Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Medical imaging: pattern recognition techniques applied to breast MRI, computer-aided diagnosis, fMRI data analysis.
+    \item Computational biology: dynamical analysis of gene regulatory networks, graph theoretical concepts applied in therapeutics of glioblastoma, stem cells, phosphoproteomics.
+    \item Computational neuroscience: brain-based classification techniques, nonlinear stability analysis of cortical systems, graph theory applied to cortical networks.
+\end{itemize}
+
+\subsection{Plewa, Tomasz}
+\textit{Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Computational Astrophysics
+    \item Scientific Computing
+    \item fluid dynamics and magnetized flows
+    \item reactive flows, flames, and detonations
+    \item turbulence and turbulent combustion
+    \item adaptive mesh refinement (AMR)
+    \item machine learning for subgrid scale modeling
+    \item stellar evolution, core collapse and thermonuclear supernovae
+    \item laser-driven experiments, high-energy density physics
+    \item solution verification and model validation
+    \item extreme scale and high performance computing, data analytics
+\end{itemize}
+
+\subsection{Quaife, Bryan}
+\textit{Associate Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Integral equation methods for complex fluids, in particular, vesicle suspensions
+    \item Efficient and high-order methods for solving integral equations
+    \item Adaptive and high-order time stepping schemes
+    \item Integral equation methods for PDEs on surfaces
+    \item Regularizations of Green's functions
+    \item Integral equation methods for viscous flow in porous media
+    \item Preconditioners for integral equations
+\end{itemize}
+
+\subsection{Shanbhag, Sachin}
+\textit{Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Polymer Physics
+    \item Rheology
+    \item Complex Fluids
+    \item Modeling for Biological and Materials Applications
+\end{itemize}
+
+\subsection{Speer, Kevin}
+\textit{Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Geophysical Fluid Dynamics Institute (gfdi.fsu.edu)
+\end{itemize}
+
+Kevin has been the director of GFDI since 2011 and has been an active associate for his entire time at FSU. Kevin is a sea-going oceanographer whose research ranges from the global ocean circulation to the dynamics of hydrothermal plumes.
+
+\subsection{Wang, Xiaoqiang}
+\textit{Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Numerical analysis and applied partial differential equations
+    \item Mathematical biology
+    \item Image processing, scientific visualization and data mining
+    \item High-performance scientific computing
+\end{itemize}
+
+\subsection{Zavala Romero, Olmo}
+\textit{Assistant Professor} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Data Science
+    \item Scientific Computing
+    \item Medical Image Processing
+    \item Applied machine learning in medical imaging: prostate and breast cancer detection, personal diagnosis from clinical and image (MRI) data, improve generalization of models.
+    \item Applied machine learning in earth sciences: data assimilation in ocean models, nowcasting (precipitation and hail), short-term forecast of air pollution, loop current and eddy detection and analysis.
+    \item Climate change: predicting future distribution of invasive insect pests considering climate change projections.
+    \item Scientific Machine Learning: Physics Informed Neural Networks (PINNs) to improve parameterizations in Ocean Models, etc.
+\end{itemize}
+
+\section{Emeritus Faculty}
+\texttt{URL: https://www.sc.fsu.edu/research/faculty}
+
+\subsection{Gunzburger, Max}
+\textit{Robert O. Lawton Distinguished Professor / Krafft Professor Emeritus} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Mathematics
+    \item Scientific Computing
+\end{itemize}
+
+\subsection{Navon, Michael}
+\textit{Professor Emeritus} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Reduced order modeling
+\end{itemize}
+
+\subsection{Peterson, Janet}
+\textit{Professor Emeritus} \\
+Email: [Protected]
+
+\textbf{Research Interests:}
+\begin{itemize}
+    \item Scientific Computing
+\end{itemize}

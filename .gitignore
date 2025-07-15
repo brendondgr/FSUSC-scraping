@@ -42,3 +42,7 @@ api_key.txt
 .coverage
 coverage.xml
 *.log
+
+*.aux
+*.out
+*.synctex.gz

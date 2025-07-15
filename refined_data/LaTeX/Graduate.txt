@@ -1,0 +1,579 @@
+\section{Degree Programs Overview}
+\texttt{url: https://www.sc.fsu.edu/graduate/ms}
+
+The educational mission of the Department of Scientific Computing (DSC) is to provide innovative, interdisciplinary undergraduate and graduate training programs in computational science and its applications. The graduate and undergraduate degree programs in the DSC are designed to provide students with a broad training in the design, implementation, and use of algorithms for solving science and engineering problems on computers.
+
+\subsection*{The Bachelor of Science (B.S.) degree}
+The Department of Scientific Computing offers an innovative \textbf{Bachelor of Science (B.S.) degree program in Computational Science}.
+
+This degree program should be of interest to and is well suited for those who like working on computers and who ordinarily would also be interested in any of the mathematical sciences (mathematics, computer science, statistics), or any of the natural sciences (biology, chemistry, physics, geological sciences, ...), or any engineering discipline. It should be of special interest to students interested in two or more of these areas. Students majoring in Computational Science will learn how to develop and apply new computational tools to solve science and engineering problems.
+
+Please note that \textit{computational science} is \textit{different} from \textit{computer science}. At the risk of oversimplifying things, one can say that computer science is about the science of computers whereas computational science is about the use of computers to solve science and engineering problems.
+
+\subsection*{The Minor degree}
+The Minor in Computational Science offers a substantive programming and algorithmic knowledge base to non-Computational Science students. Students who minor in the discipline will develop critical computing and modeling skills that are marketable and attractive to potential employers.
+
+The minor requires at least 14 hours of coursework, and students must make a C- or above in each class for the course to be accepted for minor credit.
+
+\subsection*{The Master of Science (M.S.) degrees}
+\begin{itemize}
+    \item M.S. in Computational Science
+    \item M.S. in Data Science
+\end{itemize}
+
+\subsection*{The Doctor of Philosophy (Ph.D.) degree consists of several majors}
+\begin{itemize}
+    \item Ph.D. in Computational Science
+    \item with a Specialization in \textbf{Atmospheric Science}
+    \item with a Specialization in \textbf{Biochemistry}
+    \item with a Specialization in \textbf{Biological Science}
+    \item with a Specialization in \textbf{Geological Science}
+    \item with a Specialization in \textbf{Materials Science}
+    \item with a Specialization in \textbf{Physics}
+\end{itemize}
+Students who choose the first major specialize in the more mathematical or computer science aspects of computational science.
+
+Because computational science lies at the intersection of applied mathematics, applied science, engineering, and computer science, the DSC has the unique ability to offer coursework and research opportunities at all levels in topic areas that cut across disciplines. The focus of the research and training activities of the DSC is on the invention, analysis, and implementation of computational algorithms that transcend disciplines and the application of such algorithms to various applications, including, among others, astrophysics, bioinformatics, climate and weather modeling, computational fluid mechanics, computational geometry, computer game design, evolutionary biology, data mining, GPU computing, high-energy density physics, high-performance computing, hydrology, machine learning, material science, medical imaging, morphometrics, nano-materials, numerical analysis, partial differential equations, phylogenetics, polymers, population genetics, scientific visualization, subsurface environmental modeling, superconductivity, systems biology, and uncertainty quantification.
+
+Unlike the faculty of a typical department whose training and research interests lie solely within a single discipline, the faculty of the DSC includes members trained in a variety of disciplines - biology, aeronautical engineering, chemical engineering, geological sciences, electrical engineering, material sciences, mathematics, nuclear engineering, and physics. In addition, the DSC has several affiliated faculty members in other departments at FSU and at other universities, companies, and laboratories that further enhance the educational and research experiences of students in the DSC's degree programs.
+
+In addition to offering degree programs, the DSC contributes to FSU's educational mission by offering courses of interest to students in other departments, by offering tutorials and short courses, and by managing high-performance computational resources available to the campus community.
+
+\section{Undergraduate Programs}
+
+\subsection{Undergraduate Overview}
+\texttt{url: https://www.sc.fsu.edu/undergraduate/overview}
+
+The Department of Scientific Computing offers an innovative \textbf{B.S. degree program in Computational Science}.
+
+This degree program should be of interest to and is well suited for those who like working on computers and who ordinarily would also be interested in any of the mathematical sciences (mathematics, computer science, statistics), or any of the natural sciences (biology, chemistry, physics, geological sciences, ...), or any engineering discipline. It should be of special interest to students interested in two or more of these areas. Students majoring in Computational Science will learn how to develop and apply new computational tools to solve science and engineering problems.
+
+The \textbf{Department of Scientific Computing} is the focal point of computational science activities at FSU. Computational science involves the invention, implementation, testing, and application of algorithms and software used to solve large-scale scientific and engineering problems. The Department provides a venue for innovative research and education in computational science. Our faculty come from a wide variety of traditional mathematical, scientific, and engineering disciplines who are primarily interested in developing knowledge and tools for computational science and applying those tools to the solution of problems in a variety of applications.
+
+Please note that computational science is different from computer science. At the risk of oversimplifying things, one can say that computer science is about the science of computers whereas computational science is about the use of computers to solve science and engineering problems.
+
+The undergraduate \textbf{Minor} and \textbf{B.S.} degree programs in Computational Science, along with the already established \textbf{Master's} and \textbf{Ph.D.} programs, trains students in computational science by providing them with a mix of theory and practice, including substantial hands-on experience in the deployment and use of algorithms for solving scientific and engineering problems.
+
+Questions should be sent to \texttt{<email protected>}. Anyone in the neighborhood interested in knowing more about the undergraduate degree program is welcome to stop by the Department offices located on the 4th floor of the Dirac Science Library.
+
+Information about the Department of Scientific Computing is found at \texttt{http://sc.fsu.edu}. We are also on Facebook and Twitter.
+
+\subsection{Bachelor of Science (B.S.) in Computational Science}
+\texttt{url: https://www.sc.fsu.edu/undergraduate/bachelor-of-science}
+
+How to \textit{change your major}, \textit{add a second major}, or \textit{seek a dual degree}.
+
+\subsubsection*{Description of Major}
+Computational Science is the emerging discipline that provides the tools necessary to solve natural and social science and engineering problems on computers, much the same as mathematics provides the underpinning for theoretical solutions. Graduates of the Computational Science program will be prepared for employment in industry and government laboratories as well as for entry into graduate schools. The skill and knowledge sets acquired by students in this program compliment those of scientists and engineers so that, as part of interdisciplinary teams, those students are ideally positioned to help solve science and engineering problems using computers.
+
+\paragraph{Note to prospective transfer students:} Prospective transfer students should contact \texttt{<email protected>} (Arts \& Sciences Admissions) with specific questions about admission and mapping requirements.
+
+\subsubsection*{Prerequisite Coursework}
+The following are proposed as common program prerequisites:
+\begin{itemize}
+    \item MAC 2311 (4) Calculus I
+    \item MAC 2312 (4) Calculus II
+    \item ISC 3313 (3) Introduction to Scientific Computing or COP XXXX (3) Introductory programming (in C or C++, JAVA or equivalent language; COP 3014 Programming I at FSU) or other approved programming course.
+    \item Science with lab (4) A laboratory-based science course designed for science majors (BSC, CHM, GLY, MET, or PHY).
+\end{itemize}
+\textbf{Note:} State-wide common prerequisites are always under review. For the most current information and for acceptable alternative courses, visit the “Common Prerequisites Manual.” This is available from the “Student Services” section of \texttt{http://www.flvc.org}.
+
+\subsubsection*{Requirements}
+\paragraph{Requirements for graduation in the College of Arts and Sciences include:} The College of Arts and Science requires proficiency in a foreign language through the intermediate (2220 or equivalent) level or sign language through the advanced (2614 or equivalent) level.
+
+\paragraph{Requirements for Progression to the Upper-Division Major:} Students must also have completed a minimum of 52 hours of credit and at least half the required hours in General Education including the required two English and two mathematics courses, or an A.A degree.
+
+\paragraph{Departmental Policy on Grades and Continuation in the Major:} A grade of C minus or better is required in all courses required for the BS Degree in Computational Science. A student who has received more than five unsatisfactory grades (U, F, D-, D+) in computational science, any of the sciences, mathematics, statistics, computer science, or engineering courses taken at Florida State University or elsewhere, including repeated unsatisfactory grades in the same required course, will not be permitted to graduate with a degree in computational science.
+
+\subsubsection*{Major Program of Studies at FSU (54 hours)}
+\textbf{All of the following (30 hours)}
+\begin{itemize}
+    \item ISC 3222 (3) Symbolic and Numerical Computations
+    \item ISC 4304 (4) Programming for Scientific Applications
+    \item ISC 4220 (4) Continuous Algorithms for Science Applications
+    \item ISC 4221 (4) Discrete Algorithms for Science Applications
+    \item ISC 4223 (4) Computational Methods for Discrete Problems
+    \item ISC 4232 (4) Computational Methods for Continuous Problems
+    \item MAS 3105 (4) Applied Linear Algebra I
+    \item Approved statistics course designed for statistics majors: STA 3XXX (3) or STA 4XXX (3)
+\end{itemize}
+\textbf{Seminar Classes (3 hours)}
+\begin{itemize}
+    \item Three seminars are required: specialized topics and/or new developments in computational sciences.
+    \item ISC 4931r (1,1) Junior Seminar in Computational Science
+    \item ISC 4932r (1) Senior Seminar in Computational Science
+\end{itemize}
+\textbf{Practicum (3 hours)}
+\begin{itemize}
+    \item ISC 4943 (3) Practicum in Computational Science
+\end{itemize}
+\textbf{Electives (18 hours)}
+\begin{itemize}
+    \item 9 hours of computational science courses selected from an approved list.
+    \item 9 hours of additional electives from the Department of Scientific Computing or other appropriate department at the 3000/4000 level or from approved list. Students should consult the academic advisor regarding the selection of electives.
+\end{itemize}
+
+\subsubsection*{Collateral Courses: (26 hours)}
+The following courses are required. These may also be used to satisfy prerequisites, General Education or minor requirements.
+\begin{itemize}
+    \item ISC 3313 (3) Introduction to Scientific Computing or COP XXXX (3) Programming course
+    \item MAC 2311 (4) Calculus I
+    \item MAC 2312 (4) Calculus II
+    \item Two laboratory-based science courses (8 hrs) designed for science majors: BSC, CHM, GLY, MET, or PHY.
+\end{itemize}
+
+\paragraph{Minor: (0-12+ hours beyond other requirements)} A minor is required. If not also used to meet the General Education mathematics requirement, the required collateral courses MAC 2311, MAC 2312, and MAS 3105 will satisfy the requirements for a minor in mathematics. The student may select another minor in consultation with the program advisor.
+
+\paragraph{Computer Skills Competency: (0 hours beyond other requirements)} ISC 3313 Introduction to Scientific Computing or COP 3014 Programming I fulfill this requirement for the major.
+
+\paragraph{Oral Communication Competency: (0-3 credits hours)} Students must demonstrate the ability to orally transmit ideas and information clearly. This requirement may be met with an approved college-level course.
+
+\subsubsection*{Minimum Program Requirements - Summary}
+\begin{itemize}
+    \item Total Hrs. Required 120
+    \item General Education 36*
+    \item Prerequisite Coursework 15* (also count for collateral coursework)
+    \item Major Coursework 54
+    \item Collateral Coursework 26*
+    \item Minor Coursework 0-12 or more*
+    \item Foreign Language 0-12 (depending on placement)
+    \item Computer Skills 0-3 beyond major
+    \item Oral Communication Competency 0-3
+    \item Electives to bring total hours to 120
+\end{itemize}
+\textbf{Note:} Some prerequisite and/or collateral coursework may also be applied to General Education requirements in math and science or the minor.
+
+\subsubsection*{Mapping}
+Mapping is FSU’s academic advising and monitoring system. Academic progress is monitored each Fall and Spring semester to ensure that students are on course to earn their degree in a timely fashion. Transfer students must meet mapping guidelines to be accepted into their majors. You may view the map for this major at \texttt{www.academic-guide.fsu.edu/}
+
+\subsubsection*{Remarks}
+\begin{itemize}
+    \item A minimum of 45 hours at the 3000 level or above, 30 of which must be taken at this University.
+    \item Half of the major course semester hours must be completed in residence at this University.
+    \item The final 30 hours must be completed in residence at this University.
+\end{itemize}
+
+\subsubsection*{Employment Information}
+\paragraph{Salary Information:} National Association of Colleges and Employers, Occupational Outlook Handbook
+\paragraph{Representative Job Titles Related to this Major:} Baccalaureate level-computational scientist, computer center consultant, graduate student, programmer, computer modeler. Master of Science level-computational scientist, computer center consultant, Ph.D student, programmer, software engineer, computer modeler. With Ph.D-computational scientist, professor, postdoctoral associate, research scientist, research associate, computer modeler, research group leader.
+\paragraph{Representative Employers:} Universities and college computer centers, government and private research laboratories, manufacturing and service businesses, industry, state and federal government agencies.
+
+\subsubsection{Degree In Three}
+\texttt{url: https://www.sc.fsu.edu/undergraduate/bachelor-of-science/degree-in-three}
+
+Degree In Three is a special program designed to assist students who wish to graduate in three years or less. While all students are welcome to explore this path, Degree in Three is typically best for students who enter Florida State with college credit earned through AP, IB, AICE, or dual enrollment. Developed in the Division of Undergraduate Studies, Degree in Three is now managed in the Graduation Planning and Strategies Office.
+
+For more information, please contact our Academic Advisor.
+
+\subsubsection{Honors in the Major}
+\texttt{url: https://www.sc.fsu.edu/undergraduate/bachelor-of-science/honors-in-the-major}
+
+Students earn Honors in the Major by completing a research thesis or creative project in your major area of study under the guidance of a faculty committee. You will work with this committee to select a topic, develop a prospectus, complete a written document based on your research or creative project, and defend your thesis orally before your committee. This process normally takes two to three semesters, during which you will register for six to nine hours of 4000-level thesis credit. Once you have completed and successfully defended your project, you will graduate "with honors" in your major, a distinction that is announced during commencement and designated on your official transcript (not your diploma).
+
+For more information, please contact our Academic Advisor.
+
+\subsection{Minor in Computational Science}
+\texttt{url: https://www.sc.fsu.edu/undergraduate/minor}
+
+The Minor in Computational Science offers a substantive programming and algorithmic knowledge base to non-Computational Science students. Students who minor in the discipline will develop critical computing and modeling skills that are marketable and attractive to potential employers.
+
+A minor in computational science requires a minimum of 14 hours of coursework, including ISC3222 (3) and ISC4304 (4). The student must take at least one Computational Science Algorithms course (ISC4220 or ISC4221 (4)) and a Computational Science course from an approved list. Students must also satisfy stated prerequisites, in particular, the computer programming requirement (ISC3313 or COP3014), before enrolling in each course accepted for minor credit. Grades below C- will not be accepted for minor credit.
+
+\paragraph{Contact Information:} \texttt{<email protected>}, (850) 644-0143
+
+\subsubsection*{Course Requirements}
+Students must satisfy prerequisites before enrolling in each course.
+\paragraph{Complete \textbf{both} of the following courses:}
+\begin{itemize}
+    \item ISC 3222 - Symbolic and Numerical Computations
+    \item ISC 4304 - Programming for Scientific Applications
+\end{itemize}
+
+\paragraph{Complete at least \textbf{one} of the following courses:}
+\begin{itemize}
+    \item ISC 4220 - Continuous Algorithms for Science Applications (4 credits)
+    \item ISC 4221 - Discrete Algorithms for Science Applications (4 credits)
+\end{itemize}
+
+\paragraph{Complete at least \textbf{one} of the following courses:}
+\begin{itemize}
+    \item ISC 4220 - Continuous Algorithms for Science Applications (4 credits) or
+    \item ISC 4221 - Discrete Algorithms for Science Applications (4 credits)
+    \item ISC 4223 - Computational Methods for Discrete Problems (4 credits)
+    \item ISC 4232 - Computational Methods for Continuous Problems (4 credits)
+    \item ISC 4933 - Geometric Morphometrics (3 credits)
+    \item ISC 4933 - Computational Evolutionary Biology (4 credits)
+    \item ISC 4933 - Data Mining (3 credits)
+    \item ISC 4933 - Genomic Sequencing and Analysis (4 credits)
+    \item ISC 4302 - Scientific Visualization (3 credits)
+    \item ISC 4933 - Verification and Validation in Computational Science (3 credits)
+    \item DIG 3725 - Introduction to Game and Simulator Design
+    \item ISC 4933 Any Special Topic Course (3 credits)
+\end{itemize}
+
+\section{Graduate Programs}
+
+\subsection{Graduate Overview}
+\texttt{url: https://www.sc.fsu.edu/graduate/overview}
+
+The Department of Scientific Computing offers innovative \textbf{M.S. in Data Science}, \textbf{M.S. in Computational Science}, and \textbf{Ph.D. in Computational Science}.
+
+The Ph.D. program allows specialization in the following areas:
+\begin{itemize}
+    \item atmospheric science, biochemistry, biological science, geological science, materials science, physics.
+    \item as well as in aspects of \textit{computational mathematics and computer science relevant to computational science}.
+\end{itemize}
+
+The goal of the \textbf{Ph.D. degree in Computational Science} is to train graduate students to have extensive knowledge in computational science and to allow them to acquire expertise in one or more areas of applied mathematical sciences or engineering. Thus the degree provides the student with breadth as well as depth. Graduates should be able to successfully collaborate with scientists in other disciplines. Ideally, students should learn to develop, use, and analyze new computational procedures that can be utilized in a variety of fields.
+
+Questions should be sent to \texttt{<email protected>}. Anyone in the neighborhood interested in knowing more about the graduate degree programs is welcome to stop by the Department offices located on the 4th floor of the Dirac Science Library.
+
+\subsection{Master of Science (M.S.) in Computational Science}
+\texttt{url: https://www.sc.fsu.edu/graduate/ms/computational-science}
+
+In today's economy, there is an increasing need for students who possess scientific and computational expertise as well as management and leadership skills. All students entering this master's degree program should have a strong desire to do computational science. The Master's Degree in Computational Science gives students the tools needed for landing a sucessfull job after graduation.
+
+\subsubsection*{Coursework and Credits}
+The coursework for the M.S. degree program is based on \textbf{30 credit hours} for the major track (standard M.S. in Computational Science). Each student must take two core computational science courses (Group A courses) as well as a minimum of 9 credit hours in other computational science courses (Group B courses) plus 6 additional credit hours selected from existing departmental courses in computer science, engineering, mathematics or an applied science (Group C courses). Each student must also take \textbf{2 seminar hours} (details are listed in the Graduate Handbook, Page 10, section 5.1.3).
+
+\paragraph{Required Core Courses (Group A)}
+\paragraph{Elective Core Courses (Group B)}
+
+\subsubsection*{Master's tracks}
+We have established the following track(s) for the M.S. degree program:
+\begin{itemize}
+    \item M.S. in Computational Science
+    \item M.S. in Data Science
+\end{itemize}
+
+\subsubsection*{Application \& Information}
+The program is open to students holding a bachelor's degree in mathematical and physical sciences and engineering. You can apply for the graduate programs online.
+
+For further information concerning this M.S. program at FSU, please email \texttt{<email protected>}. Please check back periodically to this website for updates to the program.
+
+\subsection{Master of Science (M.S.) in Data Science}
+\texttt{url: https://www.sc.fsu.edu/graduate/ms/datascience}
+
+\subsubsection*{About - M.S. in Data Science}
+We are excited to offer a new 30-credit MS degree in Interdisciplinary Data Science (IDS) with a major in Scientific Computing beginning in Fall 2021!
+
+Data is exploding all around us and will keep growing at dizzying rates for the foreseeable future in fields as unique as health, material science, finance, biology, the internet of things, experimental physics, law, art, and psychology, along with many others. Tools of choice to analyze these data revolve around model reduction, probability, data, and machine learning. On the demand side, industry, government, and national labs are clamoring for a workforce skilled in artificial intelligence, machine learning, predictive analysis, and data modeling. Our students will graduate with a Master’s degree, preparing them to succeed in a world where computation, mathematics, and statistics have become fundamental necessities. They will create the next generation computational algorithms necessary to model, manipulate, analyze, visualize, and transform unstructured, structured, static, and streaming data.
+
+A core set of Statistics, Mathematics, Data Mining, Machine Learning, Data Science, and Data Ethics courses will create a strong core of fundamentals upon which to build. Students will further specialize and strengthen their skills through electives taken in Scientific Computing and the other three majors (Statistics, Mathematics, Computer Science), such as High-Performance Computing, Cloud Computing, and Probabilistic Programming.
+
+\subsubsection{Admission}
+\texttt{url: https://www.sc.fsu.edu/graduate/ms/datascience/admission}
+
+The IDS graduate program will have broad appeal to students with undergraduate degrees in math, computer science, or statistics, but will also attract students with less traditional backgrounds, e.g., engineering, physics, etc.
+
+In addition to meeting all of the University and College admission requirements for graduate study, each applicant for the MSIDS program must:
+\begin{itemize}
+    \item have earned a Bachelor’s degree from an accredited institution
+    \item have a GRE score of 146 Verbal and 155 Quantitative for GREs. \textbf{GRE is currently waived for the Master's admission.}
+    \item have a minimum of 3.0 GPA (B or better average) on the last 60 hours of undergraduate credits; and
+    \item be in good standing at the institution of higher learning last attended
+    \item provide three letters of recommendation discussing the student’s aptitude for graduate study
+    \item provide a statement of intent describe why you wish to join the program
+\end{itemize}
+
+\paragraph{Required Background:}
+\begin{itemize}
+    \item Calculus 2 (MAC2312 or equivalent)
+    \item College algebra
+    \item Basic probability and statistics (STA 2023 or equivalent)
+    \item Experience in one or more object-oriented programming languages such as C++, Python, Julia, and Matlab
+\end{itemize}
+Admission to some of the more advanced elective courses comprising the different majors may require additional prerequisites, which the students will either have to demonstrate in their backgrounds or take additional coursework.
+
+\subsubsection{Faculty}
+\texttt{url: https://www.sc.fsu.edu/graduate/ms/datascience/faculty}
+
+\paragraph{Data Science Program Contact / Academic Advising}
+\begin{itemize}
+    \item \textbf{Clark, Jennifer} \\ Administrative Director, Interdisciplinary Data Science \\ \texttt{<email protected>} \\ 497 DSL \\ (850) 645-8887
+\end{itemize}
+
+\paragraph{Data Science Faculty}
+\begin{itemize}
+    \item \textbf{Dexter, Nicholas} \\ Assistant Professor \\ \texttt{<email protected>} \\ 489 DSL
+    \item \textbf{Erlebacher, Gordon} \\ Professor, Department of Scientific Computing \\ Program Director, Interdisciplinary Data Science \\ \texttt{<email protected>} \\ 464 DSL \\ (850) 322-0194
+    \item \textbf{Meyer-Baese, Anke} \\ Professor \\ \texttt{<email protected>} \\ 476 DSL \\ (850) 644-3494
+    \item \textbf{Shanbhag, Sachin} \\ Professor \\ \texttt{<email protected>} \\ 488 DSL \\ (850) 644-6548
+    \item \textbf{Wang, Xiaoqiang} \\ Professor \\ \texttt{<email protected>} \\ 495 DSL
+    \item \textbf{Zavala Romero, Olmo} \\ Assistant Professor \\ \texttt{<email protected>} \\ 445 DSL
+\end{itemize}
+
+\paragraph{Data Science Affiliated Faculty}
+\begin{itemize}
+    \item \textbf{Crock, Nathan} \\ Director, NewSci Labs \\ \texttt{<email protected>} \\ 475 DSL \\ (727) 460-6353
+\end{itemize}
+
+\subsubsection{Graduation Requirements}
+\texttt{url: https://www.sc.fsu.edu/graduate/ms/datascience/graduation}
+
+Students will graduate with a course-based Master of Science (M.S.) degree.
+\begin{itemize}
+    \item All students will take \textbf{18 credits of a core curriculum}.
+    \item All students will take at least \textbf{12 credits of elective courses}.
+\end{itemize}
+
+\subsection{Doctor of Philosophy (Ph.D.) in Computational Science}
+\texttt{url: https://www.sc.fsu.edu/graduate/phd}
+
+Many of the important problems facing society today can only be solved by teams of individuals from a variety of disciplines. An individual trained in an interdisciplinary environment is an essential member of such a team because he/she can successfully interact with team members and gain an overall understanding of the problem.
+
+However, most doctoral programs in this country have a very narrow focus and consequently, students rarely have the opportunity to understand research themes in other disciplines or even to explore the relevance of their own research to other fields. Since the Department of Scientific Computing (DSC) lies at the intersection of applied mathematics, applied science, computer science and engineering, it has the unique opportunity to train students in areas which cut across disciplines.
+
+\subsubsection*{Ph.D Program Tracks}
+The goal of the Ph.D. program in Computational Science is to train graduate students to have extensive knowledge in computational science and to allow the student to acquire expertise in one or more areas of the sciences, mathematics, or engineering. Students may choose to follow the major track in computational science which allows them to specialize in aspects of:
+\begin{itemize}
+    \item computational mathematics
+    \item computer science
+\end{itemize}
+relevant to computational science or choose to complete one of the following specialized tracks:
+\begin{itemize}
+    \item Ph.D. in Computational Science with a Specialization in \textbf{Atmospheric Science}
+    \item with a Specialization in \textbf{Biochemistry}
+    \item with a Specialization in \textbf{Biological Science}
+    \item with a Specialization in \textbf{Geological Science}
+    \item with a Specialization in \textbf{Materials Science}
+    \item with a Specialization in \textbf{Physics}
+\end{itemize}
+
+\subsubsection*{Coursework \& credits}
+Since computational science is an interdisciplinary program, students' programs of study can be quite varied. Consequently, we have built in a lot of flexibility into the course requirements for the Ph.D. in Computational Science. The commonality in the coursework is that each student must take the same four computational science courses (Group A courses), which cut across disciplines, as well as a minimum of 9 credit hours in other computational science courses (Group B courses) plus 9 additional credit hours selected from existing departmental courses in computer science, engineering, mathematics or an applied science (Group C courses). Each student must also take six seminar hours (details are listed in the Graduate Handbook, section 5.2.2).
+
+There are a total of 29 credit hours of coursework that are specified plus a minimum of 24 credits of dissertation hours. A specialization is obtained by completing a minimum of 9 credit hours from courses in the discipline approved by the student's supervisory committee.
+
+The \textbf{required core courses (Group A)} consist of:
+\begin{itemize}
+    \item Introduction to Scientific Programming (3 credits)
+    \item Applied Computational Science I (4 credits)
+    \item Applied Computational Science II (4 credits)
+    \item Parallel Programming, Algorithms and Architectures (3 credits)
+\end{itemize}
+
+The \textbf{elective core courses (Group B)} consist of courses such as:
+\begin{itemize}
+    \item Monte Carlo/Markov Chain Simulations
+    \item Survey of Numerical PDEs
+    \item Computational Space Physics
+    \item Programming Skills for Computational Biology and Bioinformatics
+    \item Computational Evolutionary Biology
+    \item Introduction to Bioinformatics
+    \item Computational Finite Element Methods
+    \item Numerical Methods for Stochastic Differential Equations
+    \item Numerical Methods for Earth and Environmental Sciences
+    \item Molecular Dynamics
+    \item Numerical Linear Algebra
+    \item Data mining
+    \item Visualization
+    \item Verification and Validation in Computational Science
+\end{itemize}
+\textbf{Note:} Student should select a minimum of three courses from Group B, which are approved by his/her supervisory committee.
+
+\subsubsection*{Application and Information}
+Students applying to this program should have earned a bachelor's or master's degree in an applied science, mathematics, computer science or engineering and possess a keen interest in computational science. The DSC expect that graduates of this program will be prepared to seek employment in academic, industrial, or laboratory settings.
+
+You can apply for the graduate programs online. Please start your application process early. For further information contact \texttt{<email protected>}.
+
+\subsubsection{Specialization in Fire Dynamics}
+\texttt{url: https://www.sc.fsu.edu/graduate/phd/fire-dynamics}
+
+\paragraph{PROGRAM OVERVIEW} The program is about the study of fire in nature as a fluid dynamical phenomenon, with complex physical, chemical, and turbulent interactions with the environment. Our program emphasizes basic mathematical and physical concepts, the application of atmospheric dynamical principles, and supports both laboratory and field experimental inquiry. The program in fire dynamics may be of interest to: physical science and mathematically prepared students who are interested in the environment and natural systems; meteorology students interested in the role of aerosols, particulates, and gases emitted by forest fires and prescribed burning; physics or engineering students desiring to apply their knowledge to combustion in a natural environment; wildland fire experts who desire to further their academic career; computationally oriented students who desire to solve a problem of direct importance to society; and management and agency personnel who deal with the impact of wild land fires.
+
+\paragraph{FACILITIES} Geophysical Fluid Dynamics Institute facilities include a large modern laboratory for hydrodynamics experiments, a colloquium room and reading room, a photographic and illustrations laboratory, a large modern machine shop, a precision instrument-makers laboratory, and faculty and student offices. Institute facilities also include several precision rotating turntables, a six-meter water channel, convection tanks, temperature controlling systems, general and digital photographic systems, multi-channel data acquisition systems, laser facilities, various machine tools, and other electronic equipment. The institute houses a facility for measuring ocean turbulence as well.
+
+\paragraph{Attachments:}
+\begin{center}
+\begin{tabular}{ l l l }
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\
+\hline
+GRADUATE PROGRAM IN FIRE DYNAMICS & Feb 2020 & 66 kB \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Specialization in Geophysical Fluid Dynamics}
+\texttt{url: https://www.sc.fsu.edu/graduate/phd/gfd}
+
+\paragraph{PROGRAM OVERVIEW} The Geophysical Fluid Dynamics (GFD) Program leads to a degree in Computational Sciences with a major in either GFD or Fire Dynamics. It is an interdisciplinary field of study whose primary goal is an improvement in our basic understanding of fluid flows that occur naturally, including such topics as climate and paleoclimate, biogeochemical processes, hydrology and Karst dynamics, air-sea interaction, wild fire dynamics, double diffusive processes, and hurricane dynamics with strong links to the Applied Mathematics Program. The approach to this understanding is through quantitative analysis of observational records and theoretical, mathematical, numerical, and experimenting modeling. A geophysical fluid dynamicist must have a firm grasp of the fundamental principles of classical physics, knowledge of the techniques of applied mathematics, and an interest in the natural sciences.
+
+\paragraph{FACILITIES} These facilities include a large modern laboratory for hydrodynamics experiments, a colloquium room and reading room, a photographic and illustrations laboratory, a large modern machine shop, a precision instrument-makers laboratory, and faculty and student offices. Institute facilities also include several precision rotating turntables, a six-meter water channel, convection tanks, temperature controlling systems, general and digital photographic systems, multi-channel data acquisition systems, laser facilities, various machine tools, and other electronic equipment. The institute houses a facility for measuring ocean turbulence as well.
+
+\paragraph{Attachments:}
+\begin{center}
+\begin{tabular}{ l l l }
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\
+\hline
+GRADUATE PROGRAM IN GEOPHYSICAL FLUID DYNAMICS (GFD) & Feb 2020 & 73 kB \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Graduate Application and Financial Aid}
+
+\subsection{Application Information}
+\texttt{url: https://www.sc.fsu.edu/graduate/application}
+
+Prospective graduate students - Welcome to the Department of Scientific Computing! We offer Master's and Ph.D. programs, open to students holding a bachelor's degree in mathematical and physical sciences and engineering.
+
+\textbf{Data Science} Applications Follow Standard University Registration Deadlines.
+
+\subsubsection*{FALL 2026 ADMISSION DEADLINES}
+For \textit{Computational Science} Degrees. All Master of Science (M.S.) students are \textbf{self-pay}.
+\begin{itemize}
+    \item \textbf{January 15\textsuperscript{th}, 2026} \\ Ph.D. students with complete applications by this date will be considered for the University's Graduate School fellowships and the Department's TA/RA/Tuition waiver awards.
+    \item \textbf{April 30\textsuperscript{th}, 2026} \\ Deadline for \textit{international student} admission to the Department. Students with complete applications by this date may also be considered for any possible remaining funding.
+    \item \textbf{July 1\textsuperscript{st}, 2026} \\ Deadline for \textit{domestic student} admission to the Department. Students with complete applications by this date may also be considered for any possible remaining funding.
+\end{itemize}
+
+\subsubsection*{Application Process}
+All prospective graduate students need to submit an application to Florida State University.
+
+\paragraph{FSU Application Procedure:}
+\begin{enumerate}
+    \item Complete FSU's Office of Admissions on-line application.
+    \item Pay FSU application fee of \$30 (check or credit card).
+    \item Have \textbf{official GRE scores} sent to admissions (school code for Florida State University is \textbf{5219}. A department code is not required). The official scores must be received directly from the Educational Testing Service by the Office of Admissions.\\ \textbf{NOTE:} Please check the \textit{Test Scores} section of FSU's Graduate Admissions General Information bulliten for \textbf{waiver details} impacting Master's applicants. Test scores are still required for admission to doctoral programs.
+    \item Have \textbf{two unofficial transcripts} submitted to the Office of Admissions by every college and university attended.
+    \item Please email \texttt{<email protected>} if our "\textit{Department of Scientific Computing Supplemental Application for Admission}" does not appear in your FSU Application Status Checklist under "\textit{Forms}" within 2 business days.
+\end{enumerate}
+
+\paragraph{All applicants, please note:} Transcripts are considered official when they are sent from a college or university directly to the Office of Admissions and contain an official seal and signature. Transcripts bearing the statement "Issued to student" or transcripts submitted by the applicant are not considered official.
+
+\subsubsection*{Admission requirements}
+All graduate applicants must satisfy the following FSU admission requirements:
+\begin{itemize}
+    \item Have a baccalaureate degree from an accredited college or university.
+    \item Be in good standing at the institution of higher learning last attended.
+    \item Present evidence by official transcripts of a satisfactory prior academic record (at least a 3.0 G.P.A. on a 4.0 scale in all coursework attempted while registered as an upper-division undergraduate student) AND have a minimum ranking of 85 percentile (quantitative) and 50 percentile (verbal) on the Graduate Record Examinations General Test (GRE), under the new scoring system.
+    \item \textbf{GRE is currently waived for the Master's admission}. Test scores are still required for admission to doctoral programs.
+    \item Be a native English speaker OR pass the TOEFL test (international applicants only).
+    \item Additional information for incoming international students, including language requirements, can be found at the International Admissions website.
+    \item Be approved by the Department of Scientific Computing.
+\end{itemize}
+\textbf{NOTE:} Students must meet both University and departmental requirements.
+
+\subsection{Financial Aid}
+\texttt{url: https://www.sc.fsu.edu/graduate/financial-aid}
+
+Financial aid in the form of a teaching or research assistantship is available to qualified applicants. The FSU application for graduate school serves as the request for assistantship from the department. You will be notified in your acceptance letter from the department.
+
+In addition, there is a University Fellowship program that provides support for outstanding new and continuing graduate students. \textbf{These awards are highly competitive}.
+
+FSU also has its own Office of National Fellowships to assist highly qualified students with information on the fellowships as well as with the application process and with interview preparations.
+
+\section{Student Resources and Committees}
+
+\subsection{Graduate Student Forms}
+\texttt{url: https://www.sc.fsu.edu/graduate/forms}
+
+\textbf{** Unless instructed otherwise, please populate all DocuSign "Email:" fields using official @fsu.edu email addresses listed here for faculty Advisor and Committee members **}
+
+\subsubsection*{Common Forms}
+\begin{itemize}
+    \item Approval Form for Directed Independent Study (DIS) Form
+    \item Graduate Student (Annual/Yearly) Progress Report Form (rev 2025)
+    \item Individual Development Plan (IDP)
+\end{itemize}
+
+\subsubsection*{Master of Science (M.S.) Forms}
+\begin{itemize}
+    \item M.S. Committee Form
+    \item M.S. Program of Study Form
+    \item M.S. Result of Project Defense Form
+\end{itemize}
+
+\subsubsection*{Doctor of Philosophy (Ph.D.) Forms}
+\begin{itemize}
+    \item Ph.D. Admission to Candidacy Form
+    \item Ph.D. Committee Form (Scientific Computing)
+    \item Ph.D. Committee Form (Fire Dynamics / GFD)
+    \item Ph.D. Program of Study Form
+    \item Ph.D. Student Evaluation by Supervisory Committee
+    \item Ph.D. Request to Schedule Preliminary Examination Form
+    \item Ph.D. Result of Preliminary Examination Form
+    \item Ph.D. Result of Prospectus Defense Form
+    \item Ph.D. Manuscript Clearance Portal
+    \item Ph.D. Manuscript Clearance Portal Online Forms Summary
+\end{itemize}
+
+*\textit{Effective August 2018}* Unless noted otherwise, all forms need to be filled and signed *digitally/electronically*. Printing of PDF forms is frowned upon and only permitted if an advisor explicitly requests a paper copy to review \& sign. All paper forms need to re-digitized and electronically submitted when complete.
+
+\subsection{Graduate Handbook}
+\texttt{url: https://www.sc.fsu.edu/graduate/handbook}
+
+\begin{itemize}
+    \item For students entering Fall 2025 - Present (revised July 2025)
+    \item For students entering Fall 2024 - Spring 2025 (revised Jan 2025)
+    \item For students entering Fall 2021 - Spring 2024 (revised April 2021)
+    \item For students entering Fall 2019 - Spring 2021
+    \item For students entering Fall 2016 - Spring 2019
+    \item For students entering Fall 2009 - Spring 2016
+    \item For students entering Fall 2007 - Spring 2009
+\end{itemize}
+
+\paragraph{Attachments:}
+\begin{center}
+\begin{tabular}{ l l l }
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\
+\hline
+handbook\_1-7-2025.zip & Source Files & 495 kB \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Graduate Program Committee}
+\texttt{url: https://www.sc.fsu.edu/committees/graduate-program}
+
+Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+
+\paragraph{Current committee members:}
+\begin{itemize}
+    \item Chen Huang [\textit{chair}]
+    \item Xiaoqiang Wang
+    \item Alan Lemmon
+    \item Karey Fowler [\textit{ex officio}]
+    \item \texttt{<email protected>}
+\end{itemize}
+\textbf{** Unless instructed otherwise, please populate all DocuSign "Email:" fields using official @fsu.edu email addresses listed here for Faculty/Student Supervisors and Student Employees **}
+
+\paragraph{Graduate Supervisor Forms}
+\begin{itemize}
+    \item Graduate Assistant Performance Evaluation
+\end{itemize}
+
+\subsection{Undergraduate Program Committee}
+\texttt{url: https://www.sc.fsu.edu/committees/undergraduate-program}
+
+Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+
+\paragraph{Current committee members:}
+\begin{itemize}
+    \item Sachin Shanbhag [\textit{chair}]
+    \item Bryan Quaife
+    \item Karey Fowler [\textit{ex officio}]
+    \item \texttt{<email protected>}
+\end{itemize}
+
+\paragraph{Attachments:}
+\begin{center}
+\begin{tabular}{ l l l }
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\
+\hline
+DSC\_UG\_MeetingMinutes\_20120301\_public.pdf & Committee Meeting Minutes 20120301 & 70 kB \\
+DSC\_UG\_MeetingMinutes\_20120126\_public.pdf & Committee Meeting Minutes 20120126 & 70 kB \\
+DSC\_UG\_MeetingMinutes\_20120112\_public.pdf & Committee Meeting Minutes 2012012 & 69 kB \\
+DSC\_UG\_MeetingMinutes\_20111214\_public.pdf & Committee Meeting Minutes 20111214 & 73 kB \\
+DSC\_UG\_MeetingMinutes\_20111116\_public.pdf & Committee Meeting Minutes 20111116 & 71 kB \\
+DSC\_UG\_MeetingMinutes\_20111102\_public.pdf & Committee Meeting Minutes 20111102 & 73 kB \\
+DSC\_UG\_MeetingMinutes\_20111019\_public.pdf & Committee Meeting Minutes 20111019 & 67 kB \\
+DSC\_UG\_MeetingMinutes\_20110907\_public.pdf & Committee Meeting Minutes 20110907 & 84 kB \\
+\hline
+\end{tabular}
+\end{center}

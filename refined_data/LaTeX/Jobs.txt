@@ -1,0 +1,6 @@
+\section{Job Opportunities}
+\url{https://www.sc.fsu.edu/jobs}
+
+\vspace{1em}
+
+We are always looking for new collaborators and new students. We invite you to contact our \href{https://www.sc.fsu.edu/people/faculty}{faculty} to discuss the opportunities for you. Right now the following positions are open at the Department of Scientific Computing.

@@ -1,117 +1,6 @@
 Title: Web Links - FSUSciComp
-url: https://www.sc.fsu.edu/links
-
-Uncategorised
-Links in categories 
-                                1
-Wiki Sites
-Links in categories 
-                                7
-Careers
-Links in categories 
-                                13
-Undergraduate Opportunities
-Links in categories 
-                                3
-Graduate Opportunities
-Links in categories 
-                                13
-Postdoc Positions
-Links in categories 
-                                5
-Funding Opportunities & Fellowships
-Links in categories 
-                                9
-Connect with Social Media
-Links in categories 
-                                5
-Videos
-Links in categories 
-                                0
-Colloquium Recordings
-Links in categories 
-                                128
-Please sign in here to view
-protected
-recordings.
-
----
-
-Title: Wiki Sites - FSUSciComp
-url: https://www.sc.fsu.edu/links/wiki-sites
-
-Wiki Sites
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
-SC Wiki
-General access wiki site for SCS. Readable by everyone and writable by SCS users.
-Faculty Wiki
-Restricted access wiki site for Faculty. Readable and writable by Faculty users.
-Migrate Wiki
-Limited access wiki site for Migrate. Readable by everyone and writable by Migrate users.
-Morphbank Wiki
-Restricted access wiki site for Morphbank. Readable and writable by Morphbank users.
-Paup Wiki
-Limited access wiki site for Paup. Readable by everyone and writable by Paup users.
-TSG Wiki
-Restricted access wiki site for TSG. Readable and writable by TSG users.
-SC TWiki
-Old general access TechHelp TWiki site. The TWiki system is being replaced.
-
----
-
-Title: Web Links - FSUSciComp
-url: https://www.sc.fsu.edu/links/208-uncategorised
-
-Uncategorised
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
-Map of Dirac Science Library
-Hits: 7942
-1st and 4th floor Maps of Dirac Science Library
-
----
-
-Title: Web Links - FSUSciComp
 url: https://www.sc.fsu.edu/links/222-careers
 
-Careers
-Internships
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
 [-] SIAM.org
 Hits: 6334
 Internships
@@ -181,19 +70,6 @@ Title: Web Links - FSUSciComp
 url: https://www.sc.fsu.edu/links/222-careers/226-graduate-opportunities
 
 Graduate Opportunities
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
 Internships - Blue Waters
 Hits: 6541
 Internships
@@ -242,19 +118,6 @@ Title: Web Links - FSUSciComp
 url: https://www.sc.fsu.edu/links/222-careers/227-postdoc-positions
 
 Postdoc Positions
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
 Postdoc - NRC Research Associateship Programs
 Hits: 4289
 Interested in a post-doc at NRL?
@@ -283,18 +146,6 @@ url: https://www.sc.fsu.edu/links/222-careers/228-funding-and-fellowships
 
 Funding Opportunities & Fellowships
 Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
 DOE Computational Science Graduate Fellowship
 Hits: 5492
 Fellowships
@@ -322,19 +173,6 @@ Title: Web Links - FSUSciComp
 url: https://www.sc.fsu.edu/links/222-careers/262-undergraduate-opportunities
 
 Undergraduate Opportunities
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
 Undergraduate - Bruins-In-Genomics (B.I.G.) Summer Undergraduate Research Program
 Hits: 5840
 Internships
@@ -353,61 +191,3 @@ Interested in summer work at NRL?
 The STEM Student Employment Program (SSEP) is a direct hire authority for undergraduate and graduate degree seeking students enrolled in scientific, technical, engineering, or mathematics majors. Students must be continuously enrolled on at least a half-time basis at a qualifying educational institution and be at least 16 years of age.
 For more information please contact
 Hristo Chipilski
-
----
-
-Title: Web Links - FSUSciComp
-url: https://www.sc.fsu.edu/links/246-connect-with-social-media
-
-Connect with Social Media
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
-Follow Us On Facebook
-Hits: 6443
-Follow Us On Twitter
-Hits: 7035
-Linkedin University Page
-Hits: 3473
-Follow Us On Instagram
-Hits: 2520
-Subscribe To Our Youtube Channel
-Hits: 1120
-
----
-
-Title: Web Links - FSUSciComp
-url: https://www.sc.fsu.edu/links/268-videos
-
-Videos
-Web Links filter search
-Filter
-Clear
-Display #
-5
-10
-15
-20
-25
-30
-50
-100
-All
-Info
-There are no Web Links in this category.
-Subcategories
-Colloquium Recordings
-128
-Please sign in here to view
-protected
-recordings.

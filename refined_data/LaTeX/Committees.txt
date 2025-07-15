@@ -1,0 +1,82 @@
+\section{Committees}
+\texttt{URL: https://www.sc.fsu.edu/committees}
+
+\subsection*{Articles}
+\begin{itemize}
+    \item Committee History
+    \item Research Committee
+    \item Graduate Program Committee
+    \item Undergraduate Program Committee
+    \item Promotion Committee
+    \item Executive Committee
+\end{itemize}
+
+\subsection{Executive Committee}
+\texttt{URL: https://www.sc.fsu.edu/committees/executive}
+
+Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+
+\textbf{Current committee members:}
+\begin{itemize}
+    \item Anke Meyer-Baese [- Fall 2023 voted]
+    \item Sachin Shanbhag [Fall 2022 - Fall 2024 voted]
+    \item Xiaoqiang Wang [Fall 2023, appointed]
+    \item Alan Lemmon [Fall 2023, appointed]
+\end{itemize}
+
+\textit{This email address is being protected from spambots. You need JavaScript enabled to view it.}
+
+\vspace{1em}
+\textbf{Attachments:}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\ \hline
+2007.03.14    & Meeting Minutes    & 1 kB               \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Promotion Committee}
+\texttt{URL: https://www.sc.fsu.edu/committees/promotion}
+
+Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+
+\textbf{Current committee members:}
+
+\vspace{1em}
+\textbf{For cases that involve promotion to Full Professor:}
+\begin{itemize}
+    \item Peter Beerli
+    \item Gordon Erlebacher
+    \item Alan Lemmon
+    \item Anke Meyer-Baese
+    \item Tomasz Plewa
+    \item Sachin Shanbhag
+    \item Kevin Speer
+    \item Xiaoqiang Wang
+\end{itemize}
+
+\textbf{For cases that involve tenure and promotion to Associate Professor:}
+\begin{itemize}
+    \item Chen Huang
+    \item Bryan Quaife
+\end{itemize}
+
+\textit{This email address is being protected from spambots. You need JavaScript enabled to view it.}
+
+\subsection{Research Committee}
+\texttt{URL: https://www.sc.fsu.edu/committees/research}
+
+Please see our by-laws (III, C, 2 - Standing Committees) for committee description and information.
+
+\textbf{Current committee members:}
+\begin{itemize}
+    \item Tomasz Plewa [chair]
+    \item Hristo Chipilski
+    \item Nicholas Dexter
+    \item Olmo Zavala Romero
+    \item Xiaoguang Li [ex officio]
+\end{itemize}
+
+\textit{This email address is being protected from spambots. You need JavaScript enabled to view it.}

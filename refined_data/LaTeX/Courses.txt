@@ -1,0 +1,1038 @@
+\section{Courses by Semester}
+% url: https://www.sc.fsu.edu/courses
+
+\subsection{Fall 2021 Courses}
+% url: https://www.sc.fsu.edu/courses/2021-fall-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} TBD \\
+This introductory course considers the question of how computers have come to imitate many kinds of human intelligence. The answer seems to involve our detecting patterns in nature, but also in being able to detect patterns in the very way we think. We will look at some popular computational methods that shape our lives, and try to explain the ideas that make them work. This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.
+
+\subsubsection*{ISC 2310 Introduction to Computational Thinking in Data Science with Python (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} Janet Peterson \\
+This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python’s libraries to solve real-world problems in data science. \\
+\textit{Prerequisite: MAC 1105 or equivalent.}
+
+\subsubsection*{ISC 3222 Symbolic and Numerical Computations (3 Units)}
+\textbf{Schedule:} M W F 8:00-8:55, 152 DSL \\
+\textbf{Instructor:} Alan Lemmon \\
+Introduces state-of-the-art software environments for solving scientific and engineering problems. Topics include solving simple problems in algebra and calculus; 2-D and 3-D graphics; non-linear function fitting and root finding; basic procedural programming; methods for finding numerical solutions to DE's with applications to chemistry, biology, physics, and engineering. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 3313 Introduction to Scientific Computing with C++ (3 Units)}
+\textbf{Schedule:} M W F 12:00-12:50, 152 DSL \\
+\textbf{Instructor:} Ashley Gannon \\
+This course introduces the student to the science of computations. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the student’s implementation of algorithms. The computer language will be C++. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4221C Discrete Algorithms for Science Applications (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10, 152 DSL, M 3:05-5:35 (Lab) 152 DSL \\
+\textbf{Instructor:} Bryan Quaife \\
+This course offers stochastic algorithms, linear programming, optimization techniques, clustering and feature extraction presented in the context of science problems. The laboratory component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4223C Computational Methods for Discrete Problems (4 Units)}
+\textbf{Schedule:} M W F 1:20-2:10, 152 DSL, F 3:05-5:35 (Lab) 152 DSL \\
+\textbf{Instructor:} Anke Meyer-Baese \\
+This course describes several discrete problems arising in science applications, a survey of methods and tools for solving the problems on computers, and detailed studies of methods and their use in science and engineering. The laboratory component illustrates the concepts learned in the context of science problems. \\
+\textit{Prerequisites: MAS 3105, ISC 4304C.}
+
+\subsubsection*{ISC 4232C Computational Methods for Continuous Problems (4 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 152 DSL, T 3:05-5:35 (Lab) 152 DSL \\
+\textbf{Instructor:} Bryan Quaife \\
+This course provides numerical discretization of differential equations and implementation for case studies drawn from several science areas. Finite difference, finite element, and spectral methods are introduced and standard software packages used. The lab component illustrates the concepts learned on a variety of application problems. \\
+\textit{Prerequisites: MAS 3105, ISC 4304C.}
+
+\subsubsection*{ISC 5228 / ISC 4933 Markov Chain Monte Carlo Simulations (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 422 DSL \\
+\textbf{Instructor:} Sachin Shanbhag \\
+Covered are statistical foundations of Monte Carlo (MC) and Markov Chain Monte Carlo (MCMC) simulations, applications of MC and MCMC simulations, which may range from social sciences to statistical physics models, statistical analysis of autocorrelated MCMC data, and parallel computing for MCMC simulations.
+
+\subsubsection*{ISC 5317 / ISC 4933 Computational Evolutionary Biology (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, 152 DSL \\
+\textbf{Instructor:} Peter Beerli \\
+This course presents computational methods for evolutionary inferences. Presentation includes the underlying models, the algorithms that analyze models, and the creation of software to carry out the analysis.
+
+\subsubsection*{ISC 5305 Scientific Programming (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, 499 DSL \\
+\textbf{Instructor:} Gordon Erlebacher \\
+This course uses the C language to present object-oriented coding, data structures, and parallel computing for scientific programming. Discussion of class hierarchies, pointers, function and operator overloading, and portability. Examples include computational grids and multidimensional arrays.
+
+\subsubsection*{ISC 5315 Applied Computational Science I (4 Units)}
+\textbf{Schedule:} T R 11:35-12:50, 152 DSL, R 3:05-5:35 (Lab) 152 DSL \\
+\textbf{Instructor:} Chen Huang \\
+Course provides students with high-performance computational tools necessary to investigate problems arising in science and engineering, with an emphasis on combining them to accomplish more complex tasks. A combination of course work and lab work provides the proper blend of theory and practice with problems culled from the applied sciences. Topics include numerical solutions to ODEs and PDEs, data handling, interpolation and approximation and visualization. \\
+\textit{Prerequisites: ISC 5305, MAP 2302.}
+
+\begin{center}
+\textbf{Attachments}
+\begin{tabular}{l l l}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\ \hline
+2021fall-all.pdf & Advertisement & 2693 kB \\
+DSC-Courses-2021Fall.xlsx & Source File & 13 kB \\ \hline
+\end{tabular}
+\end{center}
+\newpage
+
+\subsection{Spring 2021 Courses}
+% url: https://www.sc.fsu.edu/courses/2021-spring-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} Online @ canvas.fsu.edu \\
+\textbf{Instructor:} Sachin Shanbhag \\
+This introductory course considers the question of how computers have come to imitate many kinds of human intelligence. The answer seems to involve our detecting patterns in nature, but also in being able to detect patterns in the very way we think. We will look at some popular computational methods that shape our lives, and try to explain the ideas that make them work. This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.
+
+\subsubsection*{ISC 2310 Introduction to Computational Thinking in Data Science with Python (3 Units)}
+\textbf{Schedule:} Online @ canvas.fsu.edu \\
+\textbf{Instructor:} Janet Peterson \\
+This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python’s libraries to solve real-world problems in data science. \\
+\textit{Prerequisite: MAC 1105 or equivalent.}
+
+\subsubsection*{ISC 4220C Continuous Algorithms for Science Applications (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10, T 3:05-5:35 (Lab), REMOTE \\
+\textbf{Instructor:} Sachin Shanbhag \\
+Basic computational algorithms including interpolation, approximation, integration, differentiation, and linear systems solution presented in the context of science problems. The lab component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Corequisite: ISC 3222; Prerequisite: MAC 2312.}
+
+\subsubsection*{ISC 4304C Programming for Science Applications (4 Units)}
+\textbf{Schedule:} T R 9:45-11:00, M 3:05-5:35 (Lab), REMOTE \\
+\textbf{Instructor:} Peter Beerli \\
+Provides knowledge of a scripting language that serves as a front end to popular packages and frameworks, along with a compiled language such as C++. Topics include the practical use of an object-oriented scripting and compiled language for scientific programming applications. There is a laboratory component for the course; concepts learned are illustrated in several science applications. \\
+\textit{Prerequisites: MAC 2311, COP 3014 or ISC 3313.}
+
+\subsubsection*{ISC 4933/5227 Survey of Numerical Partial Differential Equations (3 Units)}
+\textbf{Schedule:} T R 11:35-12:50, REMOTE \\
+\textbf{Instructor:} Tomasz Plewa \\
+This course provides an overview of the most common methods used for numerical partial differential equations. These include techniques such as finite differences, finite volumes, finite elements, discontinuous Galerkin, boundary integral methods, and pseudo-spectral methods.
+
+\subsubsection*{ISC 4933/5238C Scientific Computing for Integral Equation Methods (3 Units)}
+\textbf{Schedule:} M W F 1:20-2:10, REMOTE \\
+\textbf{Instructor:} Bryan Quaife \\
+This course covers key algorithms that are required when solving integral equations. \\
+\textit{Prerequisites: MAD 3703 and MAP 4341; ISC 4232; or instructor permission.}
+
+\subsubsection*{ISC 4933/5318 High-Performance Computing (3 Units)}
+\textbf{Schedule:} M W F 10:40-11:30, REMOTE \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+Introduces high-performance computing, which refers to the use of parallel supercomputers, computer clusters, as well as software and hardware to speed up computations. Students learn to write faster code that is highly optimized for modern multi-core processors and clusters, using modern software development tools and performance analyzers, specialized algorithms, parallelization strategies, and advanced parallel programming constructs. \\
+\textit{Prerequisite: ISC 5305 or equivalent or instructor permission.}
+
+\subsubsection*{ISC 4943 Practicum in Computational Science (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, REMOTE \\
+\textbf{Instructor:} Anke Meyer-Baese \\
+This practicum allows students to work individually with a faculty member throughout the semester and meet with the course instructor periodically to provide progress reports. Written reports and an oral presentation of work are required. May be repeated to a maximum of six semester hours, with a maximum of only three semester hour credits allowed to be applied to the Computational Science degree.
+
+\subsubsection*{ISC 5316 Applied Computational Science II (4 Units)}
+\textbf{Schedule:} T R 9:30-10:45, R 3:30-6:00 (Lab), REMOTE \\
+\textbf{Instructor:} Tomasz Plewa \\
+Provides students with high performance computational tools to investigate problems in science and engineering with an emphasis on combining them to accomplish more complex tasks. Topics include numerical methods for partial differential equations, optimization, statistics, and Markov chain Monte Carlo methods. \\
+\textit{Prerequisite: ISC 5315.}
+
+\subsubsection*{ISC 5473 Introduction to Density Functional Theory (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, REMOTE \\
+\textbf{Instructor:} Chen Huang \\
+For materials scientists, chemists, physicists, and applied mathematicians who want to know both the basic concept and certain advanced topics in density functional theory. Density functional theory is widely used in both industry and academia to simulate various properties of materials and molecules, such as electronic properties, crystal structures, and chemical reactions. We will learn how to solve realistic materials problems using density functional theory and the underlying theories.
+
+\begin{center}
+\textbf{Attachments}
+\begin{tabular}{l l l}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\ \hline
+2021spring-all.pdf & Advertisement & 2924 kB \\ \hline
+\end{tabular}
+\end{center}
+\newpage
+
+\subsection{Fall 2022 Courses}
+% url: https://www.sc.fsu.edu/courses/2022-fall-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} Young Hwan Kim \\
+This introductory course considers the question of how computers have come to imitate many kinds of human intelligence. The answer seems to involve our detecting patterns in nature, but also in being able to detect patterns in the very way we think. We will look at some popular computational methods that shape our lives, and try to explain the ideas that make them work. This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.
+
+\subsubsection*{ISC 2310 Introduction to Computational Thinking in Data Science with Python (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} TBD \\
+This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python’s libraries to solve real-world problems in data science. \\
+\textit{Prerequisite: MAC 1105 or equivalent.}
+
+\subsubsection*{ISC 3222 Symbolic and Numerical Computations (3 Units)}
+\textbf{Schedule:} M W F 8:00-8:50, 152 DSL \\
+\textbf{Instructor:} TBD \\
+Introduces state-of-the-art software environments for solving scientific and engineering problems. Topics include solving simple problems in algebra and calculus; 2-D and 3-D graphics; non-linear function fitting and root finding; basic procedural programming; methods for finding numerical solutions to DE's with applications to chemistry, biology, physics, and engineering. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 3313 Introduction to Scientific Computing with C++ (3 Units)}
+\textbf{Schedule:} M W F 12:00-12:50, 152 DSL \\
+\textbf{Instructor:} TBD \\
+This course introduces the student to the science of computations. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the student’s implementation of algorithms. The computer language will be C++. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4221C Discrete Algorithms for Science Applications (4 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 152 DSL - T 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Chen Huang \\
+This course offers stochastic algorithms, linear programming, optimization techniques, clustering and feature extraction presented in the context of science problems. The laboratory component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4223C Computational Methods for Discrete Problems (4 Units)}
+\textbf{Schedule:} M W F 1:20-2:10, 152 DSL - F 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Tomasz Plewa \\
+This course describes several discrete problems arising in science applications, a survey of methods and tools for solving the problems on computers, and detailed studies of methods and their use in science and engineering. The laboratory component illustrates the concepts learned in the context of science problems. \\
+\textit{Prerequisites: MAS 3105, ISC 4304C.}
+
+\subsubsection*{ISC 4232C Computational Methods for Continuous Problems (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10, 152 DSL - M 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Bryan Quaife \\
+This course provides numerical discretization of differential equations and implementation for case studies drawn from several science areas. Finite difference, finite element, and spectral methods are introduced and standard software packages used. The lab component illustrates the concepts learned on a variety of application problems. \\
+\textit{Prerequisites: MAS 3105, ISC 4220, ISC 4304C.}
+
+\subsubsection*{ISC 5305 Scientific Programming (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, 499 DSL \\
+\textbf{Instructor:} Gordon Erlebacher \\
+This course uses the C language to present object-oriented coding, data structures, and parallel computing for scientific programming. Discussion of class hierarchies, pointers, function and operator overloading, and portability. Examples include computational grids and multidimensional arrays.
+
+\subsubsection*{ISC 5315 Applied Computational Science I (4 Units)}
+\textbf{Schedule:} T R 11:35-12:50, 152 DSL - R 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Chen Huang \\
+Course provides students with high-performance computational tools necessary to investigate problems arising in science and engineering, with an emphasis on combining them to accomplish more complex tasks. A combination of course work and lab work provides the proper blend of theory and practice with problems culled from the applied sciences. Topics include numerical solutions to ODEs and PDEs, data handling, interpolation and approximation and visualization. \\
+\textit{Prerequisites: ISC 5305, MAP 2302.}
+
+\subsubsection*{ISC 5228 / ISC 4933 Markov Chain Monte Carlo Simulations (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 422 DSL \\
+\textbf{Instructor:} Sachin Shanbhag \\
+Covered are statistical foundations of Monte Carlo (MC) and Markov Chain Monte Carlo (MCMC) simulations, applications of MC and MCMC simulations, which may range from social sciences to statistical physics models, statistical analysis of autocorrelated MCMC data, and parallel computing for MCMC simulations.
+
+\subsubsection*{ISC 4933 / ISC 5935 Understanding Covid (3 Units)}
+\textbf{Schedule:} M W F 10:40-11:30, DSL 499 \\
+\textbf{Instructor:} Alan Lemmon \\
+In this course, students will explore the different elements that determine the outcome of infectious disease in humans, using COVID-19 as a case study. Starting with a very basic model that includes susceptible, infected, and recovered individuals, students will gradually incorporate factors that may affect the outcome of an outbreak, such as masking/quarantining, gain and loss of natural and vaccine-based immunity, and changing virulence/strains. After summarizing data already collected during the recent pandemic, students will inform the model to determine the conditions under which different outcomes may occur. Students will summarize their results graphically and present their findings. No prerequisites or programming experience required. The course is designed to be accessible to all students, regardless of background or major.
+
+\subsubsection*{ISC 4931 Junior Seminar (1 Unit)}
+\textbf{Schedule:} F 1:20 - 2:20, 422 DSL \\
+\textbf{Instructor:} Alan Lemmon \\
+Junior Seminar in Computational Science.
+
+\subsubsection*{ISC 4932 Senior Seminar (1 Unit)}
+\textbf{Schedule:} W 4:50 - 5:50, 416 DSL \\
+\textbf{Instructor:} Tomasz Plewa \\
+Senior Seminar in Computational Science.
+
+\subsubsection*{ISC 5934 Graduate Seminar (1 Unit)}
+\textbf{Schedule:} F 3:05-3:55, 499 DSL \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+A series of lectures given by faculty on the research being conducted.
+
+\subsubsection*{Colloquium (0 Units)}
+\textbf{Schedule:} W 3:30 - 4:30, 499 DSL \\
+\textbf{Instructor:} Peter Beerli \\
+Weekly colloquium given by invited speakers to showcase research.
+\newpage
+
+\subsection{Spring 2022 Courses}
+% url: https://www.sc.fsu.edu/courses/2022-spring-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} Online @ canvas.fsu.edu \\
+\textbf{Instructor:} Student / TBD \\
+This introductory course considers the question of how computers have come to imitate many kinds of human intelligence. The answer seems to involve our detecting patterns in nature, but also in being able to detect patterns in the very way we think. We will look at some popular computational methods that shape our lives, and try to explain the ideas that make them work. This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.
+
+\subsubsection*{ISC 2310 Introduction to Computational Thinking in Data Science with Python (3 Units)}
+\textbf{Schedule:} Online @ canvas.fsu.edu \\
+\textbf{Instructor:} Janet Peterson \\
+This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python’s libraries to solve real-world problems in data science. \\
+\textit{Prerequisite: MAC 1105 or equivalent.}
+
+\subsubsection*{ISC 3313 Introduction to Scientific Computing with C++ (3 Units)}
+\textbf{Schedule:} M W F 1:20-2:10 (152 DSL) \\
+\textbf{Instructor:} TBD \\
+This course introduces the student to the science of computations. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the student’s implementation of algorithms. The computer language will be Java. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4220C Continuous Algorithms for Science Applications (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10 (152 DSL), T 3:05-5:35 (Lab, 152 DSL) \\
+\textbf{Instructor:} Sachin Shanbhag \\
+Basic computational algorithms including interpolation, approximation, integration, differentiation, and linear systems solution presented in the context of science problems. The lab component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Corequisite: ISC 3222; Prerequisite: MAC 2312.}
+
+\subsubsection*{ISC 4245C / CAP 5771 Data Mining (3 Units)}
+\textbf{Schedule:} M W 12:00-1:15 (499 DSL) \\
+\textbf{Instructor:} Anke Meyer-Baese \\
+This course enables students to study concepts and techniques of data mining, including characterization and comparison, association rules mining, classification and prediction, cluster analysis, and mining complex types of data. Students also examine applications and trends in data mining. \\
+\textit{Prerequisites: COP 3330, ISC 3222, ISC 3313 or ISC 4304, or instructor permission.}
+
+\subsubsection*{ISC 4302 / ISC 5307 Scientific Visualization (3 Units)}
+\textbf{Schedule:} M W F 12:20-1:10, 152 DSL \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+This course enables students to study concepts and techniques of data mining, including characterization and comparison, association rules mining, classification and prediction, cluster analysis, and mining complex types of data. Students also examine applications and trends in data mining. \\
+\textit{Prerequisites: COP 3330, ISC 3222, ISC 3313 or ISC 4304, or instructor permission.}
+
+\subsubsection*{ISC 4304C Programming for Science Applications (4 Units)}
+\textbf{Schedule:} T R 9:45-11:00 (152 DSL), F 3:05-5:35 (Lab, 152 DSL) \\
+\textbf{Instructor:} Peter Beerli \\
+Provides knowledge of a scripting language that serves as a front end to popular packages and frameworks, along with a compiled language such as C++. Topics include the practical use of an object-oriented scripting and compiled language for scientific programming applications. There is a laboratory component for the course; concepts learned are illustrated in several science applications. \\
+\textit{Prerequisites: MAC 2312, COP 3014 or ISC 3313.}
+
+\subsubsection*{ISC 4420 / ISC 5425 Introduction to Bioinformatics (3 Units)}
+\textbf{Schedule:} M W F 1:20-2:10 (499 DSL) \\
+\textbf{Instructor:} Alan Lemmon \\
+Bioinformatics provides a quantitative framework for understanding how the genomic sequence and its variations affect the phenotype. Designed for biologists and biochemists seeking to improve quantitative data interpretation skills, and for mathematicians, computer scientists and other quantitative scientists seeking to learn more about computational biology. Lab exercises reinforce the classroom learning.
+
+\subsubsection*{ISC 4933 / ISC 5227 Survey of Numerical Partial Differential Equations (3 Units)}
+\textbf{Schedule:} T R 11:35-12:50 (152 DSL) \\
+\textbf{Instructor:} Tomasz Plewa \\
+This course provides an overview of the most common methods used for numerical partial differential equations. These include techniques such as finite differences, finite volumes, finite elements, discontinuous Galerkin, boundary integral methods, and pseudo-spectral methods.
+
+\subsubsection*{ISC 4933 / ISC 5318 High-Performance Computing (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00 (499 DSL) \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+Introduces high-performance computing, which refers to the use of parallel supercomputers, computer clusters, as well as software and hardware to speed up computations. Students learn to write faster code that is highly optimized for modern multi-core processors and clusters, using modern software development tools and performance analyzers, specialized algorithms, parallelization strategies, and advanced parallel programming constructs. \\
+\textit{Prerequisite: ISC 5305 or equivalent or instructor permission.}
+
+\subsubsection*{ISC 4943 Practicum in Computational Science (3 Units)}
+\textbf{Schedule:} M W 10:40-11:55 (499 DSL) \\
+\textbf{Instructor:} Anke Meyer-Baese \\
+This practicum allows students to work individually with a faculty member throughout the semester and meet with the course instructor periodically to provide progress reports. Written reports and an oral presentation of work are required. May be repeated to a maximum of six semester hours, with a maximum of only three semester hour credits allowed to be applied to the Computational Science degree.
+
+\subsubsection*{ISC 5316 Applied Computational Science II (4 Units)}
+\textbf{Schedule:} T R 1:20-2:10 (422 DSL), R 3:05-5:35 (Lab, 152 DSL) \\
+\textbf{Instructor:} Tomasz Plewa \\
+Provides students with high performance computational tools to investigate problems in science and engineering with an emphasis on combining them to accomplish more complex tasks. Topics include numerical methods for partial differential equations, optimization, statistics, and Markov chain Monte Carlo methods. \\
+\textit{Prerequisite: ISC 5315.}
+
+\begin{center}
+\textbf{Attachments}
+\begin{tabular}{l l l}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\ \hline
+spring2022.xlsx & & 13 kB \\
+2022spring-all.pdf & & 3418 kB \\ \hline
+\end{tabular}
+\end{center}
+\newpage
+
+\subsection{Fall 2023 Courses}
+% url: https://www.sc.fsu.edu/courses/2023-fall-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} Young Hwan Kim \\
+This introductory course considers the question of how computers have come to imitate many kinds of human intelligence. The answer seems to involve our detecting patterns in nature, but also in being able to detect patterns in the very way we think. We will look at some popular computational methods that shape our lives, and try to explain the ideas that make them work. This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.
+
+\subsubsection*{ISC 2310 Data Science with Python (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} Pankaj Chouhan \\
+This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python’s libraries to solve real-world problems in data science. \\
+\textit{Prerequisite: MAC 1105 or equivalent.}
+
+\subsubsection*{ISC 3222 Symbolic and Numerical Computations (4206) (3 Units)}
+\textbf{Schedule:} M W F 8:00-8:50, 152 DSL \\
+\textbf{Instructor:} Alan Lemmon \\
+Introduces state-of-the-art software environments for solving scientific and engineering problems. Topics include solving simple problems in algebra and calculus; 2-D and 3-D graphics; non-linear function fitting and root finding; basic procedural programming; methods for finding numerical solutions to DE's with applications to chemistry, biology, physics, and engineering. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 3313 Introduction to Scientific Computing (C++) (4217) (3 Units)}
+\textbf{Schedule:} M W F 12:00-12:50, 152 DSL \\
+\textbf{Instructor:} TBA \\
+This course introduces the student to the science of computations. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the student’s implementation of algorithms. The computer language will be C++. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4221C Discrete Algorithms for Science Applications (4208) (4 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 152 DSL - T 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Olmo Zavala-Romero \\
+This course offers stochastic algorithms, linear programming, optimization techniques, clustering and feature extraction presented in the context of science problems. The laboratory component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Prerequisite: MAC 2311.}
+
+\subsubsection*{ISC 4223C Computational Methods for Discrete Problems (4 Units)}
+\textbf{Schedule:} T R 1:20-2:35, 152 DSL - F 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Anke Meyer-Baese \\
+This course describes several discrete problems arising in science applications, a survey of methods and tools for solving the problems on computers, and detailed studies of methods and their use in science and engineering. The laboratory component illustrates the concepts learned in the context of science problems. \\
+\textit{Prerequisites: MAS 3105, ISC 4304C.}
+
+\subsubsection*{ISC 4232C Computational Methods for Continuous Problems (4210) (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10, 152 DSL - M 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Bryan Quaife \\
+This course provides numerical discretization of differential equations and implementation for case studies drawn from several science areas. Finite difference, finite element, and spectral methods are introduced and standard software packages used. The lab component illustrates the concepts learned on a variety of application problems. \\
+\textit{Prerequisites: MAS 3105, ISC 4220, ISC 4304C.}
+
+\subsubsection*{ISC 5305 Scientific Programming (4203) (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, 499 DSL \\
+\textbf{Instructor:} Gordon Erlebacher \\
+This course uses the C language to present object-oriented coding, data structures, and parallel computing for scientific programming. Discussion of class hierarchies, pointers, function and operator overloading, and portability. Examples include computational grids and multidimensional arrays.
+
+\subsubsection*{ISC 5315 Applied Computational Science I (4 Units)}
+\textbf{Schedule:} T R 11:35-12:50, 152 DSL - R 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Chen Huang \\
+Course provides students with high-performance computational tools necessary to investigate problems arising in science and engineering, with an emphasis on combining them to accomplish more complex tasks. A combination of course work and lab work provides the proper blend of theory and practice with problems culled from the applied sciences. Topics include numerical solutions to ODEs and PDEs, data handling, interpolation and approximation and visualization. \\
+\textit{Prerequisites: ISC 5305, MAP 2302.}
+
+\subsubsection*{ISC 5228 / ISC 4933 Monte Carlo Method (4234) (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 422 DSL \\
+\textbf{Instructor:} Sachin Shanbhag \\
+Covered are statistical foundations of Monte Carlo (MC) and Markov Chain Monte Carlo (MCMC) simulations, applications of MC and MCMC simulations, which may range from social sciences to statistical physics models, statistical analysis of autocorrelated MCMC data, and parallel computing for MCMC simulations.
+
+\subsubsection*{ISC 4933 / ISC 5935 Science Professional Development (3 Units)}
+\textbf{Schedule:} M W F 9:00-9:50, DSL 499 \\
+\textbf{Instructor:} Alan Lemmon \\
+The course would cover topics such as improving communication in science (posters, talks, manuscripts, grants, etc), as well as some work on primary literature, and the publication process. Finally there would be a component on applying for grad school or jobs.
+
+\subsubsection*{ISC 4933 / ISC 5935 AI Methods and Applications (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, DSL 499 \\
+\textbf{Instructor:} Anke Meyer-Baese \\
+AI is a fast-moving discipline which is impacting many areas of our daily life. In this course, students will get an introduction into deep learning and reinforcement learning and will also learn novel concepts such as graph neural networks, encoders and attention networks. Applications from several areas such as medical imaging, weather forecast and finance are introduced.
+
+\subsubsection*{ISC 4931 Junior Seminar (1 Unit)}
+\textbf{Schedule:} F 1:20 - 2:20, 422 DSL \\
+\textbf{Instructor:} Alan Lemmon \\
+Junior Seminar in Computational Science.
+
+\subsubsection*{ISC 4932 Senior Seminar (1 Unit)}
+\textbf{Schedule:} W 4:50 - 5:50, 416 DSL \\
+\textbf{Instructor:} Tomasz Plewa \\
+Senior Seminar in Computational Science.
+
+\subsubsection*{ISC 5934 Graduate Seminar (1 Unit)}
+\textbf{Schedule:} F 3:05-3:55, 499 DSL \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+A series of lectures given by faculty on the research being conducted.
+
+\subsubsection*{Colloquium (0 Units)}
+\textbf{Schedule:} W 3:30 - 4:30, 499 DSL \\
+\textbf{Instructor:} Olmo Zavala-Romero \\
+Weekly colloquium given by invited speakers to showcase research.
+\newpage
+
+\subsection{Spring 2023 Courses}
+% url: https://www.sc.fsu.edu/courses/2023-spring-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} Online @ canvas.fsu.edu \\
+\textbf{Instructor:} Young Hwan Kim \\
+This introductory course considers the question of how computers have come to imitate many kinds of human intelligence. The answer seems to involve our detecting patterns in nature, but also in being able to detect patterns in the very way we think. We will look at some popular computational methods that shape our lives, and try to explain the ideas that make them work. This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.
+
+\subsubsection*{ISC 2310 Data Science with Python (3 Units)}
+\textbf{Schedule:} Online @ canvas.fsu.edu \\
+\textbf{Instructor:} Jingze Zhang \\
+This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python’s libraries to solve real-world problems in data science. \\
+\textit{Prerequisite: MAC 1105 or equivalent.}
+
+\subsubsection*{ISC 3313 Introduction to Scientific Computing (with C++) (3 Units)}
+\textbf{Schedule:} M W F 1:20-2:10 (152 DSL) \\
+\textbf{Instructor:} TBD \\
+This course introduces the student to the science of computations. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the student’s implementation of algorithms. Satisfies FSU Computer Competency requirement. \\
+\textit{Prerequisites: MAC 2311 (Calculus I).}
+
+\subsubsection*{ISC 4220C Continuous Algorithms for Science Applications (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10 (152 DSL), T 3:05-5:35 (Lab, 152 DSL) \\
+\textbf{Instructor:} Sachin Shanbhag \\
+Basic computational algorithms including interpolation, approximation, integration, differentiation, and linear systems solution presented in the context of science problems. The lab component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Prerequisite: MAC 2312.}
+
+\subsubsection*{ISC 4933 / ISC 5318 High-Performance Computing (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00 (499 DSL) \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+Introduces high-performance computing, the use of parallel supercomputers, computer clusters, and software and hardware, to speed up computations. Students learn to write faster code that is optimized for modern multi-core processors and clusters, using modern software-development tools and performance analyzers, specialized algorithms, parallelization strategies, and advanced parallel programming constructs. \\
+\textit{Prerequisite: ISC 5305.}
+
+\subsubsection*{ISC 4304C Programming for Science Applications (4 Units)}
+\textbf{Schedule:} T R 9:45-11:00 (152 DSL), F 3:05-5:35 (Lab, 152 DSL) \\
+\textbf{Instructor:} Peter Beerli \\
+Provides knowledge of a scripting language that serves as a front end to popular packages and frameworks, along with a compiled language such as C++. Topics include the practical use of an object-oriented scripting and compiled language for scientific programming applications. There is a laboratory component for the course; concepts learned are illustrated in several science applications. \\
+\textit{Prerequisites: MAC 2312, COP 3014 or ISC 3313.}
+
+\subsubsection*{ISC 4943 Practicum in Computational Science (3 Units)}
+\textbf{Schedule:} T R 3:05-4:20 (499 DSL) \\
+\textbf{Instructor:} Gordon Erlebacher \\
+This practicum allows students to work individually with a faculty member throughout the semester and meet with the course instructor periodically to provide progress reports. Written reports and an oral presentation of work are required. May be repeated to a maximum of six semester hours, with a maximum of only three semester hour credits allowed to be applied to the Computational Science degree.
+
+\subsubsection*{ISC 5314 Verification and Validation in Computational Science (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35 (152 DSL) \\
+\textbf{Instructor:} Tomasz Plewa \\
+Students learn basic terminology, are exposed to procedures and practical methods used in software implementation validation and in solution verification, employ exact and manufactured solutions, and explore elements of software quality assurance. Introduces essential data analysis techniques and reviews software development and maintenance tools. Aspects of code variation, including validation hierarchy, validation benchmarks, uncertainty quantification and simulation code predictive capabilities are illustrated. \\
+\textit{Prerequisite: MAC 2312.}
+
+\subsubsection*{ISC 5316 Applied Computational Science II (4 Units)}
+\textbf{Schedule:} T R 8:00-9:15 (499 DSL), R 3:05-5:35 (Lab, 152 DSL) \\
+\textbf{Instructor:} Tomasz Plewa \\
+Provides students with high performance computational tools to investigate problems in science and engineering with an emphasis on combining them to accomplish more complex tasks. Topics include mesh generation, stochastic methods, basic parallel algorithms and programming, numerical optimization, and nonlinear solvers. \\
+\textit{Prerequisite: ISC 5315.}
+
+\subsubsection*{ISC 4245C / CAP 5771 Data Mining (3 Units)}
+\textbf{Schedule:} T R 11:35-12:50 (499 DSL) \\
+\textbf{Instructor:} Gordon Erlebacher \\
+This course enables students to study concepts and techniques of data mining, including characterization and comparison, association rules mining, classification and prediction, cluster analysis, and mining complex types of data. Students also examine applications and trends in data mining. \\
+\textit{Prerequisites: COP 3330, ISC 3222, ISC 3313 or ISC 4304, or instructor permission.}
+
+\subsubsection*{ISC 4302 / ISC 5307 Scientific Visualization (3 Units)}
+\textbf{Schedule:} T R 8:00-9:15 (152 DSL) \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+This course covers the theory and practice of scientific visualization. Students learn how to use state-of-the-art visualization toolkits, create their own visualization tools, represent both 2-D and 3-D data sets, and evaluate the effectiveness of their visualizations. \\
+\textit{Undergrad Prerequisites: COP 3330, ISC 3222, ISC 3313 or ISC 4304, or instructor permission. Graduate Prerequisites: ISC 5305.}
+
+\subsubsection*{ISC 4933 / ISC 5935 Data Science Meets Health Science (3 Units)}
+\textbf{Schedule:} M W F 10:40-11:30 (152 DSL) \\
+\textbf{Instructor:} Olmo Zavala Romero \\
+This course will focus on the applied data science pipeline of data acquisition, data processing and integration, data modeling and analysis, and validation and delivery, commonly used in the Health industry. Topics include data normalization, scientific visualization, multivariate regression, and Artificial Neural Networks (dense, convolutional, recurrent, and adversarial). The examples and projects of this course contain 1D to 4D health data of electrocardiogram sequences, X-ray, Magnetic resonance imaging (MRI), and functional MRI images.
+
+\subsubsection*{ISC 4933 / ISC 5935 Computational Probabilistic Modeling (3 Units)}
+\textbf{Schedule:} TR 11:35-12:50 (152 DSL) \\
+\textbf{Instructor:} Nick Dexter \\
+In this course, students are introduced to probabilistic programming and modeling for modern data science and machine learning applications. Algorithms for predictive inference are covered from a theoretical and practical viewpoint with an emphasis on implementation in Python. Topics include an introduction to probability and learning theory, graph-based methods, machine learning with neural networks, dimensionality reduction, and algorithms for big data.
+
+\subsubsection*{ISC 4931 Junior Seminar (1 Unit)}
+\textbf{Schedule:} F 12:00-12:50 (422 DSL) \\
+\textbf{Instructor:} Alan Lemmon \\
+Junior Seminar in Computational Science.
+
+\subsubsection*{ISC 5934 Graduate Seminar (1 Unit)}
+\textbf{Schedule:} F 3:05-3:55 (499 DSL) \\
+\textbf{Instructor:} Sachin Shanbhag \\
+A series of lectures given by faculty on the research being conducted.
+
+\subsubsection*{ISC 5939 / GFD???? Advance Grad Seminar in Fire Dynamics (1 Unit)}
+\textbf{Schedule:} T 12:00 - 3:00 (Keen 118) \\
+\textbf{Instructor:} Kevin Speer \\
+TBA
+
+\subsubsection*{Course \# TBD Colloquium (0 Units)}
+\textbf{Schedule:} W 3:30 - 4:30 (499 DSL) \\
+\textbf{Instructor:} \textit{[Email Protected]} \\
+Weekly colloquium given by invited speakers to showcase research.
+
+\subsubsection*{GFD 5500L Fire Dynamics Field School (3-4 Units)}
+\textbf{Schedule:} (Keen 118) \\
+\textbf{Instructor:} Kevin Speer \\
+TBA
+
+\subsubsection*{GFD 6935 Fire Dynamics Seminar (1 Unit)}
+\textbf{Schedule:} T 12:00 - 3:00 (Keen 118) \\
+\textbf{Instructor:} Kevin Speer \\
+TBA
+\newpage
+
+\subsection{Spring 2024 Courses}
+% url: https://www.sc.fsu.edu/courses/2024-spring-courses
+\subsubsection*{ISC 1057 Computational Thinking (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} Young Hwan Kim \\
+ISC 1057. Computational Thinking (3). This course introduces students to the process of creating a representation of a task so that it can be performed by a computer. The course investigates strategies behind popular computational methods that are shaping our daily lives and our future. Students practice logical thinking by applying versions of these computational methods to problems in science and society.
+
+\subsubsection*{ISC 2310 Data Science with Python (3 Units)}
+\textbf{Schedule:} ONLINE \\
+\textbf{Instructor:} Pankaj Chouhan \\
+ISC 2310. Introduction to Computational Thinking in Data Science with Python (3). Prerequisite: MAC 1105 or equivalent. This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python's libraries to solve real-world problems in data science.
+
+\subsubsection*{ISC 3313 Introduction to Scientific Computing (C++) (4217) (3 Units)}
+\textbf{Schedule:} M W F 1:20-2:10, 152 DSL \\
+\textbf{Instructor:} Sanjeeb Poudel \\
+ISC 3313. Introduction to Scientific Computing (3). Prerequisites: MAC 2311 or instructor permission. This course introduces the student to the science of computation. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the students' implementation of algorithms.
+
+\subsubsection*{ISC 4220C Continuous Algorithms for Science Applications (4 Units)}
+\textbf{Schedule:} M W F 9:20-10:10, 152 DSL - T 3:05-5:35 (lab), 152 DSL \\
+\textbf{Instructor:} Sachin Shanbhag \\
+ISC 4220C. Continuous Algorithms for Science Applications (4). Prerequisite: MAC 2312. This course provides basic computational algorithms, including interpolation, approximation, integration, differentiation, and linear systems solution presented in the context of science problems. The laboratory component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results.
+
+\subsubsection*{ISC 4933/5318 High-Performance Computing (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 499 DSL \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+ISC 5318. High-Performance Computing (3). Prerequisites: ISC 5305 or equivalent or instructor permission. This course introduces high-performance computing, term which refers to the use of parallel supercomputers, computer clusters, as well as software and hardware in order to speed up computations. Students learn to write faster code that is highly optimized for modern multi-core processors and clusters, using modern software-development tools and performance analyzers, specialized algorithms, parallelization strategies, and advanced parallel programming constructs.
+
+\subsubsection*{ISC 4304C Programming for Science Applications (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, F 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Nicholas Dexter \\
+ISC 4304C. Programming for Science Applications (4). Prerequisite: MAC 2311. This course provides knowledge of a scripting language that serves as a front-end to popular packages and frameworks, along with a compiled language such as (C++). Students study and practice scientific programming with the scripting language and practice how to interface it with a more traditional programming language to improve the speed of the programs developed in the course. In the laboratory component of this course, students apply the concepts learned in class. Students analyze large data sets by translating from mathematical expressions and algorithms to working computer code that is then used to visualize and summarize the results.
+
+\subsubsection*{ISC 5314 Verification and Validation in Computational Science (3 Units)}
+\textbf{Schedule:} T R 1:20-2:35, 152 DSL \\
+\textbf{Instructor:} Tomasz Plewa \\
+ISC 5314. Verification and Validation in Computational Science (3). Prerequisites: MAC 2312, MAS 3105, or ISC 5315; or instructor permission. This course covers the theory and practice of verification and validation in computational sciences. Students learn basic terminology, are exposed to procedures and practical methods used in software implementation validation and in solution verification, employ exact and manufactured solutions, and explore elements of software quality assurance. The course introduces essential data analysis techniques and reviews software development and maintenance tools. Examples from physical sciences and engineering are used to illustrate aspects of code variation, including validation hierarchy, validation benchmarks, uncertainty quantification and simulation code predictive capabilities. The computational laboratory is an essential part of this course.
+
+\subsubsection*{ISC 5316 Applied Computational Science II (4 Units)}
+\textbf{Schedule:} T R 8:00-9:15, 499 DSL - R 3:05-5:35 (Lab), 152 DSL \\
+\textbf{Instructor:} Tomasz Plewa \\
+ISC 5316. Applied Computational Science II (4). Prerequisite: ISC 5315 or instructor permission. This course provides students with high-performance computational tools necessary to investigate problems arising in science and engineering, with an emphasis on combining them to accomplish more complex tasks. A combination of course work and lab work provides the proper blend of theory and practice with problems culled from the applied sciences. Topics include mesh generation, stochastic methods, basic parallel algorithms and programming, numerical optimization, and nonlinear solvers.
+
+\subsubsection*{ISC 4933/ISC 5935 Computational Probabilistic Modeling (3 Units)}
+\textbf{Schedule:} T R 11:35-12:50, 152 DSL \\
+\textbf{Instructor:} Nicholas Dexter \\
+ISC 4933/ISC 5935. Computational Probabilistic Modeling (3). Prerequisites: MAC 2312 - Calculus II, MAS 3105 – Applied Linear Algebra, and STA 4442/5440: Introduction To Probability or STA 4321/5323: Introduction to Mathematical Statistics, or the permission of the instructor. In this course, students are introduced to probabilistic programming and modeling for modern data science and machine learning applications. Algorithms for predictive inference are covered from a theoretical and practical viewpoint with an emphasis on implementation in Python. Topics include an introduction to probability and learning theory, graph-based methods, machine learning with neural networks, dimensionality reduction, and algorithms for big data.
+
+\subsubsection*{ISC 4302/5307 Scientific Visualization (3 Units)}
+\textbf{Schedule:} T R 8:00-9:15, 152 DSL \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+ISC 4302. Scientific Visualization (3). Prerequisites: MAC 1105 and MAC 2312. This course is an introduction to scientific visualization for large-scale computation and experimental data that covers the visualization methods and techniques, visualization results analysis and evaluation, and visualization practice. It teaches students the techniques for creating compelling visual representations of 2D and 3D scientific data sets. The basic concepts, data structures, and algorithms in scientific visualization are presented and applied using datasets from different disciplines. Classic visualization techniques for scalar, vector, and tensor data such as marching cubes, ray casting, splatting, streamline, and line integral convolution and more, are introduced along with popular visualization software.
+
+\subsubsection*{ISC 4933/5935 Data Science Meets Health Science (3 Units)}
+\textbf{Schedule:} M W F 10:40-11:30, 152 DSL \\
+\textbf{Instructor:} Olmo Zavala-Romero \\
+This course will focus on the applied data science pipeline of data acquisition, data processing and integration, data modeling and analysis, and validation and delivery, commonly used in the Health industry. Topics include data normalization, scientific visualization, multivariate regression, and Artificial Neural Networks (dense, convolutional, recurrent, and adversarial). The examples and projects of this course contain 1D to 4D health data of electrocardiogram sequences, X-ray, Magnetic resonance imaging (MRI), and functional MRI images.
+
+\subsubsection*{ISC 5935 Atomistic Modeling of Molecules and Materials (3 Units)}
+\textbf{Schedule:} M W F 12:00-12:50, 152 DSL \\
+\textbf{Instructor:} Chen Huang \\
+The course is designed for students who are interested in atomistic simulations of molecules and materials. Two popular methods will be introduced: density functional theory (DFT) and molecular dynamics. DFT has become the workhorse in industry and academia for calculating various properties of materials and molecules, such as electronic properties, crystal structures, and chemical reaction energies. We will learn both the theoretical and numerical aspects of DFT. Molecular dynamics are invaluable for understanding the dynamical processes of materials at the atomic scale. We will introduce the theories underlying molecular dynamics simulations and learn how to calculate various properties of materials using molecular dynamics. Popular software in these two fields will be introduced.
+
+\subsubsection*{ISC 4933/5935 Computational Aspects of Data Assimilation (3 Units)}
+\textbf{Schedule:} T R 9:45-11:00, 422 DSL \\
+\textbf{Instructor:} Hristo Chipilski \\
+Data assimilation methods combine numerical models and observations to arrive at the best possible representation of a physical system. This course aims to build a robust theoretical foundation in the subject and explore some of the computational challenges in large scientific and engineering applications. Students will gain hands-on experience by implementing their own algorithms and will complete a final project on a preferred research topic. Prerequisites: Applied Statistics for Engineers and Scientists (STA 3032), Applied Linear Algebra I/II (MAS 3105/MAS 4106) and Programming for Scientific Applications (ISC 4304) or Instructor Permission Required.
+
+\subsubsection*{ISC 4933/5935 Computational Methods in Fire Science (3 Units)}
+\textbf{Schedule:} M W F 10:40-11:30, 499 DSL \\
+\textbf{Instructor:} Bryan Quaife \\
+Have you ever wondered why fires spread and grow in size so quickly or how smoke plumes can travel thousands of kilometers? These behaviors are governed by fuel properties, atmospheric conditions, topography, and more. This course introduces physics-based and data-driven models in fire science, and investigates the sensitivity and uncertainty of these models. We will discuss computational tools including cellular automata, level set methods, and data-driven methods for discovering equations from measured data. Finally, we will explore techniques for analyzing both simulated and measured fire data.
+
+\subsubsection*{CAP 5771/4245C Data Mining (3 Units)}
+\textbf{Schedule:} T R 11:35 - 12:50, 499 DSL \\
+\textbf{Instructor:} Gordon Erlebacher \\
+ISC 4245C. Data Mining (3). Prerequisite: COP 3330, ISC 3222, ISC 3313 or ISC 4304; or instructor permission. In this course, students study concepts and techniques of data mining, including characterization and comparison, association rules mining, classification and prediction, cluster analysis, and mining complex types of data. Students also examine applications and trends in data mining.
+
+\subsubsection*{GFD 4934/5936 Advanced Topics in Fire Dynamics (1 Unit)}
+\textbf{Schedule:} 118 KEEN \\
+\textbf{Instructor:} Kevin Speer \\
+Please contact \textit{[Email Protected]} for details.
+
+\subsubsection*{ISC 5939/GFD 6935 Advance Grad Seminar in Fire Dynamics (1 Unit)}
+\textbf{Schedule:} T 12:00 - 3:00, 118 KEEN \\
+\textbf{Instructor:} Kevin Speer \\
+Please contact \textit{[Email Protected]} for details.
+
+\subsubsection*{GFD 5500L Fire Dynamics Field School Research and Operations in Prescribed Fire (3-4 Units)}
+\textbf{Schedule:} 118 KEEN \\
+\textbf{Instructor:} Kevin Speer \\
+Please contact \textit{[Email Protected]} for details.
+
+\subsubsection*{ISC 4931 Junior Seminar (1 Unit)}
+\textbf{Schedule:} F 12:00-12:50, 422 DSL \\
+\textbf{Instructor:} Alan Lemmon \\
+ISC 4931r. Junior Seminar in Scientific Computing (1–2). (S/U grade only.) Prerequisite: Junior standing (sixty plus hours). This is a special topics course in computational science. May be repeated two times to a maximum of four semester hours, with a maximum of only two semester hours credit allowed to be applied to the Computational Science degree.
+
+\subsubsection*{ISC 5934 Graduate Seminar (1 Unit)}
+\textbf{Schedule:} F 3:05-3:55, 499 DSL \\
+\textbf{Instructor:} Xiaoqiang Wang \\
+A series of lectures given by faculty on the research being conducted.
+
+\subsubsection*{Colloquium (0 Units)}
+\textbf{Schedule:} W 3:30 - 4:30, 499 DSL \\
+\textbf{Instructor:} Olmo Zavala-Romero \\
+Weekly colloquium given by invited speakers to showcase research.
+
+\begin{center}
+\textbf{Attachments}
+\begin{tabular}{l l l}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\ \hline
+Print\_2024\_Spring\_Courses.pdf & Printable Course Listing & 211 kB \\ \hline
+\end{tabular}
+\end{center}
+\newpage
+
+\subsection{Fall 2024 Courses}
+% url: https://www.sc.fsu.edu/courses/2024-fall-courses
+\textit{No course listings provided.}
+
+\subsection{Spring 2025 Courses}
+% url: https://www.sc.fsu.edu/courses/2025-spring-courses
+\textit{No course listings provided.}
+
+\subsection{Fall 2025 Courses}
+% url: https://www.sc.fsu.edu/courses/2025-fall-courses
+\textit{No course listings provided.}
+
+\subsection{Archive}
+% url: https://www.sc.fsu.edu/courses/archive
+\subsubsection*{Published Course Lists}
+\begin{itemize}
+    \item Fall 2025 Courses (Published: May 04 2025)
+    \item Spring 2025 Courses (Published: September 18 2024)
+    \item Fall 2024 Courses (Published: August 26 2024)
+    \item Spring 2024 Courses (Published: October 20 2023)
+    \item Fall 2023 Courses (Published: May 26 2023)
+    \item Spring 2023 Courses (Published: September 20 2022)
+    \item Fall 2022 Courses (Published: March 21 2022)
+    \item Spring 2022 Courses (Published: October 22 2021)
+    \item Fall 2021 Courses (Published: May 05 2021)
+    \item Spring 2021 Courses (Published: October 01 2020)
+\end{itemize}
+\newpage
+
+\section{Undergraduate Course Catalog}
+% url: https://www.sc.fsu.edu/undergraduate/courses
+We have developed innovative courses to support our degree programs in computational science. These classes generally have an ISC course prefix. In addition, department faculty teach courses in computational science listed with different departments across campus.
+\textit{Note: Not all courses are offered each semester. Check the FSU Registrar's Class Search Snapshots for availability.}
+
+\subsection*{Elective Courses for non-majors}
+\begin{itemize}
+    \item \textbf{ISC 1057 - Computational Thinking (3)} \\ \textit{Note: Satisfies Quantitative and Logical Thinking requirement.}
+    \item \textbf{ISC 2310 - Introduction to Computational Thinking in Data Science with Python (3)}
+\end{itemize}
+
+\subsection*{Core Courses and Seminar Classes}
+\begin{itemize}
+    \item \textbf{ISC 3222 - Symbolic and Numerical Computations (3)}
+    \item \textbf{ISC 4220 - Continuous Algorithms for Science Applications (4)}
+    \item \textbf{ISC 4221 - Discrete Algorithms for Science Applications (4)}
+    \item \textbf{ISC 4223 - Computational Methods for Discrete Problems (4)}
+    \item \textbf{ISC 4232 - Computational Methods for Continuous Problems (4)}
+    \item \textbf{ISC 4304 - Programming for Scientific Applications (4)}
+    \item \textbf{ISC 4931 - Junior Seminar in Computational Science (1)}
+    \item \textbf{ISC 4932 - Senior Seminar in Computational Science (1)}
+    \item \textbf{ISC 4943 - Practicum in Computational Science (varies)}
+\end{itemize}
+
+\subsection*{Collateral Courses}
+\begin{itemize}
+    \item \textbf{ISC 3313 - Introduction to Scientific Computing (3)} \\ \textit{Note: Satisfies Computer Skills Competency requirement.}
+\end{itemize}
+
+\subsection*{Elective Courses}
+\begin{itemize}
+    \item \textbf{DIG 3725 - Introduction to Game and Simulator Design (3)}
+    \item \textbf{ISC 4245C - Data Mining (3)}
+    \item \textbf{ISC 4302 - Scientific Visualization (3)}
+    \item \textbf{ISC 4304C - Programming for Scientific Applications (3)}
+    \item \textbf{ISC 4420 - Introduction to Bioinformatics (3)}
+    \item \textbf{ISC 4933 - Computational Evolutionary Biology (3)}
+    \item \textbf{ISC 4933 - Computational Space Physics (3)}
+    \item \textbf{ISC 4933 - Data Science Meets Health Science (3)}
+    \item \textbf{ISC 4933 - Genome Sequencing and Analysis (3)}
+    \item \textbf{ISC 4933 - Geometric Morphometrics (3)}
+    \item \textbf{ISC 4933 - Inferences in Conservation Genetics (3)}
+    \item \textbf{ISC 4933 - Integral Equation Methods (3)}
+    \item \textbf{ISC 4933 - Selected Topics In Computational Science (varies)}
+    \item \textbf{ISC 4933 - Verification and Validation in Computational Science (3)}
+    \item \textbf{ISC 4933 - Survey of Numerical Partial Differential Equations (3)}
+    \item \textbf{ISC 4971 - Honors in the Major Program (3)}
+\end{itemize}
+
+\subsection*{Special Topics}
+\begin{itemize}
+    \item \textbf{ISC 4933 - Understanding Covid (3)}
+\end{itemize}
+\newpage
+
+\section{Graduate and Doctoral Course Catalog}
+% url: https://www.sc.fsu.edu/graduate/courses
+We have developed innovative courses to support our degree programs in computational science. These classes generally have an ISC course prefix. In addition, department faculty teach courses in computational science listed with different departments across campus.
+\textit{Note: Not all courses are offered each semester. Check the FSU Registrar's Class Search Snapshots for availability.}
+
+\subsection*{Required Graduate Core Courses}
+\begin{itemize}
+    \item ISC 5305 - Introduction to Scientific Programming
+    \item ISC 5315 - Applied Computational Science I
+    \item ISC 5318 - High-Performance Computing
+    \item ISC 5934 - Introductory Seminar on Research In Computational Science
+    \item ISC 5939 - Advanced Graduate Student Seminar In Computational Science
+\end{itemize}
+
+\subsection*{Required Doctoral and Graduate Elective Courses}
+\begin{itemize}
+    \item ISC 5316 - Applied Computational Science II
+\end{itemize}
+
+\subsection*{Elective Courses}
+\begin{itemize}
+    \item BSC 5936 - Conservation Genetics
+    \item CAP 5771 - Data Mining
+    \item ISC 5425 - Introduction to Bioinformatics
+    \item ISC 5225 - Molecular Dynamics: Algorithms and Applications
+    \item ISC 5227 - Survey of Numerical Partial Differential Equations
+    \item ISC 5228 - Markov Chain Monte Carlo Simulations
+    \item ISC 5229 - Multiscale Modeling of Materials
+    \item ISC 5238 - Integral Equation Methods
+    \item ISC 5306 - Programming Skills for Computation Biology and Bioinformatics
+    \item ISC 5307 - Scientific Visualization
+    \item ISC 5314 - Verification and Validation in Computational Science
+    \item ISC 5317 - Computational Evolutionary Biology
+    \item ISC 5319 - Advanced Topics in High-Performance Computing
+    \item ISC 5415 - Computational Space Physics
+    \item ISC 5935 - Computational Issues in Optimization
+    \item ISC 5935 - Computational Materials Science
+    \item ISC 5935 - Data Science Meets Health Science
+    \item ISC 5935 - Genome Sequencing and Analysis
+    \item ISC 5326 - Introduction to Game and Simulator Design
+    \item ISC 5473 - Introduction to Density Functional Theory
+    \item ISC 5935 - Machine Learning
+    \item ISC 5935 - Mathematical Foundations of Scientific Computing
+    \item ISC 5935 - Selected Topics In Computational Science
+    \item ISC 5935 - Uncertainty Quantification in the PDE Setting
+    \item ISC 5936 - Numerical Methods for Stochastic Differential Equations
+    \item MAD 5420 - Numerical Optimization
+    \item MAP 5935 - Finite Element Methods
+\end{itemize}
+
+\subsection*{Non-coursework Courses}
+\begin{itemize}
+    \item ISC 5906 - Directed Individual Study In Computational Science
+    \item ISC 5907 - Directed Individual Study In Computational Science
+    \item ISC 5948 - Graduate Internship In Computational Science
+    \item ISC 5975 - Thesis
+    \item ISC 6981 - Dissertation
+    \item ISC 8964 - Doctoral Qualifying Examination
+    \item ISC 8965 - Doctoral Preliminary Examination
+    \item ISC 8977 - Master's Thesis Defense
+    \item ISC 8982 - Defense of Dissertation
+\end{itemize}
+
+\subsection*{Special Topics}
+\begin{itemize}
+    \item ISC 5935 - Understanding Covid
+\end{itemize}
+\newpage
+
+\section{M.S. in Data Science Curriculum}
+% url: https://www.sc.fsu.edu/graduate/ms/datascience/courses
+\textit{At this time, our Interdisciplinary Data Science master’s degree program is only available on FSU’s Tallahassee campus.}
+
+\subsection*{Core Courses (18 Credits Required)}
+\begin{tabular}{l l l}
+\hline
+\textbf{Credit Hours} & \textbf{Course No.} & \textbf{Course Title} \\ \hline
+3 & MAP 5196 & Mathematics for Data Science \\
+3 & CAP 5768 & Introduction to Data Science \\
+3 & STA 5207 & Applied Regression Methods \\
+3 & STA 5635 & Machine Learning \\
+3 & CAP 5771 & Data Mining \\
+2 & PHI 5699 & Data Ethics \\
+1 & STA 5910 & Professional Development Seminar \\ \hline
+\end{tabular}
+
+\subsection*{Scientific Computing Electives (6+ Credits Required)}
+\begin{tabular}{l l l}
+\hline
+\textbf{Credit Hours} & \textbf{Course No.} & \textbf{Course Title} \\ \hline
+3 & ISC 5228 & Monte-Carlo Methods \\
+3 & ISC 5307 & Scientific Visualization \\
+3 & ISC 5305 & Scientific Programming \\
+4 & ISC 5315 & Applied Computational Science I \\
+3 & ISC 5318 & High-Performance Computing \\
+3 & ISC 5XXX & Cloud Computing \\
+3 & ISC 5XXX & Computational Probabilistic Modeling \\
+3 & ISC 5XXX & Data Science for Health \\
+3 & ISC 5XXX & Neural Differential Equations \\ \hline
+\end{tabular}
+
+\subsection*{Free Electives (6+ Credits)}
+Free electives are offered by the participating IDS degree programs: Computer Science, Mathematics, Scientific Computing, and Statistics.
+
+\subsection*{Example Course Mapping (Three Semesters)}
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{Fall Year 1} & \textbf{Spring Year 1} & \textbf{Fall Year 2} \\ \hline
+\textbf{[ Core ]} \newline Mathematics for Data Science (3 credits) \newline MAP 5196 & \textbf{[ Core ]} \newline Machine Learning (3 credits) \newline STA 5635 & \textbf{[ Elective ]} \newline Scientific Visualization (3 credits) \newline ISC 5307 \\
+\hline
+\textbf{[ Core ]} \newline Introduction to Data Science (3 credits) \newline CAP 5768 & \textbf{[ Core ]} \newline Applied Regression Methods (3 credits) \newline STA 5207 & \textbf{[ Elective ]} \newline Applied Computational Science I (4 credits) \newline ISC 5315 \\
+\hline
+\textbf{[ Core ]} \newline Data Mining (3 credits) \newline CAP 5771 & \textbf{[ Core ]} \newline Data Ethics (2 credits) \newline PHI 5699 & \textbf{[ Elective ]} \newline Monte Carlo Methods (3 credits) \newline ISC 5228 \\
+\hline
+ & \textbf{[ Core ]} \newline Professional Development (1 credit) \newline STA 5910 & \textbf{[ Elective ]} \newline High-Performance Computing (3 credits) \newline ISC 5318 \\
+\hline
+ &  & \textbf{Graduation} $\checkmark$ \\
+\hline
+\end{tabular}
+\newpage
+
+\section{Detailed Course Descriptions}
+% Note: The following are detailed descriptions from individual course pages.
+
+\subsection{ISC 1057 - Computational Thinking [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1178&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 1057. Computational Thinking (3). This course introduces students to the process of creating a representation of a task so that it can be performed by a computer. The course investigates strategies behind popular computational methods that are shaping our daily lives and our future. Students practice logical thinking by applying versions of these computational methods to problems in science and society. \\
+\textit{This course has been approved to satisfy the Liberal Studies Quantitative/Logical Thinking requirement.}
+\begin{center}
+\textbf{Attachments}
+\begin{tabular}{l l l}
+\hline
+\textbf{File} & \textbf{Description} & \textbf{File size} \\ \hline
+ISC1057-web.jpg & Advertisement & 1318 kB \\
+ISC1057 Poster & Spring 2017 & 1211 kB \\
+1057\_syllabus.pdf & Fall 2016 & 71 kB \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{ISC 2310 - Data Science with Python [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1556&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 2310. Introduction to Computational Thinking in Data Science with Python (3). Prerequisite: MAC 1105 or equivalent. This course investigates strategies behind popular computational methods used in data science. In addition, many of the algorithms are implemented using the programming language Python. No prior programming experience is required so the course presents the basics of the Python language as well as how to leverage Python's libraries to solve real-world problems in data science. \\
+\textbf{Course Testimonials:}
+\begin{itemize}
+    \item "I have been wanting to learn Python for a while now and I also wanted to take a class that would expand my knowledge of data analysis/data science. This class was an ideal fit for both of these desires."
+    \item "I like the Python portion a lot. Following along to the many examples done in the videos and then doing similar ones on my own in the practice notebooks is very effective. To me, everything here is good."
+    \item "I honestly feel as though you guys did a great job with the format of this class. That means everything from the grades, organization of the assignments, videos, and written notes."
+    \item "I feel like the data science portion is done well. The reading can be pretty dense but working through examples in text and videos really helped me grasp all the conceptual material."
+\end{itemize}
+\textit{Formerly: ISC 2310 - Introduction to Computational Thinking in Data Science with Python}
+
+\subsection{ISC 3222 - Symbolic and Numerical Computations [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=618&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 3222. Symbolic and Numerical Computations (3). Prerequisite: MAC 2311. This course introduces state-of-the-art software environments for solving scientific and engineering problems. Topics include solving simple problems in algebra and calculus; 2-D and 3-D graphics; non-linear function fitting and root-finding; basic procedural programming; methods for finding numerical solutions to DE's with applications to chemistry, biology, physics, and engineering.
+
+\subsection{ISC 3313 - Introduction to Scientific Computing [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=98&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+\textbf{Programming Language will be C++} \\
+ISC 3313. Introduction to Scientific Computing (3). Prerequisites: MAC 2311 or instructor permission. This course introduces the student to the science of computation. Topics cover algorithms for standard problems in computational science, as well as the basics of an object-oriented programming language, to facilitate the students' implementation of algorithms. Satisfies FSU Computer Competency requirement. \\
+Each semester, this course is taught with a different programming language, with the following (historical) schedule shown below. The course may also be offered in the summer, in which case the language will be chosen by the instructor.
+\begin{itemize}
+    \item \textbf{C++:} SP 2025, FA 2024, SP 2024, FA 2023, SP 2023, FA 2022, SP 2022, FA 2021, FA 2020, FA 2019, FA 2018, FA 2016, FA 2015, SP 2014
+    \item \textbf{Fortran:} SP 2020, SP 2018, FA 2017, SP 2016, FA 2014
+    \item \textbf{Java:} SP 2019, SP 2017, SP 2015, FA 2013
+    \item \textbf{Python:} SU 2022, SU 2021, SU 2020
+\end{itemize}
+
+\subsection{ISC 4220C - Continuous Algorithms for Science Applications}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=619&Itemid=288
+\textbf{Last Offered:} Spring 2025 \\
+ISC 4220C. Continuous Algorithms for Science Applications (4). Prerequisite: MAC 2312. This course provides basic computational algorithms, including interpolation, approximation, integration, differentiation, and linear systems solution presented in the context of science problems. The laboratory component includes algorithm implementation for simple problems in the sciences and applying visualization software for interpretation of results. \\
+\textit{Formerly Algorithms for Science Applications I}
+
+\subsection{ISC 4221C - Discrete Algorithms for Science Applications [4]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=657&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 4221C. Discrete Algorithms for Science Applications (4). Prerequisites: MAC 2311. This course offers stochastic algorithms, linear programming, optimization techniques, clustering and feature extraction presented in the context of science problems. The laboratory component includes algorithm implementation for simple problems in the sciences and applying visualization software for the interpretation of results. \\
+\textit{Formerly named Algorithms for Science Applications II}
+
+\subsection{ISC 4223C - Computational Methods for Discrete Problems [4]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=679&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 4223C. Computational Methods for Discrete Problems (4). Prerequisites: ISC 4304C and MAS 3105. This course describes several discrete problems arising in science applications, a survey of methods and tools for solving the problems on computers, and detailed studies of algorithms, and their use in science and engineering. The laboratory component illustrates the concepts learned in the context of science problems.
+
+\subsection{ISC 4232C - Computational Methods for Continuous Problems [4]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=680&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 4232C. Computational Methods for Continuous Problems (4). Prerequisites: ISC 4304C and MAS 3105. This course provides numerical discretization of differential equations and implementation for case studies drawn from several science areas. Finite-difference, finite-element, and spectral methods are introduced and standard software packages are used. The laboratory component aims to illustrate the concepts learned on a variety of application-driven problems.
+
+\subsection{ISC 4304C - Programming for Scientific Applications}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=656&Itemid=288
+\textbf{Last Offered:} Spring 2025 \\
+ISC 4304C. Programming for Science Applications (4). Prerequisite: MAC 2311. This course provides knowledge of a scripting language that serves as a front-end to popular packages and frameworks, along with a compiled language such as (C++). Students study and practice scientific programming with the scripting language and practice how to interface it with a more traditional programming language to improve the speed of the programs developed in the course. In the laboratory component of this course, students apply the concepts learned in class. Students analyze large data sets by translating from mathematical expressions and algorithms to working computer code that is then used to visualize and summarize the results.
+
+\subsection{ISC 4931r - Junior Seminar in Scientific Computing [1]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=720&Itemid=288
+\textbf{Last Offered:} Fall 2025 \\
+ISC 4931r. Junior Seminar in Scientific Computing (1–2). (S/U grade only.) Prerequisite: Junior standing (sixty plus hours). This is a special topics course in computational science. May be repeated two times to a maximum of four semester hours, with a maximum of only two semester hours credit allowed to be applied to the Computational Science degree.
+
+\subsection{ISC 4932 - Senior Seminar in Scientific Computing [1]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=721&Itemid=288
+\textbf{Last Offered:} Fall 2024 \\
+ISC 4932r. Senior Seminar in Scientific Computing (1–2). (S/U grade only.) Prerequisite: Senior standing (ninety plus hours). This is a special topics course in computational science. May be repeated one time to a maximum of four semester hours, with a maximum of only one semester hour credit allowed to be applied to the Computational Science degree.
+
+\subsection{ISC 4933 - Understanding Covid}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1650&Itemid=288
+\textbf{Offered:} Fall 2022 \\
+\textbf{Schedule \& Location:} MWF 10:40-11:30, 499 DSL \\
+In this course, students will explore the different elements that determine the outcome of infectious disease in humans, using COVID-19 as a case study. Starting with a very basic model that includes susceptible, infected, and recovered individuals, students will gradually incorporate factors that may affect the outcome of an outbreak, such as masking/quarantining, gain and loss of natural and vaccine-based immunity, and changing virulence/strains. After summarizing data already collected during the recent pandemic, students will inform the model to determine the conditions under which different outcomes may occur. Students will summarize their results graphically and present their findings. No prerequisites or programming experience required. The course is designed to be accessible to all students, regardless of background or major.
+
+\subsection{ISC 4933/5318 - High-Performance Computing}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=117&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+ISC 4933/ISC 5318. High-Performance Computing (3). Prerequisites: ISC 5305 or equivalent or instructor permission. This course introduces high-performance computing, term which refers to the use of parallel supercomputers, computer clusters, as well as software and hardware in order to speed up computations. Students learn to write faster code that is highly optimized for modern multi-core processors and clusters, using modern software-development tools and performance analyzers, specialized algorithms, parallelization strategies, and advanced parallel programming constructs.
+
+\subsection{CAP 5771 - Data Mining}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1231&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+CAP 5771. Data Mining (3). Prerequisite: ISC 3222 or ISC 3313 or ISC 4304C or COP 3330 or COP 4530 or instructor permission. This course enables students to study concepts and techniques of data mining, including characterization and comparison, association rules mining, classification and prediction, cluster analysis, and mining complex types of data. Students also examine applications and trends in data mining. \\
+\textit{Undergraduate Level (ISC 4245C)}
+
+\subsection{ISC 5228 / ISC 4933 - Monte Carlo Method [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=125&Itemid=296
+\textbf{Last Offered:} Fall 2025 \\
+ISC 5228. Monte Carlo Methods (3). Prerequisites: ISC 5305; MAC 2311, 2312. This course provides an introduction to probabilistic modeling and Monte Carlo methods (MCMs) suitable for graduate students in science, technology, and engineering. It provides an introduction to discrete event simulation, MCMs and their probabilistic foundations, and the application of MCMs to various fields. In particular, Markov chain MCMs are introduced, as are the application of MCMs to problems in linear algebra and the solution of partial differential equations.
+
+\subsection{ISC 5305 - Scientific Programming [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=123&Itemid=296
+\textbf{Last Offered:} Fall 2025 \\
+ISC 5305. Scientific Programming (3). Prerequisites: working knowledge of one programming language (C++, Fortran, Java), or instructor permission. This course focuses on object-oriented coding in C++, Java, and Fortran 90 with applications to scientific programming. Discussion of class hierarchies, pointers, function, and operator overloading and portability. Examples include computational grids and multidimensional arrays.
+
+\subsection{ISC 5307 - Scientific Visualization}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=121&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+ISC 5307. Scientific Visualization (3). Prerequisites: CGS 4406, ISC 5305, or instructor permission. The course covers the theory and practice of scientific visualization. Students learn how to use state-of-the-art visualization toolkits, create their own visualization tools, represent both 2-D and 3-D data sets, and evaluate the effectiveness of their visualizations. \\
+\textit{Undergraduate Level (ISC 4302)}
+
+\subsection{ISC 5308 - Computational Aspects of Data Assimilation}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=596&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+Data assimilation methods combine numerical models and observations to arrive at the best possible representation of a physical system. This course aims to build a robust theoretical foundation in the subject and explore some of the computational challenges in large scientific and engineering applications. Students will gain hands-on experience by implementing their own algorithms and will complete a final project on a preferred research topic. Prerequisites: Applied Statistics for Engineers and Scientists (STA 3032), Applied Linear Algebra I/II (MAS 3105/MAS 4106) and Programming for Scientific Applications (ISC 4304) or Instructor Permission Required.
+
+\subsection{ISC 5314 - Verification and Validation in Computational Science}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=346&Itemid=296
+\textbf{Last Offered:} Spring 2024 \\
+\textbf{Schedule \& Location:} T R 1:20-2:35 (152 DSL) \\
+ISC 5314. Verification and Validation in Computational Science (3). Prerequisites: MAC 2312, MAS 3105, or ISC 5315; or instructor permission. This course covers the theory and practice of verification and validation in computational sciences. Students learn basic terminology, are exposed to procedures and practical methods used in software implementation validation and in solution verification, employ exact and manufactured solutions, and explore elements of software quality assurance. The course introduces essential data analysis techniques and reviews software development and maintenance tools. Examples from physical sciences and engineering are used to illustrate aspects of code variation, including validation hierarchy, validation benchmarks, uncertainty quantification and simulation code predictive capabilities. The computational laboratory is an essential part of this course.
+
+\subsection{ISC 5315 - Applied Computational Science I [4]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=120&Itemid=296
+\textbf{Last Offered:} Fall 2025 \\
+ISC 5315. Applied Computational Science I (4). Prerequisites: ISC 5305; MAP 2302; or instructor permission. This course provides students with high-performance computational tools necessary to investigate problems arising in science and engineering, with an emphasis on combining them to accomplish more complex tasks. A combination of course work and lab work provides the proper blend of theory and practice with problems culled from the applied sciences. Topics include numerical solutions to ODEs and PDEs, data handling, interpolation and approximation, and visualization.
+
+\subsection{ISC 5316 - Applied Computational Science II}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=119&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+ISC 5316. Applied Computational Science II (4). Prerequisite: ISC 5315 or instructor permission. This course provides students with high-performance computational tools necessary to investigate problems arising in science and engineering, with an emphasis on combining them to accomplish more complex tasks. A combination of course work and lab work provides the proper blend of theory and practice with problems culled from the applied sciences. Topics include mesh generation, stochastic methods, basic parallel algorithms and programming, numerical optimization, and nonlinear solvers.
+
+\subsection{ISC 5317 / ISC 4933 - Computational Evolutionary Biology [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=118&Itemid=296
+\textbf{Last Offered:} Fall 2025 \\
+ISC 5317. Computational Evolutionary Biology (4). Prerequisites: ISC 5224, ISC 5306, or instructor permission. This course presents computational methods for evolutionary inferences. Topics include the underlying models, the algorithms that analyze models, and the creation of software to carry out the analysis.
+
+\subsection{ISC 5934r - Introductory Seminar on Research in Computational Science [1]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=114&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+ISC 5934r. Introductory Seminar on Research in Computational Science (1). (S/U grade only). A series of lectures given by faculty on research being conducted in the Department of Scientific Computing. \\
+\textit{Note: This course should be taken twice.}
+
+\subsection{ISC 5935 - Understanding Covid}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1651&Itemid=296
+\textbf{Offered:} Fall 2022 \\
+\textbf{Schedule \& Location:} MWF 10:40-11:30, 499 DSL \\
+In this course, students will explore the different elements that determine the outcome of infectious disease in humans, using COVID-19 as a case study. Starting with a very basic model that includes susceptible, infected, and recovered individuals, students will gradually incorporate factors that may affect the outcome of an outbreak, such as masking/quarantining, gain and loss of natural and vaccine-based immunity, and changing virulence/strains. After summarizing data already collected during the recent pandemic, students will inform the model to determine the conditions under which different outcomes may occur. Students will summarize their results graphically and present their findings. No prerequisites or programming experience required. The course is designed to be accessible to all students, regardless of background or major.
+
+\subsection{ISC 5935 / ISC 4933 - Science Professional Development [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1739&Itemid=296
+\textbf{Last Offered:} Fall 2024 \\
+The course would cover topics such as improving communication in science (posters, talks, manuscripts, grants, etc), as well as some work on primary literature, and the publication process. Finally there would be a component on applying for grad school or jobs.
+
+\subsection{ISC 5935 / ISC 4933 - AI Methods and Applications [3]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1741&Itemid=296
+\textbf{Last Offered:} Fall 2025 \\
+AI is a fast-moving discipline which is impacting many areas of our daily life. In this course, students will get an introduction into deep learning and reinforcement learning and will also learn novel concepts such as graph neural networks, encoders and attention networks. Applications from several areas such as medical imaging, weather forecast and finance are introduced.
+
+\subsection{ISC 5935 - Atomistic Modeling of Molecules and Materials}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1756&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+The course is designed for students who are interested in atomistic simulations of molecules and materials. Two popular methods will be introduced: density functional theory (DFT) and molecular dynamics. DFT has become the workhorse in industry and academia for calculating various properties of materials and molecules, such as electronic properties, crystal structures, and chemical reaction energies. We will learn both the theoretical and numerical aspects of DFT. Molecular dynamics are invaluable for understanding the dynamical processes of materials at the atomic scale. We will introduce the theories underlying molecular dynamics simulations and learn how to calculate various properties of materials using molecular dynamics. Popular software in these two fields will be introduced. Please contact \textit{[Email Protected]} for additional details.
+
+\subsection{ISC 5935 - Computational Methods in Fire Science}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1757&Itemid=296
+\textbf{Last Offered:} Spring 2024 \\
+\textbf{Schedule \& Location:} M W F 10:40-11:30, 499 DSL \\
+Have you ever wondered why fires spread and grow in size so quickly or how smoke plumes can travel thousands of kilometers? These behaviors are governed by fuel properties, atmospheric conditions, topography, and more. This course introduces physics-based and data-driven models in fire science, and investigates the sensitivity and uncertainty of these models. We will discuss computational tools including cellular automata, level set methods, and data-driven methods for discovering equations from measured data. Finally, we will explore techniques for analyzing both simulated and measured fire data. Please contact \textit{[Email Protected]} for additional details. \\
+\textit{Undergraduate Level (ISC 4933)}
+
+\subsection{ISC 5935 - Data Science Meets Health Science}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1676&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+This course will focus on the applied data science pipeline of data acquisition, data processing and integration, data modeling and analysis, and validation and delivery, commonly used in the Health industry. Topics include data normalization, scientific visualization, multivariate regression, and Artificial Neural Networks (dense, convolutional, recurrent, and adversarial). The examples and projects of this course contain 1D to 4D health data of electrocardiogram sequences, X-ray, Magnetic resonance imaging (MRI), and functional MRI images. \\
+\textit{Undergraduate Level (ISC 4933)}
+
+\subsection{ISC 5935 - Computational Probabilistic Modeling}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1677&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+ISC 4933/ISC 5935. Computational Probabilistic Modeling (3). Prerequisites: MAC 2312 - Calculus II, MAS 3105 – Applied Linear Algebra, and STA 4442/5440: Introduction To Probability or STA 4321/5323: Introduction to Mathematical Statistics, or the permission of the instructor. In this course, students are introduced to probabilistic programming and modeling for modern data science and machine learning applications. Algorithms for predictive inference are covered from a theoretical and practical viewpoint with an emphasis on implementation in Python. Topics include an introduction to probability and learning theory, graph-based methods, machine learning with neural networks, dimensionality reduction, and algorithms for big data.
+
+\subsection{ISC 5939 - Advance Grad Seminar in Fire Dynamics}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1678&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+Please contact \textit{[Email Protected]} for details.
+
+\subsection{GFD 5500L - Fire Dynamics Field School}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1680&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+This course will provide a multidisciplinary hands-on apprenticeship to the field methods most commonly used in prescribed fire. It will give graduate students the opportunity to gain a greater appreciation of the complexity of weather and the atmospheric boundary layer and fire as a fluid system, and its dynamics through the active participation in prescribed fire field research, operations, organizational and management concepts. It is an entry-level preparation for students considering a career in fire dynamics, fire science and management. This course represents a "real-world" practical project experience with time and budget constraints. Students will propose field measurements and produce a short research paper, and present scientific results. Students will have the opportunity to learn and practice basic land survey techniques, basic site fuels evaluation, basic preparation of burn units, public outreach activities via the project website, and involvement in the organizational and logistic requirements of staging and operating a field project. Students will be introduced to, and work with, various types of surveying, photographic, video, and computer equipment during the course of the field school. Interested graduate students from related natural sciences (Physics, Meteorology, Environmental Sciences or Studies, Biology, Geosciences, or Chemistry, etc.) are welcome. \\
+\textit{Fire Dynamics Field School Research and Operations in Prescribed Fire}
+
+\subsection{GFD 5936 / GFD 4934 - Advanced Topics in Fire Dynamics [1]}
+% url: https://www.sc.fsu.edu/index.php?option=com_content&view=article&id=1759&Itemid=296
+\textbf{Last Offered:} Spring 2025 \\
+Please contact \textit{[Email Protected]} for details. \\
+This graduate seminar course will expose students to a set of selected topics in fire dynamics research through a variety of methods(group discussion of ongoing student research, faculty research, and outside speakers). Students will additionally prepare and present a short research presentation suitable for a conference. Topics will be drawn from different disciplines of fire dynamics, including fluid dynamics, meteorology, physics, computational sciences, ecology, forestry. Interested graduate students from related natural sciences (Physics, Meteorology, Environmental Sciences or Studies, Biology, Geosciences, or Chemistry, etc.) are welcome. Instructor permission required.

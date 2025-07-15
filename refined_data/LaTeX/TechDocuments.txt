@@ -1,0 +1,2178 @@
+The following technical documents are here to help our users with the various software and hardware resources available to them. Please send an email to \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} if there is something that needs additional documentation.
+
+\section{Facilities, Computational Infrastructure}
+\url{https://www.sc.fsu.edu/computing/tech-docs/278-facilities-computational-infrastructure}
+
+Feel free to copy relevant portions of this text into your research proposals.
+
+\subsection*{The Department of Scientific Computing (DSC)}
+The Department of Scientific Computing (DSC) plays a major role in the support of FSU's cyberinfrastructure by providing facilities and technical expertise in the support of scientific computing. The DSC manages a dedicated computing facility located on the main FSU campus in Dirac Science Library. The DSC facility provides a highly flexible computing environment designed to support specialized and experimental hardware and software systems.
+
+\subsection*{DSC Computing Facility}
+The DSC facility supports an assortment of computer architectures, interconnects, and operating systems. Systems hosted in the DSC facility are owned by DSC and are dedicated to a wide range of research problems including; machine learning, neuroscience, molecular biophysics, evolutionary biology, network modeling, and Monte-Carlo algorithm development. The DSC facility is equipped with two 40-ton HVAC cooling units, 1000 ft$^2$ of raised floor, an extensive power distribution system, UPS battery backup systems, and a 550 KVA diesel-powered backup generator, which provides backup power to all of the hardware and HVACs in this server room. The DSC network is built on a 10 Gbps backbone, providing connectivity to a switching infrastructure and to key servers and storage. The DSC network connects via 100 Gbps to the FSU campus backbone, which in turn connects to the Florida/National LamdaRail.
+
+\subsection*{FSU RCC (formerly the Shared-HPC)}
+Please \href{https://its.fsu.edu/help/it-support/researchers#grants}{click here to access the latest RCC facilities statement}.
+
+\subsection*{Scientific Visualization}
+The DSC supports a general access laboratory for scientific visualization and computational intelligence. The laboratory is located in the center of the main FSU campus on the fourth floor of the Dirac Science Library (DSL). The Visualization Laboratory hosts several high-end visualization workstations each equipped with GPU video cards that are compatible with the CUDA SDK. All workstations have access to a multi-terabyte shared high-performance storage.
+
+The DSC's visualization resources also include a high-resolution laser projection system to support multidisciplinary scientific visualization. The system is located in our main seminar room adjacent to the Visualization Lab. A cutting edge 4K Enhancement Technology rear-mounted projector illuminates an 18' x 8' screen. The system supports numerous input devices via a simple to use touch panel screen.
+
+\subsection*{General DSC Infrastructure}
+The DSC provides office space to DSC faculty, postdocs, graduate students, and other DSC associated support personnel. Designated visitor offices are also available. All offices are equipped with a desktop computer and network connections; wireless is available throughout campus. The department of Scientific Computing supports a cutting edge classroom facility on the campus of FSU to support scientific programming curriculum. The classroom was funded in part by a Student Technology fee award for instructional technology enhancements. The room is equipped with 19 Intel-based workstations running LINUX or Windows and is used primarily for classes taught by DSC faculty. In addition to the computer classroom, a large seminar room is located on the fourth floor with a capacity for 80 people and is equipped with a 4K Enhanced rear-mounted laser projection system. Also, two conference rooms equipped with large high-definition displays can facilitate smaller groups.
+
+\subsection*{DSC Classroom}
+The Department of Scientific Computing (DSC) takes pride in its cutting-edge classroom facility designed to cater to modern computational and scientific needs. Situated within the FSU campus, the classroom has been recently updated to include the latest technology, thereby providing a conducive environment for effective teaching and learning.
+
+The classroom is equipped with 20 new systems, each powered by an Intel® Core™ i9-10940X processor, boasting 3.30GHz speed and 14 cores. These machines are fitted with a robust 64GB of RAM, ensuring rapid data processing and multitasking capabilities. The GPU in these systems is the NVIDIA RTX A5000, designed to handle intense graphics and data-intensive tasks, making them ideal for research in machine learning, data science, and scientific computing.
+
+The DSC Classroom is a testament to FSU's commitment to providing state-of-the-art facilities for research and education in scientific computing. With this advanced setup, students and faculty have the resources they need for in-depth exploration and innovative problem-solving in various domains.
+\hfill \textit{Written by Michael McDonald}
+
+\section{File Transfers and Sharing}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1661-file-transfers-and-sharing}
+
+\subsection*{FSU Noles File Transfer (NiFTy)}
+Are you having trouble to share large documents/attachments? FSU NiFTy allows you to dropoff large files for anyone in the world with email access and vice versa. Please give this a try.
+\begin{center}
+    \href{http://NiFTy.FSU.edu}{NiFTy.FSU.edu}
+\end{center}
+\hfill \textit{Written by Michael McDonald}
+
+\section{Download files from DSC computers}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1669-download-files-from-dsc-computers}
+
+From off campus, you are able to download files or folders from DSC computers to personal laptops.
+
+\subsection*{Mac}
+Open a terminal window in Mac, and first create the tunnel of transfer by providing your fsuid and remote computer name:
+\begin{verbatim}
+ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu:22 your_fsuid@pamd.sc.fsu.edu
+\end{verbatim}
+Once the tunnel is established by providing credentials, you can start to download or upload as follows:
+\begin{verbatim}
+rsync -avz -e 'ssh -p 2222' fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+rsync -avz -e 'ssh -p 2222' /local_upload_folder fsuid@localhost:/remote_destination_directory
+\end{verbatim}
+
+\subsection*{Windows 10}
+Open a command Window, and establish the tunnel (NOTE the option -R):
+\begin{verbatim}
+ssh -f -N -R 2222:remote_computer_name.sc.fsu.edu your_fsuid@pamd.sc.fsu.edu
+\end{verbatim}
+Now you can download or upload files and/or folders as follows (NOTE the option -P):
+\begin{verbatim}
+scp -r -P 2222 fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+scp -r -P 2222 /local_source fsuid@localhost:/remote_destination
+\end{verbatim}
+fsuid password may be required.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Changing your password or environment}
+\url{https://www.sc.fsu.edu/computing/tech-docs/177-changing-your-password-or-environment}
+
+\subsection*{Changing passwords}
+The department uses FSUIDs/LDAP for a centralized authentication system. This allow for one common password to be used across all of the desktops, webpages, and clusters that we support. However many systems don't understand how to change passwords correctly in LDAP, so if you use a local utility to change your password it probably won't work correctly.
+
+To change your password please follow the link bellow.
+\begin{center}
+    \href{https://my.fsu.edu/Account-Help/Change-Reset-my-FSUID-Password}{Change/Reset my FSUID Password}
+\end{center}
+
+\subsection*{Changing environment}
+The department supports three default login shells:
+\begin{itemize}
+    \item \texttt{csh}
+    \item \texttt{tcsh}
+    \item \texttt{bash}
+\end{itemize}
+To change your shell, please email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+\hfill \textit{Written by Administrator}
+
+\section{Configuring Email}
+\url{https://www.sc.fsu.edu/computing/tech-docs/178-email}
+
+The Department of Scientific Computing has transferred its email and list services to Florida State University. Your primary email account is now your \texttt{fsuid@my.fsu.edu}. Any mailing lists you are subscribed to need to be modified to use your \texttt{fsuid@my.fsu.edu}.
+
+Here are several methods to access \texttt{fsuid@my.fsu.edu}.
+
+\subsection*{Webmail}
+\url{https://webmail.fsu.edu/}
+
+\subsection*{Outlook}
+Follow \href{https://its.fsu.edu/help/it-support/email-calendars/student-email-accounts/configure-outlook-your-student-email}{these instructions for outlook access}.
+
+After the setup, you can refer to \href{https://www.sc.fsu.edu/computing/tech-docs/234-outlook-faq}{Outlook FAQ}.
+
+\subsection*{Thunderbird}
+If you are current Thunderbird users, you already have accounts setup. Adding FSU account is similar. To include \texttt{fsuid@my.fsu.edu} to Thunderbird, \href{https://support.mozilla.org/en-US/kb/automatic-account-configuration}{follow these instructions}.
+
+\href{https://www.sc.fsu.edu/computing/tech-docs/233-thunderbird-faq}{Thunderbird FAQ}
+
+\subsection*{Other Client Programs}
+We don't encourage the use of other email clients than listed above. If you have to use Mac Mail, Entourage, Eudora, or Outlook Express, you can find the information at \href{https://its.fsu.edu/help}{FSU Helpdesks}.
+
+\subsection*{Preferred FSU Email Address}
+You may want to change the preferred email address associated with your FSUID if it is \texttt{fsuid@cs.fsu.edu} or \texttt{fsuid@scs.fsu.edu}. Here is how.
+
+Create a case with ITS to change your preferred email address, \url{https://servicecenter.fsu.edu}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{CVS information}
+\url{https://www.sc.fsu.edu/computing/tech-docs/226-cvs-information}
+
+CVS usage is generally depreciated in favor of git or SVN. More information regarding version control systems can be found \href{https://www.sc.fsu.edu/computing/tech-docs/225-svn-information}{here}.
+
+What follows is a general tutorial on how to use CVS if you already have a repository hosted somewhere.
+
+From any unix host, such as pamd, ensure all your files for your repository are under the same directory tree.
+
+Set environmental variables by editing your \texttt{.profile}.
+\begin{description}
+    \item[bash:]
+    \begin{verbatim}
+CVSROOT={mylogin}@cvs.server.org:/data/cvs
+CVS_RSH=ssh
+export CVSROOT
+export CVS_RSH
+    \end{verbatim}
+    \item[csh, tsch:]
+    \begin{verbatim}
+setenv CVSROOT {mylogin}@cvs.server.org:/data/cvs
+setenv CVS_RSH ssh
+    \end{verbatim}
+\end{description}
+
+Import to your repository on the CVS server.
+\begin{verbatim}
+cvs import -m "{message}" {myproject} {myname} {start}
+\end{verbatim}
+To create a working copy of your directory:
+\begin{verbatim}
+cvs checkout {myproject}
+\end{verbatim}
+Edit a file and check the differences:
+\begin{verbatim}
+cvs diff
+\end{verbatim}
+To commit your changes:
+\begin{verbatim}
+cvs commit
+\end{verbatim}
+
+\section{Acrobat Reader}
+\url{https://www.sc.fsu.edu/computing/tech-docs/331-acrobat}
+
+\href{https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html}{Acrobat Reader} is a commercial PDF file viewer. To use Acrobat Reader, type \texttt{acroread} at the X11 command prompt. It is available on most desktop machines.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{ARPACK}
+\url{https://www.sc.fsu.edu/computing/tech-docs/338-arpack}
+
+\href{http://www.caam.rice.edu/software/ARPACK/}{ARPACK} is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{BLAS}
+\url{https://www.sc.fsu.edu/computing/tech-docs/339-blas}
+
+The Basic Linear Algebra Subprograms (\href{http://www.netlib.org/blas/}{BLAS}) are routines that provide standard building blocks for performing basic vector and matrix operations. The Level 1 BLAS perform scalar, vector and vector-vector operations, the Level 2 BLAS perform matrix-vector operations, and the Level 3 BLAS perform matrix-matrix operations. Because the BLAS are efficient, portable, and widely available, they are commonly used in the development of high quality linear algebra software, \href{http://www.netlib.org/lapack/}{LAPACK} for example. The libraries are typically linked into your application. For example,if the libraries are stored on \texttt{/usr/local/lib}, use \texttt{-L/usr/local/lib -lf77blas} in your program linker step to link to these libraries. Detailed lists of functions can be found on the links above.
+
+For more information see the \href{http://www.netlib.org/blas/}{Basic Linear Algebra Subprogram homepage} or \href{http://www.netlib.org/blas/faq.html}{BLAS FAQ}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{FFTW}
+\url{https://www.sc.fsu.edu/computing/tech-docs/340-fftw3}
+
+The "Fastest Fourier Transform in the West" (FFTW) is a C library for computing discrete Fourier transforms (DFT). Note that there are two main versions of FFTW, version 2 and version 3 which are not compatible. The basic usage of FFTW to compute a one-dimensional DFT of size N is simple, and it typically looks something like this code:
+\begin{verbatim}
+#include <fftw.h>
+...
+{
+    fftw_complex *in, *out;
+    fftw_plan p;
+    ...
+    in = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * N);
+    out = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * N);
+    p = fftw_plan_dft_1d(N, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
+    ...
+    fftw_execute(p); /* repeat as needed */
+    ...
+    fftw_destroy_plan(p);
+    fftw_free(in);
+    fftw_free(out);
+}
+\end{verbatim}
+Other examples can be found in the \href{http://www.fftw.org/fftw3_doc/index.html}{FFTW documentation}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{CHARMM}
+\url{https://www.sc.fsu.edu/computing/tech-docs/354-charmm}
+
+Chemistry at HARvard Macromolecular Mechanics (\href{http://www.charmm.org/}{CHARMM}) is a program for macromolecular simulations, including energy minimization, molecular dynamics and Monte Carlo simulations. The primary concern of CHARMM has been to create a research instrument for theoretical studies of the properties and biological function of molecules. Consequently, emphasis has been placed on the versatility of the program and it is being continually modified as work proceeds into new areas.
+
+\section{Electronic Board}
+\url{https://www.sc.fsu.edu/computing/tech-docs/375-panaboard}
+
+The Panasonic Panaboard (UB-2815C) is a Color Scanning System that preserves writings on the board to attached devices: USB Flash Memory/SD Memory Card/printers/computers. Four boards are located in DSL 152, 411, 416 and 499.
+
+\subsection*{Useful Links}
+\begin{itemize}
+    \item \href{https://panasonic.net/cns/doc/pcc/support/panaboard/ub-2815c/index.html}{Device Information}
+    \item \href{https://panasonic.net/cns/doc/pcc/support/panaboard/ub-2815c/index.html#download}{Downloads}
+    \item \href{https://panasonic.net/cns/doc/pcc/support/panaboard/ub-2815c/index.html#supply}{Supplies}
+\end{itemize}
+
+\subsection*{Save Image to USB Flash Drive}
+\begin{enumerate}
+    \item Set the power switch to on.
+    \item Connect the USB flash memory device to “MEMORY” slot.
+    \item Devices formatted using FAT (FAT16) will be recognized by the unit faster. Drives with security feature or larger than 2GB in size may experience difficulty.
+    \item Press the Mode Key (return or half moon key) to select the scanning mode.
+    \item Press the Start/Stop Key (green button).
+    \item Do not remove the USB device until the preview is shown.
+    \item Press the Multi-Copy Key (right triangle) to zoom in on the image or to return to the preview.
+    \item Press the Mode Key (return or half moon key) again to return to standby mode.
+    \item Only remove the USB flash memory device once you have returned to standby mode.
+\end{enumerate}
+Files are saved in \texttt{ub-2815c} folder in PDF format by default. Can choose JPEG/TIFF if needed.
+Time stamp on the scan can be turned off if needed.
+
+\subsection*{Attachments}
+\begin{description}
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/375-panaboard/Panaboard_Tutorial.pdf}{Tutorial Slides}] Panaboard Tutorial (467 kB)
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/375-panaboard/User_Manual.pdf}{Operating Instructions}] User Manual (4695 kB)
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/375-panaboard/Panaboard_Info.pdf}{Panaboard Info}] Capabilities and specifications (4277 kB)
+\end{description}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Account Policy}
+\url{https://www.sc.fsu.edu/computing/tech-docs/531-account-policy}
+
+The policy is intended to make clear when DSC users are required to change their password, what sponsors are required to do to keep a sponsored account, and to prevent sponsored accounts from becoming "orphaned" if their sponsor leaves the DSC.
+(Note: Only DSC faculty and Staff are allowed to sponsor accounts)
+
+\subsection*{Password expiration}
+\begin{itemize}
+    \item \textbf{180 days} without a password change, user gets a warning requiring the change of password.
+    \item \textbf{200 days} without a password change, user account is locked out and the sponsor is emailed about this action. The account owner must contact a member of \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} to have account access restored.
+    \item \textbf{350 days} without a password change, the account owner and sponsor get a message warning that the account data will be deleted in 10 days if the password is not changed by contacting a member of the TSG.
+    \item \textbf{360 days} without a password change, user account and associated data are deleted from DSC file system.
+\end{itemize}
+
+\subsection*{Sponsored account verification}
+\begin{itemize}
+    \item \textbf{180 days} without sponsor verification, the sponsor gets a warning requiring the verification of continued sponsorship.
+    \item \textbf{200 days} without sponsor verification, the sponsored account is locked so that the account owner can no longer log in and the sponsor is informed of this action via email. The sponsor must contact a member of \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} to have account access restored.
+    \item \textbf{350 days} without a sponsor verification, the account owner and sponsor get a message warning them that the account and associated data will be deleted from the DSC file systems.
+    \item \textbf{360 days} without a sponsor verification, the account and associated data is deleted from DSC file systems.
+\end{itemize}
+
+\subsection*{Sponsoring account removal}
+\begin{itemize}
+    \item \textbf{220 days} without a sponsor password change, the sponsoring and sponsored accounts get a warning
+    \item \textbf{290 days} without a sponsor password change, the sponsoring and sponsored accounts are locked
+    \item \textbf{350 days} without a sponsor password change, the sponsoring and sponsored accounts get a message warning that the accounts and associated data will be deleted in 10 days.
+    \item \textbf{360 days} without a sponsor password change, the sponsoring and sponsored accounts and associated data are deleted from the DSC file systems.
+\end{itemize}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Redhat Software Collections}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1017-redhat-software-collections}
+
+Sometimes more recent versions of programming tools are needed. To accomodate that without replacing the base operating system tools, Redhat has implemented software collections. This allows users to run gcc 4.9.x, python 2.7.x, etc. on a per application basis while maintaining well-tested operating system integrity.
+
+The \texttt{scl} utility makes the switching simple.
+
+The current gcc version is 4.4. To use gcc 4.9 in bash shell, run the following commands:
+\begin{verbatim}
+scl enable devtoolset-4 bash
+gcc -v
+gfortran -v
+\end{verbatim}
+Likewise to use python 3.6, run the following:
+\begin{verbatim}
+scl enable rh-python36 bash
+python -V
+\end{verbatim}
+By exiting that bash shell, users will return back to the default system tools.
+
+Other useful commands:
+\begin{verbatim}
+cat my_script | scl enable rh-python36 -
+scl -l devtoolset-4
+\end{verbatim}
+The first command runs \texttt{my\_script} using python3.6 from the current shell (note the dash in the end). The second lists the packages included in collection \texttt{devtoolset-4}.
+
+For more information, refer to \href{https://access.redhat.com/documentation/en-us/red_hat_software_collections/2/html/user_guide/index}{Red Hat Software Collections 2.0}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Jupyter Notebook}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1018-ipython-notebook}
+
+"Jupyter Notebook, formerly known as iPython, is an interactive computational environment, in which you can combine code execution, rich text, mathematics, plots and rich media..." Currently IPython Notebook is available on classroom and hallway computers.
+
+To use this tool on hallway computers from user desktop, run the following commands:
+\begin{verbatim}
+qlogin
+scl enable rh-python36 bash
+cd directory_with_notebook_files
+jupyter-notebook
+\end{verbatim}
+The second command is not needed if notebook desn't require python 3.6.
+
+For more information, refers to \href{http://jupyter.org/}{IPython Notebook}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Introduction to CPython}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1163-cpython}
+
+This tutorial will run through using cpython on DSC machines.
+Click on any image to view it in a lightbox.
+
+\subsection*{The Basics}
+For starters, let's get python to run the eponymous hello world program. The first thing to do is navigate to your preferred source code storage location, and write the hello world program.
+Then, start the command prompt.
+And then navigate to your program location.
+Then, run the python interpreter.
+
+\subsection*{Other Features}
+At some point you may build up a code library that you would like to reference. Python contains options to ease the reuse of old code. In order to explore these options, lets compute the factorial of five. First, go to your prefered source directory, and write the program. The program is split up into two files: one that contains a factorial algorithm inside a module, and one that makes use of that module. The two files are split into disparate directories.
+
+Start up the command prompt and navigate to the folder containing the main program. Now, whenever python runs, it searches for code libraries based on the environment variables \texttt{PYTHON\_HOME} and \texttt{PYTHON\_PATH}. In order for python to be able to find the factorial function, its folder must be on the \texttt{PYTHON\_PATH}. So, set the variable (on Windows, setting a variable in the command prompt only affects that command prompt).
+
+Now just run the main program, and you should find that 5! = 120.
+\hfill \textit{Written by Michael McDonald}
+
+\section{Linux Modules}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1177-linux-modules}
+
+On our Linux systems, most software resources are made available via modules. Each modulefile contains the information needed to configure the shell for an application. Once the Modules package is initialized, the environment can be modified on a per-module basis using the \texttt{module} command which interprets modulefiles. Typically modulefiles instruct the module command to alter or set shell environment variables such as \texttt{PATH}, \texttt{MANPATH}, etc. modulefiles may be shared by many users on a system and users may have their own collection to supplement or replace the shared modulefiles.
+
+This allows us to offer a large array of software to many users without the packages interfering with each other.
+
+\subsection*{Using built-in modules}
+We provide many built-in modules for loading software packages and compilers. You can see a list of these by running
+\begin{verbatim}
+$ ls /etc/modulefiles/*
+\end{verbatim}
+OR
+\begin{verbatim}
+$ module avail
+\end{verbatim}
+on any Desktop, Hallway, or Classroom workstation.
+
+Let's say, for example, you wish to use MPI. You can use the \texttt{/etc/modulefiles/mpi/openmpi-x86\_64} to make openmpi available to your shell.
+
+To do this, simply run:
+\begin{verbatim}
+$ module load mpi/openmpi-x86_64
+\end{verbatim}
+To show the current list of loaded modules, run:
+\begin{verbatim}
+$ module list
+\end{verbatim}
+If you want to unload a module, run:
+\begin{verbatim}
+$ module unload mpi/openmpi-x86_64
+\end{verbatim}
+
+\subsection*{Creating custom modules}
+You may wish to customize the Linux environment for your jobs on your own. You can create your own custom module to accomplish this.
+
+First, create a directory for your modules:
+\begin{verbatim}
+$ mkdir ~/modules
+\end{verbatim}
+Then, add the module path to the end of your \texttt{\textasciitilde{}/.bashrc} file:
+\begin{verbatim}
+export MODULEPATH=${MODULEPATH}:${HOME}/modules
+\end{verbatim}
+or add the following to your \texttt{\textasciitilde{}/.cshrc} or \texttt{\textasciitilde{}/.tcshrc} if you use the tcsh shell:
+\begin{verbatim}
+setenv MODULEPATH ${MODULEPATH}:${HOME}/modules
+\end{verbatim}
+A module can be as simple as setting a few environment variables (such as \texttt{PATH} and \texttt{LD\_LIBRARY\_PATH}) or can be complicated Tcl scripts.
+
+You can refer to any of our existing modules in the \texttt{/etc/modulefiles} directory as templates for creating your own. For example, the \texttt{/etc/modulefiles/orca} module includes the following directives:
+
+Provide basic information about what the module does:
+\begin{verbatim}
+#%Module 1.0
+#
+#  Orca module
+#
+module-whatis  "Set path for orca."
+\end{verbatim}
+Add the ORCA executable directory to the path, so that ORCA runs when the 'orca' command is typed:
+\begin{verbatim}
+prepend-path   PATH /panfs/storage.local/opt/orca_3_0_0_linux_x86-64
+\end{verbatim}
+Set an environment variable necessary for ORCA to run:
+\begin{verbatim}
+setenv         RSH_COMMAND ssh
+\end{verbatim}
+Running \texttt{module load orca} will make those alterations to the environment. running \texttt{module unload orca} will remove them.
+
+For a more complex example, refer to \texttt{/etc/modulefiles/gaussian09}. This module file examines what architecture the module is run and adjusts its paths accordingly.
+
+For a complete reference of module file directives, refer to the modulefile man page (\texttt{man modulefile}).
+\hfill \textit{Written by Michael McDonald}
+
+\section{VirtualBox Issues}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1185-virtualbox-issues}
+
+If you have trouble accessing VMs provided, please email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} for help or search "virtualbox" from the site.
+
+\subsection*{Inaccessible Disk / Existing UUID}
+If you should encounter an error saying that the virtual machine disk is inaccessible or that a disk with this UUID already exists, this can be fixed by removing the disk and adding it back.
+\begin{enumerate}
+    \item Right click on the virtual machine in the left pane of the VirtualBox Manager and click Settings. Navigate to the Storage section.
+    \item Right click the .vdi image and click Remove Attachment.
+    \item Right click "Controller: SATA" and click "Add Hard Disk." Click "Choose existing disk."
+    \item Navigate to the virtual machine .vdi file and press "Open."
+\end{enumerate}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{VirtualBox File Management}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1186-virtualbox-file-management}
+
+When using Windows virtual machines provided on Linux Workstations, you are strongly recommended to save data per session.
+\textbf{All data will be lost} when the virtual machine is rebuilt as needed without notice. There are several ways through which you can save files:
+\begin{itemize}
+    \item Your home directory
+    \item Dropbox
+    \item Google Drive
+    \item One Drive
+    \item USB
+\end{itemize}
+To save works in your home directory, you need to set it up \textbf{before} starting the virtual machine.
+\begin{enumerate}
+    \item Start "Oralce VM VirtualBox"
+    \item Select VM to be used, open “Settings”, go to Shared Folders
+    \item Click on the icon with blue folder and plus sign
+    \item Folder Path: \texttt{/home/username/...}
+    \item Folder Name: MyDescription
+    \item Check "Make Permanent"
+    \item Click on "OK" to finish or add other shared folders if needed
+\end{enumerate}
+Now you are ready to start Windows VM and save files in the home directory: under "Network / VBOXSVR / MyDescription", the UNC equivalent: \texttt{\textbackslash{}\textbackslash{}VBOXSVR\textbackslash{}MyDescription}.
+
+To save files on USB, your can use "Shared Folders" similar to home directory.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Linux Commands Cheat Sheet}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1302-linux-commands-cheatsheet}
+
+Below are a number of commonly used commands in unix. For almost every command, there are additional flags that can be used to modify the command's behavior. For example, typing \texttt{ls} in the terminal displays the files contained within the current working directory, but \texttt{ls -l} displays them in a list format. Additionally, \texttt{ls -lt} displays them in a list, but also in order of modification time. Information on what flags can be used, along with general explanations about the commands, can be found by typing \texttt{man} before the command. Ex: \texttt{man ls}.
+
+\subsection*{Navigation}
+Basic navigation is performed using a few commands:
+\begin{description}
+    \item[\texttt{cd}:] Short for 'change directory', changes the current working directory.
+    \item[\texttt{ls}:] Short for 'list', lists all of the files in the current working directory.
+    \item[\texttt{cwd}:] Short for 'current working directory', lists the absolute path to the directory the user is in.
+    \item[\texttt{clear}:] Clears the terminal of all text, although the previous text can still be seen by scrolling up.
+\end{description}
+In navigating a Unix file structure, a number of shorthand notations should be mentioned. Example usage of the above commands are shown here as well:
+\begin{description}
+    \item[\texttt{\textasciitilde{}}:] The location of a user's home directory. When logging into a unix machine, you are likely going to begin in your home directory, where your personal files will be located. Typing \texttt{ls} while in the home directory will display folders like \texttt{Desktop}, \texttt{Pictures}, \texttt{Downloads}, and \texttt{Documents}. To move into one of these folders, one can type, e.g., \texttt{cd Downloads}. Additionally, to display the contents of the \texttt{Downloads} folder without navigating to it, type \texttt{ls Downloads}.
+    \item[\texttt{/}:] The machine's root directory. This is the highest level directory that contains all other files and folders in the machine. Programming libraries, system files, etc are found within the folders here. Typing \texttt{cwd} in any directory will display the path from the root directory to the current working directory. For example, if the user's name was 'tom', typing 'cwd' while in the 'Downloads' folder will display \texttt{/home/tom/Downloads}.
+    \item[\texttt{.}:] The current directory is represented with a simple period. Typing \texttt{cd .} moves you to the current working directory, i.e. to where you are now.
+    \item[\texttt{..}:] The directory above the current working directory. Ex: If you're in the directory \texttt{\textasciitilde{}/Downloads/}, typing \texttt{cd ..} will bring you to the home directory.
+    \item[\texttt{-}:] This represents the last directory you were in. Ex: If you were in \texttt{\textasciitilde{}/Downloads} and moved to \texttt{/lib64/}, typing \texttt{cd -} would move you back to \texttt{\textasciitilde{}/Downloads} and \texttt{ls -} would display the files within \texttt{\textasciitilde{}/Downloads}.
+\end{description}
+
+\subsection*{Creating, deleting, moving, renaming files/folders}
+\begin{description}
+    \item[\texttt{mkdir}:] Short for 'make directory', creates a directory with a given name. Ex: \texttt{mkdir \textasciitilde{}/Desktop/DSC} creates a folder 'DSC' in the 'Desktop' folder in your home directory.
+    \item[\texttt{rmdir}:] Short for 'remove directory', deletes a directory. Note that there are no backups, so be careful when using this command.
+    \item[\texttt{touch}:] Generally used to create a file with a given name. Ex: \texttt{touch \textasciitilde{}/Downloads/example.txt} creates an empty file named 'example.txt' in the Downloads folder and closes it. This command was originally used to update the time a file was accessed/modified -- 'touching' it by opening it if it exists, not modifying anything, and closing it.
+    \item[\texttt{cp}:] Short for 'copy', simply copies a file. Ex: If a file named 'example.txt' were in the Downloads folder and the Downloads folder is the current working directory, we could copy it into to the Desktop by using \texttt{cp example.txt \textasciitilde{}/Desktop/}. We could also rename the copy something else by using \texttt{cp example.txt \textasciitilde{}/Desktop/example2.txt}. To copy a folder, the \texttt{-rf} flag is required, as it needs to recursively copy all the files within the folder if they are present.
+    \item[\texttt{mv}:] Short for 'move', moves a file from one place to another, and is often used to rename a file. This command effectively does the same thing as 'cp', only that the original file is removed.
+    \item[\texttt{rm}:] Short for 'remove', deletes a file. Note that there are no backups of these files, so be careful when using this command. When deleting a directory, use \texttt{rm -rf} or \texttt{rmdir}.
+    \item[\texttt{locate}:] Searches the entirety of the file structure for a file/directory with a given name.
+\end{description}
+
+\subsection*{Additional tips}
+\begin{description}
+    \item[Tab-completion:] When typing in commands, especially when trying to navigate file structures, using the tab key can auto-complete the names of files/folders if they are present. If nothing auto-completes after typing tab once, type it again to see all possible options. Similar to our example above under the 'cp' explanation, if we were to type 'ls \textasciitilde{}/Desktop/example' and hit tab twice, it would show 'example.txt' and 'example2.txt'. Typing in '.' would then let it auto-complete the word 'example.txt' after hitting tab again.
+    \item[Arrows:] Use the up arrow to access previous commands that have been typed in. Using the down arrow after using the up arrow will go back down the list of commands.
+    \item[Permissions:] A fundamental part of the unix file system is permissions (which cannot be fully explained here) and is generally accessed by using 'ls -l', i.e. displaying a folder's contents in list format. If you cannot read or modify a file, check the permissions. The permissions are on the left and dictate who can and cannot read (r), write (w), or execute (x) files in Unix (called access modes). Ex: If one has read access, the 'r' will be displayed. If one does not have read access, the 'r' column will be replaced with a dash '-'. Further, these are split into three sets. The first set of access modes are the permissions of the file's owner (the first name beside the permissions). The second set are the permissions of the file's group (the second name beside the permissions). The third set is the permissions for everyone else. Ex: If a file has only read access, the permissions would read '-r--r--r--'. This means that the user, the user's group, and anyone else can open and read the contents of the file. If it had read, write, and execute access for only the user, it would read '-rwxr--r--'. Here the user can open the file to read its contents, save edits to it, and execute it (if it's a program or a script), but everyone else can only read its contents. If it further had execute access for the user's group, it would read '-rwxr-xr--'. Finally, notice that all of these examples have a leading '-'. This is replaced with a 'd' only if it is a directory. In that case, the number beside the permissions would display how many files are in the folder.
+\end{description}
+A final example for a folder named 'DSC' with 3 files in it owned by a user named 'tom' in the group 'users' with read, write, and execute permissions for the user 'tom', read and execute permissions for the group 'users', and read permissions for everyone else, with a byte size of 1000 and last modified on August 1st, 2017, would be:
+\begin{verbatim}
+  drwxr-xr-- 3 tom users 1000 Aug 1 2017 DSC
+\end{verbatim}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Shared Computer Policy}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1333-shared-computer-policy}
+
+DSC offers hallway and classroom computers as shared resources to all users. For fair use of the public systems, hallway computers should be used interactively and remote sessions should not include long running (8 hours or more) or CPU intensive jobs; classroom computers may be used for remote jobs during non-business hours (7pm - 7am). Technical Support Group reserves the rights to terminate jobs on shared systems if they are deemed as abusive.
+
+If you require more resources, please consider \href{https://rcc.fsu.edu/}{Research Computing Center} or other dedicated systems through faculty members.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Python Jungle}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1416-python-jungle}
+
+Python 2 will soon be obsolete. Python 3 can be a challenge to navigate. It is strongly recommended to use virtual environment to manage python projects. Don't use system python for your projects.
+
+Here is an example to start a project named isc3313. This approach will isolate python issues to the specific environment without impacting anything else.
+\begin{verbatim}
+scl enable rh-python36 bash
+virtualenv isc3313
+source isc3313/bin/activate
+\end{verbatim}
+Manage anything needed for this project
+\begin{verbatim}
+pip install tensorflow...
+\end{verbatim}
+To exit the environment, run
+\begin{verbatim}
+deactivate
+\end{verbatim}
+To determine if you are running a particular Software Collection:
+\begin{verbatim}
+echo $X_SCLS
+\end{verbatim}
+To test a Software Collection state, use "\texttt{scl\_enabled rh-python36}" exit code.
+
+To run script using python3.6 through Redhat Software Collection, use the following script template
+\begin{verbatim}
+#!/usr/bin/scl enable rh-python36 -- python3
+import sys
+version = "Python %d.%d" % (sys.version_info.major, sys.version_info.minor)
+print("You are running Python",version)
+\end{verbatim}
+For more details, refers to \href{https://developers.redhat.com/products/python/hello-world}{Python 3 on RHEL}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{PGI Community Edition}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1418-pgi-community-edition}
+
+pgcc is available on classroom and hallway computers. To get it for your desktop computers, please request it at \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} including your desktop hostname.
+
+To access Portland Group compiler, use
+\begin{verbatim}
+module load PrgEnv-pgi/19.4
+pgcc myprog.c
+\end{verbatim}
+Example files are found at \texttt{/usr/common/pgi2019\_194/linux86-64-llvm/2019/examples}. For "module" command information, please visit \href{https://www.sc.fsu.edu/computing/tech-docs/1177-linux-modules}{Linux Modules}.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Upload files to DSC computers}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1653-upload-files-to-dsc-computers}
+
+From off campus, you are able to upload files from personal computers or laptops to DSC computers.
+
+\subsection*{Mac}
+Open a terminal window in Mac, and first create the tunnel of transfer by providing your fsuid and remote computer name:
+\begin{verbatim}
+ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu:22 your_fsuid@pamd.sc.fsu.edu
+\end{verbatim}
+Once the tunnel is established by providing credentials, you can start to upload or download as follows:
+\begin{verbatim}
+rsync -avz -e 'ssh -p 2222' /local_upload_folder fsuid@localhost:/remote_destination_directory
+rsync -avz -e 'ssh -p 2222' fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+\end{verbatim}
+
+\subsection*{Windows 10}
+Open a command Window, and establish the tunnel (NOTE the option -L):
+\begin{verbatim}
+ssh -f -N -L 2222:remote_computer_name.sc.fsu.edu your_fsuid@pamd.sc.fsu.edu
+\end{verbatim}
+Now you can upload or download files and/or folders as follows:
+\begin{verbatim}
+scp -r -P 2222 /local_source fsuid@localhost:/remote_destination
+scp -r -P 2222 fsuid@localhost:/remote_directory_to_be_downloaded /local_destination
+\end{verbatim}
+fsuid password may be required.
+\hfill \textit{Written by Xiaoguang Li} \\
+\hfill \textit{Category: Computing}
+
+\section{OneDrive for Ubuntu}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1672-onedrive-for-ubuntu}
+
+If you want to synchronize or download files in OneDrive to DSC desktops running Ubuntu, you can follow the following guidelines on Ubuntu client computers.
+
+\textbf{NOTE:} If you have a large OneDrive quota, you are strongly encourage to synchronize ONLY the folder / directory you need. Fail to do so may result in your DSC account reach its storage quota. That will freeze your account!
+
+To setup link to your cloud storage in OneDrive, run the following command and follow instructions on the screen:
+\begin{verbatim}
+onedrive --monitor
+\end{verbatim}
+Press Ctrl + C if you don't want to synchromize everything in the Cloud space.
+A sample run is as follows:
+\begin{verbatim}
+onedrive --monitor
+Configuring Global Azure AD Endpoints
+Authorize this app visiting:
+
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=...
+
+Enter the response uri: https://login.microsoftonline.com/common/oauth2/nativeclient?code=...
+Initializing the Synchronization Engine ...
+Initializing monitor ...
+OneDrive monitor interval (seconds): 300
+Creating local directory: ...
+......
+\end{verbatim}
+
+To synchronize only one folder "dsc\_files" from the Cloud / OneDrive
+\begin{verbatim}
+onedrive --synchronize --single-directory 'dsc_files'
+\end{verbatim}
+To download files / folders only:
+\begin{verbatim}
+onedrive --synchronize --single-directory 'dsc_files' --download-only
+\end{verbatim}
+To upload to OneDrive without deleting files in cloud that are missing from local directories
+\begin{verbatim}
+onedrive --synchronize --upload-only --no-remote-delete
+\end{verbatim}
+To show OneDrive setting:
+\begin{verbatim}
+onedrive --display-config
+\end{verbatim}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Logging in to SC systems}
+\url{https://www.sc.fsu.edu/computing/tech-docs/174-logging-in-to-sc-systems}
+
+Computing resources can be accessed both through the SSH gateway servers (\texttt{pamd.sc.fsu.edu}) and through the FSU VPN (\texttt{vpn.fsu.edu}).
+
+\subsection*{SSH connection to pamd.sc.fsu.edu}
+Accessing the SSH gateway server is simple. Use your workstation's SSH client to directly log in to \texttt{pamd.sc.fsu.edu}. For example:
+\begin{verbatim}
+% ssh pamd.sc.fsu.edu
+\end{verbatim}
+You will be prompted for a username and password. If the login information you entered is correct, you will have access to a shell on \texttt{pamd.sc.fsu.edu}. From this shell on \texttt{pamd.sc.fsu.edu}, users can access public computing resources by running command "hallway" or "classroom".
+
+\textbf{Never} use the \texttt{pamd.sc.fsu.edu} servers to run processor intensive jobs.
+
+More information on SSH access is available \href{https://www.sc.fsu.edu/computing/tech-docs/345-using-ssh}{here}.
+\hfill \textit{Written by Administrator}
+
+\section{Storage, Backup and Recovery}
+\url{https://www.sc.fsu.edu/computing/tech-docs/175-storage-backup-and-recovery}
+
+Only DSC accounts with valid FSU accounts are backed up - temporary accounts, eg: \texttt{wkshop01}, are not backed up.
+SC provides centralized file storage via \href{http://www.sun.com/software/solaris/zfs.jsp}{ZFS} file system. The system provides a RAID-based storage to ensure against the loss of two disk drives.
+
+Share file system provides home directories and research space for all desktops and pamd.
+\begin{itemize}
+    \item Users have a fixed disk quota (see below) on their home directory, which is based on our current backup capacity. As our backup capacity increases, so will user quotas on home directories. Disk quotas are not increased otherwise.
+    \item Users have other options if more disk space is needed than is available in their home directory.
+    \item Request a research partition by sending a message to \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}. A research partition with a maximum capacity of 900 GB will be given to SC faculty members upon request.
+    \item Research partitions are not backed up.
+    \item Inactive research partitions will be reclaimed following confirmation from the faculty member.
+    \item Files on individual desktop systems are not backed up.
+    \item Files over 500 MB are not backed up.
+    \item Users wishing to protect local files can save these files to the shared file system by mounting their user volume locally (via Samba, sshfs, scp, rsync or other mechanisms) and copying the important files to this directory.
+\end{itemize}
+
+\subsection*{Recovery}
+To recover lost files from the last three weeks, please send a request to \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} stating the date and files or directories to be restored.
+No archival data beyond 21 days is maintained.
+
+\subsection*{Backup Technology}
+The backup system consists of a 10 TB iSCSI configured in Raid 5 with a hot spare with a \href{http://www.dell.com/us/en/k-12/servers/pedge_1950/pd.aspx?refid=pedge_1950&cs=22&s=k12}{Dell 1950} acting as the hosting node. Backups are accomplished with \href{http://samba.anu.edu.au/rsync/}{rsync}.
+\hfill \textit{Written by Xiaoguang Li} \\
+\hfill \textit{Category: Data Storage}
+
+\section{Joomla Web Page Tips and Tricks}
+\url{https://www.sc.fsu.edu/computing/tech-docs/176-web-pages}
+
+\subsection*{Creating New FAQs}
+The FAQ section is reserved for Administrative frequently asked questions. New FAQ entries must contain the following HTML code as its template:
+\begin{verbatim}
+<p><strong>Q:</strong> ?</p>
+<p><strong>A:</strong> </p>
+\end{verbatim}
+
+\subsection*{Populating Metadata Information}
+Every article under Joomla can have metadata associated with it. This metadata is used to display Related Articles below the current article. It is important to \textbf{NOT} use generic keywords in the metadata. This will result in unrelated articles being displayed instead of only the relevant ones. To circumvent this problem, only use keywords which are unique to the article you are working on. Refrain from using commonly used words (\textit{the, and, who, what, when, etc.}).
+\href{http://www.sc.fsu.edu/images/stories/techdocs/joomla/metadata.png}{Click here to see an example}.
+
+\subsection*{Adding the Lightbox Effect}
+To add a lightbox effect to images the following class tag must be added.
+\paragraph{Example Code}
+\begin{verbatim}
+<a class="modal" href="/images/joomla_logo_black.jpg">
+<img src="/images/joomla_logo_black.jpg" 
+width="100" height="26" /></a>
+\end{verbatim}
+\paragraph{Working Example}
+\href{/images/joomla_logo_black.jpg}{Joomla Logo}
+
+\subsection*{Adding Slider Panes}
+To add slider panes to web pages the following code template should be used. An example of this feature is used in this current page.
+\begin{verbatim}
+{slider=Heading 1}
+content for heading 1
+{slider=Heading 2}
+content for heading 2
+{/sliders}
+\end{verbatim}
+
+\subsection*{Showing Code in Articles}
+To show code in articles you must use the \texttt{"pre xml:html"} tags. This activates the Code Hightlighter (GeSHi) which nicely displays your code with syntax highlighting. Replace the starting and ending quotes in the below example with less than and greater than characters, respectively.
+\begin{verbatim}
+<pre xml:html>
+  ...
+</pre>
+\end{verbatim}
+\hfill \textit{Written by Michael McDonald}
+
+\section{Printing}
+\url{https://www.sc.fsu.edu/computing/tech-docs/179-printing}
+
+To use the department's printers you must be connected to the local network. This mean that if you are working off campus or using the campus wireless network you must first connect to the department's VPN (see VpnSetup for more details). Assume you have network access and permission to the printers, you may \href{https://www.sc.fsu.edu/computing/tech-docs/206-network-printer-setup}{set them up as described here}.
+
+Note: The department \href{http://printers.sc.fsu.edu/printers/}{print server} uses the "CUPS" software. Consolidation of printing services will change this.
+
+\subsection*{Poster Printing}
+Posters are only printed for Department of Scientific Computing faculty and students.
+Requests to print posters must be made/endorsed by an SC faculty member and are approved by the SC Director.
+
+\subsection*{Printer etiquette}
+\begin{itemize}
+    \item When you submit a job to a printer, please retrieve your output as soon as possible. Output which is left in the copy room over 24 hours will be thrown away.
+    \item When you do pick up your output, and it is located within a large stack of pages, please do so carefully so as to not disturb the output of other users. Don't pull out pages while the printer is printer and then try to put them back. This leads to "shuffling" the pages and leads to a lot of confusion. Please dispose of unnecessary pages in the recycling boxes located on the floor beneath the counters, and in the trays designated for this purpose nearby all of the printers.
+    \item Please respect the resourses. Do NOT try to clear jams, or correct problems with the printers, even if on weekends. Our printers are not covered under warranty, and repairs are very expensive. Send email to sysops or to Dana Lutton.
+\end{itemize}
+
+\subsection*{Known Printer Problems}
+\begin{itemize}
+    \item Acrobat files may not print from Windows to the pr483 QMS 860 printer. This printer is a Level 2 PostScript and most current Acrobat files contain Level 3 PostScript commands in them.
+    \item The pr473 HP printer is also a Level 2 PostScript printer and will not print Level 3 PostScript files. You will need to set your application to print Level 2 PostScript only.
+    \item It is recommended that you not print manual paperfeed jobs from UNIX where the printer must pause and wait for the manual feed tray to be loaded.
+    \item Level 3 PostScript commands primarily deal with the "color" definitions and commands, and are the primary cause of printing problems on Level 2 PostScript printers.
+    \item Problems printing PhotoShop files. Some Adobe PhotoShop files contain binary information prior to the \%!PS, and following the \%EOF. To properly print these files you must remove the binary information from the begin and the end of the file. This especially applies to people who must incorporate them into (La)TeX documents using dvips.
+    \item All PostScript files must contain \%!PS as the first 4 characters. If your file doesn't print, this is a likely cause.
+    \item PostScript files received by email may contain aberrant characters, at the end of line, or beginning of new lines. Binary portions of files received by email may be truncated, and will not print.
+    \item Problems with lpr and EPS files. EPS files are "encapsulated" and contain no "printer specific" information. To print an EPS file using the lpr file.eps command you need to have a "utility wrapper" surrounding this code.
+    \item Web pages and PDF files containing graphics are a whole "other" issue -- many of them cannot be printed because they were incorrectly made to begin with.
+    \item If a PDF was made with special fonts that are not installed on a printer the file will not print correctly. Authors should be encouraged to embed all fonts into their pdf document to avoid this problem.
+\end{itemize}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{vscode Proxy through SSH Tunnel}
+\url{https://www.sc.fsu.edu/computing/tech-docs/1831-vscode}
+
+If you want to use vscode to connect to \texttt{targetHost.sc.fsu.edu} from a computer at home through proxy \texttt{pamd.sc.fsu.edu}, please use the following steps.
+Feel free to email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} if you have any difficulty.
+
+\subsection*{Configure SSH for ProxyJump}
+You'll want to add a configuration for \texttt{targetHost.sc.fsu.edu} in your SSH config file to use \texttt{pamd.sc.fsu.edu} as an intermediate (jump) host.
+Open or create the SSH configuration file using whatever text editor you prefer, we use nano as an example:
+\begin{verbatim}
+nano ~/.ssh/config
+\end{verbatim}
+Add the following settings to the SSH configuration file \texttt{\textasciitilde{}/.ssh/config}:
+\begin{verbatim}
+Host pamd
+    HostName pamd.sc.fsu.edu
+    User fsuid
+Host targetHost
+    HostName targetHost.sc.fsu.edu
+    User fsuid
+    IdentityFile ~/.ssh/<private_key_for_targetHost>
+    ProxyJump pamd
+\end{verbatim}
+Make sure the \texttt{IdentityFile} points to the correct SSH private key for each host.
+
+\subsection*{Set Up the SSH Extension in VS Code}
+Install the \href{https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh}{Remote - SSH} extension for VS Code if you haven't already:
+\begin{enumerate}
+    \item Go to Extensions and search for "Remote - SSH."
+    \item Install the extension.
+    \item Open the Command Palette in VS Code and search for "Remote-SSH: Connect to Host..."
+    \item Type \texttt{targetHost.sc.fsu.edu} (or the alias name you set in \texttt{\textasciitilde{}/.ssh/config} for targetHost) and select it.
+\end{enumerate}
+VS Code will automatically use the SSH config you defined, routing the connection through \texttt{pamd} to reach \texttt{targetHost}.
+
+\subsection*{Verify Connection}
+Once connected, VS Code should open a remote session on targetHost. You can confirm the connection by checking the VS Code terminal, which should indicate it's connected to targetHost. Now you can open files, run commands, and work as if you were directly connected to targetHost.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{VPN Access}
+\url{https://www.sc.fsu.edu/computing/tech-docs/204-vpn-access}
+
+A VPN connection will allow you to join our network even when you are working off campus. After you establish a connection, your network communication is securely routed through the VPN sever when communicating with FSU endpoints.
+
+\subsection*{FSU VPN Service Documentation}
+\begin{enumerate}
+    \item Login to the FSU-DSC VPN here, \url{https://vpn.fsu.edu/dsc}
+    \item Use your FSUID and FSUID-password
+    \item Click the \texttt{AnyConnect} link in the left-hand menu
+    \item Click the \texttt{Start AnyConnect} link in the middle frame
+    \item The VPN client will automatically try and detect your operating system
+    \item Download \& Install the VPN client provided by link
+    \item Use the address \texttt{vpn.fsu.edu/dsc} within the client
+    \item Enter your FSUID (Username) and FSUID-password (Password) in the VPN client prompt
+    \item Your FSUID is saved for convenience
+    \item Passwords will *never* be saved
+    \item Done
+\end{enumerate}
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: VPN}
+
+\section{Network Printer Setup}
+\url{https://www.sc.fsu.edu/computing/tech-docs/206-network-printer-setup}
+
+If the information provided here is not enough, please contact \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+
+\textbf{Note:} Due to the print quota scheme, print jobs will simply be dropped if your login name is not found in the LDAP directory. One solution is to use -U option of lpr command, for example, \texttt{lpr -U username file2Print.ps}. The best solution is to implement LDAP authentication or change the login name to SC uid.
+
+\subsection*{Add a Network Printer for Windows 10/7}
+To determine the make and model of the printer you wish to add, go to \url{http://printers.sc.fsu.edu/printers}.
+For this example, we will use Ricoh MP 2555, mfp473
+\begin{enumerate}
+    \item Go to 'Printers and Faxes
+    \item Click on 'Add a Printer'
+    \item Click Next through the Add a Printer Wizard
+    \item Click the button for 'A Network Printer....'
+    \item In the 'Specify' a Printer box, click on the button for 'Connect to a printer on the internet'
+    \item In the space provided, type: \url{http://printers.sc.fsu.edu:631/printers/mfp473}
+    \item Click 'Next'
+    \item Select your printer make and model from the list to install the correct print driver. See the end of the page for Windows drivers.
+    \item Complete the Add a Printer Wizard
+\end{enumerate}
+\textbf{NOTE:} In this case, and a few others the exact driver is not listed in the Windows Driver Menu. Select the closest driver to your printer model as possible. For the 4300 Series use the 'HP Laser Jet 4100 series PS' driver. Additionally, the current version of the CUPS Printing Software support both PostScript and PCL Drivers.
+
+\subsection*{Add a Network Printer for MAC OS X}
+To determine the make and model of the printer you wish to add, go to: \url{http://printers.sc.fsu.edu/printers}.
+\begin{enumerate}
+    \item Open System Preferences and click "Print \& Fax".
+    \item Click Printing and then click the "+" sign to open the "Printer Browser" box.
+    \item For "Protocol", select LPD
+    \item For "Address" enter printers.sc.fsu.edu
+    \item For "Queue" enter the printer name (EX. mfp420, mfp473, mfp150v)
+    \item For "Printer Name" , type the name of the printer (Should be the same name as in "Queue")
+    \item For "Location", you can fill in or leave blank.
+    \item For "Print Using", Scroll through the list of printer manufacturers and select the maker of the printer.
+    \item Next, Scroll through the list of printer models and select your model to install the correct print driver.
+    \item Finally, click on "Add" to include the printer on your list of available printers.
+\end{enumerate}
+\textbf{NOTE:} When the exact driver is not listed in the Driver Menu, select the closest driver to your printer model as possible. Additionally, the current version of the CUPS Printing Software only support PostScript printing.
+
+\subsection*{Network Printers for UNIX}
+In most cases, network printers are configured and ready to go as they are. If you need to setup them up for some reason, here are the steps.
+DSC uses the Common Unix Printing System (CUPS) to manage printing jobs. If you already have CUPS installed on your system, place the following into your \texttt{client.conf} file (usually \texttt{/etc/cups/client.conf})
+\begin{verbatim}
+ServerName printers.sc.fsu.edu
+\end{verbatim}
+Remember to restart cupsd after saving the changes to the file.
+You can print to any printer through most of the application printer interface. To print or manage print jobs using command line:
+\begin{verbatim}
+lpr -P mfp420 filename
+lpq -P mfp420
+lprm -P mfp420 jobID
+\end{verbatim}
+
+\subsection*{Drivers Download}
+\begin{itemize}
+    \item \href{https://www.ricoh-usa.com/en/support-and-download?keyword=MP%202555}{Ricoh MP 2555 Drivers}
+    \item \href{https://www.ricoh-usa.com/en/support-and-download?keyword=IM%20C3000}{Ricoh IM C3000 Drivers}
+    \item \href{https://www.ricoh-usa.com/en/support-and-download}{Ricoh Support and Download}
+\end{itemize}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Version Control Systems}
+\url{https://www.sc.fsu.edu/computing/tech-docs/225-svn-information}
+
+Will your code be for free / open source software?
+If \textbf{YES}, then you should first try one of these free source code repositories:
+\begin{description}
+    \item[\href{https://github.com/}{github}] "GitHub is how people build software. With a community of more than 15 million people, developers can discover, use, and contribute to over 38 million projects using a powerful collaborative development workflow." (\href{https://github.com/about}{source})
+    \item[\href{https://sourceforge.net/}{SourceForge.net}] "SourceForge.net is the world's largest open source software development web site. We provide free services that help people build cool stuff and share it with a global audience." (\href{https://sourceforge.net/about}{source})
+\end{description}
+If \textbf{NO}, then we recommend using \textbf{git}.
+
+\subsection*{Quick start for Git}
+\paragraph{Creating and commiting on pamd.sc.fsu.edu}
+\begin{verbatim}
+$ cd (project-dir)
+$ git init
+$ (add some files)
+$ git add .
+$ git commit -m 'Initial commit'
+\end{verbatim}
+
+\paragraph{Cloning and Creating a Patch}
+\begin{verbatim}
+$ git clone ssh://{mylogin}@pamd.sc.fsu.edu/panfs/\
+   panasas1/research/{mydir}/{mygitproj}
+$ cd {mygitproj}
+$ (edit files)
+$ git add (files)
+$ git commit -m 'explain what I chanded'
+$ git format-patch origin/master
+\end{verbatim}
+For more information about how to use git see the \href{https://git-scm.com/book/en/v2}{Git Community Book}. The section on \href{https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows}{Distributed Workflows} is especially useful.
+
+Note: Once your code is \textit{presentation ready} we recommend sharing the URL and details of your project for posting to our \href{http://www.sc.fsu.edu/research/departmental-software}{Department software collection here}. You can email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} with the details.
+\hfill \textit{Written by Marcelina Lapuz Nagales}
+
+\section{Thunderbird FAQ}
+\url{https://www.sc.fsu.edu/computing/tech-docs/233-thunderbird-faq}
+
+Thunderbird works largely the same on all platforms: Linux, Windows and Macintosh. For users working on more than one platform, Thunderbird can be a significant benefit comparing with other email clients. The solutions given here may vary slightly in naming and layout depending on the platforms. If you need to setup Thunderbird, consult \href{https://www.sc.fsu.edu/computing/tech-docs/178-email}{this page} first.
+
+\subsection*{How to turn on/off email forwarding from fsu.edu?}
+\begin{enumerate}
+    \item Login \url{http://webmail.fsu.edu}
+    \item From top menus, click Options/Mail/Settings
+    \item Check/uncheck "Enable forwarding"
+\end{enumerate}
+Be careful not to create forwading loops with other email accounts!
+
+\subsection*{How to display the size and number of messages in a folder?}
+\begin{enumerate}
+    \item Go to "Preferences / Advanced / General"
+    \item Check "Show expanded colums in the folder pane"
+    \item In the folder pane, click on the icon next to "Name" column and select Total and/or Size
+    \item Likewise each message size can be displayed by clicking on the icon in the email pane
+\end{enumerate}
+
+\subsection*{How to setup reply above/before the original message?}
+\begin{enumerate}
+    \item Go to "Account Settings... / Composition \& Addressing" of the mailbox in question
+    \item Check "Automatically quote the original message when replying"
+    \item Then, "Start my reply above the quote"
+    \item and place my signature "below my reply (above the quote)" if preferred
+\end{enumerate}
+
+\subsection*{How to setup FSU address book?}
+\begin{enumerate}
+    \item Go to "Preferences / Composition / Addressing"
+    \item Check "Directory Server"
+    \item Click on "Edit Directories..." and "Add" buttons
+    \item Enter the fields as shown (Hostname: addressbook.fsu.edu) below and make sure to use your own "Bind DN: uid=fsuid,ou=people,dc=fsu,dc=edu".
+    \item After saving the settings, go to "Offline" tab and click on "Download Now", which should help with adddres completion performance.
+    \item Under the "Directory Server" drop-down menu, select the address book just created.
+    \item Now you should be able to get automatic address completion for FSU email addresses.
+\end{enumerate}
+
+\subsection*{How to keep local copies of IMAP messages?}
+\begin{enumerate}
+    \item Go to "Account Settings... / Offline \& Disk Space" of the mailbox in question
+    \item Check "When I create new folders, select them for offline use"
+    \item Click on "Select folders for offline use..." button and check folders you want to keep local copies.
+\end{enumerate}
+This is helpful on laptops so you can still read old messages when network connections are not available. If you wonder where the messages are saved, go to "Accoutn Settings / Server Settings", "Local directory" should display the folder.
+
+\subsection*{How to change the original message indicator from the colored bars to the traditional >?}
+Go to "Account Settings... / Composition \& Addressing"
+Uncheck "Compose messages in HTML format"
+This is equivalent to "\texttt{mail.identity.default.compose\_html = false}"
+
+\subsection*{How to setup calendar in Thunderbird?}
+Download \href{https://addons.thunderbird.net/en-us/thunderbird/addon/lightning/}{Lightning plugin} for Thunderbird, which also provide "Tasks" service
+One main drawback of the Tasks is the inability to save tasks and to transport them. If you have Gmail account, you are encouraged to use \href{https://www.google.com/calendar}{Google Calendar} and its Tasks service instead.
+
+Lightening plugin serves as a portal for various calendars you may have: FSU calendars, Google calendars and others. If you prefer a separate application altogether, use \href{http://www.mozilla.org/projects/calendar/sunbird.html}{Sunbird}. It is better to use Lightning plugin to only view the various calendars since changing calendar events may require complicated authentications. Its reminders may not be working properly each time you reload the calendars. SyncCGP plugin may help where Lightning is lacking, but we will try to keep things simple for now.
+
+Install Lightning as follows
+\begin{enumerate}
+    \item In Thunderbird, go to "Tools / Add-ons"
+    \item Click "Install" button, and select the file you downloaded and click "OK". Restart Thunderbird.
+    \item Under Calendar, go to "Calendar / New Calendar..."
+    \item Select "On the network" and click "Next".
+    \item For Google calendars, select "iCalendar" and enter in the "Location" with the private URL provided by Google unless your calendar is publicly available.
+    \item For FSU calendars, select "Sun Java System Calendar Server (WCAP)" with "Location: \url{https://webmail.fsu.edu:83}" as shown below.
+\end{enumerate}
+FSU calendars can be configured via \url{http://webmail.fsu.edu}. Refers to \href{https://www.sc.fsu.edu/computing/tech-docs/243-fsu-calendar}{this}.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Outlook FAQ}
+\url{https://www.sc.fsu.edu/computing/tech-docs/234-outlook-faq}
+
+Make sure you turn off forwarding from fsu.edu to scs.fsu.edu and turn on forwarding from scs.fsu.edu to fsu.edu. The former is to prevent forward loops, the latter is to prevent duplicates when moving and synchronizing the two mailboxes or folders. Here is a brief summary of these two steps.
+
+\subsection*{Turn off forwarding from fsu.edu}
+\begin{enumerate}
+    \item Login \url{http://webmail.fsu.edu}
+    \item From top menus, click Options/Mail/Settings
+    \item Uncheck "Enable forwarding" or at least remove \texttt{fsuid@scs.fsu.edu} and other CSIT and SCRI accounts from "Mail Forwarding list:" if any
+\end{enumerate}
+
+\subsection*{Turn on forwarding from scs.fsu.edu}
+\begin{enumerate}
+    \item Login \url{http://mail.scs.fsu.edu}
+    \item Click on Options/Filters from the left menu and Forward from the top menu
+    \item Type your \texttt{fsuid@my.fsu.edu} in "Address(es) to forward to:" field
+\end{enumerate}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Integrated Technology Plan}
+\url{https://www.sc.fsu.edu/computing/tech-docs/242-it-plan}
+
+\section{Multifunction Printers}
+\url{https://www.sc.fsu.edu/computing/tech-docs/268-mfps}
+
+\subsection*{Ricoh MP 2555 / IM C3000}
+No code required for printing and scanning. To make copies at the console, enter your code.
+\subsubsection*{Scan documents to email address}
+At the copier console, press "Scanner (Classic)" / "Search Dest..." / "LDAP" / "Email Address"
+Now enter a few characters, press "Start Search" and select the desired entries from list.
+For more details, check \href{http://support.ricoh.com/bb_v1oi/html/oi/rc3/model/mp25/manual/e-mail.htm}{Basic Procedure for Sending Scan Files by E-mail}
+\subsubsection*{Make photo copy of business / ID cards}
+At the copier console, press "Copier (Classic)" / "1 Sided->Combine 1 Side". Put business / ID card on glass pane at upper left corner. This will copy both sides of cards onto one page.
+\subsubsection*{Print confidential documents}
+You can use "Locked Print" feature to print a document, then go to the console, press "Printer (Classic)" and enter the passcode to receive it so that no one else will take/view it by mistake.
+\href{http://support.ricoh.com/bb_v1oi/html/oi/r-c3/model/mpc300/manual/printer/locked.htm}{How to use the Locked Print function}
+
+\subsection*{Bizhub C364}
+We have two color Bizhub C364 muti-function printers: mfp420 and mfp150v queues. Black/white only Bizhub 363 is the counterpart of C364: mfp473 queues. Please contact David Amwake for your copy/scan code.
+\subsubsection*{Console access at the printers}
+At the logon touch screen, press keyboard icon and enter the code.
+"OK" / "Login" to access the system
+Press "Access" on keypad to logout when finished
+\subsubsection*{How to scan documents in PDF and send to email address?}
+\textbf{NOTE:} Use \texttt{Compact PDF} under "File Type" to minimize file size. Otherwise you may lose the scan in email if its size is over 20MB.
+\begin{enumerate}
+    \item Login if necessary
+    \item Press "Fax / Scan" button, select "Addr. Search" tab on touch screen
+    \item (If you want to enter email address manually, selecct "Direct Input" tab)
+    \item "Search" / type in few letters of your name / "Start Search"
+    \item Touch the address or addresses to select or deselect / "OK" (touch once to select, twice to deselect)
+    \item If you need to scan multiple sets from the glass or automatic document feeder (ADF), touch "Applications" / "Separate Scan" / "ON"
+    \item If necessary, touch "Applications" / "Simplex/Duplex" and/or "Resolution" and/or "File Type" / "OK" to customize
+    \item Press "Start" on keypad to begin scanning
+    \item Press "Access" on keypad to logout when finished
+\end{enumerate}
+Addressees should receive the scanned documents in a few minutes. Note network condition and email server policies can affect the delivery. You may need to check with the network and email administrators if you are dealing with large files and non-PDF format. Otherwise use scan to USB instead.
+\subsubsection*{How to scan unto USB key?}
+\begin{enumerate}
+    \item Login if necessary
+    \item Plug in USB drive, connector is located on the right side in the back
+    \item Press "User Box" button
+    \item Touch "Save Document" / "System User Box" tab / "External Memory" / "OK" ("External Memory" will not be present without USB drive plugged in)
+    \item If customized document name is preferred, touch "Document Name" / press "C" on keypad to clear default name / type in the new name / "OK"
+    \item If necessary, touch "Scan Settings" / "Simplex/Duplex" and/or "Resolution" and/or "File Type" / "OK" to customize
+    \item The default is to scan PDF document as single-sided in one continuous process (no pause or changing/feeding another set of papers)
+    \item If you need to scan multiple pages from the glass or manual feed ADF, touch "Scan Settings" / "Separate Scan" (toggle) / "OK"
+    \item Press "Start" on keypad to begin scanning
+    \item Press "Access" on keypad to logout when finished
+\end{enumerate}
+\subsubsection*{How to print to them?}
+Setup printers on your computer: mfpxxx, mfpxxx\_color, mfpxxx\_duplex. The numbers xxx can be 420, 473, or 150v. Refer to \href{https://www.sc.fsu.edu/computing/tech-docs/206-network-printer-setup}{this guide} if needed.
+Color printing will be accounted for by users. All printing are logged, but B/W printing are not accounted.
+If you need help, please email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+\subsubsection*{Terms}
+\begin{description}
+    \item[MFP] = Multifunction Printer
+    \item[ADF] = Automatic Document Feeder
+    \item[USB] = External Memory
+    \item[User Box] = 
+    \item[Toggle] = 
+    \item[Separate Scan] = 
+    \item[Legal] = 8.5 x 14
+    \item[Ledger] = 11 x 17
+\end{description}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Hosting Policy}
+\url{https://www.sc.fsu.edu/computing/tech-docs/287-hosting-policy}
+
+\subsection*{Support for non-DSC HPC systems}
+The DSC plays a major rule in the support of FSU's computational infrastructure by providing expert technical support in advanced computing. In addition to the management of FSU's shared multidisciplinary HPC (see \url{http://hpc.fsu.edu}), the DSC has also invested a large sum of funds to develop a computing facility located in the center of the main FSU campus. This facility is currently equipped with 1000 square feet of raised floor, battery backup power, high-speed network connectivity to the campus network backbone and the Florida Lambda Rail, and 80 tons of cooling.
+
+As part of it's service to University, the DSC hosts computational servers owned by other FSU academic units on a first-come, first-served basis until 25\% of the DSC machine room cooling, electrical, or floor capacity is reached. Once the capacity of the room is reached, the DSC will not support additional machines.
+
+\subsection*{Eligibility}
+All units within the College of Arts and Sciences are eligible to have machines hosted in the DSC computer room. The DSC's Local Systems Committee will evaluate each request on a case-by-case basis and will agree to host machines provided the capacity allocated for non-DSC systems has not been reached and the requirements listed below are met.
+
+\subsection*{Requirements}
+Each of the requirements enumerated below is described in greater detail in the following pages.
+\begin{enumerate}
+    \item The DSC is not responsible for incidental costs associated with the installation or maintenance of computer systems hosted in the DSC computer room.
+    \item Requests to house computer systems in the DSC computer room must include a detailed hardware proposal.
+    \item Requests to house computer systems in the DSC computer room must include a proposal describing how the computer systems will be managed.
+    \item Computer systems hosted in DSC computer room are required to run the DSC load distribution system.
+    \item Requests to house computer systems in the DSC computer room must include a designated faculty liaison from within the unit making the request.
+\end{enumerate}
+For questions or information regarding availability contact Jim Wilgenbusch at 645-0307 or \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+
+\subsubsection*{1. Incidental costs}
+In addition to the substantial costs of providing a cold room with reliable power, there are a number of "incidental" costs associated with hosting computer systems. These costs include server racks, power distribution units (PDUs or power strips), and network switches. The DSC is not responsible for covering incidental costs. At a minimum, the DSC will provide a single outlet for each electrical circuit required to power the computer system and a single 10/100/1000 network uplink in the vicinity of the computer system. The cost of incidentals (e.g., racks, PDUs, and network connectivity) can either be included in the price of a fully integrated system or the DSC will provide these items at cost. In order to avoid half empty racks, the later option may be required. For example, if a group plans to purchase a small number of servers, then the DSC would prefer to use an existing rack, PDU, and network switch. In this case, costs will be assessed according to the portion of the resource being used.
+
+\subsubsection*{2. Hardware proposal}
+Requests to house computer systems in the DSC computer room must include a detailed hardware proposal. An agreement to house a computer system in the DSC computer room is limited to the hardware described in the proposal. This requirement is intended to safeguard against someone purchasing hardware that is in some way incompatible with the DSC machine room infrastructure. In addition, the hardware proposal is needed to estimate the power, space, and cooling requirements of the computer system so that we do not exceed the capacity of the DSC computer room. The DSC has a wealth of experience with numerous hardware vendors and can create the hardware proposal on the behalf of unit making the request.
+
+Hardware proposals must include the following information:
+\begin{itemize}
+    \item Server rack dimensions *
+    \item Switch type and size *
+    \item PDU type and quantity *
+    \item Chassis type per unit
+    \item CPU type and quantity per unit
+    \item Motherboard type per unit
+    \item Ethernet or network adapter type and quantity per unit
+    \item Hard drive type and quantity per unit
+    \item Memory type and quantity per unit
+    \item Type and quantity of all peripheral devises that will be part of the computer system (e.g. disk arrays, CD/DVD drives, etc.)
+\end{itemize}
+* if not using equipment provided by the DSC
+
+\subsubsection*{3. Management proposal}
+Requests to house computer systems in the DSC computer room must include a proposal describing how the computer system will be managed. Two general administrative options are available; 1. the DSC will manage the computer system, and 2. the unit making the request will manage the computer system.
+
+\paragraph{Option 1: DSC manages the computer system}
+Option 1 gives a group access to a computational resource without the hassle of having to administer it. The DSC will agree to manage a computer system only if the DSC is given discretion to choose the hardware, the operating system, and the tools used to update and distribute software on the computer system. The DSC systems manager determines who is granted access to privileged commands. Access to privileged commands will be controlled by the "sudo" command; root logins are not permitted. Only members of the DSC systems group will know the root password. The DSC systems manager will determine the update cycle of the core operating system and system software.
+
+\paragraph{Option 2: Non-DSC unit manages the computer system}
+If a unit chooses to manage their own computer system, then a qualified systems administrator must be designated to manage the resource. The required management proposal must address in detail how the designated systems administrator will tend the following tasks: account management, disk management, network management, system installation, software management, security, systems management, user support, hardware support, and administration of purchase and warranty information. Systems not managed by the DSC will be relegated to a separate secure network. A firewall will monitor incoming and outgoing network traffic and the DSC systems manager will determine the stringency of the firewall. Access the machine room will be limited to the designated systems administrator. Members of the DSC systems group will have root access to all systems housed in the DSC computer room.
+
+\subsubsection*{4. Cycle sharing}
+In order to maximize throughput on DSC and non-DSC computational servers and cluster nodes, the DSC uses a job scheduling and queuing system called Condor (\url{http://www.cs.wisc.edu/condor/}). All of the computer systems housed in the DSC computer room must participate in this system. The Condor system allows fine-grain configuration of policies to support distributively owned computing resources. For example, specific nodes can be configured to "prefer" jobs submitted by specific users. This way, a resource owner will have limited access to all of the DSC computational resources and guaranteed access to his or her machines. This system ensures that cycles are not wasted if the primary resource owner is not using them.
+
+While the Condor system provides some important advantages to managing and distributing computationally intensive jobs, a resource owner is not obligated to use it. For example, a resource owner can run jobs interactively on any of his or her computer systems and his or her jobs will preempt jobs managed by the Condor system. Circumventing the Condor system in this way is to the disadvantage of the resource owner, however. By submitting jobs through the Condor system, a resource owner will not only have guaranteed access to his or her machines, but the Condor system will also provide access to the other machines housed in the DSC machine room.
+
+\subsubsection*{5. Faculty Liaison}
+Requests to house computer systems in the DSC computer room must include a designated faculty liaison from within the unit making the request. The liaison will be responsible for conveying information to the users of the computer system housed in the DSC computer room. If the DSC agrees to manage a computer system, the faculty liaison is responsible for approving account requests, requesting changes to a user's priority, and requesting software installations. The authority to make these requests can be transferred to a designate person (e.g., graduate student) at the written request of the faculty liaison.
+\hfill \textit{Written by Michael McDonald}
+
+\section{Firefox/Thunderbird Troubleshooting}
+\url{https://www.sc.fsu.edu/computing/tech-docs/290-firefox-troubleshooting}
+
+If Firefox will not start it is probably because the lockfiles weren't cleaned up
+\begin{verbatim}
+# killall -9 firefox
+# /panfs/panasas1/system/sysfiles/usrcommon/scripts/cleanFirefox.sh
+# /panfs/panasas1/system/sysfiles/usrcommon/scripts/cleanThunderbird.sh
+\end{verbatim}
+Useful firefox options
+\begin{verbatim}
+firefox -P
+firefox -no-remote
+firefox -safe-mode
+\end{verbatim}
+
+\section{Stereographic Visualization}
+\url{https://www.sc.fsu.edu/computing/tech-docs/306-stereographic-visualization}
+
+The Department of Scientific Computing hosts a high resolution stereographic projection system designed to support multidisciplinary scientific visualization in its seminar room located on the 4th floor of Dirac Science Library. The equipment was acquired in large part thanks to a Major Research Instrumentation grant from the \href{https://www.nsf.gov/}{National Science Foundation}.
+
+The room can seat approximately 100 people.
+
+\subsection*{Equipment}
+The SCS seminar room is equipped with a presentation console where a variety of A/V devises can be controlled by using a simple touch panel controller. The following devises/connections are provided:
+\begin{itemize}
+    \item one windows XP workstation for DVI and stereo displays (full screen resolution is 2480 x 1050)
+    \item two connections for laptops (one cat5 cable, plus the campus wireless is available)
+    \item one document camera
+    \item one DVD/VHS player
+    \item limited cable TV
+    \item stereo audio output from the workstation, DVD/VHS player, and cable TV
+    \item wireless microphone
+\end{itemize}
+The following is a picture of the touch panel used to access the available input devises.
+
+A view of the four-high resolution projectors used to illuminate the 17.5' x 7.5' screen. The bottom two projectors are used in 2d mode, while all four are used when the system is in 3d mode.
+
+\subsection*{Use}
+Coming soon.
+
+\subsection*{Reservations}
+Subject to availability, the seminar room may be booked by non-DSC faculty and staff.
+
+\subsection*{Old Documentation}
+\begin{itemize}
+    \item \href{http://www.sc.fsu.edu/SciVis/VizWall/VizWall_FAQ.php}{FSU VizWall FAQ}
+    \item \href{http://www.sc.fsu.edu/SciVis/Stereo_How-To/html/index.html}{Stereo Workstation Usage Guide}
+    \item \href{http://www.sc.fsu.edu/SciVis/Amira/html/index.html}{Amira Tutorial for Creating Stereo (3D) Movies}
+\end{itemize}
+
+\subsection*{Attachments}
+\begin{description}
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/306-stereographic-visualization/xpo_user_manual.pdf}{xpo\_user\_manual.pdf}] XPO user manual (660 kB)
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/306-stereographic-visualization/StereoWallIntro.pdf}{StereoWallIntro.pdf}] Introduction to the StereoWall (9774 kB)
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/306-stereographic-visualization/Control_Interface.jpg}{Control Interface}] Control Interface (85 kB)
+\end{description}
+
+\section{Gnuplot}
+\url{https://www.sc.fsu.edu/computing/tech-docs/322-gnuplot}
+
+Gnuplot is a portable command-line driven interactive data and function plotting utility for UNIX, IBM OS/2, MS Windows, DOS, Macintosh, VMS, Atari and many other platforms. The software is copyrighted but freely distributed (i.e., you don't have to pay for it). It was originally intended as to allow scientists and students to visualize mathematical functions and data. It does this job pretty well, but has grown to support many non-interactive uses, including web scripting and integration as a plotting engine for third-party applications like Octave. Gnuplot has been supported and under development since 1986. For more information see the \href{http://www.gnuplot.info/}{Gnuplot homepage}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{ImageMagick}
+\url{https://www.sc.fsu.edu/computing/tech-docs/323-imagemagick}
+
+ImageMagick is a software suite to create, edit, and compose bitmap images. It can read, convert and write images in a variety of formats. For more information, see the \href{https://imagemagick.org/}{ImageMagick website}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{LaTeX}
+\url{https://www.sc.fsu.edu/computing/tech-docs/324-latex}
+
+LaTeX is a document preparation system for high-quality typesetting.
+It is most often used for medium-to-large technical or scientific
+documents but it can be used for almost any form of publishing.
+\begin{description}
+    \item[Home Page:] \url{http://www.latex-project.org/}
+    \item[Distribution Specific Information:] \url{http://www.tug.org/tetex/}
+    \item[General Tutorials:] \url{http://www.latex-project.org/guides/}
+\end{description}
+
+\subsection*{Use}
+Open an X11 terminal (if you do not use an X windows enabled terminal Maple will run in the command-line mode).
+TeXMaker is the LaTeX frontend.
+LaTeX is available from on almost every computer managed by DSC, to execute it type
+\begin{verbatim}
+latex filename.tex
+pdflatex filename.tex
+pslatex filename.tex
+\end{verbatim}
+
+\subsection*{Missing Style Files}
+You may request TSG to install standard packages by emailing \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}, or download and put them in \texttt{\textasciitilde{}/texmf/}. The following commands can be helpful:
+\begin{verbatim}
+kpsewhich filename.sty
+kpsewhich -var-value=TEXMFHOME
+\end{verbatim}
+If you have \texttt{filename.ins}, \texttt{filename.sty} can be generated by running:
+\begin{verbatim}
+latex filename.ins
+\end{verbatim}
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{MATLAB}
+\url{https://www.sc.fsu.edu/computing/tech-docs/325-matlab}
+
+MATLAB, the MATrix LABratory, is a high-level technical computing language and interactive environment for algorithm development, data visualization, data analysis, and numeric computation. Using MATLAB, you can solve technical computing problems faster than with traditional programming languages, such as C, C++, and Fortran. For more see: \href{https://www.mathworks.com/products/matlab.html}{MathWorks MATLAB website} and \href{https://www.mathworks.com/company/newsletters/articles/the-origins-of-matlab.html}{Origins of MATLAB}.
+
+The primary benefits of developing a project with MATLAB include: efficient, concise array manipulations; availability of many already-implemented numerical routines (via the standard distribution, add-on toolboxes, or online software repositories); and the large community of users available for support. One particularly active MATLAB community and software repository is MATLAB Central. For more see: \href{https://www.mathworks.com/matlabcentral/}{MATLAB Central}.
+
+\subsection*{Toolboxes}
+Toolboxes are add-ons to the standard MATLAB distribution. They provide additional functionality within a targeted application area. DSC has the following toolboxes available (current as of Spring 2009):
+\begin{itemize}
+    \item Control System Toolbox
+    \item Fixed-Point Toolbox
+    \item Image Processing Toolbox
+    \item Mapping Toolbox
+    \item Neural Network Toolbox
+    \item Optimization Toolbox
+    \item Partial Differential Equation Toolbox
+    \item Signal Processing Toolbox
+    \item Statistics Toolbox
+    \item System Identification Toolbox
+    \item Wavelet Toolbox
+\end{itemize}
+For more see: \href{https://www.mathworks.com/products.html}{MathWorks Product Listing}.
+
+\subsection*{High-Performance Computing with MATLAB}
+Beginning with MATLAB R2007b, new features have been implemented in the official MathWorks MATLAB distribution that allow for parallel and distributed computing. The MATLAB Distributed Computing Engine, used in conjunction with Distributed Computing Toolbox, enables MATLAB and Simulink users to execute applications on a computer cluster. For more see: \href{https://www.mathworks.com/company/newsletters/articles/parallel-matlab-multiple-processors-and-multiple-cores.html}{Cleve's Corner: Parallel MATLAB: Multiple Processors and Multiple Cores}.
+
+MatlabMPI is set of MATLAB scripts that implement a subset of MPI and allow any MATLAB program to be run on a parallel computer. The key innovation of MatlabMPI is that it implements the widely used MPI look and feel on top of standard MATLAB file i/o, resulting in a pure MATLAB implementation that is exceedingly small (\textasciitilde{}300 lines of code). Thus, MatlabMPI will run on any combination of computers that MATLAB supports. For more see: \href{http://www.ll.mit.edu/mission/isr/matlabmpi.html}{MATLAB MPI}.
+
+\subsection*{Running MATLAB}
+With the exception of the classroom and hallway computers, MATLAB access is available only on the \href{https://www.sc.fsu.edu/systems/general-purpose-cluster.php}{General Purpose (GP) Cluster through SGE}. Unless initiated through an X11-capable terminal (i.e. Gnome Terminal, xterm, rxvt, etc.), MATLAB will start in a text-only command-line mode.
+\textbf{NOTE:} To force MATLAB to run in command-line mode use the following flags: \texttt{matlab -nodesktop -nojvm -nosplash}
+\begin{description}
+    \item[-nodesktop] Start MATLAB without its desktop.
+    \item[-nojvm] Start MATLAB without the Java virtual machine (JVM).
+    \item[-nosplash] Start MATLAB but does not display the splash screen.
+\end{description}
+\subsubsection*{DSC General Access}
+MATLAB must be run remotely using SGE
+\begin{enumerate}
+    \item Open an X11 terminal and type: \texttt{qlogin}
+    \item SGE will locate the least-loaded classroom node and initiate a connection.
+    \item After authenticating, type: \texttt{matlab}
+\end{enumerate}
+If \texttt{qlogin} is not available on your machine, you must run the above commands from the PAMD cluster.
+\begin{enumerate}
+    \item SSH to pamd: \texttt{ssh -X pamd.sc.fsu.edu}
+    \item Then follow the above instructions.
+\end{enumerate}
+\subsubsection*{Classroom and Hallway Computers}
+MATLAB is installed locally on each machine.
+Open an X11 terminal and type: \texttt{matlab}
+\subsubsection*{In Batch Mode}
+There are circumstances where a user would want to run MATLAB without its graphical user interface (GUI). For example, a user may want call a MATLAB script from a Makefile, or submit multiple batch jobs to a queuing system.
+\paragraph{From a Makefile}
+Use the following syntax:
+\texttt{cd WORKING\_DIRECTORY \&\& matlab -nosplash -nojvm -r PATH\_TO\_MATLAB\_SCRIPT}
+where \texttt{WORKING\_DIRECTORY} is the directory that MATLAB will work in.
+\texttt{PATH\_TO\_MATLAB\_SCRIPT} is the path to the MATLAB m-file you wish to run
+
+\subsection*{Learning MATLAB}
+There are a plethora of beginning MATLAB tutorials on the internet. A few are listed here:
+\begin{itemize}
+    \item \href{http://www.math.unm.edu/~wz/hpced/matlab.pdf}{Numerical Computing with MATLAB}
+    \item \url{http://www.math.utah.edu/lab/ms/matlab/matlab.html}
+    \item \url{http://www.math.mtu.edu/~msgocken/intro/intro.html}
+\end{itemize}
+One of the most overwhelming parts of learning MATLAB is becoming familiar with all of its functions. A useful resource is \href{https://www.mathworks.com/help/matlab/}{MATLAB Help}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{R}
+\url{https://www.sc.fsu.edu/computing/tech-docs/326-r}
+
+R is a language and environment for
+statistical computing and graphics. It is a \href{http://www.gnu.org/}{GNU} project
+which is similar to the S language and environment which
+was developed at Bell Laboratories (formerly AT\&T, now Lucent
+Technologies) by John Chambers and colleagues. R can be considered as
+a different implementation of S. There are some important differences,
+but much code written for S runs unaltered under R.
+
+R provides a wide variety of statistical (linear and nonlinear
+modelling, classical statistical tests, time-series analysis,
+classification, clustering, ...) and graphical techniques, and is
+highly extensible. The S language is often the vehicle of choice for
+research in statistical methodology, and R provides an Open Source
+route to participation in that activity.
+
+One of R's strengths is the ease with which well-designed
+publication-quality plots can be produced, including mathematical
+symbols and formulae where needed. Great care has been taken over the
+defaults for the minor design choices in graphics, but the user
+retains full control.
+
+R is available as Free Software under the terms of the \href{http://www.fsf.org/}{Free Software Foundation}'s
+GNU General Public License in source code
+form. It compiles and runs on a wide variety of UNIX platforms and
+similar systems (including FreeBSD and Linux), Windows and MacOS.
+
+For more information see the R \href{https://www.r-project.org/}{website}.
+
+\subsection*{Running R}
+R access is available only on the General Purpose (GP) Cluster through SGE.
+Unless initiated through an X11-capable terminal (i.e. Gnome Terminal, xterm, rxvt, etc.), R will start in a text-only command-line mode.
+\begin{verbatim}
+% ssh pamd
+% qlogin -l r
+% R
+\end{verbatim}
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{Mathematica}
+\url{https://www.sc.fsu.edu/computing/tech-docs/330-mathematica}
+
+Mathematica is a general purpose computer algebra system, that can be used to solve mathematical problems and produce high-quality technical graphics. Mathematica uses a high-level programming language, which allows for numerical and symbolic solutions and gives users a way to define their own procedures. it also has some built in packages, which may be loaded to do work in group theory, linear algebra, and statistics, as well as in other fields. It can be used interactively or in batch mode.
+\begin{description}
+    \item[Home Page:] \url{http://www.wolfram.com/products/mathematica/index.html}
+\end{description}
+\subsection*{General Links}
+\begin{itemize}
+    \item \url{http://www.wolfram.com/broadcast/screencasts/}
+    \item \url{http://reference.wolfram.com/mathematica/guide/Mathematica.html}
+    \item \url{http://support.wolfram.com/}
+\end{itemize}
+
+\subsection*{Use}
+Current floating network license allows Mathematica to be installed on any client belong to the Department. Use \texttt{license.sc.fsu.edu} as License Manager (LM) server in such deployment. Mathematica is currently installed on classroom and hallway computers as well as GP cluster. Other installations may be requested through \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+
+Open an X11 terminal (X-Win32 for Windows users). If you do not use an X windows enabled terminal Mathematica will return error like this:
+\texttt{X connection to localhost:... broken (explicit kill or server shutdown).}
+
+From an DSC managed desktop (e.g., hostname is \texttt{dskscs***.sc.fsu.edu}) type:
+\begin{verbatim}
+qlogin -l mathematica
+\end{verbatim}
+From all other machines first log in to \texttt{pamd.sc.fsu.edu}
+\begin{verbatim}
+ssh -Y pamd.sc.fsu.edu
+\end{verbatim}
+then type:
+\begin{verbatim}
+qlogin -l mathematica
+\end{verbatim}
+This command logs you onto the least loaded GP node. At GP prompt, type one of the following commands:
+\begin{verbatim}
+mathematica
+mathematica -cleanStart
+mathematica -mesa
+mathematica -defaultvisual
+unset LD_LIBRARY_PATH; mathematica
+\end{verbatim}
+To use the non-graphical version of Mathematica type one of these:
+\begin{verbatim}
+math
+math -noprompt < batchfile
+math -lmverbose
+math -noinit
+\end{verbatim}
+\hfill \textit{Written by Xiaoguang Li} \\
+\hfill \textit{Category: Supported Applications}
+
+\section{GNU Compiler Collection (GCC)}
+\url{https://www.sc.fsu.edu/computing/tech-docs/334-gcc}
+
+The GNU Complier Collection (GCC) is an integrated compiler that can compile programs written in C, C++, and Fortran. GCC is both the most general name for the compiler suite, and the name used when the emphasis is on compiling C programs (as the abbreviation formerly stood for "GNU C Compiler"). For more information see the \href{https://gcc.gnu.org/}{GNU GCC website}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{g++}
+\url{https://www.sc.fsu.edu/computing/tech-docs/335-g}
+
+The command \texttt{g++} invokes the C++ compiler from the GNU Compiler Collection (GCC). C++ source files conventionally use one of the suffixes \texttt{.C}, \texttt{.cc}, \texttt{.cpp}, \texttt{.c++}, \texttt{.cp}, or \texttt{.cxx}; preprocessed C++ files use the suffix \texttt{.ii}. GCC recognizes files with these names and compiles them as C++ even when invoked as \texttt{gcc}. However, C++ programs often require additional class libraries, and under some circumstances you might want to compile programs from standard input, or otherwise without a suffix that flags them as C++ programs. \texttt{g++} is a program that calls GCC with the default language set to C++, and automatically specifies linking against the C++ library.
+
+When you compile C++ programs, you may specify many of the same command-line options that you use for compiling programs in any language; or command-line options meaningful for C and related languages; or options that are meaningful only for C++ programs. These options may be found in the \href{https://gcc.gnu.org/onlinedocs/}{GCC documentation} or on the \href{https://gcc.gnu.org/}{GCC web site}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{g77}
+\url{https://www.sc.fsu.edu/computing/tech-docs/336-g77}
+
+g77 is a free Fortran 77 compiler. For info on G77, now integrated into the GNU Compiler Collection (GCC), see the online \href{https://gcc.gnu.org/onlinedocs/gcc-3.4.6/g77/index.html}{g77 documentation}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{g95}
+\url{https://www.sc.fsu.edu/computing/tech-docs/337-g95}
+
+GNU FORTRAN 95.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{GSL}
+\url{https://www.sc.fsu.edu/computing/tech-docs/341-gsl}
+
+The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite. For more information, see the \href{https://www.gnu.org/software/gsl/}{GSL website} or \href{https://www.gnu.org/software/gsl/doc/html/index.html}{reference manual}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{LAPACK}
+\url{https://www.sc.fsu.edu/computing/tech-docs/342-lapack}
+
+LAPACK, a Linear Algebra PACKage, is written in Fortran90 and provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. The associated matrix factorizations (LU, Cholesky, QR, SVD, Schur, generalized Schur) are also provided, as are related computations such as reordering of the Schur factorizations and estimating condition numbers. Dense and banded matrices are handled, but not general sparse matrices. In all areas, similar functionality is provided for real and complex matrices, in both single and double precision.
+
+LAPACK provides a library of routines that can be linked to your executables. To link your executable to the LAPACK library, use the option \texttt{-llapack}. Note that you may also need to link to the BLAS library. See the \href{http://www.netlib.org/lapack/}{LAPACK website} for additional information.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{Super LU}
+\url{https://www.sc.fsu.edu/computing/tech-docs/343-superlu}
+
+Super LU is a general purpose library for the direct solution of large,
+sparse, nonsymmetric systems of linear equations on high performance
+machines. The library is written in C and is callable from either C or
+Fortran. The library routines will perform an LU decomposition with
+partial pivoting and triangular system solves through forward and back
+substitution. The LU factorization routines can handle non-square
+matrices but the triangular solves are performed only for square
+matrices. The matrix columns may be preordered (before factorization)
+either through library or user supplied routines. This preordering for
+sparsity is completely separate from the factorization. Working
+precision iterative refinement subroutines are provided for improved
+backward stability. Routines are also provided to equilibrate the
+system, estimate the condition number, calculate the relative backward
+error, and estimate error bounds for the refined solutions.
+
+For more information see the Super LU \href{https://portal.nersc.gov/project/sparse/superlu/}{website} or its \href{https://portal.nersc.gov/project/sparse/superlu/superlu_ug.pdf}{users' guide}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{GROMACS}
+\url{https://www.sc.fsu.edu/computing/tech-docs/344-gromacs}
+
+GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. It is primarily designed for biochemical molecules like proteins and lipids that have a lot of complicated bonded interactions, but since GROMACS is extremely fast at calculating the nonbonded interactions (that usually dominate simulations) many groups are also using it for research on non-biological systems, e.g. polymers.
+
+GROMACS supports all the usual algorithms you expect from a modern molecular dynamics implementation.
+
+For more information, check the \href{http://www.gromacs.org/}{GROMACS website} or the \href{http://www.gromacs.org/Documentation/Tutorials}{GROMACS tutorials}.
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Supported Libraries \& Compilers}
+
+\section{Using SSH}
+\url{https://www.sc.fsu.edu/computing/tech-docs/345-using-ssh}
+
+\subsection*{Passwordless authentication}
+\textbf{Note:} Passwordless authentication has been disabled on the \texttt{pamd} servers. However, once inside our network you can setup passwordless ssh to other hosts normally.
+
+Below you'll find the "barebones" steps needed to connect to a remote machine without having to enter your password. This is NOT a comprehensive explanation of how ssh or passwordless authentication works, rather it is simply some notes that I've kept to get ssh to work for my purposes. You should also know that setting up passwordless authentication for your account and machine will expose you to at least one security vulnerability. For example, if someone logged into your account on your machine then they can access any other machine that has been configured to accept passwordless authentication. That said, here's how to do it.
+
+There are two versions of ssh and each version has a slightly
+different way of authenticating. I'll break things down into multiple
+parts to cover all of the ways you could connect to the different
+clients. To find out what version off ssh you are using type:
+\begin{verbatim}
+ssh -V
+\end{verbatim}
+You'll either get something that has the string OpenSSH in it or something like this, \texttt{SSH Secure Shell 3.1.0 non-commercial version}. I'll refer to the former as OpenSSH and to the later as ssh.com
+
+\subsubsection*{OpenSSH to OpenSSH}
+Most SCS systems are configured to use OpenSSH, which will make your life considerably more simple. The most notable exception to this is the IBM SP machines. The IBMs use the ssh.com version of ssh. It is still possible to connect to machines using differenct implementations of SSH, but it adds an extra layer of work that I will talk about later. In this section I'll discuss how to setup passwordless authentication between a host and a server running openSSH.
+
+First, you need to create a public key using the following command:
+\begin{verbatim}
+ssh-keygen -t dsa
+\end{verbatim}
+You'll be prompted for a passphrase and you might be prompted to name the identity files. Leave them blank and hit return.
+\begin{verbatim}
+Generating public/private dsa key pair.
+Enter file in which to save the key (~/.ssh/id_dsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in id_dsa.
+Your public key has been saved in id_dsa.pub.
+The key fingerprint is:
+af:02:20:6e:05:96:84:5a:cc:2c:0a:1e:db:bb:1c:8b
+\end{verbatim}
+In this step, two files were generated; one is the local identity file (\texttt{id\_dsa}) and the other is the public key that will go into a specific file on the remote host. If the remote host mounts your SC home directory then this step is simple. Change directories to thehidden ssh configuration directory:
+\begin{verbatim}
+cd ~/.ssh
+\end{verbatim}
+Copy the contents of \texttt{id\_dsa.pub} into the \texttt{authorized\_keys2} file.
+\begin{verbatim}
+cat id_dsa.pub >> authorized_keys2
+\end{verbatim}
+Notice that I've used the append redirect (\texttt{>>}) because you can have multiple host identity keys in the same \texttt{authorized\_keys2} file. The important thing here is that each key must occupy its own line. If you don't yet have an \texttt{authorized\_keys2} file then you can do something like this:
+\begin{verbatim}
+cat id_dsa.pub > authorized_keys2
+\end{verbatim}
+That's it. You should now be able to logon to a remote host that is mounting your SCS home directory without having to type in your password. If you are attempting to connect to a remote server that doesn't mount the the CSIT user file system then you will need to copy the public key to the sever and paste or redirect the file into the authorized\_keys2 file. For example:
+\begin{verbatim}
+scp ./id_dsa.pub faroffserver.bingo.org:.ssh/.
+ssh remoteHost.bingo.org
+remoteHost> cd .ssh
+remoteHost> cat id_dsa.pub >> authorized_keys2
+\end{verbatim}
+note! if the file doesn't exist you'll need to do this:
+\begin{verbatim}
+remoteHost> cat id_dsa.pub > authorized_keys2
+\end{verbatim}
+
+\subsubsection*{OpenSSH to ssh.com}
+Now you want to connect to a remote server using the ssh.com implementation of ssh from a host that's using OpenSSH. This would be the case if you wanted to connect to one of SCS's IBM machines from most of the other SCS machines. Start by generating an ssh.com (SECSH) formatted public key from the OpenSSH public key already in your \texttt{.ssh} directory and put the new key in the right place. Here's what you'll do:
+\begin{verbatim}
+cd ~/.ssh
+ssh-keygen -e -f id_dsa.pub > id_dsa_secsh.pub
+\end{verbatim}
+SSH.com stores it's configuration files in a hidden directory called \texttt{.ssh2}. If you are trying to connect to a remote machine that mounts the SCS user file system then you'll need to create the \texttt{.ssh2} directory if doesn't already exist.
+\begin{verbatim}
+mkdir ~/.ssh2
+cd ~/.ssh2
+\end{verbatim}
+Next you will need to copy the new file to the \texttt{.ssh2} directory and configure the authorization file so that it knows where to look to find the key.
+\begin{verbatim}
+cp ~/.ssh/id_dsa_secsh.pub ~/.ssh2/.
+echo Key id_dsa_secsh.pub >> authorization
+\end{verbatim}
+Again, if the authorization file doesn't exist then you'll need to do:
+\begin{verbatim}
+echo Key id_dsa_secsh.pub > authorization
+\end{verbatim}
+That's it. If the remote server to which you are trying to connect does not mount the DSC file system then you will copy the key file to the remote machine and then logon to the machine and make the changes described above.
+
+\subsubsection*{SSH.com to OpenSSH}
+Much of what is needed in the section is covered more verbosely
+above so I'm going to stick to the commands needed to configure a local
+host running ssh.com (local) to connect to a remote host running
+OpenSSH (remote).
+\begin{verbatim}
+local> ssh-keygen -t dsa
+local> echo IdKey id_dsa_1024_a > identification
+local> scp id_dsa_1024_a.pub remote.fsu.edu:.ssh/.
+remote> cd .ssh
+remote> ssh-keygen -f id_dsa_1024_a.pub -i > newkey.pub
+remote> cat newkey.pub >> authorized_keys2
+\end{verbatim}
+That's it.
+\hfill \textit{Written by Michael McDonald}
+
+\section{Printing FAQ}
+\url{https://www.sc.fsu.edu/computing/tech-docs/352-printerfaq}
+
+DSC has consolidated all of its printing and copying options under one contract with three Konica Minolta multifunction printers. As part of this contract, the department is now charged 6 cents per color page, 1 cent per grayscale page. For this reason we have implemented a print accounting systems based on Pykota on top of CUPS. If you have any problems with printing please consult the FAQ below. If you do not find your answer here please contact TSG with your job number and a description of the issue.
+
+\begin{description}
+    \item[Q:] What is my quota?
+    \item[A:] The default quotas were determined by the department to be \$30 per semester (6months) for faculty and \$10 per semester (6 months) for students. Color pages cost 6 cents per page, grayscale 1 cent per page.
+    
+    \item[Q:] How do I find out the current balance of my quota?
+    \item[A:] We have made an interface for you to review the quota and print jobs that can be found from the print quota link on the main page (note you must be logged in to see this).
+    
+    \item[Q:] Why don't I have a quota set?
+    \item[A:] If you have no quota set this means you aren't listed as being part of the department, if this is a mistake please contact \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} and we will correct it.
+    
+    \item[Q:] Can I still print if I have no quota or I have used it all up?
+    \item[A:] Yes you should still be able to print if you add more credit to the account.
+    
+    \item[Q:] How do I increase my quota if I need it?
+    \item[A:] You can contact Michele Locke and arrange for additional money to be placed on your account that will allow you to print additional pages.
+    
+    \item[Q:] I am printing from my personal laptop, why do none of my jobs get printed?
+    \item[A:] When printing from your personal computer it is important to make sure that the username of your own machine matches your SC/FSU username. Each print job needs to correspond to a user for accountability. If printing with command \texttt{lpr}, this can be done with the -U flag. It is also important to put your personal computer on the proper network via VPN or otherwise.
+    
+    \item[Q:] My print job seems to sit around in the queue for a long time. Why?
+    \item[A:] There can be a lot of reasons. The most important of which is that these are multifunction printers, if someone is copying or scanning with them, they will be unavailable for printing. Check and see if the printer is busy. Also only one print job can be sent to the printer at a time, this means that if someone else prints a job to a queue that is set for the same printer, one job will have to wait for the other to complete first. Email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} if attention is needed.
+\end{description}
+
+\section{NetBeans}
+\url{https://www.sc.fsu.edu/computing/tech-docs/355-netbeans}
+
+NetBeans is an ide for developing Java. More information can be found at the \href{https://netbeans.apache.org/}{NetBeans website} as well as a \href{https://netbeans.apache.org/kb/docs/java/quickstart.html}{tutorial introduction}.
+
+\subsection*{Use}
+Open an X11 terminal (if you do not use an X windows enabled terminal this package will not work).
+If NetBeans is installed locally on your machine (i.e., in the VisLab), type:
+\begin{verbatim}
+netbeans
+\end{verbatim}
+Otherwise, from an DSC managed desktop (e.g., hostname is \texttt{dsksc***.sc.fsu.edu}) type:
+\begin{verbatim}
+qlogin -l netbeans
+\end{verbatim}
+From all other machines first log in to \texttt{pamd.sc.fsu.edu}
+\begin{verbatim}
+ssh -Y pamd.scs.fsu.edu
+\end{verbatim}
+Then type:
+\begin{verbatim}
+qlogin -l netbeans
+\end{verbatim}
+This command logs you onto the least loaded GP node. Type:
+\begin{verbatim}
+netbeans
+\end{verbatim}
+
+\section{PETSc}
+\url{https://www.sc.fsu.edu/computing/tech-docs/356-petsc}
+
+PETSc, pronounced PET-see (the S is silent), is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations. It employs the MPI standard for all message-passing communication. See the \href{https://www.mcs.anl.gov/petsc/}{PETSC web pages} for additional information.
+
+\section{Totalview}
+\url{https://www.sc.fsu.edu/computing/tech-docs/357-totalview}
+
+TotalView is a source-level and machine-level debugger with support for Fortran, C, C++, OpenMP, MPI, and threads. The Totalview website can be found \href{https://www.roguewave.com/products-services/totalview}{here} and a general tutorial is available \href{https://www.roguewave.com/sites/rw/files/resource-assets/TotalView_Tutorial.pdf}{here}.
+
+\section{VMD}
+\url{https://www.sc.fsu.edu/computing/tech-docs/358-vmd}
+
+Visual Molecular Dynamics (VMD) is a molecular visualization program for displaying, animating, and analyzing large biomolecular systems using 3-D graphics and built-in scripting. For more information, see the \href{http://www.ks.uiuc.edu/Research/vmd/}{VMD home page} or its \href{http://www.ks.uiuc.edu/Research/vmd/current/docs.html}{documentation and tutorials}.
+
+\subsection*{Use}
+Open an X11 terminal.
+If VMD is installed locally on your machines (i.e., in the VisLab), type:
+\begin{verbatim}
+vmd
+\end{verbatim}
+Otherwise, from an DSC managed desktop (e.g., hostname is \texttt{dsksc***.sc.fsu.edu}) type:
+\begin{verbatim}
+qlogin -l vmd
+\end{verbatim}
+From all other machines first log in to \texttt{pamd.sc.fsu.edu}
+\begin{verbatim}
+ssh -Y pamd.sc.fsu.edu
+\end{verbatim}
+then type:
+\begin{verbatim}
+qlogin -l vmd
+\end{verbatim}
+This command logs you onto the least loaded GP node. Then type:
+\begin{verbatim}
+vmd
+\end{verbatim}
+
+\section{Portland Group Compliers}
+\url{https://www.sc.fsu.edu/computing/tech-docs/359-portland-group-compliers}
+
+The Portland Group, Inc. (PGI) provides high-performance parallelizing/optimizing Fortran, C and C++ compilers for 32-bit x86 and 64-bit x64 processor-based Linux and Windows workstations, servers and clusters. For more information, see the \href{https://www.pgroup.com/}{PGI home page}.
+\textbf{Note:} The PGI compilers are not available at DSC at this time, but are available at the FSU HPC.
+
+\section{Intel Compliers}
+\url{https://www.sc.fsu.edu/computing/tech-docs/360-intel-compliers}
+
+The Intel compilers provide improved performance over the GNU C/C++ compilers. This compiler product automatically optimizes and parallelizes software to take best advantage of multi-core Intel processors. For more information about the Intel C/C++ and Fortran compilers, look \href{https://software.intel.com/en-us/fortran-compilers}{here}.
+
+\section{MPI}
+\url{https://www.sc.fsu.edu/computing/tech-docs/361-mpi}
+
+Message Passing Interface (MPI) is a specification for an API that allows many computers to communicate with one another. The MPI standard includes point-to-point message-passing, collective communications, group and communicator concepts, process topologies, environmental management, process creation and management, one-sided communications, extended collective operations, external interfaces, I/O, some miscellaneous topics, and a profiling interface. Language bindings for C, C++ and Fortran are defined. OpenMPI and MPICH2 are two popular free MPI implementations.
+
+\textbf{Note:} At DSC, we currently support OpenMPI and MPICH2 on owner-based clusters only.
+
+\subsection*{OpenMPI}
+The Open MPI Project is an open source MPI-2 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is a project combining technologies and resources from several other projects (LAM/MPI, FT-MPI, LA-MPI, and PACX-MPI) in order to build the best MPI library available. OpenMPI programs must be compiled and linked with the appropriate MPI compiler. The user creates a special environment for jobs to run in.
+
+\subsection*{MPICH2}
+MPICH2 is a freely available, portable implementation of MPI, the Standard for message-passing libraries. It implements both MPI-1 and MPI-2. MPICH2 is supposed to be a compatible replacement for any MPICH version 1 implementation. MPICH2 requires users to build and link against the set of provided routines then run in a special environment. See the \href{https://www.mpich.org/documentation/guides/}{MPICH2 documentation} for additional specifications.
+
+\section{Short Technical Courses}
+\url{https://www.sc.fsu.edu/computing/tech-docs/365-short-technical-courses}
+
+The DSC Technical Workshop Series consists of one hour labs designed to
+give students and faculty hands on experience with a variety of
+applications used in computational science. The labs are led by SCS
+graduate students and are held in the SCS computer classroom (DSL 152)
+or Seminar room (DSL 499).
+\begin{itemize}
+    \item Overview of computing resources in the DSC
+    \item Introduction to FSU's HPC facility
+    \item Introduction to Unix
+    \item Introduction to Digital Video and Video Encoding
+    \item Introduction to Software Versioning, SVN
+    \item Introduction to shell programming
+\end{itemize}
+
+\section{Owner-Based FAQs}
+\url{https://www.sc.fsu.edu/computing/tech-docs/383-owner-based-faqs}
+
+\subsection*{How do I get an account on a cluster?}
+\begin{itemize}
+    \item If you already have an DSC account, access can be requested through \href{https://sc.fsu.edu/members/profile}{SCUM}.
+    \item These requests will be sent to the cluster owner for approval.
+    \item If you do not already have an DSC account, you must first request a DSC sponsored account.
+    \item To request a DSC sponsored account, go to \href{https://sc.fsu.edu/members/profile}{SCUM}, click on "Request a DSC Account", select "Sponsored Account", then select the DSC faculty member that will act as your account sponsor.
+    \item Once the account sponsor approves your request, you can request cluster access.
+\end{itemize}
+
+\subsection*{How do I log into the cluster?}
+\begin{itemize}
+    \item Cluster resources (compute nodes, etc.) can only be accessed through the cluster headnode.
+    \item Inside the DSC network, cluster headnodes can be accessed using \texttt{ssh}.
+    \item For example, to log into a cluster called \texttt{phoenix}, type: \texttt{ssh phoenix}
+    \item If you are outside the DSC network, you must first log into PAMD to get past our firewall:
+    \begin{verbatim}
+ssh pamd.sc.fsu.edu
+ssh phoenix
+    \end{verbatim}
+\end{itemize}
+
+\subsection*{How do I compile programs?}
+\begin{itemize}
+    \item Use the cluster headnode to compile programs intended to run on that cluster.
+    \item On the headnode, your default path will be set to allow access to all compilers available on that system.
+    \item For certain proprietary compilers, licensing issues will limit the number of simultaneous compilations allowed.
+    \item If a compilation job fails because there are no available licenses, be patient and wait for other users' compilation processes to complete, then attempt your compilation again.
+\end{itemize}
+
+\subsection*{How do I run programs?}
+\begin{itemize}
+    \item The headnode must be available to provide essential services to other cluster nodes, so it is imperitive that resource-intensive programs are never run directly on the headnode.
+    \item Instead, all programs should be submitted via the cluster's queuing system.
+    \item Although \texttt{ssh} may be allowed to compute nodes, please refrain from using this ability to run jobs, because this prevents the scheduler from optimally managing the cluster's resources.
+\end{itemize}
+
+\subsection*{How do I log into a specific node?}
+In the event that it is necessary to direcly access a specific cluster node interactively, please use the cluster's queuing system.
+\begin{verbatim}
+qlogin -q [queue-name]
+\end{verbatim}
+you will be given a login on a node of that type.
+If you need to log into a specific node you can use the form
+\begin{verbatim}
+qlogin -q [queue-name]@[machine-name]
+\end{verbatim}
+
+\subsection*{What are the differences between the MPI implementations?}
+\begin{itemize}
+    \item In general, most MPI implementations provide the same functionality, but in slightly different ways.
+    \item OpenMPI provides many utilities that make it more portable and dynamic than the others, making it the suggested platform for new software development.
+    \item Occasionally programs require features that are specific to another MPI implementation.
+    \item Other MPI implementations are available on certain clusters, but often are often less scheduler-friendly, and have been known to leave processes running if a job dies unexpectedly.
+\end{itemize}
+
+\section{Macintosh System Configurations}
+\url{https://www.sc.fsu.edu/computing/tech-docs/433-macintosh-setup}
+
+Topics cover the basic system configurations for SC Macintosh clients running Leopard (OS X 10.5.x). Configurations for Tiger may vary somewhat. They allow users without local accounts to access the computer via LDAP. User files can also be saved on the network in a transparent manner. This is ideal for public Macintosh systems. Individual Macs can be configured as such with a slight twist: Mobile accounts. It provides the consistency and convenience of tapping into department resources and yet allows the freedom to logon when off campus.
+
+\subsection*{Configure the System to Use LDAP Authentication}
+It may be necessary to reboot when LDAP settings have changed.
+\begin{enumerate}
+    \item Start /Applications/Utilities/Directory Utility or /System/Library/CoreServices/Directory, unlock and show advanced settings if needed. You need administrator access to make any changes.
+    \item Under "Services" tab, edit LDAPv3
+    \item Click on "New..." button
+    \item Server Name or IP Address: \texttt{ldap-vm0.sc.fsu.edu}. Make sure "Encrypt using SSL" is unchecked, otherwise authentication will fail. As of this writing, this is a bug in Leopard. We can correct this setting later.
+    \item Continue and choose template: RFC 2307 (Unix) and enter searchbase: \texttt{ou=people,dc=sc,dc=fsu,dc=edu}
+    \item Save is as "LDAP" under "Configuration Name", click on "OK" to finish
+    \item Earlier than Leopard, secure LDAP connection is not mandated. Modify the mandate by editing \texttt{/etc/openldap/ldap.conf}
+    \texttt{TLS\_REQCERT demand ==> TLS\_REQCERT allow}
+\end{enumerate}
+
+\subsection*{Configure the System to Use LDAP SSL to Authenticate}
+Assume LDAP authentication is configured already and you need administrator privilege
+\begin{enumerate}
+    \item Directory Utility
+    \item Services
+    \item LDAPv3
+    \item Encrypt using SSL
+    \item Append the following to file \texttt{/usr/share/curl/curl-ca-bundle.crt}
+    \begin{verbatim}
+Go Daddy Class 2 CA
+===================
+-----BEGIN CERTIFICATE-----
+... (certificate data) ...
+-----END CERTIFICATE-----
+    \end{verbatim}
+    \item Append the following line
+    \texttt{TLS\_CACERT /usr/share/curl/curl-ca-bundle.crt}
+    to file \texttt{/etc/openldap/ldap.conf} and make sure to restore allow to demand (default for Leopard)
+    \texttt{TLS\_REQCERT allow ==> TLS\_REQCERT demand}
+\end{enumerate}
+
+\subsection*{Automount Configuration for Remote Homedirectory}
+Start "Directory Utility" as before, select "Mounts" tab
+\begin{description}
+    \item[Remote NFS URL:] nfs://pan-nfs.sc.fsu.edu/
+    \item[Mount location:] /panfs/panasas1
+\end{description}
+\textbf{NOTE:} The trailing slash in the URL is critical. The absence of trailing slash in the mount location is also important.
+
+\subsection*{Configure System to Use CUPS Printers}
+If users prefer more options and better control with printers, refer to \href{https://www.sc.fsu.edu/computing/tech-docs/206-network-printer-setup}{network printer setup} and install them with native drivers. Using CUPS printers, the administrative overhead is minimal.
+\begin{enumerate}
+    \item Login as administrator and create or edit \texttt{/etc/cups/client.conf}
+    \texttt{ServerName cups.sc.fsu.edu}
+    \item Now users should have direct access to all CUPS printers (reboot if necessasry). All jobs will be printed as black and white by default unlike in most other cases where color is the default.
+\end{enumerate}
+
+\subsection*{How to print in color via CUPS printers?}
+Select "Color Matching" under Options and then "In Printer"
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Macintosh Frontpage}
+\url{https://www.sc.fsu.edu/computing/tech-docs/446-macintosh-frontpage}
+
+This is the first page to consult for general questions about managed Macintosh systems.
+
+\subsection*{Configure Macintosh OS X (Leopard)}
+TSG managed Macintosh systems are typically configured as follows. They apply to home/mobile users in most cases. If you need additional items to be addressed, please contact \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+\begin{itemize}
+    \item Install Leopard from scratch or via upgrade using Install DVD
+    \item Complete current updates
+    \item Setup LDAP (LDAPS to be done saparately)
+    \item Configure MFP printers
+    \item Office 2008 for Mac and updates
+    \item \href{http://www.mozilla.com/en-US/firefox/}{Firefox} and \href{http://www.mozilla.com/en-US/thunderbird/}{Thunderbird} Setup
+    \item \href{http://www.tuxera.com/mac/ntfs-3g_faq.html}{ntfs-3g}
+    \item \href{http://www.macupdate.com/info.php/id/26105/svnx}{svnX}
+    \item \href{http://www.tug.org/mactex/}{MacTeX} (backend) and \href{http://pages.uoregon.edu/koch/texshop/}{TeXShop} (frontend)
+    \item Developer Tools and Xcode from Install DVD
+    \item Others
+\end{itemize}
+
+\subsection*{Windows for Mac Users}
+\subsubsection*{Need to run virtual machines}
+\href{http://www.virtualbox.org/}{VirtualBox}
+\subsubsection*{Need to access external NTFS partitions or hard drives}
+Install \href{http://www.tuxera.com/mac/ntfs-3g_faq.html}{ntfs-3g}
+\subsubsection*{Need to run Windows OS on Intel Macintosh}
+Install Boot Camp and latest updates
+For PowerPC users, VMware Fusion, Parallels, and other commercial packages are available
+Follow \href{https://www.sc.fsu.edu/computing/tech-docs/447-windows-frontpage}{Windows Frontpage} to setup Windows XP
+
+\subsection*{Want to remotely control Macintosh}
+Install and configure \href{http://www.redstonesoftware.com/products/vine_server}{Vine Server} on OS X
+Apple Remote Desktop and other commercial solutions are available
+Users can access/control OS X from either Windows and Linux computers via VNC clients
+\textbf{NOTE:} this approach may not be secure enough over the public networks. To overcome that, use either ssh tunnels or other commercial grade VNC servers for Mac.
+
+\subsection*{How to change the user short name?}
+This may be necessary for easy access to our MFP printers if you don't have LDAP authentication configured. \href{http://docs.info.apple.com/article.html?artnum=106915}{Here is how}.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Google Applications}
+\url{https://www.sc.fsu.edu/computing/tech-docs/527-google-applications97}
+
+The department is using Google Calendar for scheduling both individuals and resources. If you already have Gmail account, you may have found other Google applications - Docs and Sites - useful. Although we are not using FSU calendar system as a department, you may have need to collaborate with other people who do. If you have questions about using FSU calendar, please refer to \href{https://www.sc.fsu.edu/computing/tech-docs/243-fsu-calendar}{this link} or email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+
+\subsection*{Google Calendar}
+Login at \url{http://calendar.sc.fsu.edu/}
+You need a Google calendar account for this. Please contact \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} for help.
+If you prefer video, view \href{https://www.youtube.com/watch?v=E-k-3G0sZ14}{this clip on Youtube}.
+\begin{itemize}
+    \item Click on "Settings" (upper right hand menu) if you want to customize settings. Also available under "My calendars" or "Other calendars"
+    \item To customize four day weather info:
+        \begin{itemize}
+            \item Under General page
+            \item Location: Tallahassee, FL
+            \item Show weather based on my location: F
+        \end{itemize}
+    \item To add/view/share calendars with others:
+        \begin{itemize}
+            \item Under Calendars page
+            \item Click "Create new calendar" button to add other calendars, for example, personal and project related
+            \item Click on "Import calendar" link to view others calendar
+            \item Click on "Shared: Edit settings" or your calendars link to share them
+            \item You can only delete your own calendars, but may unsubscribe others calendars
+        \end{itemize}
+    \item In Calendar view (vs Settings view), you can add/remove schedules and event:
+        \begin{itemize}
+            \item Click and drag in the proper slot to create a schedule (default 30 minute increments). "edit event details" if needed: When and/or Repeats, Where, Calendar, Description, Reminder, Privacy.
+            \item To delete an event, click on the event link to open the details section and "Delete" button is at the top.
+            \item Typical calendar views: by day, week and month.
+        \end{itemize}
+    \item To schedule a group meeting:
+        \begin{itemize}
+            \item Create/add a schedule as above
+            \item Open details section
+            \item Click on "Add Guests"
+            \item "Choose from contacts" link will start a popup window
+            \item Select "All contacts.." from the drop-down menu or simply type in the calendar ID, for example, \texttt{calendarid@group.calendar.google.com}
+            \item Click on the names to toggle the selection on and off
+            \item Click on "Save" button when completed
+        \end{itemize}
+    \item To customize the colors of each calendar:
+        \begin{itemize}
+            \item Expand "My calendars" or "Other calendars" if needed
+            \item Click on the triangle to the right of the calendar in question
+            \item Select the desired color from the drop-down menu
+        \end{itemize}
+    \item Now you can also use Google calendar to manage tasks:
+        \begin{itemize}
+            \item Click on "Tasks" menu on the left to toggle tasks list on the right
+            \item Type the name for your task to create one...
+            \item Tasks can also be categorized using different lists...
+        \end{itemize}
+\end{itemize}
+
+\subsection*{Google Documents}
+When multiplatform users are involved and security is not paramount, Google Docs can be a very handy option.
+Click on "Documents" link on the upper left menu from Google calendar or via \url{http://docs.google.com/}.
+
+\subsection*{Google Sites}
+Refer to \href{https://www.sc.fsu.edu/computing/tech-docs/528-personal-website-hosting}{Personal Website Hosting}.
+Click on "Sites" link on the upper left menu or via \url{http://sites.google.com/} or \url{http://pages.google.com/}.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Personal Website Hosting}
+\url{https://www.sc.fsu.edu/computing/tech-docs/528-personal-website-hosting}
+
+There are numerous ways to host your personal website. Here are a few recommended methods:
+
+\subsection*{DSC's \texttt{public\_html} Solution}
+\url{https://people.sc.fsu.edu/~FSUID} or \url{https://sc.fsu.edu/~FSUID}
+\begin{enumerate}
+    \item Change permissions of your home directory
+    \begin{verbatim}chmod 0711 ~\end{verbatim}
+    \item Create \texttt{public\_html} folder in your home directory
+    \begin{verbatim}mkdir ~/public_html\end{verbatim}
+    \item Change permissions of your public\_html directory
+    \begin{verbatim}chmod 755 ~/public_html\end{verbatim}
+    \item Add content to your \texttt{public\_html} (space counts towards your quota)
+\end{enumerate}
+\textbf{IMPORTANT:} This will likely allow other users in the file system to read files in your home directory. Please manage the permissions accordingly.
+
+\subsection*{Google portals and other web presence hosts}
+\begin{itemize}
+    \item Google Site (formerly Google Pages)
+    \item etc...
+\end{itemize}
+
+\subsection*{FSU's myWebDAV Solution}
+\href{https://its.fsu.edu/service-catalog/wi-fi-internet-access/mywebdav}{FSU's myWebDAV Service}. Available to all Faculty and Students.
+\url{http://myweb.fsu.edu/FSUID}
+If your website is not created yet, please submit a support ticket here, \url{help.fsu.edu}.
+Use WebDAV clients to manage your website: e.g., My Network Places (under Windows) or Connect to Server (on the Mac).
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Web Design}
+
+\section{Windows X11}
+\url{https://www.sc.fsu.edu/computing/tech-docs/532-windows-x11}
+
+To access Linux X11 resources - Matlab, Mathematica, Tecplot, Avizo, and COMSOL - from Windows computers, users need to have \href{http://www.sc.fsu.edu/software/win-ssh-client.php}{SSH Secure Shell Client} and X-Win32 properly configured. Users will also need \href{https://www.sc.fsu.edu/computing/tech-docs/204-vpn-access}{VPN client} if connecting from off campus.
+
+\subsection*{How to turn on X11 tunneling from SSH Secure Shell Client?}
+Start "SSH Secure Shell Client", go to "Profiles/Edit Profiles".
+Select the profiles in question and/or Quick Connect, under "Tunneling" tab, check "Tunnel X11 connections".
+If you start X-Win32 before "SSH Secure Shell Client", all X11 applications will tunnel through X-Win32. Make sure you allow that through the firewalls.
+
+\subsection*{How to enable X-Win32 license (for all users of the computer)?}
+Ask your system administrator or email \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} for help.
+After entering the correct license as username, copy file
+\texttt{C:\textbackslash{}Documents and Settings\textbackslash{}username\textbackslash{}Application Data\textbackslash{}StarNet\textbackslash{}X-Win32\textbackslash{}License.config}
+to folder
+\texttt{C:\textbackslash{}Program Files\textbackslash{}StarNet\textbackslash{}X-Win32 9.4}.
+That will enable all users of the computer to share that license.
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Seminar Room Equipment}
+\url{https://www.sc.fsu.edu/computing/tech-docs/620-seminar-room-equipment}
+
+\begin{description}
+    \item[Problem:] The screen is flickering when I connect my external device.
+    \item[Solution:] Open the front door to the left cabinet/rack and power cycle the top two Cyviz boxes (switch both off for 30 seconds and then turn back on).
+    
+    \item[Problem:] The screen is missing some colors (red/green/blue) when I connect my external device.
+    \item[Solution:] There is most likely faulty wiring between your device and the Extron matrix switcher. Please try the other input cable as a temporary solution and submit a help request to \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu} for repair.
+\end{description}
+\textbf{Note:} If any of the above solutions do not work then please seek further assistance from the Technical Support Group, \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}.
+\hfill \textit{Written by Michael McDonald}
+
+\section{Sun Analyzer}
+\url{https://www.sc.fsu.edu/computing/tech-docs/655-sun-analyzer}
+
+\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/655-sun-analyzer/analyzer.pdf}{Sun Analyzer Report}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Video Conferencing}
+\url{https://www.sc.fsu.edu/computing/tech-docs/661-video-conferencing}
+
+The attached slides were presented by Michael McDonald on November 4, 2010 at the Department of Scientific Computing. The presentation outlined the various video conferencing tools available to faculty and students. Some of the tools/clients that were covered in the presentation included:
+\begin{itemize}
+    \item Skype
+    \item Google Hangouts
+    \item iChat
+    \item EVO
+    \item Access Grid
+\end{itemize}
+
+\subsection*{Attachments}
+\begin{description}
+    \item[\href{https://www.sc.fsu.edu/computing/tech-docs/attachments/661-video-conferencing/Video_Conferencing.pdf}{Video Conferencing Presentation}] Created by Michael McDonald (2207 kB)
+\end{description}
+\hfill \textit{Written by Michael McDonald} \\
+\hfill \textit{Category: Video Conferencing}
+
+\section{RHEL6}
+\url{https://www.sc.fsu.edu/computing/tech-docs/685-rhel6}
+
+More reliable. More open. More comprehensive. More fun. More stable. More computing.
+With Red Hat Enterprise Linux, you can do more, not tomorrow, but today.
+\href{https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux}{Click here to read more.}
+
+\subsection*{Upgrade FAQs}
+\subsubsection*{Is Firefox crashing or you can't read your FSU email using Firefox?}
+\begin{enumerate}
+    \item Backup Bookmarks - (Bookmarks->Organize Bookmarks->Import and Backup->Backup)
+    \item close firefox
+    \item \texttt{move \textasciitilde{}/.mozilla \textasciitilde{}/.mozilla.backup}
+\end{enumerate}
+
+\subsubsection*{Problems with Acroread Firefox plugin?}
+\begin{enumerate}
+    \item Backup Bookmarks - (Bookmarks->Organize Bookmarks->Import and Backup->Backup)
+    \item close firefox
+    \item \texttt{move \textasciitilde{}/.mozilla \textasciitilde{}/.mozilla.backup}
+    \item if the above two steps fail, then click Edit->Preferences->Applications->pdf and change the document viewer
+\end{enumerate}
+\hfill \textit{Written by Michael McDonald}
+
+\section{Usage of the HTML pre Tag}
+\url{https://www.sc.fsu.edu/computing/tech-docs/688-usage-of-the-html-pre-tag}
+
+Proper usage of the HTML \texttt{<pre>} tag is the following:
+\begin{verbatim}
+<pre>
+code line 1
+code line 2
+code line 3
+</pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+\end{verbatim}
+\hfill \textit{Written by Michael McDonald}
+
+\section{FSU Virtual Lab (myFSUVLab)}
+\url{https://www.sc.fsu.edu/computing/tech-docs/736-myfsuvlab}
+
+Did you know you can access university software without ever stepping foot on campus? Florida State University's virtual computer lab—myFSUVLab—makes it easy to use university software … anytime, anywhere. Use myFSUVLab for quick access to specialty software, such as SPSS or MATLAB, at home or on the go from any computer, tablet or mobile device. And save yourself a trip to campus.
+\begin{center}
+    \href{https://its.fsu.edu/service-catalog/end-point-computing/myfsuvlab}{Click Here to Learn More About myFSUVLab} \\
+    \href{https://myfsuvlab.its.fsu.edu/vpn/index.html}{Click Here to Launch myFSUVLab}
+\end{center}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Network Time Protocol (NTP)}
+\url{https://www.sc.fsu.edu/computing/tech-docs/737-ntp}
+
+Due to security issues access to external NTP resources on the DSC network is prohibited. You may use our internal NTP servers for synchronizing your clocks.
+\begin{center}
+    \texttt{ntp.sc.fsu.edu}
+\end{center}
+\hfill \textit{Written by Michael McDonald}
+
+\section{Intel Parallel Studio}
+\url{https://www.sc.fsu.edu/computing/tech-docs/739-intel-parallel-studio}
+
+Intel's Parallel Studio provides an comprehensive development environment and is available on classroom and hallway nodes.
+
+To get started using Intel(R) VTune(TM) Amplifier XE 2013 Update 2:
+\begin{itemize}
+    \item To set your environment variables: \texttt{source /opt/intel-studio/vtune\_amplifier\_xe\_2013/amplxe-vars.sh}
+    \item To start the graphical user interface: \texttt{amplxe-gui}
+    \item To use the command-line interface: \texttt{amplxe-cl}
+    \item For more getting started resources: \url{file:/opt/intel-studio/vtune_amplifier_xe_2013/documentation/en/welcomepage/get_started.html}.
+\end{itemize}
+
+To get started using Intel(R) Inspector XE 2013 Update 2:
+\begin{itemize}
+    \item To set your environment variables: \texttt{source /opt/intel-studio/inspector\_xe\_2013/inspxe-vars.sh}
+    \item To start the graphical user interface: \texttt{inspxe-gui}
+    \item To use the command-line interface: \texttt{inspxe-cl}
+    \item For more getting started resources: \url{file:/opt/intel-studio/inspector_xe_2013/documentation/en/welcomepage/get_started.html}.
+\end{itemize}
+
+To get started using Intel(R) Advisor XE 2013 Update 1:
+\begin{itemize}
+    \item To set your environment variables: \texttt{source /opt/intel-studio/advisor\_xe\_2013/advixe-vars.sh}
+    \item To start the graphical user interface: \texttt{advixe-gui}
+    \item To use the command-line interface: \texttt{advixe-cl}
+    \item For more getting started resources: \url{file://opt/intel-studio/advisor_xe_2013/documentation/en/welcomepage/get_started.html}.
+\end{itemize}
+
+To get started using Intel(R) Composer XE 2013 Update 1 for Linux*:
+\begin{itemize}
+    \item Set the environment variables for a terminal window using one of the following (replace "intel64" with "ia32" if you are using a 32-bit platform).
+    \item For csh/tcsh: \texttt{source /opt/intel-studio/bin/compilervars.csh intel64}
+    \item For bash: \texttt{source /opt/intel-studio/bin/compilervars.sh intel64}
+    \item To invoke the installed compilers:
+    \begin{itemize}
+        \item For C++: \texttt{icpc}
+        \item For C: \texttt{icc}
+        \item For Fortran: \texttt{ifort}
+    \end{itemize}
+    \item To get help, append the \texttt{-help} option or precede with the \texttt{man} command.
+    \item For more getting started resources:
+    \url{file:/opt/intel-studio/composer_xe_2013/Documentation/en_US/get_started_lc.htm}
+    \url{file:/opt/intel-studio/composer_xe_2013/Documentation/en_US/get_started_lf.htm}
+\end{itemize}
+To view movies and additional training, visit \url{http://www.intel.com/software/products}.
+
+\section{FSU Calendar Service}
+\url{https://www.sc.fsu.edu/computing/tech-docs/243-fsu-calendar}
+
+If you have a question about FSU calendar in general, please email \href{mailto:help@acns.fsu.edu}{help@acns.fsu.edu}, \href{mailto:sysops@sc.fsu.edu}{sysops@sc.fsu.edu}, or visit \href{http://its.fsu.edu/}{Information Technology Services}.
+
+\subsection*{How to allow someone else to manage your calendar?}
+\begin{enumerate}
+    \item Login at \url{http://webmail.fsu.edu} and click on Calendar (2nd tab on top menu)
+    \item Click on drop-down list next to "Current Calendar" at upper-right corner
+    \item Select \texttt{Calendar Actions [Manage Calendars...]}
+    \item Click "Edit" an then "Share this calendar with specific users"
+    \item Enter username and click on Add button to include this user for calendar access/management
+    \item Check any or all access permissions to grant: Accessibility/Read/Invote/Modify/Delete
+\end{enumerate}
+
+\subsection*{How to view another FSU calendar user's schedule?}
+\begin{enumerate}
+    \item Login at \url{http://webmail.fsu.edu} and click on Calendar (2nd tab on top menu)
+    \item Click on drop-down list next to "Current Calendar" at upper-right corner
+    \item Select \texttt{Calendar Actions [Manage Calendars...]}
+    \item Click "Subscribe..." button
+    \item Search and select the calendars to view...
+\end{enumerate}
+
+\subsection*{How to ...}
+\hfill \textit{Written by Xiaoguang Li}
+
+\section{Overview to Computing Resources in the Dept. of Scientific Computing}
+\url{https://www.sc.fsu.edu/computing/tech-docs/366-overview-to-computing-resources-in-the-deptartment-of-scientific-computing}
+
+This event provides DSC faculty, students, and staff with a high level overview of the computing resources available in the department. Members of the technical support group will be on hand to answer more specific questions that you might have about the department's computing resources. This event is geared toward users who have wondered where they can run lots of long serial (single processor) batch jobs, run large parallel jobs, compile software, run matlab interactively, or visualize data sets in 3d. Slides and videos from previous presentations are given below.
+\begin{itemize}
+    \item \href{https://www.sc.fsu.edu/computing/tech-docs/attachments/366-overview-to-computing-resources-in-the-deptartment-of-scientific-computing/computing_overview.pdf}{Slides}
+    \item \href{http://www.youtube.com/watch?v=kUizd2owLh8}{Video}
+\end{itemize}

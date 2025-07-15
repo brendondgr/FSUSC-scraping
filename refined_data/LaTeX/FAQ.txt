@@ -1,0 +1,213 @@
+If you have a question which is not in this section, then please contact us \href{mailto:webmaster@sc.fsu.edu}{here, webmaster@sc.fsu.edu}.
+
+\section{Room Reservations}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{How do I reserve the Scientific Computing Interactive Classroom (422 DSL)?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\subsection{Who do I contact to reserve the large seminar room (499) or the small conference room (416)?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\subsection{How do I reserve the Dirac Computer Classroom (152)?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\section{Facilities}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{To whom should I report facility problems with the elevator, lights, bathroom, leaks, etc.?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\subsection{If the coffee supplies run out, what should I do?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\section{For Students}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Where can I find forms for graduate students?}
+See Links to DocuSign PowerForms below.
+
+\subsection{What information is needed for the prospectus defense?}
+\begin{enumerate}
+    \item Complete \textit{Ph.D. Committee Form External Link}.
+    \item Complete \textit{Ph.D. Result of Prospectus Defense Form External Link} \textit{after} defending.
+\end{enumerate}
+
+\subsection{Where can students find career opportunites (internships, fellowships, postdocs, etc.)?}
+We offer many links/resources for career seeking students here.
+
+\subsection{Where do I go to apply for the scientific computing graduate program?}
+Read the application overview and apply now here!
+
+\subsection{Where can students find info on Graduation checks and clearance?}
+Click here for the College of Arts and Sciences Graduation checks and clearance FAQ.
+
+\subsection{What is the recommended minimum score for the TOEFL and GRE?}
+For TOEFL a score >80, and for GRE a score >160 makes an application competitive.
+
+\subsection{How can I get help with improving my grammar?}
+Try this \textit{online resource External Link}.
+
+\subsection{Looing for research opportunities (and funding) for undergraduates?}
+\begin{itemize}
+    \item Read about Undergraduate Research Opportunity Program (UROP)
+    \item Read about IDEA Grants (formerly URCAA/MRCE)
+\end{itemize}
+
+\subsection{Where can graduate students find info on Thesis, Treatise, Dissertation Clearance Procedures and Deadlines?}
+Click here for the College of Arts and Sciences Thesis, Treatise, Dissertation Clearance Procedures and Deadlines.
+
+\subsection{Starting today (May 23, 2016), and until further notice, we will be contributing funds to students going to conferences to give presentations or present posters.}
+Click here for the Travel Award Policy details.
+
+\subsection{How can I get help with Calculus?}
+Try this \textit{Khan Academy online resource External Link}.
+
+\subsection{Where can undergraduate students find more details on the Center for Undergraduate Research \& Academic Engagement (CRE)?}
+Click here for \href{http://cre.fsu.edu}{cre.fsu.edu}.
+\vspace{1em}
+
+\noindent\textbf{Attachments:}
+\begin{itemize}
+    \item \texttt{CRE-Resources.pdf}: Presentation (860 kB)
+\end{itemize}
+
+\subsection{Is there a Database to search for Funding and Grant opportunities?}
+Yes. COS/PIVOT (formerly Community of Science). The Community of Science funding search engine, commonly referred to as COS, has recently changed its name to Pivot.
+
+\subsection{Where can undergraduate students find more details on Financial Information, Tuition, Fees, Aid, Scholarships, and Employment?}
+It's all in the UNDERGRADUATE BULLETIN here.
+
+\subsection{Is there a central website where all federal agencies post open procurement opportunities?}
+Yes. Federal Business Opportunities (\url{fbo.gov}).
+
+\subsection{Where can students find more details on Scholarships, Grants, and Fellowships that Accept Applications from Non-US Citizens?}
+Click here for \textit{Non-US Citizen Opportunties External Link}.
+
+\section{Employment, Personnel, and Visa Issues}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who is the FACULTY liaison for appointments, payroll, benefits and any other questions regarding employment at FSU?}
+Please Email \texttt{admin@sc.fsu.edu}.
+
+\subsection{Who processes appointment papers for students, post docs and staff, to include new appointments and reappointments (any non-faculty)?}
+Please email \texttt{admin@sc.fsu.edu}.
+
+\subsection{Who can help me with a Visa Problem?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer OR Paul Keyser.
+
+\subsection{Who processes appointment papers for anyone who has a visa?}
+Please email \texttt{admin@sc.fsu.edu}.
+
+\subsection{Who should receive my timesheet when it is due?}
+Please email \texttt{admin@sc.fsu.edu}.
+
+\subsection{Who is the Personnel Representative for the Department of Scientific Computing?}
+Please email \texttt{admin@sc.fsu.edu}.
+
+\section{General}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{How do I make an appointment to see the Chair?}
+Please Email \texttt{admin@sc.fsu.edu}.
+
+\subsection{Looking for Info Regarding Employment Outside the University?}
+For any secondary employment by an employer other than the University, a faculty member should fill out what form?
+
+\subsection{Looking for Info Regarding Teaching \& Student/Faculty Interactions?}
+Refer to the FSU Faculty Handbook here.
+
+\subsection{Who prepares the department Newsletter and handles public relations?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: DSC Public Relations.
+
+\subsection{How do I ask for computer support?}
+Please Email \texttt{ops@sc.fsu.edu}.
+
+\subsection{Who are the current (2017-2019) department faculty senator and alternate?}
+Dennis Slice \texttt{dslice@fsu.edu} (Faculty Senator). Peter Beerli \texttt{pbeerli@fsu.edu} (Alternate).
+
+\subsection{Need info about the Family Educational Rights and Privacy Act (FERPA)?}
+Then go \href{http://registrar.fsu.edu/ferpa/}{here}.
+
+\subsection{Where can I get information on Title IX?}
+\url{hr.fsu.edu}
+\vspace{1em}
+
+\noindent\textbf{Attachments:}
+\begin{itemize}
+    \item \texttt{2016 - 2017 Title IX Reporting training.pptx}: Title IX Reporting (539 kB)
+\end{itemize}
+
+\subsection{I want to post a news article to the website. Who can help me with this?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: DSC Public Relations.
+
+\subsection{Is there a Database to search for Funding and Grant opportunities?}
+Yes. COS/PIVOT (formerly Community of Science). The Community of Science funding search engine, commonly referred to as COS, has recently changed its name to Pivot.
+
+\section{Grants, Proposals, Budget, and Start-ups}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who do I talk with about New Faculty Start-Up Procedures?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: TBA.
+
+\subsection{Who do you see about funding issues for specific budgets?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: TBA.
+
+\subsection{Who do I contact for help with grants and proposals?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: TBA.
+
+\subsection{Is there a central website where faculty can search all federal agencies for open procurement opportunities?}
+Yes. Federal Business Opportunities (\url{fbo.gov}).
+
+\section{Inventory}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who can answer surplus questions or assist with recycling equipment?}
+Paul Keyser.
+
+\subsection{Who should I tell about missing or stolen property?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Paul Keyser.
+
+\subsection{Who can answer inventory questions or assist with paperwork?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Paul Keyser.
+
+\section{Office Supplies}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who is in charge of ordering office supplies?}
+Please Email \texttt{admin@sc.fsu.edu}.
+
+\section{Purchasing}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who do I speak with about purchasing questions via the FSU system or the FSU computer store?}
+Please email \texttt{admin@sc.fsu.edu}.
+
+\subsection{Who do I see to order equipment through my grant?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: TBA.
+
+\subsection{What is required for use of department petty cash?}
+Please \textit{submit} this \textit{Petty Cash Request Form External Link}. If you are approved, then follow up details will be provided by Paul Keyser.
+
+\section{Seminars and Event Planning}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{If I need help planning an event, whom do I see?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\subsection{Who will help me advertise a department seminar/workshop via e-mails and/or flyers?}
+Please Email \texttt{admin@sc.fsu.edu}.
+
+\section{Students}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who supervises the students?}
+Administration.
+
+\subsection{Is it OK for me to ask the students to make copies?}
+Yes.
+
+\section{Travel}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{Who do I see for help with travel arrangements?}
+Please email \texttt{admin@sc.fsu.edu} for help with travel arrangements for you, or for visitors or seminar speakers, including airline, hotel, and rental car. We will help to complete the necessary forms as required by FSU.
+
+\section{Visitors}
+\url{https://www.sc.fsu.edu/faq}
+\subsection{How do I get temporary parking (not more than 1 week) for a visitor?}
+Please Email \texttt{admin@sc.fsu.edu}, Attn: Cecelia Farmer.
+
+\subsection{How do I request a user account for a visitor?}
+It can be requested by filling out the \textit{Visitor Request Form} if it is for a short-term visitor (less than 2 weeks). For a post-doc or a long term visiting scientist (more than 2 weeks) Contact Administration AND request an account here, \textit{Getting an Account}.
+
+\subsection{What do I do if I have a new post doc or a long term visiting scientist (more than 2 weeks)?}
+Contact Administration and they will provide office space, keys, etc. The Host is responsible for computer equipment. The visitor is responsible for requesting an FSUID here, \textit{Getting an Account}.

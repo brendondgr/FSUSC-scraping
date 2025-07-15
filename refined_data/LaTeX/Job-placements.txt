@@ -1,0 +1,72 @@
+\section{Job Placements}
+\url{https://www.sc.fsu.edu/job-placements}
+
+The following list of companies, institutions, and government labs shows the variety and caliber of jobs our students are landing with a degree in \textit{Computational Science} from \textit{Florida State University}.
+
+\begin{center}
+\onehalfspacing
+\begin{tabular}{l p{8cm} l}
+\rowcolor{gray!25}
+\textbf{Degree} & \textbf{Company / Institution / Lab} & \textbf{Location} \\ 
+\hline \hline
+- & Advanced Cooling Technologies, Inc. & Lancaster, PA \\
+Ph.D. & Aerojet Rocketdyne & Huntsville, AL \\
+Ph.D. & Arizona State University & Tempe, AZ \\
+- & Bank of America & Charlotte, NC \\
+Ph.D. & Cairo University & Giza, Egypt \\
+M.S. & Carnegie Mellon University & Pittsburgh, PA \\
+Ph.D. & Cerner & Kansas City, MO \\
+M.S. & codeslam & Tallahassee, FL \\
+Ph.D. & Datamaxx Group & Tallahassee, FL \\
+- & Digitalsmiths & Durham, NC \\
+B.S. & Epic Careers & Verona, WI \\
+- & Facebook & Menlo Park, CA \\
+B.S. & Fidelity Investments & Durham, NC \\
+- & First Data & Palo Alto, CA \\
+- & Florida Department of Transportation & Tallahassee, FL \\
+M.S. & Florida State University & Tallahassee, FL \\
+- & General Motors & Milford, MI \\
+- & Google & Mountain View, CA \\
+- & Infinity Software Development, Inc. & Tallahassee, FL \\
+M.S. & Johns Hopkins University & Baltimore, MD \\
+Ph.D. & JPL: Radar Science \& Engineering & Los Angeles, CA \\
+Ph.D. & King Abdullah University of Science and Technology & Saudi Arabia \\
+M.S. & Lawrence Berkeley National Laboratory & Berkeley, CA \\
+M.S. & Lowes & Mooresville, NC \\
+- & Los Alamos National Laboratory & New Mexico \\
+- & Lucidworks & San Francisco, CA \\
+- & Lyft & San Francisco, CA \\
+Ph.D. & Minnesota Supercomputing Institute & Minneapolis, MN \\
+- & NantHealth & Panama City, FL \\
+- & NASA Jet Propulsion Lab & Pasadena, CA \\
+- & National Institute of Health & Bethesda, MD \\
+Ph.D. & National Superconducting Cyclotron Laboratory & East Lansing, MI \\
+Ph.D., M.S., B.S. & NewSci / NewSci Labs & Tallahassee, FL \\
+M.S. & Nokia Technologies & Sunnyvale, CA \\
+M.S., Ph.D. & Oak Ridge National Laboratory & Oak Ridge, TN \\
+M.S. & outbrain & Cambridge, MA \\
+- & Pacific Northwest National Laboratory & Richland, WA \\
+M.S. & Sony, Playstation & San Mateo, CA \\
+M.S. & Platfora & San Mateo, CA \\
+M.S., Ph.D. & Purdue University & West Lafayette, IN \\
+- & Raytheon & Largo, FL \\
+- & Science Applications International Corporation & San Diego, CA \\
+Ph.D. & Smarter Data & San Ramon, CA \\
+B.S. & St. Jude Children's Research Hospital & Memphis, TN \\
+- & Stinger Ghaffarian Technologies, Inc. (SGT) & Greenbelt, MD \\
+M.S. & Strong Analytics LLC & Chicago, IL \\
+- & Synopsys, Inc. & Marlborough, MA \\
+- & Tall Timbers & Tallahassee, FL \\
+Ph.D. & Tinder & Palo Alto, CA \\
+- & Torch Technologies & Huntsville, AL \\
+M.S. & U.S. Environmental Protection Agency & Raleigh-Durham, NC \\
+Ph.D. & University of California, Los Angeles (UCLA) & Los Angeles, CA \\
+Ph.D. & University of California, Santa Barbara (UCSB) & Santa Barbara, CA \\
+Ph.D. & University of Michigan & Ann Arbor, MI \\
+Ph.D. & University of Petroleum and Energy Studies & Dehradun, India \\
+Ph.D. & University of Texas at Austin & Austin, TX \\
+M.S. & Vertisystem Inc. & Fremont, CA \\
+M.S. & Visual.ly & California \\
+\hline
+\end{tabular}
+\end{center}

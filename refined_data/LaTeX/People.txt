@@ -1,0 +1,627 @@
+\section{Administration}
+\texttt{\url{https://www.sc.fsu.edu/people/administration}}
+
+\subsection{Administrative Staff}
+
+\paragraph{Davis, Liston}
+\textit{Administrative Associate}\\
+\textbf{Contact}: [email protected] / (850) 645-0304 / 409 DSL\\
+\textbf{Interests}: Procurement, HR, Travel\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Farmer, Cecelia}
+\textit{Admin Support Assistant}\\
+\textbf{Contact}: [email protected] / 408A DSL\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Fowler, Karey G.}
+\textit{Academic Advisor}\\
+\textbf{Contact}: [email protected] / (850) 644-0143 / 406 DSL\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/karey-fowler-90a18430}{LinkedIn Profile}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Clark, Jennifer S.}
+\textit{Administrative Director, Interdisciplinary Data Science}\\
+\textbf{Contact}: [email protected] / (850) 645-8887 / 497 DSL\\
+\textbf{Homepage}: \href{https://datascience.fsu.edu/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/jennifer-s-clark-ids/}{LinkedIn Profile}\\
+\textbf{Address}: Longmire Bldg., Room 208, 125 Convocation Way, Tallahassee, FL 32306-1280
+
+\paragraph{Keyser, Paul}
+\textit{Administrative Assistant / Facilities, Property, \& Immigration}\\
+\textbf{Contact}: [email protected] / (850) 644-1864 / 404 DSL\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Overturf, Daniel}
+\textit{Business Manager}\\
+\textbf{Contact}: [email protected] / (850) 644-2273 / 405 DSL\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\subsection{Technical Support Group}
+\textit{Email Support at [email protected]}
+
+\paragraph{Amato, Anthony}
+\textit{IT Support Specialist}\\
+\textbf{Contact}: [email protected] / (850) 645-1422 / 452 DSL\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/anthony-amato-844438186/}{LinkedIn Profile}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Li, Xiaoguang}
+\textit{Systems Administrator}\\
+\textbf{Contact}: [email protected] / (850) 644-0188 / 432 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~xli3/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/xiaoguang-li-9243729/}{LinkedIn Profile}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{McDonald, Michael}
+\textit{Sr. Research Associate / Systems Administrator}\\
+\textbf{Contact}: [email protected] / (772) 600-4665 / 408 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~emm2013/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/mcdonald/}{LinkedIn Profile}\\
+\textbf{Research Interests}: High-performance Computing, Data Storage, Web Design, Video Conferencing, Social Networks\\
+\textbf{Education}:
+\begin{itemize}
+    \item M.S., Electrical Engineering, Florida State University, 2007
+    \item B.S., Computer Engineering, Florida State University, 2005
+    \item B.S., Electrical Engineering, Florida State University, 2005
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=GEXo59sAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Thompson, John}
+\textit{IT Support Specialist}\\
+\textbf{Contact}: [email protected] / (850) 933-5866 / 450 DSL\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\section{Faculty}
+\texttt{\url{https://www.sc.fsu.edu/people/faculty}}
+
+\subsection{Core Faculty}
+
+\paragraph{Beerli, Peter}
+\textit{Professor \& Chair, Department of Scientific Computing}\\
+\textbf{Contact}: [email protected] / (850) 644-1010 / 402 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~pbeerli/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://twitter.com/peterbeerli}{Twitter}, \href{https://www.instagram.com/peterbeerli/}{Instagram}, \href{https://www.linkedin.com/in/peter-beerli-4b55345/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Biological Sciences, Population Genetics, Phylogenetics, Bayesian inference, Model selection. Developer of MIGRATE software for analyzing large-scale DNA datasets.\\
+\textbf{Education}:
+\begin{itemize}
+    \item 1994 PhD Zoology, University of Zurich, Switzerland
+    \item 1994-2003 Postdoc, Research assistant, Research assistant professor with Joseph Felsenstein, University of Washington, Seattle WA
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=4ws5d1kAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Chipilski, Hristo}
+\textit{Assistant Professor}\\
+\textbf{Contact}: [email protected] / 483 DSL\\
+\textbf{Social Media}: \href{https://twitter.com/hristochipilski}{Twitter}, \href{https://www.linkedin.com/in/hristo-chipilski-b12480119/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Data Assimilation, Artificial Intelligence, Numerical Weather Prediction, Atmospheric Dynamics. Focus on developing new data assimilation methods using AI and improving representation of atmospheric convection.\\
+\textbf{Education}:
+\begin{itemize}
+    \item 2021-2023: ASP Postdoctoral Fellow, National Center for Atmospheric Research
+    \item 2016-2021: PhD, Meteorology, University of Oklahoma
+    \item 2012-2016: MMet, Meteorology and Climate, University of Reading (UK)
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=wU9kYnUAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Dexter, Nicholas}
+\textit{Assistant Professor}\\
+\textbf{Contact}: [email protected] / 489 DSL\\
+\textbf{Homepage}: \href{https://nickdexter.github.io/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/nicholas-dexter-b9a352166/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Data Science, Scientific Computing, Deep Learning, Compressed Sensing, Mathematical Optimization, Uncertainty Quantification, Numerical Analysis, Inverse problem, Computational Epidemiology, Computational Genomics, Harmonic Analysis.\\
+\textbf{Education}:
+\begin{itemize}
+    \item Ph.D., Mathematics, University of Tennessee, 2018
+    \item B.S., Computational Mathematics, Rochester Institute of Technology, 2011
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=Y4k7e7QAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Erlebacher, Gordon}
+\textit{Professor, Department of Scientific Computing \& Program Director, Interdisciplinary Data Science}\\
+\textbf{Contact}: [email protected] / (850) 322-0194 / 464 DSL\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/gordon-erlebacher-389178/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Data Science, Artificial Intelligence. Development of AI since 2014, including autoencoders, GNNs, topic modeling, and transformers. Current focus on applying LLMs in education and agentic systems for administrative efficiency.\\
+\textbf{Education}:
+\begin{itemize}
+    \item B.Sc., Free University of Brussels, Belgium
+    \item M.Sc., Free University of Brussels, Belgium
+    \item Ph.D., Columbia University, New York, NY
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=j52f5hIAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Huang, Chen}
+\textit{Associate Professor}\\
+\textbf{Contact}: [email protected] / (850) 644-2434 / 484 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~chuang3/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/chen-huang-09068010/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Computational Materials Science, Scientific Computing. Developing new multiphysics methods and orbital-free density functional theory for large-scale, accurate simulations of functional materials.\\
+\textbf{Education}:
+\begin{itemize}
+    \item Ph.D. Princeton University
+    \item B.Sc. Tsinghua University, P. R. China
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=W4yV4dAAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Lemmon, Alan}
+\textit{Professor}\\
+\textbf{Contact}: [email protected] / (850) 445-4393 / 150D DSL\\
+\textbf{Homepage}: \href{http://lemmon.sc.fsu.edu}{Personal Homepage}\\
+\textbf{Research Interests}: Biological Sciences\\
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=FxnE47sAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Meyer-Baese, Anke}
+\textit{Professor}\\
+\textbf{Contact}: [email protected] / (850) 644-3494 / 476 DSL\\
+\textbf{Homepage}: \href{http://www.sc.fsu.edu/~ameyerbaese/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/anke-meyer-baese-b4a1b87/}{LinkedIn Profile}\\
+\textbf{Research Interests}:
+\begin{itemize}
+    \item Medical imaging: pattern recognition for breast MRI, computer-aided diagnosis, fMRI.
+    \item Computational biology: dynamical analysis of gene regulatory networks, graph theory in therapeutics.
+    \item Computational neuroscience: brain-based classification, stability analysis of cortical systems.
+\end{itemize}
+\textbf{Education}:
+\begin{itemize}
+    \item 1995 Ph.D., Electrical and Computer Engineering, Darmstadt University of Technology, Germany
+    \item 1990 M.S., Electrical and Computer Engineering Darmstadt University of Technology, Germany
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=Y4fWz-sAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Plewa, Tomasz}
+\textit{Professor}\\
+\textbf{Contact}: [email protected] / 413 DSL\\
+\textbf{Homepage}: \href{http://plewa.sc.fsu.edu/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/tomasz-plewa-1b422a4/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Computational Astrophysics, Scientific Computing, fluid dynamics, reactive flows, turbulence, AMR, machine learning for subgrid scale modeling, supernovae, high-energy density physics, HPC.\\
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=7i-0zcAAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Quaife, Bryan}
+\textit{Associate Professor}\\
+\textbf{Contact}: [email protected] / 444 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~bquaife/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/bryan-quaife-591b9356/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Integral equation methods for complex fluids, PDEs on surfaces, viscous flow in porous media; Efficient and high-order methods for solving integral equations; Adaptive time stepping schemes; Preconditioners.\\
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=Y9o12rsAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Shanbhag, Sachin}
+\textit{Professor}\\
+\textbf{Contact}: [email protected] / (850) 644-6548 / 488 DSL\\
+\textbf{Homepage}: \href{https://sachin.sc.fsu.edu/}{Personal Homepage}\\
+\textbf{Research Interests}: Polymer Physics, Rheology, Complex Fluids, Modeling for Biological and Materials Applications.\\
+\textbf{Education}: B.Tech, IIT Bombay (1999)\\
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=1pWDPk0AAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Speer, Kevin}
+\textit{Professor}\\
+\textbf{Contact}: [email protected] / (850) 644-5594\\
+\textbf{Research Interests}: Director of Geophysical Fluid Dynamics Institute (GFDI). Sea-going oceanographer studying global ocean circulation and dynamics of hydrothermal plumes.\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Wang, Xiaoqiang}
+\textit{Professor}\\
+\textbf{Contact}: [email protected] / 495 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~wwang3/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/xiaoqiang-wang-34078512/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Numerical analysis and applied partial differential equations, Mathematical biology, Image processing, scientific visualization and data mining, High-performance scientific computing.\\
+\textbf{Education}: Ph.D., Pennsylvania State University, 2005\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Zavala Romero, Olmo}
+\textit{Assistant Professor}\\
+\textbf{Contact}: [email protected] / 445 DSL\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~osz09/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/olmozavala/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Data Science, Scientific Computing, Medical Image Processing. Applied ML in medical imaging and earth sciences, climate change, Scientific Machine Learning (PINNs).\\
+\textbf{Education}:
+\begin{itemize}
+    \item Ph.D., Computation Science, Florida State University, 2015
+    \item M.S., Computation Science, Florida State University, 2013
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=m2A2s9wAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\subsection{Emeritus Faculty}
+
+\paragraph{Gunzburger, Max}
+\textit{Robert O. Lawton Distinguished Professor / Krafft Professor Emeritus}\\
+\textbf{Contact}: [email protected]\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~mgunzburger/}{Personal Homepage}\\
+\textbf{Research Interests}: Mathematics, Scientific Computing\\
+\textbf{Education}:
+\begin{itemize}
+    \item Ph.D., New York University, 1969
+    \item M.S., New York University, 1967
+    \item B.S., New York University, 1966
+\end{itemize}
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=c22gq9kAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Navon, Mike}
+\textit{Professor Emeritus}\\
+\textbf{Contact}: [email protected]\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~inavon/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/mike-navon-5932599/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Reduced order modeling\\
+\textbf{Publications}: \href{https://scholar.google.com/citations?user=R9g8FzoAAAAJ}{Google Scholar Citations}\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Peterson, Janet}
+\textit{Professor Emeritus}\\
+\textbf{Contact}: [email protected]\\
+\textbf{Homepage}: \href{http://people.sc.fsu.edu/~jpeterson/}{Personal Homepage}\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/janet-peterson-14022a4/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Scientific Computing\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\subsection{Affiliated Faculty}
+
+\paragraph{Algee-Hewitt, Bridget FB}
+\textit{Senior Research Scientist, Stanford University}
+\paragraph{Barbu, Adrian}
+\textit{Associate Professor, Department of Statistics, Florida State University}
+\paragraph{Chi, Hongmei}
+\textit{Department of computer and information sciences, FAMU}
+\paragraph{Crock, Nathan}
+\textit{Director, NewSci Labs}
+\paragraph{Duke, Dennis}
+\textit{Professor, Physics}
+\paragraph{Ke, Fengfeng}
+\textit{Associate Professor, Educational Psychology and Learning Systems Department, College of Education}
+\paragraph{Linn, Rodman}
+\textit{Los Alamos National Lab}
+\paragraph{Mascagni, Michael}
+\textit{Professor, Department of Computer Science, Florida State University}
+\paragraph{Mashayekhi, Somayeh}
+\textit{Affiliated Faculty}
+\paragraph{Moore, Nick}
+\textit{Associate Professor of Mathematics}
+\paragraph{Petersen, Mark}
+\textit{Los Alamos National Lab}
+\paragraph{Pinker-Domenig, Katja}
+\textit{Associate Professor of Radiology / Medical University Vienna / Memorial Sloan Kettering Cancer Center}
+\paragraph{Ridley, Dennis}
+\textit{Professor of Operations Management/Global Logistics, Florida A\&M University}
+\paragraph{Tahmassebi, Amirhessam}
+\textit{Senior Data Scientist, Rivian}
+\paragraph{Ye, Ming}
+\textit{Professor, EOAS}
+
+
+\section{Post Docs}
+\texttt{\url{https://www.sc.fsu.edu/people/post-docs}}
+\textit{Email the Post Docs at [email protected]}
+
+\paragraph{Chouhan, Pankaj}
+\textit{Postdoctoral Research Associate}\\
+\textbf{Contact}: [email protected] / 421E DSL\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/pankajchouhan/}{LinkedIn Profile}\\
+\textbf{Research Interests}: Machine Learning, Data Science\\
+\textbf{Education}: Ph.D., Computational Science, Florida State University, Summer 2024\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\paragraph{Khodaei, Tara}
+\textit{Postdoctoral Research Associate}\\
+\textbf{Contact}: [email protected]\\
+\textbf{Social Media}: \href{https://www.linkedin.com/in/tara-khodaei-80b72a11b/}{LinkedIn Profile}\\
+\textbf{Education}:
+\begin{itemize}
+    \item Ph.D., Computational Science, Florida State University, Fall 2023
+    \item M.S., Computational Science, Florida State University, Fall 2020
+\end{itemize}
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\section{Students}
+\texttt{\url{https://www.sc.fsu.edu/people/students}}
+
+\subsection{Graduate Students}
+\textit{Email the Grad Students at [email protected]}
+\begin{itemize}
+    \item \textbf{Anumandla, Sri Ram Reddy} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Asare, Stephen} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Bellaire, Jessica} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Broling, Mary} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Brooker, Ezra} --- \textit{Graduate Student}, \href{https://www.linkedin.com/in/ezra-brooker-3957a2228/}{LinkedIn Profile}, Authentication Required
+    \item \textbf{Calvo, Maria} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Chellu, Srirama Murthy} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Chen, Zehao} --- \textit{Graduate Student}, \href{https://www.linkedin.com/in/zehao-chen-5b5657140}{LinkedIn Profile}, Authentication Required
+    \item \textbf{Cherry, Jake} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Chintagumpula, Jayakrishna Sai} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Choudhary, Piyush} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Galla Wellalage, Kavindu} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Ghosh, Kisalay} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Gowram, Yashwanth Goud} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Greenwood, Jhamieka} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Gunasekara, Haputhanthrige Lasitha} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Hechirla, Shirisha} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Jahan, Iffat} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Kamble, Anand} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Kanawade, Kunal} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Katiyar, Kirti} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Kim, Young Hwan} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Kinnane, Keely} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Miranda, Jose} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Mukherjee, Eesha} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Murikipudi, Sudha} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Nellepalli, Divya} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Ouyang, Haoyong} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Perez, Dorianis} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Poudel, Sanjeeb} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Rompicherla, Sameera} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Sagel, Daryn} --- \textit{Graduate Student}, \href{https://www.linkedin.com/in/daryn-sagel-a14002131/}{LinkedIn Profile}, Authentication Required
+    \item \textbf{Shakil, Shifur Rahman} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Shooshtari, MJ} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Sokolikj, Zlatko} --- \textit{Graduate Student}, \href{https://www.linkedin.com/in/zlatko-sokolikj-053b51134/}{LinkedIn Profile}, Authentication Required
+    \item \textbf{Sreeramoju, Ankitha} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Taiyebah, Farhana} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Tummala, Purna} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Tyagi, Mani} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Velasco Zavala, Jorge Eduardo} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Wade, Peyton} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{Wang, Yifan} --- \textit{Graduate Student}, Authentication Required
+    \item \textbf{White, Liam} --- \textit{Graduate Student}, \href{https://www.linkedin.com/in/liam-white-090906154/}{LinkedIn Profile}, Authentication Required
+    \item \textbf{Ziegler, Kevin} --- \textit{Graduate Student}, Authentication Required
+\end{itemize}
+
+\subsection{Affiliated Students}
+\paragraph{Mittal, Shivangi}
+\textit{Visiting Fulbright Research Scholar}\\
+\textbf{Contact}: [email protected] / 472 DSL\\
+\textbf{Address}: Dept. of Scientific Computing, Florida State University, 400 Dirac Science Library, Tallahassee, FL 32306-4120
+
+\section{Alumni}
+\texttt{\url{https://www.sc.fsu.edu/people/students/alumni}}
+
+\begin{itemize}
+    \item \textbf{Alvarez Illan, Ignacio} --- Former Postdoc, \href{https://www.linkedin.com/in/ialvarezillan/}{LinkedIn}
+    \item \textbf{Aovida, Ronney} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/ronney-aovida-411a01104/}{LinkedIn}
+    \item \textbf{Ashki, Haleh} --- Former Graduate Student, \href{https://www.linkedin.com/in/haleh-ashki-a4427429/}{LinkedIn}
+    \item \textbf{Ataman, Efe} --- Former Graduate Student
+    \item \textbf{Ayoub, Alex} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/alex-ayoub-212a41132/}{LinkedIn}
+    \item \textbf{Azbill, Bryan} --- Former Graduate Student, \href{https://www.linkedin.com/in/bryan-azbill-a9003513b/}{LinkedIn}
+    \item \textbf{Azoulay, Ariel} --- Former Graduate Student, \href{https://www.linkedin.com/in/ariel-azoulay-9566271b/}{LinkedIn}
+    \item \textbf{Baker, Christopher} --- Former Graduate Student, \href{https://www.linkedin.com/in/christopher-baker-455b8535/}{LinkedIn}
+    \item \textbf{Bartoldson, Brian} --- Former Graduate Student, \href{https://www.linkedin.com/in/brian-bartoldson-98585934/}{LinkedIn}
+    \item \textbf{Berkley, Cameron} --- Former Graduate Student, \href{https://www.linkedin.com/in/cameron-berkley-37058285/}{LinkedIn}
+    \item \textbf{Bertagna, Luca} --- Former Postdoc, \href{https://www.linkedin.com/in/lucabertagna/}{LinkedIn}
+    \item \textbf{Bie, Ryan} --- Former Undergraduate Student
+    \item \textbf{Birch, Kirby} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/kirby-birch-53a547b7/}{LinkedIn}
+    \item \textbf{Bishnu, Siddhartha} --- Former Graduate Student
+    \item \textbf{Boehner, Philip} --- Former Graduate Student, \href{https://www.linkedin.com/in/philip-boehner-61a7a288/}{LinkedIn}
+    \item \textbf{Bollig, Evan} --- Former Graduate Student, \href{https://www.linkedin.com/in/evan-bollig-11b01211/}{LinkedIn}
+    \item \textbf{Boren, Seth} --- Former Graduate Student, \href{https://www.linkedin.com/in/seth-boren-b17b2b115/}{LinkedIn}
+    \item \textbf{Bricker, Justin} --- Former Graduate Student, \href{https://www.linkedin.com/in/justin-bricker-65022849/}{LinkedIn}
+    \item \textbf{Britton, Thomas} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/thomas-britton-iii-743120b4/}{LinkedIn}
+    \item \textbf{Burkovska, Olena} --- Former Postdoc, \href{https://www.linkedin.com/in/olena-burkovska-01932598/}{LinkedIn}
+    \item \textbf{Bystricky, Lukas} --- Former Graduate Student, \href{https://www.linkedin.com/in/lukas-bystricky-354a3297/}{LinkedIn}
+    \item \textbf{Chen, Xiao} --- Former Affiliate Graduate Student, \href{https://www.linkedin.com/in/xiao-chen-63200a26/}{LinkedIn}
+    \item \textbf{Chen, Xi} --- Former Graduate Student
+    \item \textbf{Cheung, James} --- Former Graduate Student, \href{https://www.linkedin.com/in/james-cheung-02018890/}{LinkedIn}
+    \item \textbf{Chi, Yu-Chieh} --- Former Graduate Student
+    \item \textbf{Chiu, Shang-Huan} --- Former Postdoc
+    \item \textbf{Clement, Zachary} --- Former Undergraduate Student
+    \item \textbf{Conry, Michael} --- Former Graduate Student
+    \item \textbf{Cothrun, John} --- Former Graduate Student, \href{https://www.linkedin.com/in/john-cothrun-b8b26588/}{LinkedIn}
+    \item \textbf{Cresswell-Clay, Evan} --- Former Graduate Student, \href{https://www.linkedin.com/in/evan-cresswell-clay-557345100/}{LinkedIn}
+    \item \textbf{Crysup, Benjamin} --- Former Graduate Student, \href{https://www.linkedin.com/in/benjamin-crysup-51630a109/}{LinkedIn}
+    \item \textbf{Dai, Heng} --- Former Graduate Student, \href{https://www.linkedin.com/in/heng-dai-07450519/}{LinkedIn}
+    \item \textbf{Dearden, Albert} --- Former Postdoc, \href{https://www.linkedin.com/in/albert-dearden-67057088/}{LinkedIn}
+    \item \textbf{Ding, Liangjing} --- Former Graduate Student
+    \item \textbf{Dubey, Santosh} --- Former Graduate Student, \href{https://www.linkedin.com/in/santosh-dubey-b333a5b/}{LinkedIn}
+    \item \textbf{Ehtemami, Anahid} --- Former Graduate Student, \href{https://www.linkedin.com/in/anahid-ehtemami-53b75487/}{LinkedIn}
+    \item \textbf{Eovito, Austin} --- Former Graduate Student, \href{https://www.linkedin.com/in/austin-eovito-12b77a151/}{LinkedIn}
+    \item \textbf{Fenn, Daniel} --- Former Graduate Student, \href{https://www.linkedin.com/in/daniel-fenn-192135118/}{LinkedIn}
+    \item \textbf{Ficarra, Cody} --- Former Graduate Student, \href{https://www.linkedin.com/in/cody-ficarra-520336125/}{LinkedIn}
+    \item \textbf{Fischer, Matthew} --- Former Undergraduate Student
+    \item \textbf{Flaig, Markus} --- Former Postdoc, \href{https://www.linkedin.com/in/markusflaig/}{LinkedIn}
+    \item \textbf{Forinash, Nicholas} --- Former Graduate Student, \href{https://www.linkedin.com/in/nicholas-forinash-a20463b2/}{LinkedIn}
+    \item \textbf{Fratte, Daniel} --- Former Graduate Student, \href{https://www.linkedin.com/in/daniel-fratte-13837910/}{LinkedIn}
+    \item \textbf{Gannon, Ashley} --- Former Graduate Student, \href{https://www.linkedin.com/in/ashley-gannon-a7966a152/}{LinkedIn}
+    \item \textbf{Geshel, Christine} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/christine-geshel-1049b494/}{LinkedIn}
+    \item \textbf{Golden, Yusef} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/yusef-golden-157790104/}{LinkedIn}
+    \item \textbf{Green, Brett-Michael} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/brett-michael-green-2253b7119/}{LinkedIn}
+    \item \textbf{Grunthal, Mont} --- Former Undergraduate Student
+    \item \textbf{Gu, Rui} --- Former Graduate Student, \href{https://www.linkedin.com/in/rui-gu-9a287957/}{LinkedIn}
+    \item \textbf{Guan, Qingguang} --- Former Graduate Student, \href{https://www.linkedin.com/in/qingguang-guan-84955b25/}{LinkedIn}
+    \item \textbf{Gusto, Brandon} --- Former Graduate Student
+    \item \textbf{Handy, Timothy} --- Former Graduate Student \& Postdoc, \href{https://www.linkedin.com/in/timothy-handy-9a84a617/}{LinkedIn}
+    \item \textbf{Harper, Mario} --- Former Graduate Student, \href{https://www.linkedin.com/in/mario-harper-04473b115/}{LinkedIn}
+    \item \textbf{Henke, Steven} --- Former Graduate Student, \href{https://www.linkedin.com/in/steven-henke-b816087b/}{LinkedIn}
+    \item \textbf{Ho, Minh} --- Former Undergraduate Student
+    \item \textbf{Hogan, John} --- Former Graduate Student
+    \item \textbf{Iglesias, Albert} --- Former Graduate Student
+    \item \textbf{Jacobsen, Douglas} --- Former Graduate Student, \href{https://www.linkedin.com/in/douglas-jacobsen-5a98a89/}{LinkedIn}
+    \item \textbf{Johnson, Brandon} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/brandon-johnson-28b97163/}{LinkedIn}
+    \item \textbf{Jordan, Cody} --- Former Undergraduate Student
+    \item \textbf{Klion, Jarod} --- Former Graduate Student
+    \item \textbf{Lambert, Mark} --- Former Graduate Student, \href{https://www.linkedin.com/in/mark-lambert-7058a984/}{LinkedIn}
+    \item \textbf{Laseur, Lydia} --- Former Undergraduate Student
+    \item \textbf{Latchireddy, Amar} --- Former Graduate Student
+    \item \textbf{Lay, Nathan} --- Former Graduate Student, \href{https://www.linkedin.com/in/nathan-lay-3945a034/}{LinkedIn}
+    \item \textbf{Learn, Ryan} --- Former Graduate Student, \href{https://www.linkedin.com/in/ryan-learn-33121588/}{LinkedIn}
+    \item \textbf{Lees, Eitan} --- Former Graduate Student, \href{https://www.linkedin.com/in/eitan-lees-84b238104/}{LinkedIn}
+    \item \textbf{Lei, Hongzhuan} --- Former Graduate Student, \href{https://www.linkedin.com/in/hongzhuan-lei-317201b1/}{LinkedIn}
+    \item \textbf{Li Liu, Jerrison} --- Former Undergraduate Student
+    \item \textbf{Llanos, Juan} --- Former Graduate Student, \href{https://www.linkedin.com/in/juan-llanos-537443a0/}{LinkedIn}
+    \item \textbf{Lofman, Gwen} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/gwen-lofman-2b992014b/}{LinkedIn}
+    \item \textbf{Lopez, Nicolas} --- Former Graduate Student, \href{https://www.linkedin.com/in/nicolas-lopez-81781b89/}{LinkedIn}
+    \item \textbf{Lorini, Michelle} --- Former Undergraduate Student
+    \item \textbf{Lozano, Ian} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/ian-lozano-73600985/}{LinkedIn}
+    \item \textbf{Lu, Dan} --- Former Graduate Student, \href{https://www.linkedin.com/in/dan-lu-77677023/}{LinkedIn}
+    \item \textbf{Lyngaas, Isaac} --- Former Graduate Student, \href{https://www.linkedin.com/in/isaac-lyngaas-783515bb/}{LinkedIn}
+    \item \textbf{McCann, Ian} --- Former Graduate Student, \href{https://www.linkedin.com/in/ian-mccann-53a55734/}{LinkedIn}
+    \item \textbf{McLaughlin, Ben} --- Former Graduate Student, \href{https://www.linkedin.com/in/ben-mclaughlin-05b16982/}{LinkedIn}
+    \item \textbf{Mechtley, Alisha} --- Former Graduate Student, \href{https://www.linkedin.com/in/alisha-mechtley-ph-d-28562444/}{LinkedIn}
+    \item \textbf{Miller, Geoffery} --- Former Graduate Student, \href{https://www.linkedin.com/in/geoffery-miller-775b484b/}{LinkedIn}
+    \item \textbf{Miyar, Kathryn} --- Former Postdoc for Dr. Slice
+    \item \textbf{Mohamed, Mamdouh} --- Former Graduate Student, \href{https://www.linkedin.com/in/mamdouh-mohamed-ph-d-p-e-9080081a/}{LinkedIn}
+    \item \textbf{Mohebali, Behshad} --- Former Graduate Student, \href{https://www.linkedin.com/in/behshad-mohebali-ph-d-6691456a/}{LinkedIn}
+    \item \textbf{Morgan, Brittany} --- Former Undergraduate Student
+    \item \textbf{Mueller, Kevin} --- Former Graduate Student, \href{https://www.linkedin.com/in/kevin-mueller-43890214b/}{LinkedIn}
+    \item \textbf{Nagales, Marcelina} --- Former Graduate Student, \href{https://www.linkedin.com/in/marcelina-nagales-608b8b80/}{LinkedIn}
+    \item \textbf{Nason, Livia} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/livia-nason-946766150/}{LinkedIn}
+    \item \textbf{Nosowitz, Jonathon} --- Former Graduate Student, \href{https://www.linkedin.com/in/jonathannosowitz/}{LinkedIn}
+    \item \textbf{Oliveto, Julia} --- Former Graduate Student, \href{https://www.linkedin.com/in/julia-oliveto-3a1197171/}{LinkedIn}
+    \item \textbf{Palczewski, Michal} --- Former Graduate Student, \href{https://www.linkedin.com/in/michal-palczewski-208b868/}{LinkedIn}
+    \item \textbf{Pendala, Yagna Sree Bhavani} --- Former Graduate Student
+    \item \textbf{Pennington, Charles} --- Former Graduate Student
+    \item \textbf{Perry Kuchera, Michelle} --- Former Graduate Student, \href{https://www.linkedin.com/in/michelle-perry-kuchera-56b9087/}{LinkedIn}
+    \item \textbf{Peterson, Alexander} --- Former Graduate Student, \href{https://www.linkedin.com/in/alexander-peterson-a6331917b/}{LinkedIn}
+    \item \textbf{Pettit, Jacob} --- Former Undergraduate Student, \href{https://www.linkedin.com/in/jacob-pettit-9524b8178/}{LinkedIn}
+    \item \textbf{Pham, Serena} --- Former Graduate Student, \href{https://www.linkedin.com/in/serena-pham-33b66667/}{LinkedIn}
+    \item \textbf{Pieper, Konstantin} --- Former Postdoc
+    \item \textbf{Pomidor, Benjamin} --- Former Graduate Student, \href{https://www.linkedin.com/in/benjamin-pomidor-789a7442/}{LinkedIn}
+    \item \textbf{Quinto, Jeremy} --- Former Graduate Student, \href{https://www.linkedin.com/in/jeremy-quinto-6110a5142/}{LinkedIn}
+    \item \textbf{Reese, Jill} --- Former Postdoc, \href{https://www.linkedin.com/in/jill-reese-2516484/}{LinkedIn}
+    \item \textbf{Robinson, David} --- Former Graduate Student, \href{https://www.linkedin.com/in/david-robinson-8a6239120/}{LinkedIn}
+    \item \textbf{Rodriguez, Michael} --- Former Undergraduate Student
+    \item \textbf{Romash, Brennan} --- Former Graduate Student, \href{https://www.linkedin.com/in/brennan-romash-9a6422b4/}{LinkedIn}
+    \item \textbf{Rosales Giron, Daniel} --- Former Graduate Student
+    \item \textbf{Sadeghi, Marjan} --- Former Graduate Student, \href{https://www.linkedin.com/in/marjansadeghi/}{LinkedIn}
+    \item \textbf{Saha, Bikash} --- Former Graduate Student, \href{https://www.linkedin.com/in/bikash-saha-2a3a5530/}{LinkedIn}
+    \item \textbf{Scarboro, Rachel} --- Former Undergraduate Student
+    \item \textbf{Schama Lellis, Renata} --- Former Graduate Student
+    \item \textbf{Schneier, Michael} --- Former Graduate Student, \href{https://www.linkedin.com/in/michael-schneier-51610497/}{LinkedIn}
+    \item \textbf{Schueller, Kyle} --- Former Graduate Student, \href{https://www.linkedin.com/in/kyle-schueller-071a9916b/}{LinkedIn}
+    \item \textbf{Seleson, Pablo} --- Former Graduate Student
+    \item \textbf{Shaban Tameh, Maliheh} --- Former Graduate Student
+    \item \textbf{Sharkey, Eric} --- Former Graduate Student, \href{https://www.linkedin.com/in/eric-sharkey-35b80916a/}{LinkedIn}
+    \item \textbf{Sharma, Sarthak} --- Former Graduate Student, \href{https://www.linkedin.com/in/sarthak-sharma-636307135/}{LinkedIn}
+    \item \textbf{Shaw, Kyle} --- Former Graduate Student
+    \item \textbf{Smith, Danial} --- Former Graduate Student
+    \item \textbf{Smith, Aria} --- Former Graduate Student, \href{https://www.linkedin.com/in/aria-g-smith-66385a53/}{LinkedIn}
+    \item \textbf{Sockwell, Kenneth} --- Former Graduate Student, \href{https://www.linkedin.com/in/kenneth-sockwell-321151a1/}{LinkedIn}
+    \item \textbf{Soda, James} --- Former Graduate Student, \href{https://www.linkedin.com/in/james-soda-2a781b83/}{LinkedIn}
+    \item \textbf{Solimine, Philip} --- Former Graduate Student, \href{https://www.linkedin.com/in/philip-solimine-02b48995/}{LinkedIn}
+    \item \textbf{Song, Xuehang} --- Former Postdoc, \href{https://www.linkedin.com/in/xuehang-song-3037893a/}{LinkedIn}
+    \item \textbf{Steward, Jeffrey} --- Former Graduate Student, \href{https://www.linkedin.com/in/jeffrey-steward-66324b10/}{LinkedIn}
+    \item \textbf{Stoyanova, Detelina} --- Former Graduate Student \& Postdoc, \href{https://www.linkedin.com/in/detelina-stoyanova-54157833/}{LinkedIn}
+    \item \textbf{Sun, Huaiwei} --- Former Postdoc
+    \item \textbf{Sung, Gi} --- Former Undergraduate Student
+    \item \textbf{Takeh, Arsia} --- Former Graduate Student, \href{https://www.linkedin.com/in/arsia-takeh-b6205932/}{LinkedIn}
+    \item \textbf{Teckentrup, Aretha} --- Former Postdoc
+    \item \textbf{Tong, Xin} --- Former Postdoc, \href{https://www.linkedin.com/in/xin-tong-3980313a/}{LinkedIn}
+    \item \textbf{Townsend, Stephen} --- Former Graduate Student, \href{https://www.linkedin.com/in/stephen-townsend-88225096/}{LinkedIn}
+    \item \textbf{Tran, Toan} --- Former Graduate Student, \href{https://www.linkedin.com/in/toan-tran-6b3a03195/}{LinkedIn}
+    \item \textbf{Van Popering, Luke} --- Former Graduate Student
+    \item \textbf{Van Wyk, Hans-Werner} --- Former Postdoc, \href{https://www.linkedin.com/in/hvanwyk/}{LinkedIn}
+    \item \textbf{Venkatesh, Kushal} --- Former Graduate Student, \href{https://www.linkedin.com/in/kushal-venkatesh-29896752/}{LinkedIn}
+    \item \textbf{Wang, Yang} --- Former Graduate Student
+    \item \textbf{Wang, Jilu} --- Former Postdoc
+    \item \textbf{Wang, Chaolun} --- Former Graduate Student, \href{https://www.linkedin.com/in/chaolun-wang-b4703a110/}{LinkedIn}
+    \item \textbf{Wang, Jie} --- Former Graduate Student, \href{https://www.linkedin.com/in/jie-wang-53372221/}{LinkedIn}
+    \item \textbf{Webster, Clayton} --- Former Graduate Student, \href{https://www.linkedin.com/in/clayton-webster-3b478313/}{LinkedIn}
+    \item \textbf{Witman, David} --- Former Graduate Student, \href{https://www.linkedin.com/in/david-witman-49931b74/}{LinkedIn}
+    \item \textbf{Womeldorff, Geoffrey} --- Former Graduate Student, \href{https://www.linkedin.com/in/geoffrey-womeldorff-48425211/}{LinkedIn}
+    \item \textbf{Woods, Jonathan} --- Former Undergraduate Student
+    \item \textbf{Xu, Feifei} --- Former Graduate Student, \href{https://www.linkedin.com/in/feifei-xu-373b9840/}{LinkedIn}
+    \item \textbf{Yannakopoulos, Anna} --- Former Undergraduate Student
+    \item \textbf{Young, Andrew} --- Former Graduate Student, \href{https://www.linkedin.com/in/andrew-young-9029a544/}{LinkedIn}
+    \item \textbf{Yuan, Haiping} --- Former Graduate Student
+    \item \textbf{Zaman, Sayem} --- Former Postdoc
+    \item \textbf{Zhang, Jingze} --- Former Graduate Student, \href{https://www.linkedin.com/in/jingze-zhang-669299150/}{LinkedIn}
+    \item \textbf{Zhang, Guannan} --- Former Graduate Student
+    \item \textbf{Zhao, Wenju} --- Former Graduate Student, \href{https://www.linkedin.com/in/wenju-zhao-80126a117/}{LinkedIn}
+    \item \textbf{Zheng, Xueming} --- Former Graduate Student, \href{https://www.linkedin.com/in/xueming-zheng-76506412b/}{LinkedIn}
+    \item \textbf{Zhu, Yan} --- Former Postdoc
+\end{itemize}
+
+\section{Testimonials}
+\texttt{\url{https://www.sc.fsu.edu/people/students/testimonials}}
+
+\begin{quote}
+"Thank you for teaching me R! Since completing my Masters a few years ago I’ve been working in business analytics. The last year and a half with a movie theater chain mining their customer databases and performing website experiments to help improve the business. I got that job 100\% because of a report I put together using R."
+\par\raggedleft\textit{--- GF}
+\end{quote}
+
+\begin{quote}
+"I was surrounded all the time by the most extraordinary and intelligent people. The best experience of my life."
+\par\raggedleft\textit{--- Daniel Fratte}
+\end{quote}
+
+\begin{quote}
+"I feel like the training that I got at this department was perfectly suited for the position I have now. ...I know enough [physics, math and computer science] to function and contribute in circles with people who are experts and be the glue between those disciplines."
+\par\raggedleft\textit{--- Geoffrey Womeldorff}
+\end{quote}
+
+\begin{quote}
+"I had a wonderful five years at the Department of Scientific Computing!"
+\par\raggedleft\textit{--- Dan Lu}
+\end{quote}
+
+\begin{quote}
+"My experience at the Department of Scientific Computing was exceptional."
+\par\raggedleft\textit{--- Myrna Merced-Serrano}
+\end{quote}
+
+\subsection{Contribute a Testimonial}
+\texttt{\url{https://www.sc.fsu.edu/people/students/testimonials/add}}\\
+Please Email your Testimonial to the Webmaster.
+
+\section{Email Lists and Groups}
+\texttt{\url{https://www.sc.fsu.edu/people/lists}}
+
+The following lists are currently being served by FSU lists server. Most of these mailing lists, unless otherwise noted, are reached by mailing \texttt{listname@lists.fsu.edu}. Please email \texttt{support@sc.fsu.edu} for any list modifications.
+
+\subsection{General Lists}
+\begin{description}
+    \item[\texttt{all@sc.fsu.edu}] ($\supseteq$ of admin@, faculty@, postdocs@, grad\_student@, ug@, affiliated-faculty@)
+    \item[\texttt{4th-floor@lists.fsu.edu}] 4th-Floor Email List (Mailman)
+    \item[\texttt{tsg@sc.fsu.edu}] Technical Support Email List (AD: dl-sc-tsg)
+    \item[\texttt{admin@sc.fsu.edu}] ($\supseteq$ of tsg@) Administration Email List (+ Dept. Chair) (AD: dl-sc-adm)
+    \item[\texttt{faculty@sc.fsu.edu}] Faculty Email List (AD: dl-sc-faculty)
+    \item[\texttt{postdocs@sc.fsu.edu}] Postdoc Email List (Mailman)
+    \item[\texttt{grad\_students@sc.fsu.edu}] (alias: \texttt{grads@}, \texttt{grad@}, \texttt{grad\_student@}) Graduate Student Email List (Mailman)
+    \item[\texttt{ug@sc.fsu.edu}] Undergraduate Student Email List (Mailman)
+    \item[\texttt{affiliated-faculty@sc.fsu.edu}] Affiliated Faculty Email List (Mailman)
+    \item[\texttt{alumni@lists.fsu.edu}] DSC Alumni List (Mailman)
+\end{description}
+
+\subsection{Committees}
+\begin{description}
+    \item[\texttt{grad-committee@sc.fsu.edu}] Graduate Committee Email List (AD: SC-Graduate-Committee)
+    \item[\texttt{ug-committee@sc.fsu.edu}] Undergraduate Committee Email List (AD: SC-Undergraduate-Committee)
+    \item[\texttt{exec-committee@sc.fsu.edu}] Executive Committee Email List (AD: SC-Executive-Committee)
+    \item[\texttt{promo-committee@sc.fsu.edu}] Promotion Committee Email List (AD: SC-Promotion-Committee)
+    \item[\texttt{research-committee@sc.fsu.edu}] Research Committee Email List (AD: SC-Research-Committee)
+    \item[\texttt{recruit@sc.fsu.edu}] Faculty Search Committee (AD: dl-sc-recruit)
+    \item[\texttt{gpc-physrev-external@sc.fsu.edu}] Graduate Policy Committee subcommittee (non-physics, external) [Plewa 2023] (AD: dl-sc-gpc-physrev-external)
+    \item[\texttt{gpc-physrev@sc.fsu.edu}] Graduate Policy Committee subcommittee (all members) [Plewa 2023] (AD: dl-sc-gpc-physrev)
+\end{description}
+
+\subsection{Other Lists}
+\begin{description}
+    \item[\texttt{seminar@lists.fsu.edu}] Seminar Announce Mailing list
+    \item[\texttt{morphlab@lists.fsu.edu}] Dr. Slice's Morphlab Mailing list
+    \item[\texttt{logs@sc.fsu.edu}] System Logs
+    \item[\texttt{ml@sc.fsu.edu}] Machine Learning (ML) Group discussion list
+\end{description}
+
+\subsection{Legacy Lists}
+\begin{description}
+    \item[\texttt{mbadmin@lists.fsu.edu}] Mbadmin Mailing list
+\end{description}
+
+\subsection{Aliases Controlled by FSU AD}
+\begin{description}
+    \item[\texttt{sc-advising@fsu.edu}] Academic Advising
+    \item[\texttt{sc-billing@fsu.edu}] (\texttt{sc-invoices@fsu.edu}) Internal Billing/Invoice Notices
+    \item[\texttt{sc-connect@fsu.edu}] (\texttt{sc-portal@fsu.edu}) connect.fsu.edu portal
+    \item[\texttt{sc-education@fsu.edu}] Education Group
+    \item[\texttt{sc-info@fsu.edu}] Education Information
+    \item[\texttt{sc-pr@fsu.edu}] Public Relations
+    \item[\texttt{sc-premajor@fsu.edu}] Pre-major Undergraduate Students
+    \item[\texttt{sc-social@fsu.edu}] Social Media Team
+    \item[\texttt{sc-vislab@fsu.edu}] Visualization Lab
+    \item[\texttt{sc-search@fsu.edu}] Search TBD
+\end{description}

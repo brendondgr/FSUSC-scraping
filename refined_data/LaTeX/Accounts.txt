@@ -1,0 +1,30 @@
+\section{Account Policy}
+\texttt{https://www.sc.fsu.edu/accounts?view=article\&id=531:account-policy\&catid=96:tech-docs}
+
+The policy is intended to make clear when DSC users are required to change their password, what sponsors are required to do to keep a sponsored account, and to prevent sponsored accounts from becoming "orphaned" if their sponsor leaves the DSC.
+
+(Note: Only DSC faculty and Staff are allowed to sponsor accounts)
+
+\subsection{Password expiration}
+\begin{itemize}
+    \item[\textbf{180 days}] without a password change, user gets a warning requiring the change of password.
+    \item[\textbf{200 days}] without a password change, user account is locked out and the sponsor is emailed about this action. The account owner must contact a member of the TSG to have account access restored.
+    \item[\textbf{350 days}] without a password change, the account owner and sponsor get a message warning that the account data will be deleted in 10 days if the password is not changed by contacting a member of the TSG.
+    \item[\textbf{360 days}] without a password change, user account and associated data are deleted from DSC file system.
+\end{itemize}
+
+\subsection{Sponsored account verification}
+\begin{itemize}
+    \item[\textbf{180 days}] without sponsor verification, the sponsor gets a warning requiring the verification of continued sponsorship.
+    \item[\textbf{200 days}] without sponsor verification, the sponsored account is locked so that the account owner can no longer log in and the sponsor is informed of this action via email. The sponsor must contact a member of the TSG to have account access restored.
+    \item[\textbf{350 days}] without a sponsor verification, the account owner and sponsor get a message warning them that the account and associated data will be deleted from the DSC file systems.
+    \item[\textbf{360 days}] without a sponsor verification, the account and associated data is deleted from DSC file systems.
+\end{itemize}
+
+\subsection{Sponsoring account removal}
+\begin{itemize}
+    \item[\textbf{220 days}] without a sponsor password change, the sponsoring and sponsored accounts get a warning.
+    \item[\textbf{290 days}] without a sponsor password change, the sponsoring and sponsored accounts are locked.
+    \item[\textbf{350 days}] without a sponsor password change, the sponsoring and sponsored accounts get a message warning that the accounts and associated data will be deleted in 10 days.
+    \item[\textbf{360 days}] without a sponsor password change, the sponsoring and sponsored accounts and associated data are deleted from the DSC file systems.
+\end{itemize}

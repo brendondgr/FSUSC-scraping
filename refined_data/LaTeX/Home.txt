@@ -1,0 +1,29 @@
+\section{What is Computational Science?}
+\textit{Source: \url{https://www.sc.fsu.edu/}}
+
+Computational science is an exciting, ever-evolving field that uses computers, networks, software, and algorithms to solve problems, do simulations, build things, and create new knowledge.
+
+\section{What is Data Science?}
+\textit{Source: \url{https://www.sc.fsu.edu/}}
+
+We are excited to offer a new 30-credit MS degree in Interdisciplinary Data Science (IDS) with a major in Scientific Computing beginning in Fall 2021!
+
+\section{The Uniqueness of the Department of Scientific Computing at FSU}
+\textit{Source: \url{https://www.sc.fsu.edu/}}
+
+Our department offers innovative undergraduate and graduate programs in computational science that impart a synergy among multi-disciplines, thus providing extensive, interdisciplinary hands-on training. We are a self-contained department, unusual among universities, whose faculty members consist of biologists, computer scientists, engineers, geneticists, geophysicists, material scientists, hydrologists, mathematicians, and physicists. Such a varied representation among disciplines opens doors for an even broader spectrum of research interests to be represented in the future.
+
+\section{Facilities}
+\textit{Source: \url{https://www.sc.fsu.edu/}}
+
+We maintain a large \textit{computing infrastructure} in support of \textit{research} and \textit{education}. Our computing resources include \textit{large super-computers}, \textit{specialized high-performance computational servers}, a laboratory for \textit{computational intelligence} and \textit{scientific visualization}, a bio-informatics server, a \textit{morphometrics lab}, and much more. We also house a state of the art computer classroom as well as a large multi-purpose seminar room with an 8-foot by 16-foot rear laser projection screen.
+
+\section{Job Placements}
+\textit{Source: \url{https://www.sc.fsu.edu/}}
+
+Click here to see a sample of the \textit{excellent jobs} our students are landing with a degree in Computational Science from Florida State University.
+
+\section{Students}
+\textit{Source: \url{https://www.sc.fsu.edu/}}
+
+Apply Now to FSU

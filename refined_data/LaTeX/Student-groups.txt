@@ -1,0 +1,5 @@
+\section{Student Groups}
+URL: https://www.sc.fsu.edu/student-groups
+\newline
+
+\href{https://nolecentral.dsa.fsu.edu/home_login}{Click Here} to Register an Organization with Nole Central

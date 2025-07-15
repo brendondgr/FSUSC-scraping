@@ -1,7 +1,0 @@
-Title: Groups - FSUSciComp
-url: https://www.sc.fsu.edu/research/groups
-
-Research Groups
-Computational Intelligence  Group (cilab)
-Morphometrics Lab (Morphlab)
-Visualization (Vislab)
