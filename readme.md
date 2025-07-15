@@ -74,12 +74,19 @@ python main.py --starting-url <YOUR_URL> --depth <YOUR_DEPTH> --replace-urls
 .
 ├── main.py               # Main script to run the scraper and extractor
 ├── code/
-│   ├── scrape.py             # Contains the web scraping logic (Scrapy/BeautifulSoup)
-│   ├── extract.py            # Extracts and cleans text from scraped URLs
-│   └── gemini.py             # Refines the raw data using the Gemini API
+│   ├── __init__.py
+│   ├── scrape.py         # Contains the web scraping logic
+│   ├── extract.py        # Extracts and cleans text from scraped URLs
+│   └── gemini.py         # Refines the raw data using the Gemini API
 ├── raw_data/             # Stores the raw text extracted from web pages
 ├── readme.md             # This file
-├── refined_data/         # Stores the cleaned and structured data from Gemini
+├── refined_data/
+│   ├── LaTeX/            # Stores the LaTeX-formatted refined data
+│   └── Non-LaTeX/        # Stores the plain text refined data
 ├── requirements.txt      # Python dependencies
-└── urls.txt              # A list of URLs to be scraped
+├── tests/
+│   └── gemini.ipynb      # Notebook for testing Gemini API functionalities
+└── tex/
+    ├── fsusc_combined.pdf # Final PDF output
+    └── fsusc_combined.tex # Main LaTeX file for combining documents
 ```
